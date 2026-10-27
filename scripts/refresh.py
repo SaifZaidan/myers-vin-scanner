@@ -11,24 +11,28 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 try:
     from .snapshot import read_snapshot, write_compressed
+    from .package_enrichment import enrich,inventory_audit
+    from .vehicle_facts import source_facts,attach_facts
 except ImportError:
     from snapshot import read_snapshot, write_compressed
+    from package_enrichment import enrich,inventory_audit
+    from vehicle_facts import source_facts,attach_facts
 BASE = 'https://www.myerscadillacgm.ca'
 TZ = ZoneInfo('America/Toronto')
 UA = 'MyersBaselineInventory/1.0'
 FEATURES = {
- 'heated_front_seats': ('Heated front seats', r'heated (?:front )?seats|seats?,[^.;]*heated[^.;]*(?:front|driver)|seats?,[^.;]*front[^.;]*heated'),
+ 'heated_front_seats': ('Heated front seats', r'heated (?:front )?seats|(?:driver and )?front(?: passenger)? heated seats|heated (?:driver|front passenger)[^.;]*seats?|seats?,[^.;]*heated[^.;]*(?:front|driver)|seats?,[^.;]*front[^.;]*heated'),
  'heated_rear_seats': ('Heated rear seats', r'heated rear (?:outboard )?seats|rear heated seats|seats?,[^.;]*(?:rear|second.row)[^.;]*heated'),
- 'ventilated_seats': ('Ventilated seats', r'(?:ventilated|cooled) (?:front )?seats|seats?,[^.;]*ventilated'),
+ 'ventilated_seats': ('Ventilated seats', r'(?:ventilated|cooled) (?:front )?seats|ventilated (?:driver|front)[^.;]*seats?|seats?,[^.;]*ventilated'),
  'heated_steering_wheel': ('Heated steering wheel', r'heated steering wheel|steering wheel,? heated'),
  'apple_carplay': ('Apple CarPlay', r'apple carplay'),
  'android_auto': ('Android Auto', r'android auto'),
- 'remote_start': ('Remote start', r'remote (?:vehicle )?start(?:er)?'),
+ 'remote_start': ('Remote start', r'remote (?:(?:vehicle|engine) )?start(?:er)?'),
  'adaptive_cruise': ('Adaptive cruise control', r'adaptive cruise'),
  'blind_spot': ('Blind-spot monitoring', r'blind.?spot|side blind zone|blind zone steering'),
  'sunroof': ('Sunroof', r'sunroof|moonroof'),
  'awd': ('AWD / 4WD', r'\bawd\b|\b4wd\b|\b4x4\b|all.wheel drive|four.wheel drive'),
- 'wireless_charging': ('Wireless charging', r'wireless (?:phone )?charg(?:ing|er)')}
+ 'wireless_charging': ('Wireless charging', r'wireless (?:(?:phone|device) )?charg(?:ing|er)')}
 
 def now(): return dt.datetime.now(dt.timezone.utc)
 def iso(t): return t.isoformat()
@@ -48,11 +52,24 @@ def extract_vehicle(page):
     payload,_=json.JSONDecoder().raw_decode(page[m.end():])
     if not isinstance(payload.get('vehicle'),dict): raise ValueError('Not a vehicle detail page')
     return payload['vehicle']
-def features(lines):
+def explicit_upgrades(description):
+    # Only this vehicle-specific assertion; never generic trim marketing paragraphs.
+    text=clean(description)
+    match=re.search(r'This vehicle has been upgraded with the following features:\s*(.+?)(?:\.(?:\s|$)|$)',text,re.I)
+    return [item.strip() for item in match.group(1).split(',') if item.strip()] if match else []
+
+def features(lines, packages=()):
     output={}
     for key,(label,pattern) in FEATURES.items():
         evidence=[]; states=[]
-        for line in lines:
+        for original in lines:
+            line=re.sub(r'\(s\)', 's', original, flags=re.I)
+            package_proof=[]
+            required=re.search(r'Included and only available with \([A-Z0-9]+\) ([^.()]+?Package)\.?',line,re.I)
+            if required:
+                name=required.group(1).strip().casefold()
+                package_proof=[p for p in packages if re.split(r'\s+includes\b',p,flags=re.I)[0].strip().casefold()==name]
+                if package_proof: line=line[:required.start()]+line[required.end():]
             if not re.search(pattern,line,re.I): continue
             # Generic capability, optional equipment and conditional fitment are not confirmed.
             conditional=bool(re.search(r'\b(?:available|optional|if equipped|requires|when ordered|may|capable|not available with|deleted when)\b',line,re.I))
@@ -66,7 +83,9 @@ def features(lines):
             # A rear-seat-only assertion cannot confirm front-seat heating.
             if key=='heated_front_seats' and re.search(r'\brear\b',line,re.I) and not re.search(r'\bfront\b|driver',line,re.I): continue
             if key=='heated_front_seats' and not re.search(r'\bfront\b|driver',line,re.I): status='not_confirmed'
-            evidence.append(line);states.append(status)
+            evidence.append(original)
+            if status=='present': evidence.extend('Required package explicitly listed: '+p for p in package_proof)
+            states.append(status)
         definitive=set(states)-{'not_confirmed'}
         status=next(iter(definitive)) if len(definitive)==1 else 'not_confirmed'
         output[key]={'label':label,'status':status,'evidence':evidence}
@@ -93,17 +112,24 @@ def normalize(v,url,observed):
         if not isinstance(specs[group],list): group='Technical '+group;specs.setdefault(group,[])
         specs[group].append(text);lines.append(text)
         if group=='Package': packages.append(text)
+    equipment=[clean(item.get('equipment_description')) for item in v.get('equipment',[]) if isinstance(item,dict) and clean(item.get('equipment_description'))]
+    if equipment: specs['Listed Equipment']=equipment
+    lines+=equipment
+    upgrades=explicit_upgrades(v.get('description',''))
+    if upgrades: specs['Vehicle-specific upgrades']=upgrades
+    lines+=upgrades
     options=[clean(x) for x in v.get('extra_options',[]) if clean(x)]
     lines+=options
     if v.get('drive_train'): lines.append('Drivetrain: '+clean(v['drive_train']))
-    packages+=options
+    packages+=list(dict.fromkeys(options+upgrades))
     if clean(v.get('package_description')): packages.append(clean(v['package_description']))
     # Generic marketing description is neither parsed nor retained; the original listing remains linked.
     result={k:clean(v.get(k)) for k in ['year','make','model','trim']}
-    result.update(vin=vin,stock=stock,title=' '.join(result.values()),source_url=safe_url(url),observed_at=observed,
+    result.update(market="CA",vin=vin,stock=stock,title=' '.join(result.values()),source_url=safe_url(url),observed_at=observed,
                   price=v.get('final_price') or v.get('sale_price') or None,specs=specs,packages=packages,
-                  features=features(lines),trim_note='Trim is copied from this listing, not inferred from VIN. Equipment is never inferred from trim.')
-    return result
+                  features=features(lines,packages),trim_note='Trim is copied from this listing, not inferred from VIN. Equipment is never inferred from trim.')
+    result["source_facts"]=source_facts(v)
+    return enrich(attach_facts(result))
 
 class OfficialRedirect(HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -196,7 +222,7 @@ def refresh(path,source=None):
         deduped=[]
         signatures=set()
         for vehicle in vehicles:
-            signature=json.dumps({k:v for k,v in vehicle.items() if k not in ('source_url','observed_at')},sort_keys=True)
+            signature=json.dumps({k:v for k,v in vehicle.items() if k not in ('source_url','observed_at','package_contents','package_audit','paint','engine_details')},sort_keys=True)
             signature=urlparse(vehicle['source_url']).path+'|'+signature
             if signature not in signatures: deduped.append(vehicle);signatures.add(signature)
         vehicles=deduped
@@ -208,12 +234,14 @@ def refresh(path,source=None):
             vehicles=[v for v in vehicles if v['source_url'] not in ambiguous_urls]
         if not failed and old['vehicles'] and len(vehicles)<len(old['vehicles'])*.6: raise ValueError('Inventory unexpectedly shrank over 40%; manual source review required')
         meta.update(vehicles=sorted(vehicles,key=lambda v:(v['make'],v['model'],v['stock'])),last_success=(old.get('last_success') if failed else iso(now())),last_partial_success=(iso(now()) if failed else None),error=(f'{len(failed)} listings could not be refreshed; coverage is incomplete.' if failed else None),stale=bool(failed),refresh_stats={'discovered':len(urls),'verified':len(urls)-len(failed),'failed':len(failed),'quarantined':len(ambiguous),'retained':sum(1 for v in vehicles if v.get('observed_at')!=observed)},failures=failed,coverage='Coverage is based on official new and used vehicle sitemaps; see verification counts. Sitemap changes may lag live dealer inventory.')
+        meta["audit_summary"]=inventory_audit(meta["vehicles"])
         atomic_write(path,meta);write_compressed(path,meta)
         checkpoint.unlink(missing_ok=True)
         print(f'Updated {len(vehicles)} Myers Baseline records; {len(failed)} source failures');return not failed
     except Exception as error:
         meta.update(error=f'Refresh failed: {type(error).__name__}: {error}',stale=True)
         if 'failed' in locals(): meta['failures']=failed
+        meta["audit_summary"]=inventory_audit(meta["vehicles"])
         atomic_write(path,meta);write_compressed(path,meta);print(meta['error'],file=sys.stderr);return False
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--output',default='data/inventory.json');parser.add_argument('--scheduled',action='store_true');args=parser.parse_args()

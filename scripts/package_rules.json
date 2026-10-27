@@ -1,0 +1,2165 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "id": "ca-2026-gmc-canyon-elevation-technology-y5x",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Technology Package"
+      ],
+      "package_codes": [
+        "Y5X"
+      ],
+      "features": {
+        "adaptive_cruise": "GMC Canada's 2026 Canyon Technology Package (Y5X) explicitly includes Adaptive Cruise Control."
+      },
+      "sources": [
+        {
+          "title": "GMC Canada \u2014 2026 Canyon Technology Package Y5X",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/canyon/2026/canyon/packages/package/Y5X"
+        }
+      ],
+      "contents": [
+        "Adaptive Cruise Control (KSG)",
+        "HD Surround Vision (UV2)",
+        "Rear Pedestrian Alert (UKK)",
+        "Tailgate keyed cylinder lock (BDR)"
+      ],
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-gmc-canyon-elevation-convenience-wpc",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Convenience Package"
+      ],
+      "package_codes": [
+        "WPC"
+      ],
+      "features": {
+        "remote_start": "GMC Canada's 2026 Canyon Convenience Package (WPC) explicitly includes remote start."
+      },
+      "sources": [
+        {
+          "title": "GMC Canada \u2014 2026 Canyon Convenience Package WPC",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/canyon/2026/canyon/packages/package/WPC"
+        }
+      ],
+      "contents": [
+        "Driver/front passenger sliding visors with illuminated vanity mirrors (DEG)",
+        "LED front fog lamps (T40)",
+        "Dual-zone automatic climate control (CJ2)",
+        "120V rear-console outlet (KI6)",
+        "120V bed-mounted outlet (KC9)",
+        "Remote Start (BTV)",
+        "Inside rearview auto-dimming mirror (DD8)",
+        "Rear sliding manual window",
+        "Manual tilt/telescoping steering column (N37)",
+        "Two rear-console charge-only USB ports (UBI)",
+        "Tailgate keyed cylinder lock (BDR)",
+        "MultiStow tailgate storage compartment (BPC)",
+        "Front courtesy lamp with dual reading lights (C75)",
+        "EZ Lift power lock/release tailgate (PPA)"
+      ],
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-canyon26-preferred-y19",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Preferred Package"
+      ],
+      "package_codes": [
+        "Y19"
+      ],
+      "features": {
+        "heated_front_seats": "The Canadian 2026 Canyon Preferred Package Y19 explicitly includes heated driver/front passenger seats."
+      },
+      "contents": [
+        "8-way power driver seat (A2X)",
+        "Power driver lumbar (AL9)",
+        "Heated driver/front passenger seats (KA1)"
+      ],
+      "contents_complete": true,
+      "source_type": "manufacturer_package",
+      "sources": [
+        {
+          "title": "Canadian 2026 GMC Canyon Preferred Package package definition",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/canyon/2026/canyon/packages/package/Y19"
+        }
+      ],
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-canyon26-elevation-premium-wpl",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Elevation Premium Package"
+      ],
+      "package_codes": [
+        "WPL"
+      ],
+      "features": {},
+      "contents": [
+        "Jet Black CoreTec interior (HXR)",
+        "Rear-seat centre armrest (DA5)",
+        "Driver seatback pocket (E90)"
+      ],
+      "contents_complete": true,
+      "source_type": "manufacturer_package",
+      "sources": [
+        {
+          "title": "Canadian 2026 GMC Canyon Elevation Premium Package package definition",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/canyon/2026/canyon/packages/package/WPL"
+        }
+      ],
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-canyon26-at4-premium-pcu",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "trims": [
+        "AT4"
+      ],
+      "package_names": [
+        "AT4 Premium Package"
+      ],
+      "package_codes": [
+        "PCU"
+      ],
+      "features": {
+        "wireless_charging": "Canadian factory-options definition of AT4 Premium Package PCU includes Wireless charging.",
+        "heated_steering_wheel": "Canadian factory-options definition of AT4 Premium Package PCU includes heated steering wheel.",
+        "ventilated_seats": "Canadian factory-options definition of AT4 Premium Package PCU includes ventilated driver/front passenger seats."
+      },
+      "contents": [
+        "Jet Black/Timber perforated leather-appointed front seating surfaces (HX6)",
+        "Driver memory recall (A45)",
+        "6-way front passenger seat (A7J)",
+        "Power front-passenger lumbar (AT9)",
+        "Rear-seat centre armrest (DA5)",
+        "Driver seatback pocket (E90)",
+        "Wireless charging (K7A)",
+        "Heated steering wheel (KI3)",
+        "Ventilated driver/front passenger seats (KU9)"
+      ],
+      "contents_complete": true,
+      "source_type": "dealer_package",
+      "sources": [
+        {
+          "title": "Canadian 2026 GMC Canyon AT4 Premium Package package definition",
+          "url": "https://www.applewoodgm.ca/inventory/2026-gmc-canyon-at4-lkf7ZoRDT4y4pVtR0oggawvdp/"
+        }
+      ],
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-canyon26-at4-technology-plus-pdg",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "trims": [
+        "AT4"
+      ],
+      "package_names": [
+        "Technology Plus Package"
+      ],
+      "package_codes": [
+        "PDG"
+      ],
+      "features": {
+        "adaptive_cruise": "Canadian factory-options Technology Plus Package PDG includes Adaptive Cruise Control.",
+        "sunroof": "Canadian factory-options Technology Plus Package PDG includes Sunroof."
+      },
+      "contents": [
+        "Adaptive Cruise Control (KSG)",
+        "Rear Pedestrian Alert (UKK)",
+        "HD Surround Vision (UV2)",
+        "Sunroof (CAC)",
+        "Bose sound system (UQA)",
+        "Laminated acoustic windshield glass (AKK)",
+        "Multicolour 6.3-inch Head-Up Display (UV6)"
+      ],
+      "contents_complete": true,
+      "source_type": "dealer_package",
+      "sources": [
+        {
+          "title": "Canadian 2026 GMC Canyon Technology Plus Package package definition",
+          "url": "https://www.applewoodgm.ca/inventory/2026-gmc-canyon-at4-lkf7ZoRDT4y4pVtR0oggawvdp/"
+        }
+      ],
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-canyon26-at4-nightfall-pdi",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "trims": [
+        "AT4"
+      ],
+      "package_names": [
+        "Nightfall Edition",
+        "AT4 Nightfall Edition"
+      ],
+      "package_codes": [
+        "PDI"
+      ],
+      "features": {},
+      "contents": [
+        "Dealer-installed rocker panel protector (S6L)",
+        "275/60R20SL all-terrain blackwall tires (QAE)",
+        "20-inch aluminum wheels (RHO)",
+        "Dealer-installed bed-mounted sports bar (SBY)",
+        "Dealer-installed black GMC emblems (SFZ)",
+        "Dealer-installed black badges (RIK)"
+      ],
+      "contents_complete": true,
+      "source_type": "dealer_package",
+      "sources": [
+        {
+          "title": "Canadian 2026 GMC Canyon Nightfall Edition package definition",
+          "url": "https://www.reidbros.ca/inventory/2026-gmc-canyon-at4-ZhXb2t6aTT6eENEQ4mJB2Qvdp/"
+        }
+      ],
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "trims": [
+        "Pro"
+      ],
+      "package_names": [
+        "Graphite Edition"
+      ],
+      "package_codes": [],
+      "features": {
+        "remote_start": "Included in Graphite Edition"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Sierra 1500 package definition",
+          "url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt"
+        }
+      ],
+      "source_type": "manufacturer_package",
+      "contents": [
+        "Body-colour upper grille and bumpers",
+        "20-inch six-spoke gloss-black aluminum wheels",
+        "Remote start",
+        "Theft-deterrent system",
+        "Recovery hooks on 2WD"
+      ],
+      "contents_complete": true,
+      "notes": "Only available on Pro; do not equate with X31 or broader Pro Graphite trim.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-1",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "trims": [
+        "SLT"
+      ],
+      "package_names": [
+        "SLT Convenience Package"
+      ],
+      "package_codes": [
+        "PCY"
+      ],
+      "features": {
+        "ventilated_seats": "Included in SLT Convenience Package",
+        "wireless_charging": "Included in SLT Convenience Package"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Sierra 1500 package definition",
+          "url": "https://www.hmpexeter.com/new/vehicle/2026-gmc-sierra-1500-slt-id15290586.htm"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Front bucket seats and centre console",
+        "Electronic precision shift with paddle shifters",
+        "Ventilated front seats",
+        "Wireless charging",
+        "Bose seven-speaker audio with Richbass woofer",
+        "Power rake/telescoping steering column",
+        "Two charge/data USB ports inside console"
+      ],
+      "contents_complete": true,
+      "notes": "Does not establish adaptive cruise, rear heated seats or sunroof.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-2",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "trims": [
+        "SLE",
+        "Elevation",
+        "SLT"
+      ],
+      "package_names": [
+        "Max Trailering Package"
+      ],
+      "package_codes": [],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Sierra 1500 package definition",
+          "url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt"
+        }
+      ],
+      "source_type": "manufacturer_package",
+      "contents": [
+        "9.76-inch rear axle",
+        "Enhanced cooling radiator",
+        "Revised shock tuning",
+        "Heavy-duty rear springs",
+        "220-amp alternator"
+      ],
+      "contents_complete": false,
+      "notes": "OEM overview summary, not exhaustive conditional build specification.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-3",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Elevation Premium Package"
+      ],
+      "package_codes": [],
+      "features": {
+        "adaptive_cruise": "Included in Elevation Premium Package",
+        "wireless_charging": "Included in Elevation Premium Package"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Sierra 1500 package definition",
+          "url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt"
+        }
+      ],
+      "source_type": "manufacturer_package",
+      "contents": [
+        "Jet Black leather-appointed front bucket seats with centre console",
+        "Up-level rear-seat storage",
+        "Bose seven-speaker audio with Richbass woofer",
+        "Adaptive cruise control",
+        "Hitch View",
+        "Spray-on bedliner with GMC logo",
+        "Six-inch black rectangular assist steps",
+        "Wireless charging"
+      ],
+      "contents_complete": false,
+      "notes": "Definition verified; inventory only says Premium Package. Do not automatically apply ambiguous alias. OEM featured-edition summary may omit subordinate packages; not exhaustive.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-4",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "trims": [
+        "Denali"
+      ],
+      "package_names": [
+        "Denali Reserve Package"
+      ],
+      "package_codes": [
+        "PEC"
+      ],
+      "features": {
+        "sunroof": "Included in Denali Reserve Package"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Sierra 1500 package definition",
+          "url": "https://www.eastsidegm.ca/inventory/2026-gmc-sierra-1500-denali-6f7U6DcURMGNtNj4pqjCAwvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Technology Package",
+        "Rear camera mirror",
+        "15-inch multicolour head-up display",
+        "Power sunroof",
+        "GMC MultiPro power steps",
+        "22-inch painted aluminum wheels with machining and chrome inserts"
+      ],
+      "contents_complete": true,
+      "notes": "Inventory stock 26-0137 title RESERVE PKG is abbreviated installed claim; retain title as evidence. Do not apply HD definition.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-5",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trims": [
+        "LT"
+      ],
+      "package_names": [
+        "Convenience Package II"
+      ],
+      "package_codes": [
+        "PCM"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Silverado 1500 package definition",
+          "url": "https://www.birchwoodchevrolet.ca/inventory/New-2026-Chevrolet-Silverado_1500-LT-3GCUKDED2TG504757/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Universal Home Remote",
+        "Power sliding rear window",
+        "Hitch Guidance with Hitch View",
+        "In-vehicle Trailering App"
+      ],
+      "contents_complete": true,
+      "notes": "Exact LT contents; no wireless charging or adaptive cruise inferred.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-8",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trims": [
+        "Custom"
+      ],
+      "package_names": [
+        "Dark Essential Package"
+      ],
+      "package_codes": [
+        "PDB"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Silverado 1500 package definition",
+          "url": "https://www.birchwoodchevrolet.ca/inventory/New-2026-Chevrolet-Silverado_1500-Custom-1GCPKBEKXTZ484127/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Black Silverado nameplates",
+        "Applicable black trim/engine badges",
+        "Black bowtie",
+        "Black CHEVROLET tailgate lettering"
+      ],
+      "contents_complete": true,
+      "notes": "Dealer-installed; canonical name Dark Essentials Package. Custom Trail Boss-specific bowtie inclusion unresolved.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-9",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trims": [
+        "LT Trail Boss"
+      ],
+      "package_names": [
+        "Midnight Edition"
+      ],
+      "package_codes": [],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Silverado 1500 package definition",
+          "url": "https://www.mannnorthway.ca/view/new-2026-chevrolet-silverado-1500-1825839/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Black Silverado and trim-level badging",
+        "Black recovery hooks",
+        "Black dual-exhaust tips",
+        "Protection Package",
+        "Dark headlamp bezel",
+        "Black hood badging"
+      ],
+      "contents_complete": true,
+      "notes": "Protection Package contains wheelhouse liners and spray-on bedliner; no comfort/safety checkmarks inferred.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-10",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trims": [
+        "LT Trail Boss"
+      ],
+      "package_names": [
+        "LT Trail Boss Premium Package"
+      ],
+      "package_codes": [
+        "PCR"
+      ],
+      "features": {
+        "blind_spot": "Included in LT Trail Boss Premium Package"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Silverado 1500 package definition",
+          "url": "https://www.crosstownchev.ca/inventory/2026-chevrolet-silverado-1500-lt-trail-boss-4OjHQofGRYihXwNSQrPnxQvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Convenience Package II",
+        "Safety Package",
+        "Leather Package",
+        "Protection Package",
+        "Power up/down tailgate",
+        "HD Surround Vision",
+        "Front and rear park assist",
+        "Trailer camera provisions",
+        "Trailer Side Blind Zone Alert",
+        "Rear Cross Traffic Braking",
+        "Rear Pedestrian Alert",
+        "Perimeter lighting",
+        "Universal Home Remote",
+        "Power sliding rear window",
+        "Hitch View",
+        "Trailering App",
+        "Bose audio",
+        "Up-level rear-seat storage",
+        "Wheelhouse liners",
+        "Chevytec spray-on bedliner"
+      ],
+      "contents_complete": true,
+      "notes": "Inventory stock 26-1440 only says Premium Package. Do not force alias. No adaptive cruise/sunroof/ventilation inferred.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-11",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 2500",
+      "trims": [
+        "LT"
+      ],
+      "package_names": [
+        "Convenience Package"
+      ],
+      "package_codes": [
+        "PCL"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Silverado 2500 package definition",
+          "url": "https://www.birchwoodchevrolet.ca/inventory/New-2026-Chevrolet-Silverado_2500HD-LT-2GC1KNE70T1229319/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Cargo-bed LED lighting",
+        "Dual-zone automatic climate control",
+        "10-way power driver seat including lumbar",
+        "Manual tilt/telescoping steering column",
+        "LED fog lamps"
+      ],
+      "contents_complete": true,
+      "notes": "NOT Silverado 1500 package. Does not establish heated seats or steering wheel.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-12",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 2500",
+      "trims": [
+        "LT"
+      ],
+      "package_names": [
+        "Remote Start Package"
+      ],
+      "package_codes": [],
+      "features": {
+        "remote_start": "Included in Remote Start Package"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Silverado 2500 package definition",
+          "url": "https://www.marynurse.com/view-print/new-2026-chevrolet-silverado%202500hd-1624488/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Remote start",
+        "Theft-deterrent system",
+        "Rear-window defogger"
+      ],
+      "contents_complete": true,
+      "notes": "",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-13",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Sierra 2500HD",
+      "trims": [
+        "Denali"
+      ],
+      "package_names": [
+        "Denali Reserve Package"
+      ],
+      "package_codes": [
+        "PEC"
+      ],
+      "features": {
+        "sunroof": "Included in Denali Reserve Package"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Sierra 2500HD package definition",
+          "url": "https://www.boyergmbancroft.com/inventory/2026-gmc-sierra-2500hd-denali-0mlgOEXZQGKYDIU7h8OZtgvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Technology Package",
+        "Rear camera mirror",
+        "15-inch multicolour head-up display",
+        "Power sunroof"
+      ],
+      "contents_complete": true,
+      "notes": "No power steps inferred. 26-0779 conflicting AT4/DENALI title must remain unresolved.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-14",
+      "market": "CA",
+      "year": "2026",
+      "make": "GMC",
+      "model": "Sierra 3500HD",
+      "trims": [
+        "Pro"
+      ],
+      "package_names": [
+        "Gooseneck/5th Wheel Prep Package"
+      ],
+      "package_codes": [
+        "Z6A"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Sierra 3500HD package definition",
+          "url": "https://www.murrayautogroup.ca/inventory/New-2026-GMC-Sierra_3500HD-Pro-1GT3USEY5TF279149/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Hitch platform and ball tray",
+        "Stamped bed holes with removable caps",
+        "Bed-mounted seven-pin trailer harness"
+      ],
+      "contents_complete": true,
+      "notes": "Prep hardware, not a supplied ball or complete fifth-wheel hitch.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-15",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trims": [
+        "Z71"
+      ],
+      "package_names": [
+        "Advanced Trailering Package"
+      ],
+      "package_codes": [],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Colorado package definition",
+          "url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/colorado/2026/colorado/summary/payment"
+        }
+      ],
+      "source_type": "manufacturer_package",
+      "contents": [
+        "Two-inch receiver hitch",
+        "Seven-wire electrical harness and sealed seven-pin connector",
+        "Trailer brake controller",
+        "In-vehicle Trailering App",
+        "Automatic locking rear differential"
+      ],
+      "contents_complete": true,
+      "notes": "",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-16",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "trims": [
+        "Z71"
+      ],
+      "package_names": [
+        "Technology Package"
+      ],
+      "package_codes": [
+        "CWM"
+      ],
+      "features": {
+        "adaptive_cruise": "Included in Technology Package"
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Colorado package definition",
+          "url": "https://www.steelevalleychev.com/new/inventory/2026-Chevrolet-Colorado-pdf13293109.html?showpdf=1"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Adaptive cruise control",
+        "Rear Pedestrian Alert",
+        "HD Surround Vision"
+      ],
+      "contents_complete": true,
+      "notes": "Corroborated manufacturer Canada package/CWM search index; builder page body empty via web.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-rst-z71-off-road-package",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trims": [
+        "RST"
+      ],
+      "package_names": [
+        "Z71 Off-Road Package"
+      ],
+      "package_codes": [
+        "Z71"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "Canadian dealer 2026 Silverado RST factory package",
+          "url": "https://www.surgenorbarrhaven.com/inventory/2026-chevrolet-silverado-1500-rst-m5xXVYkDRySa5UJi94odaAvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Off-road suspension",
+        "Hill Descent Control",
+        "Skid plates",
+        "Heavy-duty air filter",
+        "Z71 badge",
+        "Dual exhaust",
+        "18-inch bright-silver aluminum wheels",
+        "265/65R18 all-terrain tires",
+        "Two-speed transfer case"
+      ],
+      "contents_complete": false,
+      "notes": "Exact Canadian RST definition. Wheels/tires may be superseded by separately installed wheels/tires; gas-engine axle ratio 3.42 for NHT. Diesel ratio not verified in this source.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-rst-max-trailering-package",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trims": [
+        "RST"
+      ],
+      "package_names": [
+        "Max Trailering Package"
+      ],
+      "package_codes": [
+        "NHT"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "Canadian dealer 2026 Silverado RST factory package",
+          "url": "https://www.wolfechevrolet.com/inventory/New-2026-Chevrolet-Silverado_1500-RST-3GCUKEED4TG161956/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "9.76-inch rear axle",
+        "Enhanced cooling radiator",
+        "Revised shock tuning",
+        "Heavier-duty rear springs",
+        "Increased rear gross axle rating",
+        "220-amp alternator"
+      ],
+      "contents_complete": false,
+      "notes": "Exact Canadian RST definition. Wheels/tires may be superseded by separately installed wheels/tires; gas-engine axle ratio 3.42 for NHT. Diesel ratio not verified in this source.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "truck-research-convenience-ii-rst-lt-trailboss",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "trims": [
+        "RST",
+        "LT Trail Boss"
+      ],
+      "package_names": [
+        "Convenience Package II"
+      ],
+      "package_codes": [
+        "PCM"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "Canadian dealer 2026 Silverado RST Convenience Package II",
+          "url": "https://www.birchwoodchevrolet.ca/inventory/New-2026-Chevrolet-Silverado_1500-RST-1GCUKEEL5TZ311418/"
+        },
+        {
+          "title": "Canadian dealer 2026 Silverado LT Trail Boss Convenience Package II",
+          "url": "https://www.birchwoodchevrolet.ca/inventory/New-2026-Chevrolet-Silverado_1500-LT_Trail_Boss-3GCUKFEL5TG424565/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "contents": [
+        "Universal Home Remote",
+        "Power sliding rear window",
+        "Hitch Guidance with Hitch View",
+        "In-vehicle Trailering App",
+        "Bose Premium Sound System"
+      ],
+      "contents_complete": true,
+      "notes": "Exact RST/LT Trail Boss contents; no wireless charging or adaptive cruise inferred.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-0-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "trims": [
+        "LT"
+      ],
+      "stocks": [
+        "26-1367",
+        "26-1397"
+      ],
+      "package_names": [
+        "Blazer LT Plus Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Adaptive Cruise Control",
+        "Universal Home Remote",
+        "Wireless charging",
+        "Programmable power liftgate",
+        "Black roof-mounted side rails",
+        "Enhanced Automatic Emergency Braking (replaces Automatic Emergency Braking)",
+        "Auto-dimming inside rearview mirror"
+      ],
+      "contents_complete": true,
+      "features": {
+        "adaptive_cruise": "Verified Canadian factory-options package definition explicitly includes adaptive cruise.",
+        "wireless_charging": "Verified Canadian factory-options package definition explicitly includes wireless charging."
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Blazer factory-options package definition",
+          "url": "https://www.southfortchev.com/inventory/2026-chevrolet-blazer-lt-Gq3heNS6TRqtbVsj5juh2Qvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-1-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "trims": [
+        "LT"
+      ],
+      "stocks": [
+        "26-1367",
+        "26-1378",
+        "26-1397"
+      ],
+      "package_names": [
+        "Driver Confidence Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Lane Change Alert with Side Blind Zone Alert",
+        "Rear Park Assist",
+        "Rear Cross Traffic Alert"
+      ],
+      "contents_complete": true,
+      "features": {
+        "blind_spot": "Verified Canadian factory-options package definition explicitly includes blind spot."
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Blazer factory-options package definition",
+          "url": "https://www.wolfeautomotive.com/inventory/New-2026-Chevrolet-Blazer-LT-3GNKBHR44TS196892/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-2-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "trims": [
+        "True North"
+      ],
+      "stocks": [
+        "26-1377"
+      ],
+      "package_names": [
+        "True North Plus Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Chevrolet Infotainment 3 Premium with connected navigation and 10.2-inch HD colour touchscreen",
+        "Bose premium 8-speaker audio",
+        "4.2-inch display with infotainment connectivity",
+        "Two USB data ports and SD card reader in front centre storage bin",
+        "Adaptive Cruise Control",
+        "Enhanced Automatic Emergency Braking (replaces Automatic Emergency Braking)",
+        "HD Surround Vision",
+        "Rear Camera Mirror",
+        "Wireless charging",
+        "120-volt power outlet"
+      ],
+      "contents_complete": true,
+      "features": {
+        "adaptive_cruise": "Verified Canadian factory-options package definition explicitly includes adaptive cruise.",
+        "wireless_charging": "Verified Canadian factory-options package definition explicitly includes wireless charging."
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Blazer factory-options package definition",
+          "url": "https://www.rmpchevrolet.com/view-print/new-2026-chevrolet-blazer-1917040/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-3-0",
+      "market": "CA",
+      "year": "2027",
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "trims": [
+        "RS"
+      ],
+      "stocks": [
+        "27-0017",
+        "27-0183"
+      ],
+      "package_names": [
+        "Technology Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Rear Camera Mirror",
+        "HD Surround Vision",
+        "Rear Pedestrian Alert",
+        "Traffic Sign Recognition",
+        "Wireless charger",
+        "Rainsense front wipers"
+      ],
+      "contents_complete": true,
+      "features": {
+        "wireless_charging": "Verified Canadian factory-options package definition explicitly includes wireless charging."
+      },
+      "sources": [
+        {
+          "title": "2027 Canadian Chevrolet Bolt factory-options package definition",
+          "url": "https://www.smpchev.ca/view/new-2027-chevrolet-bolt-1899842/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2027 Bolt RS only; do not add LT-specific ambient-lighting/roof-rail provisions.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-4-0",
+      "market": "CA",
+      "year": "2027",
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "trims": [
+        "1LT"
+      ],
+      "stocks": [
+        "27-0040"
+      ],
+      "package_names": [
+        "Z51 Performance Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Z51 performance brakes",
+        "Z51 performance suspension",
+        "5.56 rear axle ratio",
+        "Electronic Limited Slip Differential",
+        "8-speed dual-clutch transmission",
+        "Z51 rear spoiler",
+        "Front splitter",
+        "245/35ZR19 XL front and 305/30ZR20 XL rear high-performance blackwall tires",
+        "Heavy-duty cooling system"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 Canadian Chevrolet Corvette factory-options package definition",
+          "url": "https://www.wolfechevrolet.com/inventory/New-2027-Chevrolet-Corvette-1LT-1G1YA2D50V5102726/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2027-specific. Do not add Magnetic Ride Control or performance exhaust as package inclusions; do not apply to Z06 Performance Package alias.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-4-1",
+      "market": "CA",
+      "year": "2027",
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "trims": [
+        "2LT"
+      ],
+      "stocks": [
+        "27-0086",
+        "27-0087"
+      ],
+      "package_names": [
+        "Z51 Performance Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Z51 performance brakes",
+        "Z51 performance suspension",
+        "5.56 rear axle ratio",
+        "Electronic Limited Slip Differential",
+        "8-speed dual-clutch transmission",
+        "Z51 rear spoiler",
+        "Front splitter",
+        "245/35ZR19 XL front and 305/30ZR20 XL rear high-performance blackwall tires",
+        "Heavy-duty cooling system"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 Canadian Chevrolet Corvette factory-options package definition",
+          "url": "https://www.wolfechevrolet.com/inventory/New-2027-Chevrolet-Corvette-1LT-1G1YA2D50V5102726/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2027-specific. Do not add Magnetic Ride Control or performance exhaust as package inclusions; do not apply to Z06 Performance Package alias.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-5-0",
+      "market": "CA",
+      "year": "2027",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "trims": [
+        "AWD RS"
+      ],
+      "stocks": [
+        "27-0048"
+      ],
+      "package_names": [
+        "Safety & Tech Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Rear Camera Mirror",
+        "Rear Camera Mirror Washer",
+        "Interior Camera",
+        "Front fog lamps",
+        "Rear Pedestrian Alert",
+        "HD Surround Vision",
+        "Traffic Sign Recognition"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 Canadian Chevrolet Equinox factory-options package definition",
+          "url": "https://www.terranovachevrolet.ca/inventory/2027-chevrolet-equinox-awd-rs-4F6cQdAdQzaWX8Za6T76JQvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2027 Equinox AWD RS; canonical OEM name Safety and Technology Package CWN.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-6-0",
+      "market": "CA",
+      "year": "2027",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "trims": [
+        "AWD RS"
+      ],
+      "stocks": [
+        "27-0048"
+      ],
+      "package_names": [
+        "Trailering Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Exterior moulding kit",
+        "Trailer hitch"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 Canadian Chevrolet Equinox factory-options package definition",
+          "url": "https://www.terranovachevrolet.ca/inventory/2027-chevrolet-equinox-awd-rs-4F6cQdAdQzaWX8Za6T76JQvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "LPO PCH dealer-installed. No trailer brake controller or towing capacity inference.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-7-0",
+      "market": "CA",
+      "year": "2025",
+      "make": "Chevrolet",
+      "model": "Express 3500 Commercial Cutaway",
+      "trims": [
+        "Van 159 EXPRESS 12 FOOT CUBE VAN 6.6 GAS"
+      ],
+      "stocks": [
+        "25-1421"
+      ],
+      "package_names": [
+        "Driver Convenience Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Tilt steering wheel",
+        "Cruise control"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2025 Canadian Chevrolet Express 3500 Commercial Cutaway factory-options package definition",
+          "url": "https://www.eastsidegm.ca/inventory/2025-chevrolet-express-commercial-cutaway-other-QwQeVXkTQ1mQIE6YcAd1gwvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2025 Express Cutaway ZQ3. No adaptive cruise.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-8-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "trims": [
+        "RST"
+      ],
+      "stocks": [
+        "26-1331",
+        "26-1358"
+      ],
+      "package_names": [
+        "Max Trailering Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Advanced Trailering Package: Blind Zone Steering Assist with Trailering, Hitch View, Smart Trailer Integration Indicator",
+        "Integrated trailer brake controller",
+        "Extra-capacity cooling system",
+        "Two-speed active transfer case (4WD)",
+        "Hill Descent Control (4WD)"
+      ],
+      "contents_complete": true,
+      "features": {
+        "blind_spot": "Verified Canadian factory-options package definition explicitly includes blind spot."
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Tahoe factory-options package definition",
+          "url": "https://www.briancullen.com/inventory/2026-chevrolet-tahoe-rst-Zo8WtZ6gS7GCBrptmJnBaAvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2026 Tahoe RST 4WD.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-9-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "trims": [
+        "Z71"
+      ],
+      "stocks": [
+        "26-1339",
+        "26-1393"
+      ],
+      "package_names": [
+        "Max Trailering Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Advanced Trailering Package: Blind Zone Steering Assist with Trailering, Hitch View, Smart Trailer Integration Indicator",
+        "Integrated trailer brake controller",
+        "Extra-capacity cooling system"
+      ],
+      "contents_complete": true,
+      "features": {
+        "blind_spot": "Verified Canadian factory-options package definition explicitly includes blind spot."
+      },
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Tahoe factory-options package definition",
+          "url": "https://www.heuvelmanschev.ca/inventory/2026-chevrolet-tahoe-z71-8hpNjemiQkGGIyZbJYIgUAvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2026 Tahoe Z71; transfer case and Hill Descent Control are not additions in Z71-specific package description.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-10-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Trailblazer",
+      "trims": [
+        "LT"
+      ],
+      "stocks": [
+        "26-1341",
+        "26-1342"
+      ],
+      "package_names": [
+        "Blackout Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Front and rear Black bowtie emblems",
+        "Black nameplate",
+        "Black grille bar",
+        "Black wheel centre caps with Black bowtie"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Trailblazer factory-options package definition",
+          "url": "https://www.barrycullen.com/inventory/2026-chevrolet-trailblazer-lt-NBHxvUVxQpGmoNI6X1WDkAvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2026 Trailblazer LT PDB LPO. Do NOT extend black centre caps to LS; LS has a silver-cap variant not yet Canada-verified.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-11-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Traverse",
+      "trims": [
+        "LT LT, MIDNIGHT EDITION, AWD, SUPER CRUISE"
+      ],
+      "stocks": [
+        "26-0223"
+      ],
+      "package_names": [
+        "Driver Confidence Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Key card",
+        "Rear Camera Mirror",
+        "120-volt power outlet",
+        "Rear Pedestrian Alert",
+        "HD Surround Vision",
+        "Traffic Sign Recognition"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Traverse factory-options package definition",
+          "url": "https://www.ontariomotorsales.com/inventory/2026-chevrolet-traverse-lt-W8c3o6P7Q0yWAP26YMIF2wvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-12-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Traverse",
+      "trims": [
+        "LT LT, MIDNIGHT EDITION, AWD, SUPER CRUISE"
+      ],
+      "stocks": [
+        "26-0223"
+      ],
+      "package_names": [
+        "Midnight Edition",
+        "Sport Edition"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Black grille and blackout components",
+        "Black Traverse badging",
+        "Black Chevrolet bowties",
+        "20-inch high-gloss Black-painted aluminum wheels"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Traverse factory-options package definition",
+          "url": "https://www.chevrolet.ca/en/suvs/previous-year-traverse"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "One Midnight/Sport appearance package, not two separate packages. Midnight=black paint, Sport=other listed colours. No 22-inch wheels.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-13-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Trax",
+      "trims": [
+        "LT"
+      ],
+      "stocks": [
+        "26-1371",
+        "26-1426",
+        "26-1452",
+        "26-1453"
+      ],
+      "package_names": [
+        "Midnight Edition"
+      ],
+      "package_codes": [],
+      "contents": [
+        "17-inch High Gloss Black alloy wheels with Black bowtie centre caps",
+        "High Gloss Black mirror caps",
+        "High Gloss Black roof-mounted side rails",
+        "Black front and rear lower fascia inserts",
+        "High Gloss Black grille bar",
+        "Black front and rear bowties",
+        "Black exterior badging",
+        "Black steering wheel bowtie"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Trax factory-options package definition",
+          "url": "https://www.royfossthornhill.com/inventory/New-2026-Chevrolet-Trax-LT-KL77LHE23TC263467/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-19-0",
+      "market": "CA",
+      "year": "2026",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "trims": [
+        "LT"
+      ],
+      "stocks": [
+        "26-1352"
+      ],
+      "package_names": [
+        "Midnight Edition",
+        "Sport Edition"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Gloss Black grille bar",
+        "Black mirrors",
+        "Gloss Black nameplate and AWD badge",
+        "18-inch High Gloss Black painted aluminum wheels",
+        "Black centre caps with Black logo",
+        "Front and rear Black bowties",
+        "Black roof-mounted side rails"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Canadian Chevrolet Blazer factory-options package definition",
+          "url": "https://www.macmasterchev.ca/inventory/2026-chevrolet-blazer-lt-vZ4mIrFSQXWrq6h9yqo73wvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2026 Blazer LT AWD WJU. One Midnight/Sport package, not two separate packages. Black roof is not included.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-20-0",
+      "market": "CA",
+      "year": "2027",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "trims": [
+        "LS"
+      ],
+      "stocks": [
+        "27-0195"
+      ],
+      "package_names": [
+        "Max Trailering Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Advanced Trailering Package: Blind Zone Steering Assist with Trailering, Hitch View and Smart Trailer Integration Indicator",
+        "Integrated trailer brake controller",
+        "Extra-capacity cooling system",
+        "Two-speed active transfer case (4WD)",
+        "Hill Descent Control (4WD)"
+      ],
+      "contents_complete": true,
+      "features": {
+        "blind_spot": "Verified Canadian factory-options package definition explicitly includes blind spot."
+      },
+      "sources": [
+        {
+          "title": "2027 Canadian Chevrolet Tahoe factory-options package definition",
+          "url": "https://www.newroadsgm.com/inventory/2027-chevrolet-tahoe-ls-6cU67An6TAWM5XcdktOY6Avdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2027 Tahoe LS 4WD NHT. Enhanced Trailer View is a different package and is NOT included here.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "chevy-audit-21-0",
+      "market": "CA",
+      "year": "2027",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "trims": [
+        "High Country"
+      ],
+      "stocks": [
+        "27-0215"
+      ],
+      "package_names": [
+        "Dark Essential Package"
+      ],
+      "package_codes": [],
+      "contents": [
+        "Black bowtie emblems",
+        "Black nameplates",
+        "Black mirror caps"
+      ],
+      "contents_complete": true,
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 Canadian Chevrolet Tahoe factory-options package definition",
+          "url": "https://www.southfortchev.com/inventory/2027-chevrolet-tahoe-high-country-iQo172OfRteeTIATPB3LZAvdp/"
+        }
+      ],
+      "source_type": "dealer_package",
+      "notes": "2027 Tahoe High Country PDB LPO Dark Essentials Package; singular Essential spelling treated as spelling alias only. NOT Premium Dark Essentials or Dark Essentials Plus; no wheels or grille added.",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-encore-gx-experience-buick-package-sport-touring",
+      "market": "CA",
+      "year": "2026",
+      "make": "Buick",
+      "model": "Encore GX",
+      "trims": [
+        "Sport Touring"
+      ],
+      "package_names": [
+        "Experience Buick Package"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "Panoramic power moonroof",
+        "19-inch Gloss Black aluminum wheels",
+        "19-inch all-season tires"
+      ],
+      "features": {
+        "sunroof": "Canadian manufacturer package definition explicitly includes panoramic power moonroof"
+      },
+      "sources": [
+        {
+          "title": "2026 Buick Encore GX Canadian package definition",
+          "url": "https://www.buick.ca/en/studio-series-package"
+        }
+      ],
+      "notes": [],
+      "contents": [
+        "Panoramic power moonroof",
+        "19-inch Gloss Black aluminum wheels",
+        "19-inch all-season tires"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-encore-gx-avenir-technology-package-avenir",
+      "market": "CA",
+      "year": "2026",
+      "make": "Buick",
+      "model": "Encore GX",
+      "trims": [
+        "Avenir"
+      ],
+      "package_names": [
+        "Avenir Technology Package"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "Adaptive Cruise Control",
+        "Rear Camera Mirror",
+        "Rear Camera Mirror washer",
+        "HD Surround Vision",
+        "Wireless device charging"
+      ],
+      "features": {
+        "adaptive_cruise": "Canadian manufacturer package definition explicitly includes Adaptive Cruise Control",
+        "wireless_charging": "Canadian manufacturer package definition explicitly includes wireless device charging"
+      },
+      "sources": [
+        {
+          "title": "2026 Buick Encore GX Canadian package definition",
+          "url": "https://www.buick.ca/en/suvs/encore-gx-avenir"
+        }
+      ],
+      "notes": [],
+      "contents": [
+        "Adaptive Cruise Control",
+        "Rear Camera Mirror",
+        "Rear Camera Mirror washer",
+        "HD Surround Vision",
+        "Wireless device charging"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-encore-gx-trailering-package-sport-touring-avenir",
+      "market": "CA",
+      "year": "2026",
+      "make": "Buick",
+      "model": "Encore GX",
+      "trims": [
+        "Sport Touring",
+        "Avenir"
+      ],
+      "package_names": [
+        "Trailering Package"
+      ],
+      "package_codes": [
+        "PDE"
+      ],
+      "included_items": [
+        "Trailer hitch",
+        "Trailering harness (4-wire / 4-pin connector)",
+        "Trailer hitch trim bezel"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Buick Encore GX Canadian package definition",
+          "url": "https://www.buick.ca/byo-vc/client/en/CA/buick/encore-gx/2026/encore-gx/packages/package/PDE"
+        }
+      ],
+      "notes": [
+        "Configurator defaults to Sport Touring. Avenir applicability requires explicit installed-package evidence. Do not substitute a trailering capacity claim for installed equipment."
+      ],
+      "contents": [
+        "Trailer hitch",
+        "Trailering harness (4-wire / 4-pin connector)",
+        "Trailer hitch trim bezel"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-encore-gx-sport-pedal-kit-sport-touring",
+      "market": "CA",
+      "year": "2026",
+      "make": "Buick",
+      "model": "Encore GX",
+      "trims": [
+        "Sport Touring"
+      ],
+      "package_names": [
+        "Sport Pedal Kit"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "Brushed, polished metal sport pedal trim with raised rubber traction surfaces"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Buick Encore GX Canadian package definition",
+          "url": "https://www.buick.ca/en/studio-series-package"
+        }
+      ],
+      "notes": [
+        "Individual accessory, not an equipment bundle. Source confirms MY26 Sport Touring; Avenir kit fitment contents not independently verified."
+      ],
+      "contents": [
+        "Brushed, polished metal sport pedal trim with raised rubber traction surfaces"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": false,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-envista-sport-pedal-kit-sport-touring",
+      "market": "CA",
+      "year": "2026",
+      "make": "Buick",
+      "model": "Envista",
+      "trims": [
+        "Sport Touring"
+      ],
+      "package_names": [
+        "Sport Pedal Kit"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "Brushed, polished metal sport pedal trim with raised rubber traction surfaces"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Buick Envista Canadian package definition",
+          "url": "https://www.buick.ca/en/studio-series-package"
+        }
+      ],
+      "notes": [
+        "Individual accessory, not an equipment bundle. Source confirms MY26 Sport Touring; Avenir kit fitment contents not independently verified."
+      ],
+      "contents": [
+        "Brushed, polished metal sport pedal trim with raised rubber traction surfaces"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": false,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-acadia-elevation-premium-package-elevation",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Acadia",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Elevation Premium Package",
+        "Premium Package"
+      ],
+      "package_codes": [
+        "GHI"
+      ],
+      "included_items": [
+        "Seven-passenger seating",
+        "After Dark or Gideon Grey CoreTec seat trim",
+        "6-way power front passenger seat",
+        "2-way power front passenger lumbar adjustment",
+        "20-inch Bright Silver aluminum wheels",
+        "255/55R20 all-season blackwall tires",
+        "Universal Home Remote / garage-door opener",
+        "Front LED fog lamps"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 GMC Acadia Canadian package definition",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/acadia/2027/acadia/packages/package/GHI"
+        }
+      ],
+      "notes": [
+        "Premium Package is dealer shorthand: only match on Acadia Elevation with explicit installed label. Do not extrapolate to Yukon or Terrain."
+      ],
+      "contents": [
+        "Seven-passenger seating",
+        "After Dark or Gideon Grey CoreTec seat trim",
+        "6-way power front passenger seat",
+        "2-way power front passenger lumbar adjustment",
+        "20-inch Bright Silver aluminum wheels",
+        "255/55R20 all-season blackwall tires",
+        "Universal Home Remote / garage-door opener",
+        "Front LED fog lamps"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-acadia-luxury-package-elevation",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Acadia",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Luxury Package"
+      ],
+      "package_codes": [
+        "WPL"
+      ],
+      "included_items": [
+        "Heated rear outboard seats",
+        "8-inch diagonal Head-Up Display",
+        "Rear Camera Mirror"
+      ],
+      "features": {
+        "heated_rear_seats": "Canadian manufacturer package definition explicitly includes heated rear outboard seats"
+      },
+      "sources": [
+        {
+          "title": "2027 GMC Acadia Canadian package definition",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/acadia/2027/acadia/packages/package/WPL"
+        }
+      ],
+      "notes": [],
+      "contents": [
+        "Heated rear outboard seats",
+        "8-inch diagonal Head-Up Display",
+        "Rear Camera Mirror"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-acadia-luxury-package-at4",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Acadia",
+      "trims": [
+        "AT4"
+      ],
+      "package_names": [
+        "Luxury Package"
+      ],
+      "package_codes": [
+        "WPL"
+      ],
+      "included_items": [
+        "Heated rear outboard seats",
+        "8-inch diagonal Head-Up Display",
+        "Rear Camera Mirror",
+        "Heated and ventilated driver and front passenger seat cushions and backs"
+      ],
+      "features": {
+        "heated_rear_seats": "Canadian manufacturer package definition explicitly includes heated rear outboard seats",
+        "ventilated_seats": "Canadian manufacturer package definition explicitly includes ventilated driver and front passenger seats"
+      },
+      "sources": [
+        {
+          "title": "2027 GMC Acadia Canadian package definition",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/acadia/2027/acadia/packages/package/WPL"
+        }
+      ],
+      "notes": [],
+      "contents": [
+        "Heated rear outboard seats",
+        "8-inch diagonal Head-Up Display",
+        "Rear Camera Mirror",
+        "Heated and ventilated driver and front passenger seat cushions and backs"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-acadia-super-cruise-package-elevation-at4-denali-denali-ultimate",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Acadia",
+      "trims": [
+        "Elevation",
+        "AT4",
+        "Denali",
+        "Denali Ultimate"
+      ],
+      "package_names": [
+        "Super Cruise Package"
+      ],
+      "package_codes": [
+        "WQ1"
+      ],
+      "included_items": [
+        "Super Cruise hands-free driver assistance",
+        "Driver Attention Assist",
+        "Enhanced Automatic Parking Assist",
+        "3 years of OnStar One plan"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 GMC Acadia Canadian package definition",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/acadia/2027/acadia/packages/package/WQ1"
+        }
+      ],
+      "notes": [
+        "Do not automatically equate bare Cruise Package with Super Cruise Package; needs full label or code. Plan terms and compatible road restrictions apply."
+      ],
+      "contents": [
+        "Super Cruise hands-free driver assistance",
+        "Driver Attention Assist",
+        "Enhanced Automatic Parking Assist",
+        "3 years of OnStar One plan"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-terrain-technology-package-ii-elevation",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Terrain",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Technology Package II"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "HD Surround Vision",
+        "Cabin Glance interior camera",
+        "Rear Camera Mirror",
+        "Rear Pedestrian Alert",
+        "Traffic Sign Recognition",
+        "Front LED fog lamps"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 GMC Terrain Canadian package definition",
+          "url": "https://www.gmccanada.ca/en/suvs/terrain/elevation"
+        }
+      ],
+      "notes": [
+        "Recorder functions additionally stated in dealer inline package definition; retain those direct items."
+      ],
+      "contents": [
+        "HD Surround Vision",
+        "Cabin Glance interior camera",
+        "Rear Camera Mirror",
+        "Rear Pedestrian Alert",
+        "Traffic Sign Recognition",
+        "Front LED fog lamps"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-terrain-technology-package-ii-at4",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Terrain",
+      "trims": [
+        "AT4"
+      ],
+      "package_names": [
+        "Technology Package II"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "HD Surround Vision",
+        "Cabin Glance interior camera",
+        "Rear Camera Mirror",
+        "Rear Pedestrian Alert",
+        "Traffic Sign Recognition"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 GMC Terrain Canadian package definition",
+          "url": "https://www.gmccanada.ca/en/suvs/terrain/at4"
+        }
+      ],
+      "notes": [
+        "Recorder functions additionally stated in dealer inline package definition; retain those direct items."
+      ],
+      "contents": [
+        "HD Surround Vision",
+        "Cabin Glance interior camera",
+        "Rear Camera Mirror",
+        "Rear Pedestrian Alert",
+        "Traffic Sign Recognition"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-terrain-elevation-premium-package-elevation",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Terrain",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Elevation Premium Package",
+        "Premium Package"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "Brushed-aluminum roof side rails",
+        "19-inch Technical Grey machined-face aluminum wheels",
+        "After Dark or Gideon Grey/After Dark CoreTec seating",
+        "Dual-zone automatic climate control",
+        "AutoSense liftgate",
+        "Wireless smartphone charging"
+      ],
+      "features": {
+        "wireless_charging": "Canadian manufacturer package definition explicitly includes wireless smartphone charging"
+      },
+      "sources": [
+        {
+          "title": "2027 GMC Terrain Canadian package definition",
+          "url": "https://www.gmccanada.ca/en/suvs/terrain/elevation"
+        }
+      ],
+      "notes": [
+        "Official page labels these KEY features, not an exhaustive full contents list. Full MY27 GHI configurator returned empty. Retain any explicit Convenience II inline items from vehicle but do not claim this list exhaustive."
+      ],
+      "contents": [
+        "Brushed-aluminum roof side rails",
+        "19-inch Technical Grey machined-face aluminum wheels",
+        "After Dark or Gideon Grey/After Dark CoreTec seating",
+        "Dual-zone automatic climate control",
+        "AutoSense liftgate",
+        "Wireless smartphone charging"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": false,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2027-terrain-trailering-package-elevation",
+      "market": "CA",
+      "year": "2027",
+      "make": "GMC",
+      "model": "Terrain",
+      "trims": [
+        "Elevation"
+      ],
+      "package_names": [
+        "Trailering Package"
+      ],
+      "package_codes": [
+        "PCH"
+      ],
+      "included_items": [
+        "Trailer hitch (dealer-installed accessory)",
+        "Trailer hitch trim bezel / moulding kit"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2027 GMC Terrain Canadian package definition",
+          "url": "https://www.gmccanada.ca/byo-vc/client/en/CA/gmc/terrain/2027/terrain/packages/package/PCH"
+        }
+      ],
+      "notes": [
+        "Official PCH accessory definition defaults to Elevation. Do not apply to AT4 factory Trailering Package without RPO: AT4 marketing advertises 1500 lb while PCH configurator says 1000 lb."
+      ],
+      "contents": [
+        "Trailer hitch (dealer-installed accessory)",
+        "Trailer hitch trim bezel / moulding kit"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-envision-premium-seat-package-preferred-sport-touring",
+      "market": "CA",
+      "year": "2026",
+      "make": "Buick",
+      "model": "Envision",
+      "trims": [
+        "Preferred",
+        "Sport Touring"
+      ],
+      "package_names": [
+        "Premium Seat Package"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "Driver 4-way power lumbar seat adjuster"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Buick Envision Canadian package definition",
+          "url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/summary/payment"
+        }
+      ],
+      "notes": [],
+      "contents": [
+        "Driver 4-way power lumbar seat adjuster"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "ca-2026-envision-premium-seat-package-avenir",
+      "market": "CA",
+      "year": "2026",
+      "make": "Buick",
+      "model": "Envision",
+      "trims": [
+        "Avenir"
+      ],
+      "package_names": [
+        "Premium Seat Package"
+      ],
+      "package_codes": [],
+      "included_items": [
+        "Driver 4-way power lumbar seat adjuster",
+        "Front passenger 4-way power lumbar seat adjuster",
+        "Driver seat massage"
+      ],
+      "features": {},
+      "sources": [
+        {
+          "title": "2026 Buick Envision Canadian package definition",
+          "url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/summary/payment"
+        }
+      ],
+      "notes": [],
+      "contents": [
+        "Driver 4-way power lumbar seat adjuster",
+        "Front passenger 4-way power lumbar seat adjuster",
+        "Driver seat massage"
+      ],
+      "source_type": "manufacturer_package",
+      "contents_complete": true,
+      "verified_at": "2026-10-27"
+    }
+  ]
+}

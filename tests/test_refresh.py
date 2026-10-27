@@ -3,8 +3,10 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from scripts.refresh import features,normalize,next_refresh,refresh,extract_vehicle,safe_url,Source
+from scripts.refresh import features,normalize,next_refresh,refresh,extract_vehicle,safe_url,Source,explicit_upgrades
 from scripts.snapshot import read_snapshot,write_compressed
+from scripts.package_enrichment import enrich
+from scripts.vehicle_facts import source_facts,attach_facts
 FIXTURE=json.loads((Path(__file__).parent/'fixtures/official-silverado.json').read_text())
 URL='https://www.myerscadillacgm.ca/vehicles/2026/chevrolet/silverado-1500/ottawa/on/71424620/'
 class Tests(unittest.TestCase):
@@ -98,6 +100,53 @@ class Tests(unittest.TestCase):
    self.assertFalse(path.exists());self.assertFalse(refresh(path,Broken()))
    path.unlink();out=read_snapshot(path)
    self.assertEqual(out['vehicles'],old['vehicles']);self.assertTrue(out['stale'])
+ def test_equipment_and_specific_upgrades(self):
+  v=json.loads((Path(__file__).parent/'fixtures/official-canyon.json').read_text())
+  result=normalize(v,'https://www.myerscadillacgm.ca/vehicles/2026/gmc/canyon/ottawa/on/71317535/','2026-10-27')
+  self.assertEqual(result['features']['sunroof']['status'],'present')
+  self.assertEqual(result['features']['heated_front_seats']['status'],'not_confirmed')
+  self.assertEqual(explicit_upgrades('Our trim features heated seats.'),[])
+ def test_equipment_synonyms(self):
+  f=features(['Heated Front Seat(s)','Cooled Front Seats','Remote Engine Start','Wireless Device Charging'])
+  for key in ['heated_front_seats','ventilated_seats','remote_start','wireless_charging']: self.assertEqual(f[key]['status'],'present')
+ def test_conditional_package_requires_explicit_listing(self):
+  row='Seats, heated and ventilated driver and front passenger seat cushions and seatbacks (Included and only available with (WPL) Luxury Package.)'
+  self.assertEqual(features([row])['ventilated_seats']['status'],'not_confirmed')
+  f=features([row],['Luxury Package includes heated rear outboard seats'])
+  self.assertEqual(f['ventilated_seats']['status'],'present')
+  self.assertTrue(any('Required package explicitly listed' in e for e in f['ventilated_seats']['evidence']))
+ def test_manufacturer_package_scoping(self):
+  def vehicle(**changes):
+   v={'market':'CA','year':'2026','make':'GMC','model':'Canyon','trim':'Elevation - Sunroof','packages':['Convenience Package'],'features':features([])}
+   v.update(changes);return v
+  self.assertEqual(enrich(vehicle())['features']['remote_start']['evidence_type'],'manufacturer_package')
+  for v in [vehicle(year='2025'),vehicle(market='US'),vehicle(trim='AT4'),vehicle(packages=['Premium Package']),vehicle(packages=[])]:
+   self.assertEqual(enrich(v)['features']['remote_start']['status'],'not_confirmed')
+  v=vehicle();v['features']=features(['Without remote start'])
+  self.assertEqual(enrich(v)['features']['remote_start']['status'],'absent')
+ def test_exact_paint_and_engine(self):
+  raw={'description':'This Sterling Metallic Crew Cab 4X4 pickup has an Automatic transmission and is powered by a 310HP 2.7L 4 Cylinder Engine.<br>Apply for financing','exterior_color':'Grey','engine_displacement':2.7,'engine':'4 Cylinder Engine','cylinder':4,'fuel_type':'Gas'}
+  v={'source_url':URL,'specs':{},'source_facts':source_facts(raw)};attach_facts(v)
+  self.assertEqual(v['paint']['name'],'Sterling Metallic');self.assertEqual(v['engine_details']['horsepower'],'310 hp')
+  self.assertEqual(v['engine_details']['displacement'],'2.7 L');self.assertNotIn('financing',v['source_facts']['vehicle_description_excerpt'])
+ def test_generic_colour_is_not_official_name(self):
+  v={'source_url':URL,'specs':{'Exterior Color':'Grey'}};attach_facts(v)
+  self.assertEqual(v['paint']['status'],'generic_only');self.assertIsNone(v['paint']['name']);self.assertIsNone(v['engine_details']['horsepower'])
+ def test_structured_horsepower_and_conflicts(self):
+  v={'source_url':URL,'specs':{'Engine Displacement':'2.7','SAE Net Horsepower @ RPM':'310 @ 5600'}};attach_facts(v)
+  self.assertEqual(v['engine_details']['horsepower'],'310 hp');self.assertEqual(v['engine_details']['hp_rpm'],'5600 rpm')
+  v['source_facts']={'vehicle_description_excerpt':'This Black pickup is powered by a 420HP 6.2L V8 Engine.'};attach_facts(v)
+  self.assertEqual(v['engine_details']['status'],'conflict');self.assertIsNone(v['engine_details']['horsepower'])
+ def test_all_packages_audited_including_unresolved_title(self):
+  v={'source_url':URL,'market':'CA','year':'2026','make':'GMC','model':'Canyon','trim':'Elevation - Mystery Package','packages':['Convenience Package','Unresearched Package'],'specs':{},'features':features([])}
+  enrich(v)
+  self.assertEqual(v['package_audit']['total'],3);self.assertEqual(v['package_audit']['unresolved'],2)
+  self.assertEqual(v['package_audit']['status'],'needs_review')
+ def test_diesel_adjectives_are_not_paint(self):
+  v={'source_url':URL,'specs':{},'source_facts':{'manufacturer_exterior_color':'Summit White','exterior_color':'White','vehicle_description_excerpt':'This Summit White sought after diesel Crew Cab 4X4 pickup has an Automatic transmission.'}}
+  attach_facts(v);self.assertEqual(v['paint']['status'],'listed_name');self.assertEqual(v['paint']['name'],'Summit White')
+  v['source_facts'].update(manufacturer_exterior_color='Black',exterior_color='Black',vehicle_description_excerpt='This Black sought after diesel Crew Cab 4X4 pickup has an Automatic transmission.')
+  attach_facts(v);self.assertEqual(v['paint']['status'],'generic_only')
  def test_extract(self):
   self.assertEqual(extract_vehicle('var vmsData = '+json.dumps({'vehicle':FIXTURE})+';')['vin'],FIXTURE['vin'])
 if __name__=='__main__': unittest.main()

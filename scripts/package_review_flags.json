@@ -1,0 +1,520 @@
+[
+  {
+    "stock": "26-1157B",
+    "vin": "5GAEVBKW0JJ243132",
+    "label": "Premium Sound Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1435A",
+    "vin": "LRBFZSR46PD125524",
+    "label": "Technology Package II includes (CXH) Technology Package I content plus (UGN) Enhanced Automatic Emergency Braking, (UKZ) Enhanced Automatic Parking Assist, (KSG) Adaptive Cruise Control, (UWN) LED headlamps with enhanced functionality, (DRZ) Rear Camera Mirror, (CWA) Rear Camera Mirror Washer and (F45) Continuous Damping Control (CDC). ((UKZ) Enhanced Automatic Parking Assist replaces the standard (UD5) Front and Rear Park Assist.)",
+    "reason": "Myers expands Tech II added items but nested Technology Package I is not expanded. Canadian Essence Tech I source found, but exact Avenir applicability not independently verified; retain nested-content uncertainty and build-date deletion caveats.",
+    "status": "partial"
+  },
+  {
+    "stock": "26-0964A",
+    "vin": "1GYS4LKL9PR503998",
+    "label": "Tow Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1377",
+    "vin": "3GNKBJR43TS196812",
+    "label": "True North Edition",
+    "reason": "Edition/trim identity, not enough evidence for a separate option-content bundle. Do not confuse with True North Plus.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0017",
+    "vin": "1G1FZ6EVXVF111496",
+    "label": "Cruise Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1143",
+    "vin": "1G1YD3D32T5606512",
+    "label": "Performance Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0607A",
+    "vin": "1GCUDEE85RZ220387",
+    "label": "True North Edition",
+    "reason": "Edition/trim identity, not enough evidence for a separate option-content bundle. Do not confuse with True North Plus.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1152A",
+    "vin": "3GCUKEED8SG370292",
+    "label": "True North Edition",
+    "reason": "Edition/trim identity, not enough evidence for a separate option-content bundle. Do not confuse with True North Plus.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0213",
+    "vin": "1GNS6SK8XTR112589",
+    "label": "Premier Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0191",
+    "vin": "1GNS6SKD0VR114772",
+    "label": "Premier Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1343",
+    "vin": "KL79MNSL9TB296531",
+    "label": "Blackout Package",
+    "reason": "Exact 2026 LS definition located only in US sources; LS uses silver wheel centre caps whereas Canadian LT definition uses black caps. Canadian LS variant not verified; do not apply LT mapping.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1344",
+    "vin": "KL79MNSL6TB296521",
+    "label": "Blackout Package",
+    "reason": "Exact 2026 LS definition located only in US sources; LS uses silver wheel centre caps whereas Canadian LT definition uses black caps. Canadian LS variant not verified; do not apply LT mapping.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1345",
+    "vin": "KL79MNSL2TB296693",
+    "label": "Blackout Package",
+    "reason": "Exact 2026 LS definition located only in US sources; LS uses silver wheel centre caps whereas Canadian LT definition uses black caps. Canadian LS variant not verified; do not apply LT mapping.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1455A",
+    "vin": "1GNEVHKW0PJ156817",
+    "label": "Tow Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1334A",
+    "vin": "KL77LGE24RC223773",
+    "label": "LS Convenience Package",
+    "reason": "No exact Canadian model/year/trim package definition verified. Do not infer features from the name.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0843A",
+    "vin": "1GTUUHE89RZ384615",
+    "label": "Tow Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1454A",
+    "vin": "3GTUUCED9PG336447",
+    "label": "Tow Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "L-261263",
+    "vin": "3GTUUCED4NG628472",
+    "label": "Tow Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1197A",
+    "vin": "KM8J3CA43KU004890",
+    "label": "Safety Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1127B",
+    "vin": "1C6SRFHT3RN171462",
+    "label": "Tow Package",
+    "reason": "Marketing label lacks unique OEM package/RPO identity. Cannot safely map to a similarly named factory package; obtain VIN build sheet/window sticker.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0259",
+    "vin": "1GNS6GKL0TR136661",
+    "label": "Deluxe Package (title only)",
+    "reason": "Title-only alias does not uniquely establish exact OEM package/RPO. Do not silently equate Deluxe to High Country Deluxe or Carbon to Z07.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0556",
+    "vin": "1GNS6GKL1TR211254",
+    "label": "Deluxe Package (title only)",
+    "reason": "Title-only alias does not uniquely establish exact OEM package/RPO. Do not silently equate Deluxe to High Country Deluxe or Carbon to Z07.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0194",
+    "vin": "1G1YD3D33T5600055",
+    "label": "True Carbon Package (title only)",
+    "reason": "Title-only alias does not uniquely establish exact OEM package/RPO. Do not silently equate Deluxe to High Country Deluxe or Carbon to Z07.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0194",
+    "vin": "1G1YD3D33T5600055",
+    "label": "Ceramic Brake Package (title only)",
+    "reason": "Title-only alias does not uniquely establish exact OEM package/RPO. Do not silently equate Deluxe to High Country Deluxe or Carbon to Z07.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0653",
+    "vin": "1G1YD3D35T5604060",
+    "label": "Carbon Fibre Pack (title only)",
+    "reason": "Title-only alias does not uniquely establish exact OEM package/RPO. Do not silently equate Deluxe to High Country Deluxe or Carbon to Z07.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1437A",
+    "vin": "3FMTK4SX7NMA45364",
+    "label": "GT Performance Edition (title/trim)",
+    "reason": "Named trim/performance edition, not an independently identified installed option. Exact Canadian factory-content breakdown not researched; do not infer contents from generic Performance.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1383",
+    "vin": "3GCUKEED7TG503822",
+    "label": "True North Edition",
+    "reason": "Exact Canadian edition contents not verified; do not confuse with True North Edition Plus or True North Premium.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1409",
+    "vin": "3GCUKEED8TG519205",
+    "label": "True North Edition",
+    "reason": "Exact Canadian edition contents not verified; do not confuse with True North Edition Plus or True North Premium.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1410",
+    "vin": "3GCUKEED1TG518784",
+    "label": "True North Edition",
+    "reason": "Exact Canadian edition contents not verified; do not confuse with True North Edition Plus or True North Premium.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1412",
+    "vin": "3GCPKEEK7TG518686",
+    "label": "True North Edition",
+    "reason": "Exact Canadian edition contents not verified; do not confuse with True North Edition Plus or True North Premium.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1412",
+    "vin": "3GCPKEEK7TG518686",
+    "label": "Trailering Package",
+    "reason": "No exact year/model/trim installed-package definition verified; may be conditional text or extraction noise.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1413",
+    "vin": "3GCPKEEK6TG518596",
+    "label": "True North Edition",
+    "reason": "Exact Canadian edition contents not verified; do not confuse with True North Edition Plus or True North Premium.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1413",
+    "vin": "3GCPKEEK6TG518596",
+    "label": "Trailering Package",
+    "reason": "No exact year/model/trim installed-package definition verified; may be conditional text or extraction noise.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1440",
+    "vin": "3GCUKFE89TG501885",
+    "label": "Premium Package",
+    "reason": "Ambiguous abbreviated package name; do not force Elevation Premium / LT Trail Boss Premium alias.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1481",
+    "vin": "2GCUKDED9T1246214",
+    "label": "True North Edition (Deleted when (RG4) Fleet LT Base Content Package Delete is ordered.)",
+    "reason": "No exact year/model/trim installed-package definition verified; may be conditional text or extraction noise.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0370",
+    "vin": "2GC1KREYXT1132144",
+    "label": "Trailering Package",
+    "reason": "No exact year/model/trim installed-package definition verified; may be conditional text or extraction noise.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0546",
+    "vin": "1GC4KNEY8TF190901",
+    "label": "Gooseneck/5th Wheel Prep Package",
+    "reason": "Exact 2026 Silverado 2500 LT definition not yet verified.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0601",
+    "vin": "1GC4KNEY5TF204740",
+    "label": "body-colour (Will be painted high gloss Black with (WPK) Trail Boss Package.)",
+    "reason": "No exact year/model/trim installed-package definition verified; may be conditional text or extraction noise.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0137",
+    "vin": "3GTUUGEL4TG116450",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim equipment group includes standard equipment, not bounded accessory package; exact full Canadian group specification not verified.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0138",
+    "vin": "3GTUUGELXTG112144",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim equipment group includes standard equipment, not bounded accessory package; exact full Canadian group specification not verified.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1421",
+    "vin": "3GTUUCED5TG520861",
+    "label": "Premium Package",
+    "reason": "Ambiguous abbreviated package name; do not force Elevation Premium / LT Trail Boss Premium alias.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0779",
+    "vin": "1GT4UREY2TF234392",
+    "label": "Off-Road Package",
+    "reason": "Abbreviated package name; listing separately supplies X31 Off-Road Package definition; keep exact X31 evidence, do not assume alias.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0797",
+    "vin": "1GT4UREY1TF237011",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim equipment group includes standard equipment, not bounded accessory package; exact full Canadian group specification not verified.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0800",
+    "vin": "1GT4UREY7TF237238",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim equipment group includes standard equipment, not bounded accessory package; exact full Canadian group specification not verified.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0820",
+    "vin": "1GT4UREYXTF235872",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim equipment group includes standard equipment, not bounded accessory package; exact full Canadian group specification not verified.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0827",
+    "vin": "1GT4UREY3TF237074",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim equipment group includes standard equipment, not bounded accessory package; exact full Canadian group specification not verified.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1292",
+    "vin": "KL4AMESL3TB260411",
+    "label": "Sport Touring Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1346",
+    "vin": "KL4AMESL8TB263028",
+    "label": "Sport Touring Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1349",
+    "vin": "KL4AMESLXTB261913",
+    "label": "Sport Touring Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1321",
+    "vin": "KL4AMGSL6TB259720",
+    "label": "Sport Pedal Kit",
+    "reason": "Official MY26 Sport Touring description confirmed. Avenir kit fitment/identical contents not independently confirmed.",
+    "status": "partial"
+  },
+  {
+    "stock": "26-1346",
+    "vin": "KL4AMESL8TB263028",
+    "label": "Sport Pedal Kit",
+    "reason": "Official MY26 Sport Touring description confirmed. Avenir kit fitment/identical contents not independently confirmed.",
+    "status": "partial"
+  },
+  {
+    "stock": "26-1103",
+    "vin": "KL47LBE20TB218860",
+    "label": "Sport Touring Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0192",
+    "vin": "1GKEMNKS4VJ158398",
+    "label": "Cruise Package",
+    "reason": "Ambiguous dealer shorthand; official MY27 Super Cruise definition exists but no full installed label/RPO establishes equivalence.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0199",
+    "vin": "1GKEMRKS8VJ163501",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0037",
+    "vin": "3GKALYEG3VL108420",
+    "label": "Trailering Package",
+    "reason": "PCH Elevation accessory confirmed; generic AT4 factory Trailering package full components not confirmed. Must match exact PCH or Elevation, not all Terrain stocks.",
+    "status": "partial"
+  },
+  {
+    "stock": "27-0111",
+    "vin": "3GKALYEG8VL168838",
+    "label": "Trailering Package",
+    "reason": "PCH Elevation accessory confirmed; generic AT4 factory Trailering package full components not confirmed. Must match exact PCH or Elevation, not all Terrain stocks.",
+    "status": "partial"
+  },
+  {
+    "stock": "27-0120",
+    "vin": "3GKALZEG3VL175072",
+    "label": "Trailering Package",
+    "reason": "PCH Elevation accessory confirmed; generic AT4 factory Trailering package full components not confirmed. Must match exact PCH or Elevation, not all Terrain stocks.",
+    "status": "partial"
+  },
+  {
+    "stock": "27-0133",
+    "vin": "3GKALYEG9VL179007",
+    "label": "Trailering Package",
+    "reason": "PCH Elevation accessory confirmed; generic AT4 factory Trailering package full components not confirmed. Must match exact PCH or Elevation, not all Terrain stocks.",
+    "status": "partial"
+  },
+  {
+    "stock": "27-0185",
+    "vin": "3GKALZEG4VL167479",
+    "label": "Trailering Package",
+    "reason": "PCH Elevation accessory confirmed; generic AT4 factory Trailering package full components not confirmed. Must match exact PCH or Elevation, not all Terrain stocks.",
+    "status": "partial"
+  },
+  {
+    "stock": "27-0202",
+    "vin": "3GKALYEG1VL220018",
+    "label": "Trailering Package",
+    "reason": "PCH Elevation accessory confirmed; generic AT4 factory Trailering package full components not confirmed. Must match exact PCH or Elevation, not all Terrain stocks.",
+    "status": "partial"
+  },
+  {
+    "stock": "27-0111",
+    "vin": "3GKALYEG8VL168838",
+    "label": "Convenience Group",
+    "reason": "Ambiguous: vehicle already lists Convenience II and Driver Convenience. Cannot safely choose II versus III; do not infer ventilation/rear heating.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0120",
+    "vin": "3GKALZEG3VL175072",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0185",
+    "vin": "3GKALZEG4VL167479",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0200",
+    "vin": "1GKS2BKD0VR124646",
+    "label": "Technology Package",
+    "reason": "Exact Canadian MY package contents unavailable from accessible official pages. Search finds US configurations and Canadian dealers, neither meets manufacturer-CA requirement. Do not reuse 2026 Yukon content for 2027.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "27-0201",
+    "vin": "1GKS2CK86VR122697",
+    "label": "AT4 Premium Plus Package",
+    "reason": "Exact Canadian MY package contents unavailable from accessible official pages. Search finds US configurations and Canadian dealers, neither meets manufacturer-CA requirement. Do not reuse 2026 Yukon content for 2027.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-0934",
+    "vin": "1GKS2WKL4TR306619",
+    "label": "Advanced Tech Pack",
+    "reason": "Exact Canadian MY package contents unavailable from accessible official pages. Search finds US configurations and Canadian dealers, neither meets manufacturer-CA requirement. Do not reuse 2026 Yukon content for 2027.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1319",
+    "vin": "1GKS2WKL8TR444096",
+    "label": "Advanced Tech Pack",
+    "reason": "Exact Canadian MY package contents unavailable from accessible official pages. Search finds US configurations and Canadian dealers, neither meets manufacturer-CA requirement. Do not reuse 2026 Yukon content for 2027.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1356",
+    "vin": "1GKS2WK87TR460821",
+    "label": "Advanced Tech Pack",
+    "reason": "Exact Canadian MY package contents unavailable from accessible official pages. Search finds US configurations and Canadian dealers, neither meets manufacturer-CA requirement. Do not reuse 2026 Yukon content for 2027.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1017",
+    "vin": "1GKS2JKL5TR341950",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1326",
+    "vin": "1GKS2JK81TR444715",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1350",
+    "vin": "1GKS2JKL8TR458681",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1366",
+    "vin": "1GKS2JKL8TR467364",
+    "label": "Denali Preferred Equipment Group",
+    "reason": "Trim/ordering equipment group, not a discrete optional bundle. Exact Canadian MY trim standard equipment list not fully retrieved; do not infer optional packages.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1244",
+    "vin": "1GKS2GKD3TR412316",
+    "label": "Premium Package",
+    "reason": "Exact Canadian MY package contents unavailable from accessible official pages. Search finds US configurations and Canadian dealers, neither meets manufacturer-CA requirement. Do not reuse 2026 Yukon content for 2027.",
+    "status": "unresolved"
+  },
+  {
+    "stock": "26-1046A",
+    "vin": "KL4AMGSLXTB103650",
+    "label": "TECH PACK",
+    "reason": "Used listing title contains TECH PACK but supplied packages contain only Buick Driver Confidence. Cannot establish exact installed Avenir Technology Package identity from ambiguous title; do not infer adaptive cruise, rear camera mirror/washer, surround vision or wireless charging.",
+    "status": "unresolved"
+  }
+]

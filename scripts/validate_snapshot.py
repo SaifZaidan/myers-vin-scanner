@@ -24,6 +24,9 @@ def validate(data):
         for f in v['features'].values():
             assert f['status'] in ('present','absent','not_confirmed'), 'Invalid feature state'
             if f['status'] in ('present','absent'): assert f.get('evidence'), 'Definitive claim needs evidence'
+            if f.get('evidence_type') in ('manufacturer_package','dealer_package'):
+                assert f.get('package_rule_id') and f.get('sources'), 'Manufacturer claim needs scoped rule and sources'
+                assert all(source['url'].startswith('https://') for source in f['sources']), 'Invalid manufacturer source URL'
         assert isinstance(v['specs'],dict) and isinstance(v['packages'],list), 'Invalid source fields'
     return len(vins)
 
