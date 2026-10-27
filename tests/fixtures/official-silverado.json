@@ -1,0 +1,412 @@
+{
+  "vin": "1GCPKBEK3TZ504797",
+  "stock_number": "26-1416",
+  "year": 2026,
+  "make": "Chevrolet",
+  "model": "Silverado 1500",
+  "trim": "Custom",
+  "company_data": {
+    "company_id": "3040",
+    "company_address": "1200 Baseline Road",
+    "company_city": "Ottawa"
+  },
+  "date_sold": "",
+  "drive_train": "4x4",
+  "tech_specs": [
+    {
+      "tech_spec_group": "Entertainment",
+      "tech_spec_description": "SiriusXM Trial Subscription (IMPORTANT: The SiriusXM trial subscription is not provided on vehicles that are ordered for Fleet Daily Rental (\"FDR\") use. Trial subscription is subject to the SiriusXM Customer Agreement and privacy policy, visit www.siriusxm.ca which includes full terms and how to cancel. All fees, content, features, and availability are subject to change.)"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Tire, spare 255/80R17SL all-season, blackwall"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Rear Seat Reminder"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Exhaust, single outlet"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Automatic Stop/Start"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Seat adjuster, driver 10-way power including lumbar"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Battery, heavy-duty 730 cold-cranking amps/80 Amp-hr, maintenance-free with rundown protection and retained accessory power"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Suspension Package, High Capacity"
+    },
+    {
+      "tech_spec_group": "Package",
+      "tech_spec_description": "Custom Convenience Package includes (BTV) Remote Start with (UTJ) content theft alarm, (C49) rear-window defogger, (UF2) bed LED cargo area lighting and (QT5) EZ Lift power lock and release tailgate (Included and only available with (PDX) Custom Value Package.)"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Wheel, 17\" x 8\" (43.2 cm x 20.3 cm) full-size, steel spare"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Assist handles front A-pillar mounted for driver and passenger, rear B-pillar mounted"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Steering, Electric Power Steering (EPS) assist, rack-and-pinion"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Hitch Guidance dynamic single line to aid in trailer alignment for hitching"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Air vents, rear, heating/cooling"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "HD Rear Vision Camera"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Floor mats, rubberized-vinyl rear (Deleted when LPO floor liners are ordered.)"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Teen Driver a configurable feature that lets you activate customizable vehicle settings associated with a key fob, to help encourage safe driving behaviour. It can limit certain available vehicle features, and it prevents certain safety systems from being turned off. An in-vehicle report card gives you information on driving habits and helps you to continue to coach your new driver"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Daytime Running Lamps with automatic exterior lamp control"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Seat, rear 60/40 folding bench (folds up), 3-passenger (includes child seat top tether anchor)"
+    },
+    {
+      "tech_spec_group": "Entertainment",
+      "tech_spec_description": "Wireless phone projection for Apple CarPlay and Android Auto"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Durabed, pickup bed"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Automatic Emergency Braking"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Tire Pressure Monitoring System, auto learn includes Tire Fill Alert (does not apply to spare tire)"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Mirror, inside rearview, manual tilt"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "IntelliBeam, automatic high beam on/off"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Instrument cluster, 6-gauge cluster featuring speedometer, fuel level, engine temperature, tachometer, voltage and oil pressure"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "USB ports, rear, dual, charge-only"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Alternator, 220 amps"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Remote Keyless Entry with 2 transmitters"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Cruise control, electronic with set and resume speed, steering wheel-mounted"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Tailgate and bed rail protection cap, top"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Rear Seat Belt Indicator"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Tailgate, gate function manual with EZ Lift includes power lock and release"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Recovery hooks, front, frame-mounted, Black"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Defogger, rear-window electric"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Exterior Temperature Display located in radio display"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Frame, fully-boxed, hydroformed front section"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "GVWR, 7000 lbs. (3175 kg) (Requires Crew Cab or Double Cab 4WD model and (L3B) 2.7L TurboMax engine.)"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Driver Information Centre, 3.5\" diagonal monochromatic display"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Lane Keep Assist with Lane Departure Warning"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Floor mats, rubberized vinyl, front (Deleted when LPO floor liners are ordered.)"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "CornerStep, rear bumper"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Door handles, Black"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Air conditioning, single-zone manual"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "OnStar Basics (OnStar Fleet Basics for Fleet) Drive more confidently with up to 8 years of core OnStar services including mobile app commands, connectivity for select apps that provide in-vehicle voice assistance and navigation with real-time traffic, and Automatic Crash Response. (Requires (UE1) OnStar. Term begins on vehicle delivery date. Paid subscription required after expiry. Services are dependent on compatible wireless networks provided by third-party wireless service providers, working vehicle electrical systems, GPS signal and other factors outside GM control. Changes in technology and wireless networks may limit or prevent the operation of certain services. Services, connectivity, and capabilities have additional terms and limitations and are subject to change, and will vary by model, vehicle configuration, software version, conditions, and geographical and technical restrictions. Compatible smartphone required for mobile app commands. Not all vehicles may transmit all crash data; OnStar links to emergency services; Voice and Maps apps are subject to change at any time and may be provided by third parties. Non-refundable and no cash value. See onstar.ca/en/info for terms and details.)"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Push Button Start"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Window, power front, passenger express down"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "StabiliTrak, stability control system with Proactive Roll Avoidance and traction control, includes electronic trailer sway control and hill start assist"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "LED Cargo Area Lighting located in pickup bed, activated with switch on centre switch bank or key fob"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Power outlet, bed mounted, 120-volt (400 watts shared with (KI4) interior power outlet)"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Taillamps, with incandescent tail, stop and reverse lights"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Chevy Safety Assist includes (UHY) Automatic Emergency Braking, (UKJ) Front Pedestrian Braking, (UHX) Lane Keep Assist with Lane Departure Warning, (UE4) Following Distance Indicator, (UEU) Forward Collision Alert and (TQ5) IntelliBeam"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Headlamps, halogen reflector with halogen Daytime Running Lamps"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Forward Collision Alert"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Buckle to Drive prevents vehicle from being shifted out of Park until driver seat belt is fastened; times out after 20 seconds and encourages seat belt use, can be turned on and off in Settings menu"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Theft-deterrent system, unauthorized entry"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Tires, 275/60R20 all-season, blackwall"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Wheels, 20\" x 9\" (50.8 cm x 22.9 cm) Bright Silver painted aluminum"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Brake lining wear indicator"
+    },
+    {
+      "tech_spec_group": "Package",
+      "tech_spec_description": "Custom Value Package includes (PCX) Custom Convenience Package and (Z82) Trailering Package"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Tailgate, standard"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "OnStar services capable (See onstar.ca for details and limitations. Services vary by model. Service plan required.)"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Steering wheel, urethane"
+    },
+    {
+      "tech_spec_group": "Entertainment",
+      "tech_spec_description": "Audio System, Chevrolet Infotainment 3 System, 7\" diagonal HD colour touchscreen, AM/FM stereo Bluetooth audio streaming for 2 active devices, voice command pass-through to phone, Wireless Apple CarPlay and Wireless Android Auto compatibility"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Seats, front 40/20/40 split-bench with covered armrest storage and under-seat storage (lockable)"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Airbags, dual-stage frontal airbags for driver and front outboard passenger; Seat-mounted side-impact airbags for driver and front outboard passenger; Head-curtain airbags for front and rear outboard seating positions; Includes front outboard Passenger Sensing System for frontal outboard passenger airbag"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Cargo tie downs (12), fixed rated at 500 lbs (226.8 kg) per corner"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Seat trim, Cloth"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Front Pedestrian Braking"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Power outlet, interior power outlet, 120-volt (400 watts shared with (KC9) bed mounted power outlet)"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "USB Ports, 2, Charge/Data ports located on the instrument panel"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Remote vehicle starter system"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Mirrors, outside heated power-adjustable"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Steering column, Tilt-Wheel, manual with wheel locking security feature"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Windows, power rear, express down"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Transfer case, single speed electronic Autotrac with push button control (4WD models only)"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Bumper, rear (Body-colour.)"
+    },
+    {
+      "tech_spec_group": "Safety",
+      "tech_spec_description": "Following Distance Indicator"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Brakes, 4-wheel antilock, 4-wheel disc with DURALIFE rotors"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Lamps, cargo area, cab mounted integrated with centre high mount stop lamp, with switch in bank on left side of steering wheel (LED)"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Power outlet, front auxiliary, 12-volt"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Glass, deep-tinted"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Tire carrier lock, keyed cylinder lock that utilizes same key as ignition and door"
+    },
+    {
+      "tech_spec_group": "Entertainment",
+      "tech_spec_description": "Bluetooth for phone, connectivity to vehicle infotainment system"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Four wheel drive"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Capless Fuel Fill"
+    },
+    {
+      "tech_spec_group": "Package",
+      "tech_spec_description": "Trailering Package includes trailer hitch, 7-pin and 4-pin connectors and (CTT) Hitch Guidance"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Steering column lock, electrical"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Window, power front, drivers express up/down"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Compass located in instrument cluster"
+    },
+    {
+      "tech_spec_group": "Entertainment",
+      "tech_spec_description": "Wi-Fi Hotspot capable (Terms and limitations apply. See onstar.ca or dealer for details.)"
+    },
+    {
+      "tech_spec_group": "Exterior",
+      "tech_spec_description": "Bumper, front (Body-colour.)"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Seat adjuster, passenger 4-way manual"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Floor covering, colour-keyed carpeting"
+    },
+    {
+      "tech_spec_group": "Entertainment",
+      "tech_spec_description": "Audio system feature, 6-speaker system,"
+    },
+    {
+      "tech_spec_group": "Mechanical",
+      "tech_spec_description": "Rear axle, 3.42 ratio"
+    },
+    {
+      "tech_spec_group": "Interior",
+      "tech_spec_description": "Door locks, power"
+    }
+  ],
+  "extra_options": [
+    "20 inch Aluminum Wheels",
+    "6 rectangular tubular assist steps",
+    "Dark Essential Package"
+  ],
+  "sale_price": 71445,
+  "ad_id": "71424620"
+}

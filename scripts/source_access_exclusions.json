@@ -1,0 +1,4 @@
+{
+  "listing_ids": ["70163424", "70495962"],
+  "reason": "Public source returned HTTP 403 during 2026-10-27 validation. Exclude until legitimate access is confirmed; no bypass. Additional denied URLs are retained in snapshot failures."
+}

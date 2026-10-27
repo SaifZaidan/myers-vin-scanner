@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+data/.refresh-progress.json
+data/.refresh-*.json
+
+# Compressed snapshot is published; raw working copy stays local.
+data/inventory.json
