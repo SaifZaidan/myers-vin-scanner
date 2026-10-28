@@ -1,13 +1,20 @@
 """VIN-specific paint and engine facts, with unknowns instead of trim assumptions."""
 import re
 from html import unescape
+try:
+    from .condition_facts import demo_assertions,attach_condition
+except ImportError:
+    from condition_facts import demo_assertions,attach_condition
 BROAD={'black','white','grey','gray','silver','red','blue','green','brown','beige','orange','yellow','gold','bronze','purple','other','unknown'}
 def text(value): return re.sub(r'\s+',' ',unescape(re.sub(r'<[^>]*>',' ',str(value or '')))).strip()
 def source_facts(raw):
     paragraphs=re.split(r'<br\s*/?>',str(raw.get('description','')),flags=re.I)
     clause=next((text(p) for p in paragraphs if re.match(r'^\s*This\b',text(p),re.I) and re.search(r'transmission|powered by',text(p),re.I)), '')
     clause=re.split(r'\b(?:To apply|Apply for financing|Come by)\b|https?://',clause,maxsplit=1,flags=re.I)[0].strip()
-    return {'vehicle_description_excerpt':clause[:1500],
+    return {'sale_class':text(raw.get('sale_class')), 'odometer':raw.get('odometer'),
+            'odometer_unit':raw.get('odometer_unit') or raw.get('odometer_units'), 'odometer_label':raw.get('_odometer_label'),
+            'demo_evidence':demo_assertions(raw.get('headline',''),raw.get('trim',''),text(raw.get('description','')), {k:raw[k] for k in ('demo','is_demo','is_demonstrator') if k in raw},raw.get('sale_class','')),
+            'vehicle_description_excerpt':clause[:1500],
             'manufacturer_exterior_color':text(raw.get('manu_exterior_color')),
             'exterior_color':text(raw.get('exterior_color')),
             'engine':text(raw.get('engine')),'engine_displacement':raw.get('engine_displacement'),
@@ -69,4 +76,4 @@ def engine(vehicle):
             'horsepower':(hp+' hp') if hp else None,'hp_rpm':(rpms[0]+' rpm') if len(set(rpms))==1 and not conflict else None,
             'status':'conflict' if conflict else ('listed' if any(pieces) else 'not_confirmed'),'evidence':evidence}
 def attach_facts(vehicle):
-    vehicle['paint']=paint(vehicle);vehicle['engine_details']=engine(vehicle);return vehicle
+    vehicle['paint']=paint(vehicle);vehicle['engine_details']=engine(vehicle);return attach_condition(vehicle)

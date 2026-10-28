@@ -51,7 +51,10 @@ def extract_vehicle(page):
     if not m: raise ValueError('Missing vehicle JSON; source format changed')
     payload,_=json.JSONDecoder().raw_decode(page[m.end():])
     if not isinstance(payload.get('vehicle'),dict): raise ValueError('Not a vehicle detail page')
-    return payload['vehicle']
+    vehicle=payload['vehicle']
+    label=payload.get('translation',{}).get('attributes',{}).get('odometer')
+    if label: vehicle['_odometer_label']=label
+    return vehicle
 def explicit_upgrades(description):
     # Only this vehicle-specific assertion; never generic trim marketing paragraphs.
     text=clean(description)
@@ -103,7 +106,7 @@ def normalize(v,url,observed):
     specs={}
     for key in ['sale_class','body_style','engine','engine_displacement','fuel_type','transmission','drive_train','exterior_color','interior_color','doors','cylinder','passenger','odometer','fuel_economy_city_km','fuel_economy_highway_km','package_code']:
         value=v.get(key)
-        if value not in (None,'',0): specs[key.replace('_',' ').title()]=str(value)
+        if value not in (None,'') and (key=='odometer' or value!=0): specs[key.replace('_',' ').title()]=str(value)
     lines=[]; packages=[]
     for item in v.get('tech_specs',[]):
         group=clean(item.get('tech_spec_group'));text=clean(item.get('tech_spec_description'))
@@ -222,7 +225,7 @@ def refresh(path,source=None):
         deduped=[]
         signatures=set()
         for vehicle in vehicles:
-            signature=json.dumps({k:v for k,v in vehicle.items() if k not in ('source_url','observed_at','package_contents','package_audit','paint','engine_details')},sort_keys=True)
+            signature=json.dumps({k:v for k,v in vehicle.items() if k not in ('source_url','observed_at','package_contents','package_audit','paint','engine_details','condition','mileage','demo_source_url','seating')},sort_keys=True)
             signature=urlparse(vehicle['source_url']).path+'|'+signature
             if signature not in signatures: deduped.append(vehicle);signatures.add(signature)
         vehicles=deduped

@@ -9,9 +9,7 @@ const featureLabels = {
 };
 let inventory = null;
 const comparison = {a:null, b:null};
-const pageSize = 20;
-let currentPage = 0;
-let activeQuery = '';
+let inventoryLoading = true;
 const normalize = value => String(value ?? '').trim().toUpperCase();
 const node = (tag, className, text) => {
   const item = document.createElement(tag);
@@ -30,12 +28,6 @@ function readable(value) {
   if (Array.isArray(value)) return value.map(readable).join(' · ');
   if (value && typeof value === 'object') return Object.entries(value).map(([k,v]) => `${k}: ${readable(v)}`).join(' · ');
   return String(value ?? 'Not confirmed');
-}
-function empty(title, message) {
-  const box = node('div', 'empty');
-  box.append(node('div','empty-symbol','⌕'),node('h3','',title),node('p','',message));
-  $('results').replaceChildren(box);
-  $('result-status').textContent = `${title}. ${message}`;
 }
 function appendSourceLinks(parent, sources) {
   for(const source of Array.isArray(sources) ? sources : []) {
@@ -63,6 +55,30 @@ function horsepowerText(vehicle) {
   return engine.status==='conflict' ? 'Needs verification' : engine.status==='listed' && engine.horsepower ? readable(engine.horsepower) : 'Not confirmed';
 }
 function vehicleTitle(vehicle) { return vehicle.title || [vehicle.year,vehicle.make,vehicle.model,vehicle.trim].filter(Boolean).join(' ') || 'Vehicle listing'; }
+function conditionText(vehicle) {
+  const value = normalize(vehicle.sale_class ?? vehicle.specs?.['Sale Class']);
+  return value === 'NEW' ? 'New' : value === 'USED' ? 'Used' : 'Not provided';
+}
+function isDemo(vehicle) { return vehicle.demo_status === 'listed_demo'; }
+function odometerText(vehicle) {
+  const mileage = vehicle.mileage;
+  if(mileage) {
+    if(typeof mileage.value !== 'number' || !Number.isFinite(mileage.value) || mileage.value < 0 || mileage.status === 'not_confirmed') return 'Not provided';
+    const value = new Intl.NumberFormat('en-CA').format(mileage.value);
+    return mileage.status === 'listed' && ['km','mi'].includes(mileage.unit) ? `${value} ${mileage.unit}` : `${value} · unit not confirmed`;
+  }
+  const text = String(vehicle.specs?.Odometer ?? '').trim();
+  if(!/^(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d+)?(?:\s*km)?$/i.test(text)) return 'Not provided';
+  const value = Number(text.replace(/,/g,'').replace(/\s*km$/i,''));
+  return Number.isFinite(value) ? `${new Intl.NumberFormat('en-CA').format(value)}${/km$/i.test(text) ? ' km' : ' · unit not confirmed'}` : 'Not provided';
+}
+function seatingText(vehicle, field) {
+  const seating = vehicle.seating;
+  if(seating?.status === 'conflict') return 'Needs verification · conflicting seating details';
+  if(seating?.status !== 'listed') return 'Not confirmed';
+  if(field === 'capacity') return Number.isInteger(seating.capacity) && seating.capacity > 0 ? `${seating.capacity} seats` : 'Not confirmed';
+  return seating[field] || 'Not confirmed';
+}
 function featureText(vehicle,key) {
   const feature=vehicle.features?.[key];
   if(feature?.status==='absent') return 'Explicitly absent';
@@ -103,7 +119,7 @@ function renderComparison() {
   const body=node('tbody');let shown=0;
   const labels={...featureLabels};
   for(const v of [a,b]) for(const [key,f] of Object.entries(v.features || {})) labels[key]=f.label || labels[key] || key.replaceAll('_',' ');
-  const rows=[['Advertised price (CAD)',priceText(a),priceText(b)],['Listed trim',a.trim || 'Not confirmed',b.trim || 'Not confirmed'],['Official exterior paint',paintText(a),paintText(b)],['Exact engine',engineText(a),engineText(b)],['Horsepower',horsepowerText(a),horsepowerText(b)],...Object.entries(labels).map(([key,label])=>[label,featureText(a,key),featureText(b,key)])];
+  const rows=[['New / Used',conditionText(a),conditionText(b)],['Demo designation',isDemo(a) ? 'Demo' : 'Not confirmed',isDemo(b) ? 'Demo' : 'Not confirmed'],['Odometer',odometerText(a),odometerText(b)],['Seating capacity',seatingText(a,'capacity'),seatingText(b,'capacity')],['Seating layout',seatingText(a,'layout'),seatingText(b,'layout')],['Second-row seats',seatingText(a,'second_row'),seatingText(b,'second_row')],['Advertised price (CAD)',priceText(a),priceText(b)],['Listed trim',a.trim || 'Not confirmed',b.trim || 'Not confirmed'],['Official exterior paint',paintText(a),paintText(b)],['Exact engine',engineText(a),engineText(b)],['Horsepower',horsepowerText(a),horsepowerText(b)],...Object.entries(labels).map(([key,label])=>[label,featureText(a,key),featureText(b,key)])];
   for(const [label,av,bv] of rows) {
     // Provenance differences alone are not equipment differences.
     const equal=av===bv || (['Listed','Package verified'].includes(av) && ['Listed','Package verified'].includes(bv));
@@ -152,6 +168,10 @@ function vehicleCard(vehicle) {
   identity.append(node('p','eyebrow','EXACT MYERS LISTING'));
   const fallback = [vehicle.year,vehicle.make,vehicle.model].filter(Boolean).join(' ');
   identity.append(node('h3','',vehicle.title || fallback || 'Vehicle listing'));
+  const badges = node('div','vehicle-designations');
+  badges.append(node('span','badge condition',conditionText(vehicle) === 'Not provided' ? 'New / Used: Not provided' : conditionText(vehicle)));
+  if(isDemo(vehicle)) badges.append(node('span','badge demo','Demo'));
+  identity.append(badges);
   const ids = node('div','identifiers');
   for (const [label,value] of [['Stock',vehicle.stock],['VIN',vehicle.vin],['Listed trim',vehicle.trim]]) {
     const item = node('span','',`${label} `); item.append(node('b','',value || 'Not confirmed')); ids.append(item);
@@ -162,6 +182,10 @@ function vehicleCard(vehicle) {
   const facts=node('dl','quick-facts');
   for(const [label,value] of [['Advertised price',priceText(vehicle)],['Official exterior paint',paintText(vehicle)],['Exact engine',engineText(vehicle)],['Horsepower',horsepowerText(vehicle)]]) {
     const pair=node('div');pair.append(node('dt','',label),node('dd','',value));facts.append(pair);
+  }
+  if(conditionText(vehicle) === 'Used' || isDemo(vehicle)) {
+    const mileage = node('div','odometer-fact');
+    mileage.append(node('dt','','Odometer'),node('dd','',odometerText(vehicle)));facts.append(mileage);
   }
   identity.append(facts);
   header.append(identity);
@@ -192,6 +216,17 @@ function vehicleCard(vehicle) {
   section.append(grid); card.append(section);
   const details = node('details','details');
   details.append(node('summary','','More details · specifications & source evidence'));
+  const seatingPanel = node('section','seating-details');
+  seatingPanel.append(node('h4','section-label','Seating'));
+  const seatingFacts = node('dl','quick-facts');
+  for(const [label,field] of [['Seating capacity','capacity'],['Seating layout','layout'],['Second-row seats','second_row']]) {
+    const pair=node('div');pair.append(node('dt','',label),node('dd','',seatingText(vehicle,field)));seatingFacts.append(pair);
+  }
+  seatingPanel.append(seatingFacts);
+  if(vehicle.seating?.note) seatingPanel.append(node('p','hint',vehicle.seating.note));
+  if(vehicle.seating?.evidence?.length) seatingPanel.append(node('p','hint',readable(vehicle.seating.evidence)));
+  appendSourceLinks(seatingPanel,vehicle.seating?.sources);
+  details.append(seatingPanel);
   const secondary=node('dl','specs');
   for(const [key,label] of [['displacement','Displacement'],['cylinders','Cylinders'],['configuration','Engine configuration'],['turbo','Turbo'],['fuel','Engine fuel'],['hp_rpm','Horsepower RPM']]) {
     const pair=node('div','spec');pair.append(node('dt','',label),node('dd','',engine.status==='conflict' ? 'Needs verification' : engine[key]===true ? 'Listed' : engine[key]===false ? 'Explicitly not equipped' : readable(engine[key])));secondary.append(pair);
@@ -270,28 +305,27 @@ function vehicleCard(vehicle) {
   card.append(details,node('p','observed',`Listing last observed: ${date(vehicle.observed_at)}. Equipment is never inferred from the trim name.`));
   return card;
 }
-function render(query = '', page = 0) {
+function searchStatus(message, state = 'ready') {
+  $('result-status').textContent = message;
+  $('search-feedback').className = `search-feedback ${state}`;
+  $('view-result').hidden = state !== 'success';
+}
+function render(query = '') {
   const normalized = normalize(query);
-  activeQuery = normalized;
-  currentPage = Math.max(0, page);
-  $('pagination').hidden = true;
+  $('results').replaceChildren();
+  $('result-panel').hidden = true;
   $('reset').hidden = !normalized;
-  $('results-title').textContent = normalized ? 'Exact-match results' : 'Saved inventory';
-  if(!inventory){empty('Inventory unavailable','The saved inventory could not be loaded. Try reloading this page or use the official Myers inventory link below.');return;}
-  if(!inventory.vehicles.length){empty('No verified vehicles saved yet','The first successful refresh will populate this database. No sample vehicles or guessed equipment are shown.');return;}
-  const matches = normalized ? inventory.vehicles.filter(v => normalize(v.vin) === normalized || normalize(v.stock) === normalized) : inventory.vehicles;
-  if(!matches.length){empty('No exact match in saved inventory',`Check the full VIN or stock number. A missing match does not establish that a vehicle is sold or unavailable.`);return;}
-  currentPage = Math.min(currentPage, Math.ceil(matches.length / pageSize) - 1);
-  const start = currentPage * pageSize;
-  const visible = matches.slice(start, start + pageSize);
-  $('results').replaceChildren(...visible.map(vehicleCard));
-  const summary = `Showing ${start + 1}–${start + visible.length} of ${matches.length} ${matches.length===1?'vehicle':'vehicles'}`;
-  $('result-status').textContent = `${summary}${normalized?' with an exact VIN or stock match':''}.`;
-  $('pagination').hidden = matches.length <= pageSize;
-  $('page-summary').textContent = summary;
-  $('previous-page').disabled = currentPage === 0;
-  $('next-page').disabled = start + pageSize >= matches.length;
-  $('next-page').textContent = `Next ${Math.min(pageSize, Math.max(0, matches.length - start - pageSize)) || pageSize} →`;
+  if(inventoryLoading) { searchStatus('Loading saved inventory. Search will be available shortly.', 'loading');return; }
+  if(!inventory){searchStatus('Inventory unavailable. The saved inventory could not be loaded. Reload this page or use the official Myers inventory link below.', 'error');return;}
+  if(!inventory.vehicles.length){searchStatus('No verified vehicles saved yet. The first successful refresh will populate this database.', 'notice');return;}
+  if(!normalized) { searchStatus('Enter a full VIN or stock number to find a vehicle.');return; }
+  const matches = inventory.vehicles.filter(v => normalize(v.vin) === normalized || normalize(v.stock) === normalized);
+  if(!matches.length){searchStatus('No exact match in saved inventory. Check the full VIN or stock number. A missing match does not establish that a vehicle is sold or unavailable.', 'notice');return;}
+  if(matches.length !== 1){searchStatus('More than one saved record has that identity. Check the full VIN to identify the correct vehicle; no vehicle has been selected.', 'notice');return;}
+  const vehicle = matches[0];
+  $('results').replaceChildren(vehicleCard(vehicle));
+  $('result-panel').hidden = false;
+  searchStatus(`Vehicle found: ${vehicleTitle(vehicle)} · Stock ${vehicle.stock || 'not confirmed'}.`, 'success');
 }
 function updateHealth(data) {
   const successTime = new Date(data.last_success || '').getTime();
@@ -325,16 +359,14 @@ function updateHealth(data) {
   }
   $('vehicle-count').textContent = `${data.vehicles.length} ${data.vehicles.length===1?'vehicle':'vehicles'}`;
 }
-function changePage(offset) {
-  render(activeQuery, currentPage + offset);
-  $('results-title').setAttribute('tabindex', '-1');
-  $('results-title').focus();
+$('view-result').addEventListener('click',()=>{
+  if($('result-panel').hidden) return;
+  $('results-title').focus({preventScroll:true});
   $('results-title').scrollIntoView({block:'start'});
-}
-$('previous-page').addEventListener('click',()=>changePage(-1));
-$('next-page').addEventListener('click',()=>changePage(1));
+});
 $('search-form').addEventListener('submit',event=>{event.preventDefault();render($('query').value);});
 $('reset').addEventListener('click',()=>{$('query').value='';render();$('query').focus();});
+render();
 (async()=>{
   try {
     const response=await fetch('./data/inventory.json.gz',{cache:'no-store'});
@@ -350,8 +382,9 @@ $('reset').addEventListener('click',()=>{$('query').value='';render();$('query')
     }
     const data=JSON.parse(text);
     if(!data || !Array.isArray(data.vehicles) || data.vehicles.some(v=>!v || typeof v!=='object')) throw new Error('The inventory file has an unexpected format.');
-    inventory=data;updateHealth(data);initializeComparison();render();
+    inventoryLoading=false;inventory=data;updateHealth(data);initializeComparison();render();
   } catch(error) {
+    inventoryLoading=false;
     $('health-dot').className='dot error';$('health-title').textContent='Inventory could not be loaded';$('health-detail').textContent='No data is being represented as current.';
     $('compare-status').textContent='Comparison is unavailable until inventory can be loaded.';$('vehicle-count').textContent='Unavailable';$('coverage').hidden=false;$('refresh-warning').hidden=false;$('refresh-warning').textContent='Saved inventory is unavailable. Please reload or open the official Myers inventory below.';
     $('coverage').hidden=false;$('refresh-diagnostic').hidden=false;$('refresh-diagnostic').textContent=error.message;render();

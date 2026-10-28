@@ -28,6 +28,12 @@ def validate(data):
                 assert f.get('package_rule_id') and f.get('sources'), 'Manufacturer claim needs scoped rule and sources'
                 assert all(source['url'].startswith('https://') for source in f['sources']), 'Invalid manufacturer source URL'
         assert isinstance(v['specs'],dict) and isinstance(v['packages'],list), 'Invalid source fields'
+        if 'demo_status' in v:
+            assert v['demo_status'] in ('listed_demo','not_confirmed'), 'Invalid demo status'
+            if v['demo_status']=='listed_demo': assert v.get('demo_evidence'), 'Demo status requires explicit evidence'
+        if 'mileage' in v:
+            assert v['mileage']['unit'] in ('km','mi',None), 'Invalid odometer units'
+            assert v['mileage']['value'] is None or v['mileage']['value']>=0, 'Invalid odometer value'
     return len(vins)
 
 if __name__=='__main__':

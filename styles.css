@@ -2,7 +2,7 @@
 
 .coverage{font-size:12px;color:var(--muted);margin:16px 0;padding:0 2px}.coverage p{margin:4px 0}.coverage summary{padding:6px 0}.coverage ul{padding-left:20px}.coverage li{margin:5px 0;overflow-wrap:anywhere}
 
-.pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:22px 0}.pagination span{font-size:12px;color:var(--muted);text-align:center}.pagination button{padding:10px 14px;font-size:12px}.pagination button:disabled{opacity:.45;cursor:default}.pagination button:disabled:hover{background:var(--teal)}@media(max-width:480px){.pagination{flex-wrap:wrap}.pagination span{order:-1;width:100%}}
+
 
 .badge.package_verified{color:#285b78;background:#e6eff6}.evidence-source{display:inline-block;margin:4px 8px 4px 0;font-size:11px}.evidence-provenance{display:block;font-size:11px;color:var(--muted)}
 
@@ -20,3 +20,10 @@
 @media(max-width:700px){h1{font-size:33px}.compare-panel{padding:20px}.compare-selectors{grid-template-columns:1fr;gap:12px}.compare-selector .search-row{flex-direction:row}.compare-selector input{font-size:16px}.quick-facts{gap:13px}.quick-facts dd{font-size:14px}.card-actions{padding-left:20px;padding-right:20px}.compare-panel .search-top{gap:15px;align-items:flex-start}.compare-panel .text-button{white-space:normal;text-align:left}.comparison-table th,.comparison-table td{padding:12px 10px}}@media(max-width:380px){.quick-facts{grid-template-columns:1fr}.shell{padding-left:14px;padding-right:14px}.compare-panel{padding:16px}}
 
 #refresh-diagnostic,.coverage p{overflow-wrap:anywhere}.compare-heading:focus{outline:none}
+
+/* Search feedback stays directly beside the controls, not below the comparison. */
+.search-feedback{margin-top:16px;padding:12px 14px;border:1px solid var(--line);border-radius:7px;background:var(--paper);font-size:13px;overflow-wrap:anywhere}.search-feedback p{margin:0}.search-feedback.success{background:#eaf5ee;border-color:#a7c9b3;color:#174d38}.search-feedback.notice{background:#fbf0db;border-color:#ecdbb8;color:#704d18}.search-feedback.error{background:#faeded;border-color:#d8aaaa;color:#7a3030}.search-feedback-actions{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}.search-feedback-actions:has(button:not([hidden])){margin-top:10px}#results-title{scroll-margin-top:24px}#results-title:focus-visible{outline:3px solid #86bdaa;outline-offset:5px}
+
+.vehicle-designations{display:flex;gap:8px;flex-wrap:wrap;margin:-4px 0 14px}.badge.condition{background:#e5f1e9;color:#174d38;font-size:12px}.badge.demo{background:#e6eff6;color:#285b78;font-size:12px}.quick-facts .odometer-fact{border-left-color:var(--teal)}
+
+.seating-details{padding:4px 0 20px;margin-bottom:18px;border-bottom:1px solid var(--line)}.seating-details .quick-facts{margin-top:10px}.seating-details .hint{overflow-wrap:anywhere}

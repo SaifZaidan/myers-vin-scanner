@@ -7,6 +7,8 @@ from scripts.refresh import features,normalize,next_refresh,refresh,extract_vehi
 from scripts.snapshot import read_snapshot,write_compressed
 from scripts.package_enrichment import enrich
 from scripts.vehicle_facts import source_facts,attach_facts
+from scripts.condition_facts import demo_assertions,attach_condition
+from scripts.seating_facts import attach_seating
 FIXTURE=json.loads((Path(__file__).parent/'fixtures/official-silverado.json').read_text())
 URL='https://www.myerscadillacgm.ca/vehicles/2026/chevrolet/silverado-1500/ottawa/on/71424620/'
 class Tests(unittest.TestCase):
@@ -147,6 +149,56 @@ class Tests(unittest.TestCase):
   attach_facts(v);self.assertEqual(v['paint']['status'],'listed_name');self.assertEqual(v['paint']['name'],'Summit White')
   v['source_facts'].update(manufacturer_exterior_color='Black',exterior_color='Black',vehicle_description_excerpt='This Black sought after diesel Crew Cab 4X4 pickup has an Automatic transmission.')
   attach_facts(v);self.assertEqual(v['paint']['status'],'generic_only')
+ def test_demo_requires_explicit_vehicle_evidence(self):
+  self.assertTrue(demo_assertions(description='This is a demonstrator vehicle driven by a member of our staff.'))
+  self.assertTrue(demo_assertions(title='2026 GMC Canyon - DEMO'))
+  self.assertTrue(demo_assertions(flags={'is_demo':True}))
+  for phrase in ['Demo vehicles may have additional kilometres.','This is not a demo vehicle.','Ask about our demo vehicles.','This is a new model unlike the demo.']:
+   self.assertEqual(demo_assertions(description=phrase),[])
+  vehicle={'source_url':URL,'specs':{'Sale Class':'New','Odometer':'9000'},'source_facts':{}}
+  attach_condition(vehicle);self.assertEqual(vehicle['demo_status'],'not_confirmed');self.assertEqual(vehicle['condition']['sale_class'],'New')
+ def test_mileage_zero_and_explicit_miles(self):
+  vehicle={'source_url':URL,'specs':{'Sale Class':'Used','Odometer':'0'},'source_facts':{'odometer_label':'Kilometres'}}
+  attach_condition(vehicle);self.assertEqual(vehicle['mileage']['value'],0);self.assertEqual(vehicle['mileage']['unit'],'km')
+  vehicle['source_facts'].update(odometer='1,000 miles',odometer_unit='miles')
+  attach_condition(vehicle);self.assertEqual(vehicle['mileage']['value'],1000);self.assertEqual(vehicle['mileage']['unit'],'mi')
+ def test_legacy_mileage_without_unit_is_unknown(self):
+  vehicle={'source_url':URL,'specs':{'Odometer':'12345'},'source_facts':{}}
+  attach_condition(vehicle);self.assertEqual(vehicle['mileage']['status'],'unit_not_confirmed');self.assertIsNone(vehicle['mileage']['unit'])
+ def test_import_preserves_zero_and_source_metadata(self):
+  raw=dict(FIXTURE,odometer=0,sale_class='New',description='This is a demonstrator vehicle. Demo vehicles may have more kilometres.')
+  page='var vmsData = '+json.dumps({'vehicle':raw,'translation':{'attributes':{'odometer':'Kilometres'}}})+';'
+  record=normalize(extract_vehicle(page),URL,'2026-10-28')
+  self.assertEqual(record['specs']['Odometer'],'0');self.assertEqual(record['mileage']['value'],0)
+  self.assertEqual(record['mileage']['unit'],'km');self.assertEqual(record['demo_status'],'listed_demo')
+  self.assertEqual(record['condition']['sale_class'],'New')
+ def test_seating_upgrades_override_conditional_base(self):
+  v={'source_url':URL,'specs':{'Interior':['Seating, 8-passenger (Not available with (GHI) Elevation Premium Package.)'],'Vehicle-specific upgrades':['7-passenger seats (2-2-3 seating configuration)']}}
+  attach_seating(v);self.assertEqual(v['seating']['capacity'],7);self.assertEqual(v['seating']['layout'],'2-2-3');self.assertIsNone(v['seating']['second_row'])
+  del v['specs']['Vehicle-specific upgrades'];attach_seating(v)
+  self.assertIsNone(v['seating']['capacity']);self.assertEqual(v['seating']['conditional_capacity'],8);self.assertEqual(v['seating']['status'],'not_confirmed')
+ def test_seating_captains_explicit_and_conflicts(self):
+  v={'source_url':URL,'specs':{'Interior':["Seating, 7-passenger (2-2-3 seating configuration) with 2nd row flat-folding captain's chairs"]}}
+  attach_seating(v);self.assertEqual(v['seating']['second_row'],'Captain’s chairs')
+  v['specs']['Interior'].append('Seating, 8-passenger');attach_seating(v)
+  self.assertEqual(v['seating']['status'],'conflict');self.assertIsNone(v['seating']['capacity'])
+ def test_manufacturer_standard_seating_scope(self):
+  v={'source_url':URL,'market':'CA','year':'2027','make':'GMC','model':'Terrain','specs':{}}
+  attach_seating(v);self.assertEqual(v['seating']['capacity'],5);self.assertEqual(v['seating']['evidence_type'],'manufacturer_standard')
+  for changes in [{'year':'2025'},{'market':'US'},{'model':'Acadia'}]:
+   changed=dict(v,**changes);attach_seating(changed);self.assertIsNone(changed['seating']['capacity'])
+ def test_installed_package_seating_override(self):
+  v={'source_url':URL,'specs':{'Passenger':'8'},'package_contents':[{'status':'verified_manufacturer','source_type':'manufacturer_package','items':['7-passenger seating (2-2-3 seating configuration)'],'sources':[{'title':'Verified installed package','url':'https://www.gmccanada.ca/'}]}]}
+  attach_seating(v);self.assertEqual(v['seating']['capacity'],7);self.assertEqual(v['seating']['evidence_type'],'manufacturer_package')
+ def test_rear_bench_count_is_not_total_capacity(self):
+  v={'source_url':URL,'specs':{'Interior':['Seat, rear 60/40 folding bench, 3-passenger','Seats, front bucket']}}
+  attach_seating(v);self.assertIsNone(v['seating']['capacity'])
+ def test_seating_does_not_read_third_row_as_second(self):
+  v={'source_url':URL,'specs':{'Interior':["Seating, 7-passenger (2-2-3 seating configuration), includes 2nd row 40/40 Captains chairs",'Power Package includes second row seats, 60/40 split folding third row bench seat']}}
+  attach_seating(v);self.assertEqual(v['seating']['status'],'listed');self.assertEqual(v['seating']['second_row'],'Captain’s chairs')
+ def test_optional_console_reference_does_not_override_bucket(self):
+  v={'source_url':URL,'specs':{'Interior':['Console with cup holders for second row; (Deleted when (ATT) second row power 60/40 split-folding bench seats are ordered.)','Seats, second row bucket, power release']}}
+  attach_seating(v);self.assertEqual(v['seating']['status'],'listed');self.assertEqual(v['seating']['second_row'],'Bucket seats')
  def test_extract(self):
   self.assertEqual(extract_vehicle('var vmsData = '+json.dumps({'vehicle':FIXTURE})+';')['vin'],FIXTURE['vin'])
 if __name__=='__main__': unittest.main()

@@ -2,6 +2,10 @@
 import json
 import re
 from pathlib import Path
+try:
+    from .seating_facts import attach_seating
+except ImportError:
+    from seating_facts import attach_seating
 
 def trim_matches(trim, listed):
     if trim.casefold()=='lt' and re.match(r'^LT Trail Boss\b',listed,re.I): return False
@@ -35,7 +39,7 @@ def enrich(vehicle,rules=None):
             feature['evidence'].append(f"Installed package: {', '.join(names or sorted(codes))}. {claim}")
             feature['evidence'].append(f"Verified package evidence: {rule['year']} {rule['make']} {rule['model']}, {rule['market']} market; matching listed trim and installed package, not a trim-only assumption.")
     expand_packages(vehicle,matched)
-    return vehicle
+    return attach_seating(vehicle)
 
 
 def expand_packages(vehicle,matched):
