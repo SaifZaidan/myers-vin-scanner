@@ -5,11 +5,18 @@ const featureLabels = {
   ventilated_seats: 'Ventilated seats', heated_steering_wheel: 'Heated steering wheel',
   apple_carplay: 'Apple CarPlay', android_auto: 'Android Auto', remote_start: 'Remote start',
   adaptive_cruise: 'Adaptive cruise control', blind_spot: 'Blind-spot monitoring',
-  sunroof: 'Sunroof', awd: 'All-wheel drive', wireless_charging: 'Wireless charging'
+  sunroof: 'Sunroof', awd: 'AWD / 4WD', wireless_charging: 'Wireless charging'
 };
 let inventory = null;
 const comparison = {a:null, b:null};
 let inventoryLoading = true;
+const preferenceFieldIds = ['pref-type','pref-condition','pref-seats','pref-colour','pref-price-min','pref-price-max','pref-make','pref-model'];
+const preferenceFeatureInputs = {};
+const preferencePageSize = 12;
+let preferenceMatches = [];
+let preferenceVisible = 0;
+let preferenceFilters = null;
+let preferenceReturnButton = null;
 const normalize = value => String(value ?? '').trim().toUpperCase();
 const node = (tag, className, text) => {
   const item = document.createElement(tag);
@@ -327,6 +334,217 @@ function render(query = '') {
   $('result-panel').hidden = false;
   searchStatus(`Vehicle found: ${vehicleTitle(vehicle)} · Stock ${vehicle.stock || 'not confirmed'}.`, 'success');
 }
+// Preference matching uses explicit saved facts only, never a model/trim or title guess.
+function listedText(value) {
+  return typeof value === 'string' && !/^(?:unknown|not (?:confirmed|provided)|n\/?a|none|null)$/i.test(value.trim()) ? value.trim() : '';
+}
+function bodyCategory(vehicle) {
+  const body = normalize(vehicle.specs?.['Body Style']);
+  const groups = {
+    truck:['TRUCK','PICKUP','PICKUP TRUCK'],
+    car:['CAR','SEDAN','COUPE','CONVERTIBLE','HATCHBACK','WAGON'],
+    suv:['SUV','SPORT UTILITY','SPORT UTILITY VEHICLE','CROSSOVER'],
+    van:['VAN','MINIVAN','CARGO VAN','PASSENGER VAN'],
+    other:['OTHER']
+  };
+  return Object.keys(groups).find(key=>groups[key].includes(body)) || '';
+}
+function exteriorColour(vehicle) {
+  if(vehicle.paint?.status === 'conflict') return '';
+  const source = normalize(vehicle.paint?.generic_color || vehicle.specs?.['Exterior Color']);
+  const colours = ['Black','White','Grey','Silver','Red','Blue','Green','Brown','Beige','Gold','Yellow','Orange','Purple','Pink'];
+  return colours.find(colour=>normalize(colour) === (source === 'GRAY' ? 'GREY' : source)) || '';
+}
+function confirmedSeats(vehicle) {
+  const seating = vehicle.seating;
+  return seating?.status === 'listed' && Number.isInteger(seating.capacity) && seating.capacity > 0 ? seating.capacity : null;
+}
+function confirmedPrice(vehicle) {
+  return typeof vehicle.price === 'number' && Number.isFinite(vehicle.price) && vehicle.price > 0 ? vehicle.price : null;
+}
+function matchesPreferences(vehicle, filters) {
+  const price = confirmedPrice(vehicle);
+  if(filters.minPrice !== null && (price === null || price < filters.minPrice)) return false;
+  if(filters.maxPrice !== null && (price === null || price > filters.maxPrice)) return false;
+  if(filters.type && bodyCategory(vehicle) !== filters.type) return false;
+  if(filters.condition && (filters.condition === 'demo' ? !isDemo(vehicle) : normalize(conditionText(vehicle)) !== normalize(filters.condition))) return false;
+  if(filters.seats !== null && confirmedSeats(vehicle) !== filters.seats) return false;
+  if(filters.colour && exteriorColour(vehicle) !== filters.colour) return false;
+  if(filters.make && normalize(listedText(vehicle.make)) !== normalize(filters.make)) return false;
+  if(filters.model && normalize(listedText(vehicle.model)) !== normalize(filters.model)) return false;
+  return filters.features.every(key=>vehicle.features?.[key]?.status === 'present');
+}
+function preferenceStatus(message, state = 'ready') {
+  $('preference-status').textContent = message;
+  $('preference-feedback').className = `search-feedback ${state}`;
+}
+function preferenceReadyStatus() {
+  if(inventoryLoading) preferenceStatus('Loading saved inventory. Preference search will be available shortly.', 'loading');
+  else if(!inventory) preferenceStatus('Inventory unavailable. Reload this page or open the official Myers inventory below.', 'error');
+  else if(!inventory.vehicles.length) preferenceStatus('No verified vehicles saved yet. The first successful refresh will populate this database.', 'notice');
+  else preferenceStatus('Choose at least one preference, then find matching vehicles.');
+}
+function selectOptions(id, values, placeholder) {
+  const first = node('option','',placeholder);first.value='';
+  const options = values.map(value=>{const option=node('option','',String(value));option.value=String(value);return option;});
+  $(id).replaceChildren(first,...options);$(id).value='';
+}
+function uniqueListedValues(vehicles, key) {
+  const values = new Map();
+  for(const vehicle of vehicles) {
+    const value = listedText(vehicle[key]);
+    if(value && !values.has(normalize(value))) values.set(normalize(value),value);
+  }
+  return [...values.values()].sort((a,b)=>a.localeCompare(b));
+}
+function updatePreferenceModels() {
+  const make = $('pref-make').value;
+  selectOptions('pref-model',uniqueListedValues(inventory?.vehicles.filter(v=>!make || normalize(v.make)===normalize(make)) || [],'model'),'Any model');
+}
+function clearPreferenceResults() {
+  preferenceMatches=[];preferenceVisible=0;preferenceFilters=null;preferenceReturnButton=null;
+  $('preference-results').replaceChildren();$('applied-preferences').replaceChildren();
+  $('preference-matches').hidden=true;$('more-preferences').hidden=true;$('preference-shown').textContent='';
+  $('preference-detail').replaceChildren();$('preference-detail-panel').hidden=true;$('preferences-discovery').hidden=false;
+}
+function preferencesChanged() {
+  clearPreferenceResults();
+  if(inventory) preferenceStatus('Preferences changed. Select “Find matching vehicles” to see updated matches.');
+  else preferenceReadyStatus();
+}
+function initializePreferences() {
+  selectOptions('pref-make',uniqueListedValues(inventory.vehicles,'make'),'Any make');
+  updatePreferenceModels();
+  selectOptions('pref-colour',[...new Set(inventory.vehicles.map(exteriorColour).filter(Boolean))].sort(),'Any colour');
+  const capacities=[...new Set(inventory.vehicles.map(confirmedSeats).filter(value=>value!==null))].sort((a,b)=>a-b);
+  selectOptions('pref-seats',capacities,'Any seat count');
+  for(const option of $('pref-seats').children) if(option.value) option.textContent=`${option.value} seats`;
+  $('preference-controls').disabled=false;
+  preferenceReadyStatus();
+}
+function readPreferences() {
+  const prices = {};
+  for(const [field,key] of [['pref-price-min','minPrice'],['pref-price-max','maxPrice']]) {
+    const raw = $(field).value.trim();
+    const value = raw === '' ? null : Number(raw);
+    if(value !== null && (!Number.isFinite(value) || value < 0 || !Number.isInteger(value))) return {error:'Enter a valid whole-dollar price of zero or more.',field};
+    prices[key]=value;
+  }
+  if(prices.minPrice !== null && prices.maxPrice !== null && prices.minPrice > prices.maxPrice) return {error:'Minimum price must be less than or equal to maximum price.',field:'pref-price-max'};
+  return {...prices,type:$('pref-type').value,condition:$('pref-condition').value,seats:$('pref-seats').value ? Number($('pref-seats').value) : null,colour:$('pref-colour').value,make:$('pref-make').value,model:$('pref-model').value,features:Object.keys(preferenceFeatureInputs).filter(key=>preferenceFeatureInputs[key].checked)};
+}
+function preferenceDescriptions(filters) {
+  const descriptions=[];
+  const types={truck:'Truck',car:'Car',suv:'SUV',van:'Van / minivan',other:'Other listed type'};
+  if(filters.type) descriptions.push(types[filters.type]);
+  if(filters.condition) descriptions.push({new:'New',used:'Used',demo:'Demo'}[filters.condition]);
+  if(filters.minPrice !== null) descriptions.push(`From ${priceText({price:filters.minPrice})} CAD`);
+  if(filters.maxPrice !== null) descriptions.push(`Up to ${priceText({price:filters.maxPrice})} CAD`);
+  if(filters.seats !== null) descriptions.push(`${filters.seats} seats`);
+  if(filters.colour) descriptions.push(`${filters.colour} exterior`);
+  if(filters.make) descriptions.push(filters.make);
+  if(filters.model) descriptions.push(filters.model);
+  for(const key of filters.features) descriptions.push(featureLabels[key]);
+  return descriptions;
+}
+function focusComparison() {
+  $('compare-heading').setAttribute('tabindex','-1');$('compare-heading').focus();$('compare-heading').scrollIntoView({block:'start'});
+}
+function compactVehicleCard(vehicle) {
+  const card = node('article','match-card');
+  const labels = node('div','match-designations');
+  const condition=conditionText(vehicle);
+  labels.append(node('span','badge condition',condition === 'Not provided' ? 'Condition not confirmed' : condition));
+  if(isDemo(vehicle)) labels.append(node('span','badge demo','Demo'));
+  const body=listedText(vehicle.specs?.['Body Style']);
+  if(body) labels.append(node('span','match-body',body));
+  card.append(labels,node('h3','',vehicleTitle(vehicle)),node('p','match-stock',`Stock ${vehicle.stock || 'not confirmed'} · VIN ${vehicle.vin || 'not confirmed'}`));
+  const price=confirmedPrice(vehicle);
+  card.append(node('p','match-price',price === null ? 'Price not confirmed' : `${priceText(vehicle)} CAD`));
+  const facts=node('dl','match-facts');
+  for(const [label,value] of [['Seating',seatingText(vehicle,'capacity')],['Exterior paint',paintText(vehicle)]]) {
+    const pair=node('div');pair.append(node('dt','',label),node('dd','',value));facts.append(pair);
+  }
+  card.append(facts);
+  if(preferenceFilters.features.length) card.append(node('p','match-proof',`✓ All ${preferenceFilters.features.length} required ${preferenceFilters.features.length===1?'feature':'features'} confirmed · see details for evidence`));
+  card.append(node('p','match-observed',`Listing observed ${date(vehicle.observed_at)}`));
+  const actions=node('div','match-actions');
+  const details=node('button','match-detail-button','View details');details.type='button';details.setAttribute('aria-label',`View details for ${vehicleTitle(vehicle)}, stock ${vehicle.stock || 'not confirmed'}`);
+  details.addEventListener('click',()=>{
+    preferenceReturnButton=details;$('preference-detail').replaceChildren(vehicleCard(vehicle));
+    $('preferences-discovery').hidden=true;$('preference-detail-panel').hidden=false;
+    $('preference-detail-title').focus({preventScroll:true});$('preference-detail-title').scrollIntoView({block:'start'});
+  });
+  actions.append(details);
+  for(const slot of ['a','b']) {
+    const button=node('button','secondary-button',`Compare ${slot.toUpperCase()}`);button.type='button';button.setAttribute('aria-label',`Compare ${vehicleTitle(vehicle)}, stock ${vehicle.stock || 'not confirmed'}, as ${slot.toUpperCase()}`);
+    button.addEventListener('click',()=>{selectComparison(slot,vehicle);focusComparison();});actions.append(button);
+  }
+  card.append(actions);return card;
+}
+function showMorePreferenceMatches() {
+  const previous=preferenceVisible;
+  preferenceVisible=Math.min(preferenceVisible+preferencePageSize,preferenceMatches.length);
+  const newCards=preferenceMatches.slice(previous,preferenceVisible).map(compactVehicleCard);
+  $('preference-results').append(...newCards);
+  $('preference-shown').textContent=`Showing ${preferenceVisible} of ${preferenceMatches.length} matching vehicles.`;
+  $('more-preferences').hidden=preferenceVisible>=preferenceMatches.length;
+  $('more-preferences').textContent=`Show ${Math.min(preferencePageSize,preferenceMatches.length-preferenceVisible)} more matches`;
+  // Keep keyboard users at the start of newly revealed results, not beyond them.
+  if(previous && newCards.length) {newCards[0].setAttribute('tabindex','-1');newCards[0].focus();}
+}
+function findPreferenceMatches() {
+  clearPreferenceResults();
+  if(!inventory || inventoryLoading) {preferenceReadyStatus();return;}
+  if(!inventory.vehicles.length) {preferenceReadyStatus();return;}
+  const filters=readPreferences();
+  if(filters.error) {preferenceStatus(filters.error,'notice');$(filters.field).focus();return;}
+  const descriptions=preferenceDescriptions(filters);
+  if(!descriptions.length) {preferenceReadyStatus();return;}
+  preferenceFilters=filters;
+  preferenceMatches=inventory.vehicles.filter(vehicle=>matchesPreferences(vehicle,filters)).sort((a,b)=>(confirmedPrice(a) ?? Infinity)-(confirmedPrice(b) ?? Infinity) || vehicleTitle(a).localeCompare(vehicleTitle(b)) || String(a.stock || '').localeCompare(String(b.stock || '')));
+  if(!preferenceMatches.length) {preferenceStatus('No confirmed matches in the saved inventory. Try widening the price range or removing a requirement. Unconfirmed details are excluded, so this does not establish that Myers has no suitable vehicle.','notice');return;}
+  $('applied-preferences').replaceChildren(...descriptions.map(text=>node('span','preference-chip',text)));
+  $('preference-matches').hidden=false;
+  $('preference-results-title').textContent=`${preferenceMatches.length} matching ${preferenceMatches.length===1?'vehicle':'vehicles'}`;
+  preferenceStatus(`${preferenceMatches.length} ${preferenceMatches.length===1?'vehicle matches':'vehicles match'} every selected preference in the saved inventory. Review the shortlist below; availability must be confirmed with Myers.`,'success');
+  showMorePreferenceMatches();
+  $('preference-results-title').focus({preventScroll:true});$('preference-results-title').scrollIntoView({block:'start'});
+}
+function setActiveView(focus = false) {
+  const preferences=window.location.hash==='#preferences';
+  $('lookup-view').hidden=preferences;$('preferences-view').hidden=!preferences;
+  for(const [id,active] of [['nav-lookup',!preferences],['nav-preferences',preferences]]) $(id).setAttribute('aria-current',active ? 'page' : 'false');
+  if(focus) {
+    const heading=preferences ? ($('preference-detail-panel').hidden ? $('preferences-heading') : $('preference-detail-title')) : $('search-heading');
+    heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true});heading.scrollIntoView({block:'start'});
+  }
+}
+for(const view of ['lookup','preferences']) $('nav-'+view).addEventListener('click',event=>{
+  if(event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button>0) return;
+  event.preventDefault();window.location.hash=view;setActiveView(true);
+});
+window.addEventListener('hashchange',()=>setActiveView(true));
+setActiveView();
+for(const [key,label] of Object.entries(featureLabels)) {
+  const wrapper=node('label','preference-feature');
+  const input=node('input');input.type='checkbox';input.value=key;input.name='required-feature';input.addEventListener('change',preferencesChanged);
+  preferenceFeatureInputs[key]=input;wrapper.append(input,node('span','',label));$('preference-features').append(wrapper);
+}
+for(const id of preferenceFieldIds) $(id).addEventListener(id.includes('price') ? 'input' : 'change',()=>{if(id==='pref-make') updatePreferenceModels();preferencesChanged();});
+$('preferences-form').addEventListener('submit',event=>{event.preventDefault();findPreferenceMatches();});
+$('reset-preferences').addEventListener('click',()=>{
+  for(const id of preferenceFieldIds) $(id).value='';
+  for(const input of Object.values(preferenceFeatureInputs)) input.checked=false;
+  updatePreferenceModels();clearPreferenceResults();preferenceReadyStatus();$('pref-type').focus();
+});
+$('more-preferences').addEventListener('click',showMorePreferenceMatches);
+$('back-to-preferences').addEventListener('click',()=>{
+  $('preference-detail').replaceChildren();$('preference-detail-panel').hidden=true;$('preferences-discovery').hidden=false;
+  if(preferenceReturnButton) {preferenceReturnButton.focus({preventScroll:true});preferenceReturnButton.scrollIntoView({block:'nearest'});}
+});
+preferenceReadyStatus();
+
 function updateHealth(data) {
   const successTime = new Date(data.last_success || '').getTime();
   const nextRefresh = new Date(data.next_refresh || '').getTime();
@@ -382,11 +600,11 @@ render();
     }
     const data=JSON.parse(text);
     if(!data || !Array.isArray(data.vehicles) || data.vehicles.some(v=>!v || typeof v!=='object')) throw new Error('The inventory file has an unexpected format.');
-    inventoryLoading=false;inventory=data;updateHealth(data);initializeComparison();render();
+    inventoryLoading=false;inventory=data;updateHealth(data);initializeComparison();initializePreferences();render();
   } catch(error) {
     inventoryLoading=false;
     $('health-dot').className='dot error';$('health-title').textContent='Inventory could not be loaded';$('health-detail').textContent='No data is being represented as current.';
     $('compare-status').textContent='Comparison is unavailable until inventory can be loaded.';$('vehicle-count').textContent='Unavailable';$('coverage').hidden=false;$('refresh-warning').hidden=false;$('refresh-warning').textContent='Saved inventory is unavailable. Please reload or open the official Myers inventory below.';
-    $('coverage').hidden=false;$('refresh-diagnostic').hidden=false;$('refresh-diagnostic').textContent=error.message;render();
+    $('coverage').hidden=false;$('refresh-diagnostic').hidden=false;$('refresh-diagnostic').textContent=error.message;render();preferenceReadyStatus();
   }
 })();

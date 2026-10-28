@@ -51,3 +51,19 @@ Every saved vehicle has a package audit. Full source-listing definitions are sho
 Each record preserves a sanitized, VIN-specific vehicle-description excerpt, manufacturer/general colour fields, installed engine/displacement/cylinders/fuel fields and any supplied window-sticker URL in `source_facts`. Financing links and generic trim marketing are not needed. Paint names come from the exact colour field or vehicle-specific description; broad shades remain clearly labeled as generic. Engine displacement, configuration, cylinders, fuel, horsepower and RPM are shown only when supported by installed-vehicle evidence. Conflicts and missing fields stay explicit; available engines for a trim are not treated as installed engines.
 
 The dashboard supports two-vehicle exact VIN/stock comparison with differences-only mode. It uses no photos, external fonts, analytics, customer data or new paid services. Tests include `node --test tests/frontend.test.cjs` in addition to Python safety tests and gzip validation.
+
+## Find by preferences (reverse lookup)
+
+The top navigation separates exact **Vehicle lookup** from **Find by preferences**. Both use the same saved inventory and share the existing two-vehicle comparison. Neither view renders the catalogue on initial load or reset; preference search requires at least one selected filter and reveals compact results 12 at a time, ordered by advertised price (unknown prices last). Details open without losing the shortlist, and returning to it restores keyboard focus. Navigation preserves searches and supports the `#lookup` / `#preferences` browser history destinations.
+
+Filters support inclusive minimum/maximum advertised CAD prices, vehicle type, New/Used/Demo, exact confirmed seating capacity, listed exterior colour family, make/model and all required checklist features. Every selected criterion is ANDed. Unknown, absent, conflicting and malformed facts never satisfy their corresponding requirement:
+
+- Prices must be finite positive numeric listing prices; missing, string or zero prices do not satisfy a budget. Inputs accept whole CAD dollars, including a zero bound. Prices are not finance payments; confirm taxes, fees and availability.
+- Vehicle types come only from explicit `specs["Body Style"]`: Truck; SUV; Car (including Sedan/Coupe/Convertible/Hatchback/Wagon); Van/Minivan; or an explicit Other. Unknown styles are not inferred from model names.
+- Exterior colour uses the saved general exterior colour family, with Gray normalized to Grey; official paint names remain on cards and in details. No colour is inferred from paint names or interior trim. Paint conflicts do not match colour requirements.
+- Seating requires `seating.status == "listed"` and an exact positive integer capacity; neither conditional nor conflicting values qualify. Feature requirements require `status == "present"`, including previously verified installed-package evidence. Every selected feature is required.
+- Demo requires `demo_status == "listed_demo"` and can overlap the listing’s New/Used designation. Make/model options come from saved listing fields, not free-text matching.
+
+Changing a preference clears stale matches until the form is submitted again. Reset clears preferences/results but leaves comparison selections intact. No matches does not prove the dealership has no suitable vehicle: incomplete saved facts are deliberately excluded. Result cards retain per-listing observation timestamps and the existing inventory-freshness disclosure; this is not real-time availability.
+
+Run `node --test tests/frontend.test.cjs` for dependency-free DOM-contract and matching regression tests (including real compressed data, repeated navigation, details/back, resets, comparison and failure states). These tests do not replace visual browser/device QA.

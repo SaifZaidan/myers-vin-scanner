@@ -6,19 +6,56 @@
 <title>Baseline · Vehicle database</title><link rel="stylesheet" href="./styles.css"><script defer src="./app.js"></script>
 </head>
 <body>
-<header><div class="shell brand"><div class="monogram" aria-hidden="true">B.</div><div><span class="eyebrow light">MYERS · BASELINE ROAD</span><p class="brand-name">Vehicle database</p></div><span class="location">Ottawa, Ontario</span></div></header>
+<header><div class="shell brand"><div class="monogram" aria-hidden="true">B.</div><div><span class="eyebrow light">MYERS · BASELINE ROAD</span><p class="brand-name">Vehicle database</p></div><span class="location">Ottawa, Ontario</span></div><nav class="shell primary-nav" aria-label="Vehicle tools"><a id="nav-lookup" href="#lookup" aria-current="page" aria-controls="lookup-view">Vehicle lookup</a><a id="nav-preferences" href="#preferences" aria-controls="preferences-view">Find by preferences</a></nav></header>
 <main class="shell">
-<section class="intro"><div><p class="eyebrow">THE EXACT VEHICLE. THE LISTED FACTS.</p><h1>The right details.<br>A clearer choice.</h1><p class="lede">Exact vehicle details, clear equipment checklists and an easy side-by-side comparison. Search the saved Myers Baseline inventory by VIN or stock number.</p></div><div class="address"><span class="address-icon" aria-hidden="true">↗</span><strong>1200 Baseline Road</strong><span>Myers Ottawa only</span></div></section>
+<section class="intro"><div><p class="eyebrow">THE EXACT VEHICLE. THE LISTED FACTS.</p><h1>The right details.<br>A clearer choice.</h1><p class="lede">Exact vehicle details, clear equipment checklists and an easy side-by-side comparison. Look up a VIN or stock number, or find vehicles that match your customer’s preferences.</p></div><div class="address"><span class="address-icon" aria-hidden="true">↗</span><strong>1200 Baseline Road</strong><span>Myers Ottawa only</span></div></section>
 <section class="health" aria-label="Inventory freshness"><div><span id="health-dot" class="dot pending"></span><strong id="health-title">Checking inventory…</strong><span id="health-detail">Loading the latest saved listing data.</span></div><div class="schedule"><span>Scheduled refresh</span><strong>Daily · 6:00 a.m. Toronto</strong></div></section>
 <p id="refresh-warning" class="notice" hidden></p>
 <details id="coverage" class="coverage" hidden><summary>Data coverage & refresh details</summary><p id="refresh-diagnostic" hidden></p><p id="coverage-summary"></p><p id="partial-time"></p><details id="failures" hidden><summary>Listings needing verification</summary><ul id="failure-list"></ul></details></details>
+<div id="lookup-view">
 <section class="search-panel" aria-labelledby="search-heading"><div class="search-top"><h2 id="search-heading">Find a vehicle</h2><span id="vehicle-count" class="counter">— vehicles</span></div><form id="search-form"><label for="query">VIN or stock number</label><div class="search-row"><input id="query" name="query" aria-describedby="search-hint" disabled placeholder="Enter the full VIN or stock number" autocomplete="off" autocapitalize="characters" spellcheck="false"><button type="submit" disabled>Find vehicle <span aria-hidden="true">→</span></button></div><p id="search-hint" class="hint">Exact matches only. No trim-level guesses, no lookalike vehicles.</p></form><div id="search-feedback" class="search-feedback loading"><p id="result-status" role="status" aria-live="polite" aria-atomic="true">Loading saved inventory. Search will be available shortly.</p><div class="search-feedback-actions"><button id="view-result" type="button" class="secondary-button" hidden>View result ↓</button><button id="reset" type="button" class="text-button" hidden>Clear search</button></div></div></section>
+<section id="result-panel" aria-labelledby="results-title" hidden><div class="results-heading"><h2 id="results-title" tabindex="-1">Vehicle details</h2></div><div id="results"></div></section>
+</div>
+<section id="preferences-view" aria-labelledby="preferences-heading" hidden>
+<div id="preferences-discovery">
+<div class="preferences-panel">
+<div class="search-top"><div><p class="eyebrow">START WITH WHAT MATTERS</p><h2 id="preferences-heading" tabindex="-1">Find by preferences</h2></div><span class="counter">Saved Myers inventory</span></div>
+<p class="preferences-intro">Choose what your customer needs. We’ll show vehicles with confirmed matches for <strong>every</strong> selected preference.</p>
+<form id="preferences-form">
+<fieldset id="preference-controls" disabled>
+<legend class="section-label">Your essentials</legend>
+<div class="preference-fields">
+<div><label for="pref-type">Vehicle type</label><select id="pref-type"><option value="">Any type</option><option value="truck">Truck</option><option value="car">Car</option><option value="suv">SUV</option><option value="van">Van / minivan</option><option value="other">Other listed type</option></select></div>
+<div><label for="pref-condition">Condition</label><select id="pref-condition" aria-describedby="condition-hint"><option value="">Any condition</option><option value="new">New</option><option value="used">Used</option><option value="demo">Demo</option></select></div>
+<div><label for="pref-seats">Seating capacity</label><select id="pref-seats"><option value="">Any seat count</option></select></div>
+<div><label for="pref-colour">Exterior colour</label><select id="pref-colour" aria-describedby="colour-hint"><option value="">Any colour</option></select></div>
+<div><label for="pref-price-min">Minimum price (CAD)</label><input id="pref-price-min" type="number" min="0" step="1" inputmode="numeric" placeholder="No minimum" aria-describedby="budget-hint"></div>
+<div><label for="pref-price-max">Maximum price (CAD)</label><input id="pref-price-max" type="number" min="0" step="1" inputmode="numeric" placeholder="No maximum" aria-describedby="budget-hint"></div>
+<div><label for="pref-make">Make</label><select id="pref-make"><option value="">Any make</option></select></div>
+<div><label for="pref-model">Model</label><select id="pref-model"><option value="">Any model</option></select></div>
+</div>
+<div class="preference-notes"><p id="budget-hint">Advertised prices, not monthly payments. Taxes and fees may be extra.</p><p id="condition-hint">Demo is an explicit listing designation and can also be New or Used.</p><p id="colour-hint">Colours are listed exterior colour families, not exact paint names. Seating is an exact confirmed seat count.</p></div>
+<fieldset class="required-features"><legend class="section-label">Must-have features <span>Choose any · all are required</span></legend><div id="preference-features" class="preference-feature-grid"></div></fieldset>
+<div class="preference-submit"><button id="find-preferences" type="submit">Find matching vehicles <span aria-hidden="true">→</span></button><button id="reset-preferences" type="button" class="text-button">Reset preferences</button></div>
+</fieldset>
+</form>
+<div id="preference-feedback" class="search-feedback loading"><p id="preference-status" role="status" aria-live="polite" aria-atomic="true">Loading saved inventory. Preference search will be available shortly.</p></div>
+<p class="hint preference-accuracy">Matches use saved listing facts and verified package evidence only. Unknown, conflicting or explicitly absent values never satisfy a requirement. Confirm current availability with Myers.</p>
+</div>
+<section id="preference-matches" aria-labelledby="preference-results-title" hidden>
+<div class="preference-results-heading"><div><p class="eyebrow">YOUR SHORTLIST</p><h2 id="preference-results-title" tabindex="-1">Matching vehicles</h2></div><p>Lowest advertised price first · unknown prices last</p></div>
+<div id="applied-preferences" class="applied-preferences" aria-label="Applied preferences"></div>
+<div id="preference-results" class="preference-results"></div>
+<div class="more-matches"><p id="preference-shown" class="hint"></p><button id="more-preferences" type="button" class="secondary-button" hidden>Show more matches</button></div>
+</section>
+</div>
+<section id="preference-detail-panel" aria-labelledby="preference-detail-title" hidden><div class="preference-detail-heading"><button id="back-to-preferences" type="button" class="secondary-button">← Back to matches</button><h2 id="preference-detail-title" tabindex="-1">Vehicle details</h2></div><div id="preference-detail"></div></section>
+</section>
 <section class="compare-panel" aria-labelledby="compare-heading">
 <div class="search-top"><div><p class="eyebrow">SIDE BY SIDE</p><h2 id="compare-heading">Compare two vehicles</h2></div><button id="clear-comparison" type="button" disabled class="text-button">Clear comparison</button></div>
 <p class="compare-intro">Choose A and B by VIN or stock number, or add a vehicle from the results below.</p>
 <div class="compare-selectors"><form id="compare-form-a" class="compare-selector"><label for="compare-a">Vehicle A</label><div class="search-row"><input id="compare-a" list="vehicle-options" placeholder="VIN or stock number" autocomplete="off" spellcheck="false" autocapitalize="characters" disabled><button type="submit" disabled>Choose A</button></div><div id="selected-a" class="selected-vehicle">No vehicle selected</div><button id="remove-a" type="button" class="text-button" hidden>Remove A</button></form><form id="compare-form-b" class="compare-selector"><label for="compare-b">Vehicle B</label><div class="search-row"><input id="compare-b" list="vehicle-options" placeholder="VIN or stock number" autocomplete="off" spellcheck="false" autocapitalize="characters" disabled><button type="submit" disabled>Choose B</button></div><div id="selected-b" class="selected-vehicle">No vehicle selected</div><button id="remove-b" type="button" class="text-button" hidden>Remove B</button></form></div><datalist id="vehicle-options"></datalist><p id="compare-status" class="hint" role="status" aria-live="polite">Loading inventory for comparison…</p>
 <div id="compare-output" hidden><label class="difference-toggle"><input id="differences-only" type="checkbox"> Show differences only</label><p class="hint">Differences are not advantages. “Not confirmed” means unknown, not missing equipment. Prices are advertised in CAD; confirm fees and availability.</p><div id="comparison-table" class="comparison-scroll" tabindex="0" role="region" aria-label="Side-by-side vehicle comparison"></div></div></section>
-<section id="result-panel" aria-labelledby="results-title" hidden><div class="results-heading"><h2 id="results-title" tabindex="-1">Vehicle details</h2></div><div id="results"></div></section>
 <section class="reading-guide"><div class="guide-title"><span class="eyebrow">A NOTE ON ACCURACY</span><h2>Missing doesn’t mean absent.</h2></div><div><p><span class="badge present">Listed</span> Explicitly included on this vehicle’s listing.</p><p><span class="badge package_verified">Package verified</span> Confirmed by matching a package on this exact listing to manufacturer or dealer factory-options information. Expanded evidence identifies which source; not a literal feature statement on the listing.</p><p><span class="badge absent">Explicitly absent</span> The listing specifically says it is not equipped.</p><p><span class="badge not_confirmed">Not confirmed</span> Not stated clearly enough to verify.</p></div></section>
 <footer><p>Unofficial listing reference · No customer information is collected.</p><p>Listings can change. Confirm equipment and availability with Myers. <a href="https://www.myerscadillacgm.ca/vehicles/" target="_blank" rel="noopener noreferrer">Open Myers inventory ↗</a></p></footer>
 </main>
