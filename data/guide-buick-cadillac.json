@@ -1738,9 +1738,63 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Engine",
+              "value": "2.0L turbo I4, 237 hp",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Infotainment",
+              "value": "8-inch HD display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "RWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Wheels",
+              "value": "17-inch Silver",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Audio",
+              "value": "8-speaker premium",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "AWD",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
             }
           ],
-          "price": null
+          "price": 47398
         },
         {
           "name": "Premium Luxury",
@@ -1748,7 +1802,7 @@
           "features": [
             {
               "label": "Upholstery",
-              "value": "Leather",
+              "value": "Leather seating",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
             },
@@ -1787,9 +1841,63 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Engine",
+              "value": "2.0L turbo I4, 237 hp",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Infotainment",
+              "value": "8-inch HD display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch Sterling Silver",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Front seats",
+              "value": "12-way power with driver memory",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Driver Assist Package",
+              "value": "Adaptive cruise and reverse AEB",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "2.7L turbo with 10-speed transmission",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
             }
           ],
-          "price": null
+          "price": 51298
         },
         {
           "name": "Sport",
@@ -1803,7 +1911,7 @@
             },
             {
               "label": "Exterior",
-              "value": "Black grille; rear spoiler",
+              "value": "Black mesh grille and sport fascia",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
             },
@@ -1824,14 +1932,76 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Engine",
+              "value": "2.0L turbo I4, 237 hp",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Infotainment",
+              "value": "8-inch HD display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Front seats",
+              "value": "18-way with sport bolsters",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Thick-rim with paddle shifters",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Pedals",
+              "value": "Alloy",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Brakes",
+              "value": "Brembo fronts available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
             }
           ],
-          "price": null
+          "price": 54598
         }
       ],
       "upgrade_notes": [
         {
-          "text": "The optional 2.7L is listed for Premium Luxury; do not infer it from Sport badging.",
+          "text": "Luxury: Drivetrain: RWD; Wheels: 17-inch Silver; Audio: 8-speaker premium. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+        },
+        {
+          "text": "Premium Luxury: Upholstery: Leather seating; Wheels: 18-inch Sterling Silver; Front seats: 12-way power with driver memory; Driver Assist Package: Adaptive cruise and reverse AEB. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+        },
+        {
+          "text": "Sport: Exterior: Black mesh grille and sport fascia; Front seats: 18-way with sport bolsters; Steering wheel: Thick-rim with paddle shifters; Pedals: Alloy. Check factory packages and the selected VIN.",
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
         }
       ],
@@ -1856,7 +2026,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection and full package dependencies not verified.",
+      "coverage_note": "Canadian manufacturer model-year trim highlights. Options, powertrain, production timing and packages may vary by specific build; exact VIN details govern.",
       "listing_model_names": [
         "CT4"
       ]
@@ -1881,7 +2051,7 @@
             },
             {
               "label": "Super Cruise",
-              "value": "3-year trial",
+              "value": "Standard with eligible 3-year trial",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
             },
@@ -1914,9 +2084,63 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Advanced LED display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated, ventilated and massaging",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Compatible; plan may be required",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Exterior",
+              "value": "Chrome-accented black grille",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch Bright Silver",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "3.0L twin turbo V6",
+              "value": "335 hp available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "UltraView sunroof",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
             }
           ],
-          "price": null
+          "price": 62298
         },
         {
           "name": "Sport",
@@ -1930,13 +2154,13 @@
             },
             {
               "label": "Super Cruise",
-              "value": "3-year trial",
+              "value": "Standard with eligible 3-year trial",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
             },
             {
               "label": "Wheels",
-              "value": "19-inch",
+              "value": "19-inch Pearl Nickel",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
             },
@@ -1963,14 +2187,72 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Advanced LED display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated, ventilated and massaging",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Compatible; plan may be required",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Exterior",
+              "value": "Black mesh grille, black trim, rear spoiler",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Interior",
+              "value": "Inteluxe and carbon-fibre accents",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Alloy pedals",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
             }
           ],
-          "price": null
+          "price": 62298
         }
       ],
       "upgrade_notes": [
         {
-          "text": "Sport adds surround-view and automated parking highlights; Premium Luxury offers the listed V6 option.",
+          "text": "Premium Luxury: Exterior: Chrome-accented black grille; Wheels: 18-inch Bright Silver. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+        },
+        {
+          "text": "Sport: Exterior: Black mesh grille, black trim, rear spoiler; Wheels: 19-inch Pearl Nickel; Interior: Inteluxe and carbon-fibre accents; Alloy pedals: Included. Check factory packages and the selected VIN.",
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
         }
       ],
@@ -1995,7 +2277,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Seat-ventilation source conflict retained above; phone projection not verified.",
+      "coverage_note": "Canadian manufacturer model-year trim highlights. Options, powertrain, production timing and packages may vary by specific build; exact VIN details govern.",
       "listing_model_names": [
         "CT5"
       ]
@@ -3097,7 +3379,7 @@
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Standard; eligible 3-year OnStar One plan",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             },
@@ -3123,6 +3405,36 @@
               "label": "Apple CarPlay / Android Auto",
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Infotainment",
+              "value": "33-inch diagonal display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Drive modes",
+              "value": "One-Pedal Driving and Regen on Demand",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch Pearl Nickel",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Rear-wheel drive",
+              "value": "Base electric configuration",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             }
           ],
@@ -3146,7 +3458,7 @@
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Standard; eligible 3-year OnStar One plan",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             },
@@ -3172,6 +3484,36 @@
               "label": "Apple CarPlay / Android Auto",
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Infotainment",
+              "value": "33-inch diagonal display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Drive modes",
+              "value": "One-Pedal Driving and Regen on Demand",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch Dark Android",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Dark sport grille accents",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             }
           ],
@@ -3219,8 +3561,62 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Infotainment",
+              "value": "33-inch diagonal display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Drive modes",
+              "value": "One-Pedal Driving and Regen on Demand",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Dual motor AWD",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Front-seat ventilation",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Front-seat lumbar massage",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Heated rear seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "8-way passenger seat",
+              "value": "With memory",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             }
           ],
@@ -3268,15 +3664,92 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Infotainment",
+              "value": "33-inch diagonal display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Drive modes",
+              "value": "One-Pedal Driving and Regen on Demand",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Dual motor AWD",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Front-seat ventilation",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Front-seat lumbar massage",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Heated rear seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "8-way passenger seat",
+              "value": "With memory",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Sport styling",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             }
           ],
-          "price": null
+          "price": 68798
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Luxury: Wheels: 20-inch Pearl Nickel; Rear-wheel drive: Base electric configuration. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        },
+        {
+          "text": "Sport: Wheels: 20-inch Dark Android; Exterior: Dark sport grille accents. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        },
+        {
+          "text": "Premium Luxury: Dual motor AWD: Included; Front-seat ventilation: Included; Front-seat lumbar massage: Included; Heated rear seats: Included. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        },
+        {
+          "text": "Premium Sport: Dual motor AWD: Included; Front-seat ventilation: Included; Front-seat lumbar massage: Included; Heated rear seats: Included. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -3306,7 +3779,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection not verified. V-Series is a separate guide; conflicting performance figures excluded.",
+      "coverage_note": "Canadian manufacturer model-year trim highlights. Options, powertrain, production timing and packages may vary by specific build; exact VIN details govern.",
       "listing_model_names": [
         "OPTIQ"
       ]
@@ -3422,19 +3895,19 @@
             },
             {
               "label": "AC charging",
-              "value": "11.5 kW; NACS",
+              "value": "11.5 kW",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Standard with eligible 3-year plan",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
             {
               "label": "Front seats",
-              "value": "Heated, ventilated, massaging",
+              "value": "Heated, ventilated and massaging",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
@@ -3449,6 +3922,54 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Dual motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Display",
+              "value": "33-inch Horizon",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane glass / rear fixed glass",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Outboard",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Wheels",
+              "value": "21-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Range",
+              "value": "Up to Cadillac-estimated 491 km; configuration dependent",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             }
           ],
           "price": null
@@ -3459,7 +3980,7 @@
           "features": [
             {
               "label": "Exterior",
-              "value": "Black / Obsidian Chrome accents",
+              "value": "Sport styling and black accents",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
@@ -3489,8 +4010,50 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard with eligible 3-year plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Dual motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Display",
+              "value": "33-inch Horizon",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane glass / rear fixed glass",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated, ventilated and massaging",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Outboard",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             }
           ],
@@ -3502,7 +4065,7 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "Air Ride with adaptive damping",
+              "value": "Air Ride plus Continuous Damping Control",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
@@ -3526,7 +4089,7 @@
             },
             {
               "label": "Display",
-              "value": "Augmented-reality head-up display",
+              "value": "33-inch Horizon",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
@@ -3538,8 +4101,62 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard with eligible 3-year plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Dual motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane glass / rear fixed glass",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated, ventilated and massaging",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Outboard",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Rear steering",
+              "value": "Active Rear Steering",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Augmented Reality",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             }
           ],
@@ -3551,13 +4168,13 @@
           "features": [
             {
               "label": "Brakes",
-              "value": "Brembo front",
+              "value": "Brembo fronts",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
             {
               "label": "Wheels",
-              "value": "22-inch",
+              "value": "22-inch Reverse Rim",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             },
@@ -3581,15 +4198,92 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard with eligible 3-year plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Dual motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Display",
+              "value": "33-inch Horizon",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane glass / rear fixed glass",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated, ventilated and massaging",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Outboard",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Seats",
+              "value": "Custom quilted Nouveauluxe or Kona Brown",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Platinum grille and fascia",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Roof",
+              "value": "Black finish",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Luxury: AC charging: 11.5 kW; Wheels: 21-inch; Range: Up to Cadillac-estimated 491 km; configuration dependent. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        },
+        {
+          "text": "Sport: Exterior: Sport styling and black accents. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        },
+        {
+          "text": "Premium Luxury: Suspension: Air Ride plus Continuous Damping Control; Rear steering: Active Rear Steering; Head-Up Display: Augmented Reality; AC charging: 19.2 kW. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        },
+        {
+          "text": "Platinum: Brakes: Brembo fronts; Seats: Custom quilted Nouveauluxe or Kona Brown; Exterior: Platinum grille and fascia; Wheels: 22-inch Reverse Rim. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -3619,7 +4313,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection and inherited equipment not fully verified.",
+      "coverage_note": "Canadian manufacturer model-year trim highlights. Options, powertrain, production timing and packages may vary by specific build; exact VIN details govern.",
       "listing_model_names": [
         "VISTIQ"
       ]
@@ -4546,19 +5240,19 @@
               "label": "Engine",
               "value": "6.2L V8",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Standard with eligible 3-year OnStar One plan",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Audio",
-              "value": "AKG, 21 speakers",
+              "value": "21-speaker AKG",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Touring Package",
@@ -4571,9 +5265,51 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Drive",
+              "value": "4WD, two-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch Horizon with passenger screen",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Front heated/ventilated seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Front seats",
+              "value": "12-way power",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch polished",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Rear entertainment",
+              "value": "Available dual 12.6-inch displays",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             }
           ],
-          "price": null
+          "price": 147832
         },
         {
           "name": "Sport",
@@ -4581,15 +5317,15 @@
           "features": [
             {
               "label": "Exterior",
-              "value": "Gloss-black accents",
+              "value": "Black sport grille / accents",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Wheels",
-              "value": "22-inch",
+              "value": "22-inch Dark Android",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Touring Package",
@@ -4605,12 +5341,54 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "value": "Standard with eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Drive",
+              "value": "4WD, two-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch Horizon with passenger screen",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Front heated/ventilated seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Audio",
+              "value": "21-speaker AKG",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Touring package",
+              "value": "Air Ride and power doors available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             }
           ],
-          "price": null
+          "price": 147832
         },
         {
           "name": "Platinum Luxury",
@@ -4618,15 +5396,15 @@
           "features": [
             {
               "label": "Audio",
-              "value": "AKG, 38 speakers",
+              "value": "38-speaker AKG Studio Reference",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Front seats",
-              "value": "16-way; massage; semi-aniline leather",
+              "value": "16-way heated, ventilated and massaging semi-aniline leather",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Touring Package",
@@ -4636,9 +5414,9 @@
             },
             {
               "label": "Executive second row",
-              "value": "Available",
+              "value": "42-speaker package available",
               "status": "optional",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Apple CarPlay / Android Auto",
@@ -4648,12 +5426,54 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "value": "Standard with eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Drive",
+              "value": "4WD, two-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch Horizon with passenger screen",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Front heated/ventilated seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Touring package",
+              "value": "Air Ride / power doors",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Rear entertainment",
+              "value": "Dual 12.6-inch displays",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             }
           ],
-          "price": null
+          "price": 176992
         },
         {
           "name": "Platinum Sport",
@@ -4661,15 +5481,15 @@
           "features": [
             {
               "label": "Audio",
-              "value": "AKG, 38 speakers",
+              "value": "38-speaker AKG Studio Reference",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Front seats",
-              "value": "16-way; massage",
+              "value": "16-way heated, ventilated and massaging semi-aniline leather",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Touring Package",
@@ -4679,9 +5499,9 @@
             },
             {
               "label": "Executive second row",
-              "value": "Available",
+              "value": "42-speaker package available",
               "status": "optional",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             },
             {
               "label": "Apple CarPlay / Android Auto",
@@ -4691,15 +5511,74 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+              "value": "Standard with eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Drive",
+              "value": "4WD, two-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch Horizon with passenger screen",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Front heated/ventilated seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Dual-pane with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Exterior",
+              "value": "Platinum Sport trim",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+            },
+            {
+              "label": "Rear entertainment",
+              "value": "Dual 12.6-inch displays",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
             }
           ],
-          "price": null
+          "price": 176992
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Luxury: Audio: 21-speaker AKG; Front seats: 12-way power; Wheels: 22-inch polished. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+        },
+        {
+          "text": "Sport: Audio: 21-speaker AKG; Exterior: Black sport grille / accents; Wheels: 22-inch Dark Android. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+        },
+        {
+          "text": "Platinum Luxury: Audio: 38-speaker AKG Studio Reference; Front seats: 16-way heated, ventilated and massaging semi-aniline leather; Touring package: Air Ride / power doors; Rear entertainment: Dual 12.6-inch displays. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+        },
+        {
+          "text": "Platinum Sport: Audio: 38-speaker AKG Studio Reference; Front seats: 16-way heated, ventilated and massaging semi-aniline leather; Exterior: Platinum Sport trim; Rear entertainment: Dual 12.6-inch displays. Check factory packages and the selected VIN.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -4729,7 +5608,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Escalade-V has its own guide. Full ESV equipment, drivetrain differences and phone projection unverified.",
+      "coverage_note": "Canadian manufacturer model-year trim highlights. Options, powertrain, production timing and packages may vary by specific build; exact VIN details govern.",
       "listing_model_names": [
         "Escalade",
         "Escalade ESV"
