@@ -42,3 +42,6 @@
 .guide-heading:focus{outline:none}.primary-nav{flex-wrap:wrap}
 @media(max-width:750px){.guide-selectors,.model-catalog{grid-template-columns:1fr}.search-panel{padding:16px}.guide-heading h2{font-size:29px}.trim-comparison th,.trim-comparison td{padding:10px 9px}.trim-comparison thead th:first-child,.trim-comparison tbody th[scope=row]{min-width:155px}.guide-selectors select{font-size:16px}}
 @media print{header,.search-panel,.model-catalog,footer,.secondary-button{display:none!important}.guide-matrix{overflow:visible}.guide-section{break-inside:avoid}.trim-comparison{min-width:0;font-size:9px}.trim-comparison th,.trim-comparison td{min-width:0!important;padding:5px}.feature-value{font-size:8px}}
+
+/* Information confidence is explicit, never an absence claim. */
+.coverage-note{font-size:12px;color:#5c6c78;background:#f4f7f9;border:1px solid #e2e9ed;padding:11px 13px;border-radius:9px;line-height:1.5}
