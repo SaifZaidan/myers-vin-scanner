@@ -7743,7 +7743,7 @@
             {
               "label": "Range",
               "value": "Up to an estimated 660 km with available pack",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
             },
             {
@@ -7816,7 +7816,7 @@
             {
               "label": "Range",
               "value": "Up to a GM-estimated 769 km with optional Max battery",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
             },
             {
@@ -8457,7 +8457,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette"
             },
             {
@@ -8512,7 +8512,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette"
             },
             {
@@ -8561,7 +8561,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette"
             },
             {
@@ -9231,7 +9231,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
             },
             {
@@ -9280,7 +9280,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
             },
             {
@@ -9388,7 +9388,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
             },
             {
@@ -9437,7 +9437,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
             },
             {
@@ -9545,7 +9545,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             },
             {
@@ -9594,7 +9594,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             },
             {
@@ -9637,7 +9637,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             },
             {
@@ -9759,7 +9759,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
             },
             {
@@ -9808,7 +9808,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
             },
             {
@@ -9851,7 +9851,7 @@
             {
               "label": "Body styles",
               "value": "Coupe / convertible available (configuration-dependent)",
-              "status": "standard",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
             },
             {
@@ -10201,7 +10201,7 @@
             },
             {
               "label": "MultiPro Tailgate",
-              "value": "Available cargo solutions",
+              "value": "MultiPro Tailgate; exact cargo accessories are optional",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
             }
@@ -10268,7 +10268,7 @@
             },
             {
               "label": "MultiPro Tailgate",
-              "value": "Available cargo solutions",
+              "value": "MultiPro Tailgate; exact cargo accessories are optional",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
             }
