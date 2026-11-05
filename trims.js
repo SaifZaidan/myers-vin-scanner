@@ -30,6 +30,18 @@ if(typeof document!=='undefined'){
  function sourcedText(item){const p=el('p',textItem(item));if(item?.source_url){p.append(document.createTextNode(' '),link('Source ↗',item.source_url));}return p;}
  function renderGuide(m){const out=$('guide-output');out.replaceChildren();const heading=el('div',undefined,'guide-heading');heading.id='guide-title';heading.tabIndex=-1;heading.append(el('p',`${m.year} · CANADIAN MODEL GUIDE`,'eyebrow'),el('h2',`${m.make} ${m.model}`));const back=el('button','← All models','secondary-button');back.type='button';back.addEventListener('click',()=>{$('guide-make').value='';$('guide-year').value='';$('guide-model').value='';refreshSelectors();window.location.hash='';out.hidden=true;renderCatalog();$('guide-make').focus();});heading.append(back);out.append(heading);
  const provenance=el('p',`Guide checked ${m.checked_at||'date unavailable'}. `,'guide-source');provenance.append(link('Manufacturer source ↗',m.source_url));out.append(provenance,el('p',m.coverage_note||'Only explicitly sourced facts are shown. Unconfirmed is not absent.','notice'));
+
+ if(!m.trims.length){
+  const special=section('Model overview — no comparable factory trims');
+  special.append(el('p','This model does not have independently verified Canadian trim grades in this guide. A side-by-side trim matrix would be misleading. Choose a specific vehicle from the saved Myers listings, then confirm its factory equipment and packages.','notice'));
+  if(m.source_url)special.append(link('View manufacturer specifications ↗',m.source_url));
+  const vehicles=GuideLogic.matches(inventory,m);
+  const stockSection=section('Matching Myers Baseline listings');
+  stockSection.append(el('p',stockLabel(vehicles)+'. Availability, pricing and individual equipment must be confirmed.','guide-stock'));
+  for(const v of vehicles){const c=el('div',undefined,'guide-stock-card');c.append(el('h4',(v.year+' '+v.make+' '+v.model+' '+(v.trim||'')).trim()),el('p','Stock '+v.stock+' · '+cad(v.price)),link('Official vehicle listing ↗',v.source_url));stockSection.append(c);}
+  out.append(special,stockSection);return;
+ }
+
  const overview=section('1. Trim overview'),cards=el('div',undefined,'trim-cards');for(const t of m.trims){const c=el('div',undefined,'trim-card');c.append(el('span',m.trims.indexOf(t)===0?'ESSENTIALS':m.trims.indexOf(t)===m.trims.length-1?'TOP TRIM':'STYLE & FEATURES','trim-kicker'),el('h4',t.name),stockBadge(GuideLogic.matches(inventory,m,t.name)),el('p',t.positioning||'Review the sourced features below.'),el('p',Number.isFinite(t.price)?`${cad(t.price)} manufacturer starting price; not a Myers asking price.`:'Manufacturer starting price not verified. See actual listing prices below.','guide-price'));const ul=el('ul');for(const f of (t.features||[]).filter(f=>f.status==='standard').slice(0,4))ul.append(el('li',f.label+(f.value&&f.value!=='Included'?': '+f.value:'')));c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview.append(el('p','Trim details are not yet verified for this model year.'));out.append(overview);
 
  const comparison=section('2. Side-by-side feature comparison');
