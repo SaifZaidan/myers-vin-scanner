@@ -33,22 +33,24 @@ if(typeof document!=='undefined'){
  const overview=section('1. Trim overview'),cards=el('div',undefined,'trim-cards');for(const t of m.trims){const c=el('div',undefined,'trim-card');c.append(el('span',m.trims.indexOf(t)===0?'ESSENTIALS':m.trims.indexOf(t)===m.trims.length-1?'TOP TRIM':'STYLE & FEATURES','trim-kicker'),el('h4',t.name),stockBadge(GuideLogic.matches(inventory,m,t.name)),el('p',t.positioning||'Review the sourced features below.'),el('p',Number.isFinite(t.price)?`${cad(t.price)} manufacturer starting price; not a Myers asking price.`:'Manufacturer starting price not verified. See actual listing prices below.','guide-price'));const ul=el('ul');for(const f of (t.features||[]).filter(f=>f.status==='standard').slice(0,4))ul.append(el('li',f.label+(f.value&&f.value!=='Included'?': '+f.value:'')));c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview.append(el('p','Trim details are not yet verified for this model year.'));out.append(overview);
 
  const comparison=section('2. Side-by-side feature comparison');
- comparison.append(el('p','✓ Included · ◇ Available with option/package · — Not available · ? Not confirmed. Manufacturer equipment is not proof of equipment on a particular VIN.','guide-legend'));
+ comparison.append(el('p','✓ Standard · ◇ Available as an option/package · — Not offered · ? Not yet researched for this trim. Missing data is NOT proof of absence. Confirm individual VIN equipment.','guide-legend'));
  const wrap=el('div',undefined,'guide-matrix');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Trim equipment comparison');
  const table=el('table',undefined,'trim-comparison'),head=el('thead'),hr=el('tr');hr.append(el('th','Feature'));
  for(const t of m.trims)hr.append(el('th',t.name));head.append(hr);table.append(head);
  const body=el('tbody');
  const labels=[...new Set(m.trims.flatMap(t=>(t.features||[]).map(f=>f.label)))];
+ const gaps=labels.reduce((n,label)=>n+m.trims.filter(t=>!t.features.some(f=>f.label===label&&f.status!=='unknown')).length,0);
+ const coverage=el('p',gaps===0?'Equipment matrix sourced for each listed trim.':`${gaps} comparison cells lack trim-specific source evidence. Showing verified facts where available; incomplete cells are not equipment decisions.`,'coverage-note');comparison.append(coverage);
  function category(label){const l=label.toLowerCase();if(/engine|transmission|awd|drivetrain|suspension|powertrain|fuel|towing/.test(l))return 'Engine & driving';if(/seat|upholstery|steering wheel|memory|massage|climate|lumbar|interior|pedal/.test(l))return 'Seats & comfort';if(/wheel|grille|exterior|roof|liftgate|rail/.test(l))return 'Exterior & convenience';if(/display|audio|bose|head.up|charging|carplay|android|google|camera|mirror|cruise|remote|noise|safety/.test(l))return 'Technology & safety';return 'Other equipment';}
  const groups=['Engine & driving','Seats & comfort','Technology & safety','Exterior & convenience','Other equipment'];
- for(const group of groups){const groupLabels=labels.filter(label=>category(label)===group);if(!groupLabels.length)continue;
+ for(const group of groups){const groupLabels=labels.filter(label=>category(label)===group && m.trims.some(t=>t.features.some(f=>f.label===label&&f.status!=='unknown')));if(!groupLabels.length)continue;
  const gr=el('tr',undefined,'group-row'),gh=el('th',group);gh.colSpan=m.trims.length+1;gr.append(gh);body.append(gr);
  for(const label of groupLabels){const row=el('tr'),th=el('th',label);th.scope='row';row.append(th);
  for(const t of m.trims){const td=el('td'),f=(t.features||[]).find(f=>f.label===label),state=f?.status||'unknown';
  const symbol={standard:'✓',optional:'◇',unavailable:'—',unknown:'?'}[state]||'?';
  const mark=el('span',symbol,'feature-mark '+state);mark.setAttribute('aria-label',statusNames[state]||statusNames.unknown);mark.title=statusNames[state]||statusNames.unknown;td.append(mark);
  if(f?.value&&state!=='unknown'&&f.value.toLowerCase()!=='included')td.append(el('span',f.value,'feature-value'));
- if(state==='unknown')td.append(el('span','Not confirmed','feature-value muted'));
+ if(state==='unknown')td.append(el('span',f?'Unverified':'Not specified','feature-value muted'));
  row.append(td);
  }body.append(row);
  }}
