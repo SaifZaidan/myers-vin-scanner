@@ -1341,9 +1341,39 @@
               "value": "Red accents",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Engine",
+              "value": "ECOTEC 1.2L turbo; 137 hp / 162 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Transmission",
+              "value": "6-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "FWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Chevrolet Safety Assist",
+              "value": "Standard six-feature suite",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
             }
           ],
-          "price": null
+          "price": 30193
         },
         {
           "name": "LT",
@@ -1360,9 +1390,39 @@
               "value": "Remote start; automatic climate control",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Engine",
+              "value": "ECOTEC 1.2L turbo; 137 hp / 162 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Transmission",
+              "value": "6-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "FWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Chevrolet Safety Assist",
+              "value": "Standard six-feature suite",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "LED daytime running lamps",
+              "value": "Signature styling",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
             }
           ],
-          "price": null
+          "price": 31193
         },
         {
           "name": "2RS",
@@ -1376,12 +1436,48 @@
             },
             {
               "label": "Steering wheel",
-              "value": "Flat-bottom",
+              "value": "Flat-bottom sport design",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Engine",
+              "value": "ECOTEC 1.2L turbo; 137 hp / 162 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Transmission",
+              "value": "6-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "FWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Chevrolet Safety Assist",
+              "value": "Standard six-feature suite",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Exterior styling",
+              "value": "Black accents and RS details",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Keyless Open",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
             }
           ],
-          "price": null
+          "price": 33393
         },
         {
           "name": "ACTIV",
@@ -1398,9 +1494,45 @@
               "value": "Titanium-colour chrome grille accents",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Engine",
+              "value": "ECOTEC 1.2L turbo; 137 hp / 162 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Transmission",
+              "value": "6-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "FWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Chevrolet Safety Assist",
+              "value": "Standard six-feature suite",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/byo-vc/client/en/CA/chevrolet/trax/2026/trax/trims/compare"
+            },
+            {
+              "label": "Exterior styling",
+              "value": "Titanium chrome accents / black wheels",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
             }
           ],
-          "price": null
+          "price": 33393
         }
       ],
       "upgrade_notes": [],
@@ -1441,7 +1573,7 @@
           "source_url": "https://www.chevrolet.ca/en/suvs/trax"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Canadian 2026 Trax powertrain and trim highlights; prices represent the configured FWD manufacturer examples and may vary.",
       "listing_model_names": [
         "Trax"
       ]
@@ -1469,6 +1601,36 @@
               "value": "Remote start; folding front passenger seat",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Wheels",
+              "value": "17-inch silver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Fold-flat passenger seat",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
             }
           ],
           "price": null
@@ -1488,9 +1650,51 @@
               "value": "Keyless Open",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Keyless Open",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Roof rails",
+              "value": "Silver-painted",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
             }
           ],
-          "price": null
+          "price": 33148
         },
         {
           "name": "ACTIV",
@@ -1507,9 +1711,45 @@
               "value": "Off-road suspension and skid plate",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Suspension",
+              "value": "Off-road tuning, functional skid plate",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
             }
           ],
-          "price": null
+          "price": 38848
         },
         {
           "name": "RS",
@@ -1523,18 +1763,54 @@
             },
             {
               "label": "Wheels",
-              "value": "19-inch",
+              "value": "19-inch black",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
             },
             {
               "label": "Liftgate",
-              "value": "Hands-free powered",
+              "value": "Hands-free power programmable",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Flat-bottom",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
             }
           ],
-          "price": null
+          "price": 38848
         }
       ],
       "upgrade_notes": [],
@@ -1575,7 +1851,7 @@
           "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "2026 Canadian Trailblazer trim features sourced from Chevrolet Canada. Confirm actual engine/drivetrain and packages on the selected stock.",
       "listing_model_names": [
         "Trailblazer"
       ]
@@ -2355,6 +2631,30 @@
               "value": "Adaptive cruise; HD Surround Vision",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
             }
           ],
           "price": null
@@ -2371,8 +2671,56 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Leather-appointed seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Wireless charging",
+              "value": "Included",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
             }
           ],
@@ -2390,8 +2738,50 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "6.2L V8",
+              "value": "Available engine",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Sport styling",
+              "value": "Black grille, black exterior emblems, red cabin stitching",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
             }
           ],
@@ -2418,6 +2808,60 @@
               "value": "Four-corner air suspension",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "6.2L V8",
+              "value": "Available engine",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Off-road protection",
+              "value": "Aluminium skid plate; red recovery hooks",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed Autotrac",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Air Ride",
+              "value": "Available four-corner adaptive suspension",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
             }
           ],
           "price": null
@@ -2440,8 +2884,56 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "6.2L V8",
+              "value": "Available engine",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Ventilated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Bucket seats",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
             }
           ],
@@ -2453,7 +2945,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.2L V8",
+              "value": "6.2L EcoTec3 V8; 420 hp",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
             },
@@ -2465,15 +2957,82 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Magnetic Ride Control",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "15-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LS: Screens: 17.7-inch centre; 11-inch driver; Assistance: Adaptive cruise; HD Surround Vision; Engine: 5.3L EcoTec3 V8; 355 hp. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        },
+        {
+          "text": "LT: Upholstery: Leather-appointed seats; Heated front seats: Included; Wireless charging: Included. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        },
+        {
+          "text": "RST: Cabin: Red stitching; Engine: 5.3L EcoTec3 V8; 355 hp; Sport styling: Black grille, black exterior emblems, red cabin stitching. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        },
+        {
+          "text": "Z71: Engine: 5.3L EcoTec3 V8; 355 hp; Off-road protection: Aluminium skid plate; red recovery hooks; Transfer case: Two-speed Autotrac. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        },
+        {
+          "text": "Premier: Engine: 5.3L EcoTec3 V8; 355 hp; Ventilated front seats: Included; Heated second row: Bucket seats. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        },
+        {
+          "text": "High Country: Magnetic Ride Control: Included; Head-Up Display: 15-inch; Rear Camera Mirror: Included. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -2519,7 +3078,7 @@
           "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Expanded from Chevrolet Canada's 2026 trim descriptions. Some driver-assistance, suspension and engine configurations are optional; verify the VIN and current Canadian order guide.",
       "listing_model_names": [
         "Tahoe"
       ]
@@ -2553,9 +3112,33 @@
               "value": "Adaptive cruise; HD Surround Vision",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
             }
           ],
-          "price": null
+          "price": 85898
         },
         {
           "name": "LT",
@@ -2569,12 +3152,60 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Leather-appointed seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Wireless charging",
+              "value": "Included",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
             }
           ],
-          "price": null
+          "price": 93498
         },
         {
           "name": "RST",
@@ -2588,12 +3219,54 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "6.2L V8",
+              "value": "Available engine",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Sport styling",
+              "value": "Black grille, black exterior emblems, red cabin stitching",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
             }
           ],
-          "price": null
+          "price": 99498
         },
         {
           "name": "Z71",
@@ -2616,9 +3289,63 @@
               "value": "Four-corner air suspension",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "6.2L V8",
+              "value": "Available engine",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Off-road protection",
+              "value": "Aluminium skid plate; red recovery hooks",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed Autotrac",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Air Ride",
+              "value": "Available four-corner adaptive suspension",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
             }
           ],
-          "price": null
+          "price": 98498
         },
         {
           "name": "Premier",
@@ -2638,12 +3365,60 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L EcoTec3 V8; 355 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "6.2L V8",
+              "value": "Available engine",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Ventilated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Bucket seats",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
             }
           ],
-          "price": null
+          "price": 109012
         },
         {
           "name": "High Country",
@@ -2651,7 +3426,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.2L V8",
+              "value": "6.2L EcoTec3 V8; 420 hp",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
             },
@@ -2663,15 +3438,82 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial",
+              "value": "Available hands-free driver assistance with eligible plan",
               "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Centre display",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Magnetic Ride Control",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "15-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
             }
           ],
-          "price": null
+          "price": 116812
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LS: Screens: 17.7-inch centre; 11-inch driver; Assistance: Adaptive cruise; HD Surround Vision; Engine: 5.3L EcoTec3 V8; 355 hp. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        },
+        {
+          "text": "LT: Upholstery: Leather-appointed seats; Heated front seats: Included; Wireless charging: Included. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        },
+        {
+          "text": "RST: Cabin: Red stitching; Engine: 5.3L EcoTec3 V8; 355 hp; Sport styling: Black grille, black exterior emblems, red cabin stitching. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        },
+        {
+          "text": "Z71: Engine: 5.3L EcoTec3 V8; 355 hp; Off-road protection: Aluminium skid plate; red recovery hooks; Transfer case: Two-speed Autotrac. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        },
+        {
+          "text": "Premier: Engine: 5.3L EcoTec3 V8; 355 hp; Ventilated front seats: Included; Heated second row: Bucket seats. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        },
+        {
+          "text": "High Country: Magnetic Ride Control: Included; Head-Up Display: 15-inch; Rear Camera Mirror: Included. This is a sourced highlight, not a complete package list.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -2717,7 +3559,7 @@
           "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Expanded from Chevrolet Canada's 2026 trim descriptions. Some driver-assistance, suspension and engine configurations are optional; verify the VIN and current Canadian order guide.",
       "listing_model_names": [
         "Suburban"
       ]
