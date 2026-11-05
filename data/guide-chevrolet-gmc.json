@@ -5438,7 +5438,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.6L gas V8",
+              "value": "6.6L gas V8 with 10-speed automatic",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             },
@@ -5453,6 +5453,30 @@
               "value": "Wireless",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Diesel powertrain",
+              "value": "6.6L Duramax available (470 hp / 975 lb-ft)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Trailer equipment",
+              "value": "Mirrors, brake controller and Trailering Package",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "7-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             }
           ],
           "price": null
@@ -5465,6 +5489,42 @@
               "label": "Screens",
               "value": "13.4-inch centre; 12.3-inch driver",
               "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8 with 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Diesel powertrain",
+              "value": "6.6L Duramax available (470 hp / 975 lb-ft)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "13.4-inch GMC",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch digital",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Wheels",
+              "value": "17-inch machined",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "MultiPro Tailgate",
+              "value": "Available",
+              "status": "optional",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             }
           ],
@@ -5485,6 +5545,42 @@
               "value": "Heated",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8 with 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Diesel powertrain",
+              "value": "6.6L Duramax available (470 hp / 975 lb-ft)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "10-way power with lumbar",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "ProGrade Trailering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Ventilated front seats",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             }
           ],
           "price": null
@@ -5495,13 +5591,43 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "Rancho shocks and skid plates",
+              "value": "Rancho off-road with skid plates",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             },
             {
               "label": "Cameras",
               "value": "HD Surround Vision",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8 with 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Diesel powertrain",
+              "value": "6.6L Duramax available (470 hp / 975 lb-ft)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated, ventilated leather front seats",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch black",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             }
@@ -5514,13 +5640,43 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "1.5-inch lift; DSSV dampers",
+              "value": "1.5-inch lift and Multimatic DSSV",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             },
             {
               "label": "Differential",
               "value": "Rear electronic locker",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8 with 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Diesel powertrain",
+              "value": "6.6L Duramax available (470 hp / 975 lb-ft)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Tyres",
+              "value": "35-inch mud-terrain",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way heated and ventilated with massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Interior",
+              "value": "Obsidian Rush full-grain leather",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             }
@@ -5542,6 +5698,36 @@
               "value": "12-way heated/ventilated front",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8 with 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Diesel powertrain",
+              "value": "6.6L Duramax available (470 hp / 975 lb-ft)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Front seats",
+              "value": "12-way heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Interior",
+              "value": "Forge leather and real wood",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch Ultra-Bright",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             }
           ],
           "price": null
@@ -5552,7 +5738,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.6L Duramax diesel",
+              "value": "6.6L Duramax diesel with 10-speed automatic",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             },
@@ -5564,7 +5750,31 @@
             },
             {
               "label": "Audio",
-              "value": "12-speaker Bose",
+              "value": "12-speaker Bose Premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Diesel powertrain",
+              "value": "6.6L Duramax available (470 hp / 975 lb-ft)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way power with massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Interior",
+              "value": "Alpine Umber leather and Paldao wood",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Assist steps",
+              "value": "Illuminated power",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
             }
@@ -5572,7 +5782,36 @@
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Pro: Trailer equipment: Mirrors, brake controller and Trailering Package; Touchscreen: 7-inch; Wireless Apple CarPlay / Android Auto: Compatible. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        },
+        {
+          "text": "SLE: Touchscreen: 13.4-inch GMC; Driver display: 12.3-inch digital; Wheels: 17-inch machined. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        },
+        {
+          "text": "SLT: Heated front seats: 10-way power with lumbar; Heated steering wheel: Included; ProGrade Trailering: Included. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        },
+        {
+          "text": "AT4: Seats: Heated, ventilated leather front seats; Suspension: Rancho off-road with skid plates; Wheels: 20-inch black; HD Surround Vision: Included. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        },
+        {
+          "text": "AT4X: Suspension: 1.5-inch lift and Multimatic DSSV; Differential: Rear electronic locker; Tyres: 35-inch mud-terrain; Front seats: 16-way heated and ventilated with massage. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        },
+        {
+          "text": "Denali: Front seats: 12-way heated and ventilated; Interior: Forge leather and real wood; Wheels: 20-inch Ultra-Bright. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        },
+        {
+          "text": "Denali Ultimate: Engine: 6.6L Duramax diesel with 10-speed automatic; Front seats: 16-way power with massage; Audio: 12-speaker Bose Premium; Interior: Alpine Umber leather and Paldao wood. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -5622,7 +5861,7 @@
           "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
         }
       ],
-      "coverage_note": "2500/3500 family overview only. Cab, axle and series restrictions require exact-build verification; no maximum tow claim is assigned to a generic trim.",
+      "coverage_note": "Expanded Canadian 2026 manufacturer model highlights. Exact towing depends on 2500/3500, axle, cab, drivetrain and trailer equipment; Yukon/Yukon XL details and option packages can vary by VIN.",
       "listing_model_names": [
         "Sierra 2500HD",
         "Sierra 3500HD"
@@ -6424,6 +6663,54 @@
               "value": "HD Surround Vision",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L V8, 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Outboard with power release",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Bose audio",
+              "value": "10 speakers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available with plan",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             }
           ],
           "price": null
@@ -6449,6 +6736,48 @@
               "value": "Heated and ventilated front",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Off-road fascia",
+              "value": "High approach angle, skid plate and red recovery hooks",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Magnetic Ride Control",
+              "value": "Standard",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Heated/ventilated fronts",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch with all-terrain tyres",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available with plan",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             }
           ],
           "price": null
@@ -6459,7 +6788,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.2L V8",
+              "value": "6.2L V8, 10-speed automatic",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             },
@@ -6471,7 +6800,43 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year OnStar One plan",
+              "value": "Standard with eligible plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Air Ride",
+              "value": "Standard",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Front massage",
+              "value": "16-way adjustable",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Bose audio",
+              "value": "18 speakers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Interior",
+              "value": "Obsidian Rush full-grain leather",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             }
@@ -6484,7 +6849,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.2L V8",
+              "value": "6.2L V8, 10-speed automatic",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             },
@@ -6499,6 +6864,42 @@
               "value": "Power-sliding",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Magnetic Ride Control",
+              "value": "Standard",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "15-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available with plan",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             }
           ],
           "price": null
@@ -6509,7 +6910,7 @@
           "features": [
             {
               "label": "Super Cruise",
-              "value": "Three-year OnStar One plan",
+              "value": "Standard with eligible plan",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             },
@@ -6530,12 +6931,75 @@
               "value": "18-speaker Bose",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Engine",
+              "value": "6.2L V8, 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Air Ride",
+              "value": "Standard",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Front massage",
+              "value": "16-way adjustable",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Bose audio",
+              "value": "18 speakers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Wheels",
+              "value": "24-inch After Midnight Metallic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Elevation: Engine: 5.3L V8, 10-speed automatic; Heated front seats: Included; Heated steering wheel: Included; Heated second row: Outboard with power release. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        },
+        {
+          "text": "AT4: Off-road fascia: High approach angle, skid plate and red recovery hooks; Magnetic Ride Control: Standard; Heated/ventilated fronts: Included; Wheels: 20-inch with all-terrain tyres. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        },
+        {
+          "text": "AT4 Ultimate: Engine: 6.2L V8, 10-speed automatic; Super Cruise: Standard with eligible plan; Air Ride: Standard; Front massage: 16-way adjustable. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        },
+        {
+          "text": "Denali: Engine: 6.2L V8, 10-speed automatic; Magnetic Ride Control: Standard; Head-Up Display: 15-inch; Front seats: Heated and ventilated. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        },
+        {
+          "text": "Denali Ultimate: Engine: 6.2L V8, 10-speed automatic; Super Cruise: Standard with eligible plan; Air Ride: Standard; Front massage: 16-way adjustable. Confirm selected configuration and packages.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -6577,7 +7041,7 @@
           "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Expanded Canadian 2026 manufacturer model highlights. Exact towing depends on 2500/3500, axle, cab, drivetrain and trailer equipment; Yukon/Yukon XL details and option packages can vary by VIN.",
       "listing_model_names": [
         "Yukon",
         "Yukon XL"
