@@ -55,35 +55,38 @@ c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview
  const rawLabels=[...new Set(m.trims.flatMap(t=>(t.features||[]).map(f=>f.label)))];
  const known=f=>f&&['standard','optional','unavailable'].includes(f.status);
  const allKnown=rawLabels.filter(label=>m.trims.every(t=>known((t.features||[]).find(f=>f.label===label))));
+ const distinctLabels=rawLabels.filter(label=>{const entries=m.trims.map(t=>(t.features||[]).find(f=>f.label===label)).filter(known);if(!entries.length)return false;const complete=entries.length===m.trims.length;return !complete||new Set(entries.map(f=>f.status+'|'+f.value)).size>1;});
+ distinctLabels.sort((a,b)=>{const count=l=>m.trims.filter(t=>known((t.features||[]).find(f=>f.label===l))).length;return count(b)-count(a)||a.localeCompare(b);});
  const incompleteCells=rawLabels.reduce((sum,label)=>sum+m.trims.filter(t=>!known((t.features||[]).find(f=>f.label===label))).length,0);
- const coverage=el('p',allKnown.length+' fully comparable features · '+incompleteCells+' individual trim-feature facts require further factory verification. Incomplete features appear in the separately sourced trim detail panels, not as fabricated yes/no answers.','coverage-note');comparison.append(coverage);
+ const coverage=el('p',distinctLabels.length+' sourced differentiating feature rows · '+allKnown.length+' completely documented cross-trim features · '+incompleteCells+' missing source entries. A blank or not documented cell is NOT an absent feature.','coverage-note');comparison.append(coverage);
  function category(label){const l=label.toLowerCase();if(/engine|transmission|awd|drivetrain|suspension|powertrain|fuel|towing|differential|drive modes|torque|battery/.test(l))return 'Engine & driving';if(/seat|upholstery|steering wheel|memory|massage|climate|lumbar|interior|pedal/.test(l))return 'Seats & comfort';if(/wheel|grille|exterior|roof|liftgate|rail|tailgate|tyres/.test(l))return 'Exterior & convenience';if(/display|audio|bose|head.up|charging|carplay|android|google|camera|mirror|cruise|remote|noise|safety|touchscreen/.test(l))return 'Technology & safety';return 'Other equipment';}
- if(allKnown.length){
-  const controls=el('div',undefined,'compare-controls'),toggle=el('button','Show differences only','secondary-button compare-toggle');toggle.type='button';
+ if(distinctLabels.length){
+  const controls=el('div',undefined,'compare-controls'),toggle=el('button','Show complete rows only','secondary-button compare-toggle');toggle.type='button';
   const count=el('span','Full verified comparison','compare-count');controls.append(toggle,count);comparison.append(controls);
   const wrap=el('div',undefined,'guide-matrix');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Fully researched trim comparisons');
   const table=el('table',undefined,'trim-comparison'),thead=el('thead'),head=el('tr');head.append(el('th','Feature'));for(const t of m.trims)head.append(el('th',t.name));thead.append(head);table.append(thead);
   const body=el('tbody');
   for(const group of ['Engine & driving','Seats & comfort','Technology & safety','Exterior & convenience','Other equipment']){
-   const labels=allKnown.filter(label=>category(label)===group);if(!labels.length)continue;
+   const labels=distinctLabels.filter(label=>category(label)===group);if(!labels.length)continue;
    const groupRow=el('tr',undefined,'group-row'),groupHead=el('th',group);groupHead.colSpan=m.trims.length+1;groupRow.append(groupHead);body.append(groupRow);
    for(const label of labels){const tr=el('tr'),th=el('th',label);th.scope='row';tr.append(th);
     for(const t of m.trims){const f=t.features.find(f=>f.label===label),td=el('td');
-     const symbol={standard:'✓',optional:'◇',unavailable:'—'}[f.status];
-     const mark=el('span',symbol,'feature-mark '+f.status);mark.title=statusNames[f.status];mark.setAttribute('aria-label',statusNames[f.status]);td.append(mark);
-     if(f.value&&!/^(included|standard)$/i.test(f.value))td.append(el('span',f.value,'feature-value'));
-     tr.append(td);
+     if(!known(f)){td.append(el('span','Not documented','feature-value muted'));}
+     else{const symbol={standard:'✓',optional:'◇',unavailable:'—'}[f.status];
+      const mark=el('span',symbol,'feature-mark '+f.status);mark.title=statusNames[f.status];mark.setAttribute('aria-label',statusNames[f.status]);td.append(mark);
+      if(f.value&&!/^(included|standard)$/i.test(f.value))td.append(el('span',f.value,'feature-value'));
+     }tr.append(td);
     }body.append(tr);
    }
   }
   table.append(body);wrap.append(table);comparison.append(wrap);
-  let differenceOnly=false;
-  function updateRows(){let visible=0;for(const row of body.querySelectorAll('tr:not(.group-row)')){const cells=[...row.querySelectorAll('td')];const values=cells.map(cell=>(cell.querySelector('.feature-mark')?.className||'')+'|'+(cell.querySelector('.feature-value')?.textContent||''));const different=(new Set(values)).size>1;row.hidden=differenceOnly&&!different;if(!row.hidden)visible++;}
+  let completeOnly=false;
+  function updateRows(){let visible=0;for(const row of body.querySelectorAll('tr:not(.group-row)')){const cells=[...row.querySelectorAll('td')];const values=cells.map(cell=>(cell.querySelector('.feature-mark')?.className||'')+'|'+(cell.querySelector('.feature-value')?.textContent||''));const complete=cells.every(cell=>!!cell.querySelector('.feature-mark'));row.hidden=completeOnly&&!complete;if(!row.hidden)visible++;}
    for(const group of body.querySelectorAll('.group-row')){let next=group.nextElementSibling,seen=false;while(next&&!next.classList.contains('group-row')){if(!next.hidden)seen=true;next=next.nextElementSibling;}group.hidden=!seen;}
-   toggle.textContent=differenceOnly?'Show all verified features':'Show differences only';count.textContent=differenceOnly?visible+' fully verified differences':allKnown.length+' comparable features';
+   toggle.textContent=completeOnly?'Show all documented differences':'Show complete rows only';count.textContent=completeOnly?visible+' fully documented rows':distinctLabels.length+' documented difference rows';
   }
-  toggle.addEventListener('click',()=>{differenceOnly=!differenceOnly;updateRows();});
- }else comparison.append(el('p','The saved manufacturer references do not yet establish even one complete cross-trim feature row for this model year. The documented individual-trim specifications are displayed immediately below; no trim absence is assumed.','notice'));
+  toggle.addEventListener('click',()=>{completeOnly=!completeOnly;updateRows();});
+ }else comparison.append(el('p','The available sources do not establish trim-specific contrasts for this model. Review the individual equipment listings below and confirm the VIN.','notice'));
  const summary=el('div',undefined,'model-quick-compare');
  summary.append(el('h4','Documented trim highlights — not a complete equipment list'));
  const mini=el('div',undefined,'guide-matrix');mini.tabIndex=0;mini.setAttribute('role','region');mini.setAttribute('aria-label','Sourced highlights for every trim');
