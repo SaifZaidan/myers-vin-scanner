@@ -14,24 +14,30 @@
           "features": [
             {
               "label": "Engine",
-              "value": "TurboMax; 430 lb-ft",
+              "value": "TurboMax 2.7L turbo; 310 hp / 430 lb-ft",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Engine upgrade",
-              "value": "5.3L V8",
+              "value": "5.3L V8 available",
               "status": "optional",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Adaptive cruise",
               "value": "Available",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Bed",
+              "value": "Durabed with 12 tie-downs",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
-          "price": null
+          "price": 52498
         },
         {
           "name": "Custom",
@@ -41,13 +47,31 @@
               "label": "Driver seat",
               "value": "10-way power",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Convenience",
               "value": "Remote start and Trailering Package",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "TurboMax 2.7L turbo",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Trailering Package",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
           "price": null
@@ -58,15 +82,33 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "2-inch lift; Z71 package",
+              "value": "2-inch lift with Z71",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Driveline",
               "value": "Two-speed transfer case; locking rear differential",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "TurboMax 2.7L turbo",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed with skid plate",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "5.3L V8 / Duramax diesel available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
           "price": null
@@ -86,9 +128,27 @@
               "value": "Safety Package required",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Available Safety Package",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
-          "price": null
+          "price": 64598
         },
         {
           "name": "RST",
@@ -96,15 +156,27 @@
           "features": [
             {
               "label": "Exterior",
-              "value": "Body-colour bumpers and grille bar",
+              "value": "Body-colour bumpers / grille",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Engine upgrade",
-              "value": "5.3L V8, 6.2L V8 or 3.0L diesel",
+              "value": "5.3L/6.2L V8 or Duramax diesel available",
               "status": "optional",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
           "price": null
@@ -115,18 +187,42 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "2-inch lift; Z71 package",
+              "value": "2-inch lift / Z71",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Screens",
               "value": "13.4-inch centre; 12.3-inch driver",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Transfer case",
+              "value": "Autotrac two-speed",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "V8 and diesel options",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
-          "price": null
+          "price": 76298
         },
         {
           "name": "LTZ",
@@ -134,18 +230,36 @@
           "features": [
             {
               "label": "Seats",
-              "value": "Perforated leather-appointed front seats",
+              "value": "Perforated leather-appointed front",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Wheels",
               "value": "20-inch",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L V8",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
-          "price": null
+          "price": 79798
         },
         {
           "name": "High Country",
@@ -159,9 +273,27 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Available with trailering; three-year trial",
+              "value": "Available, with trailering and eligible plan",
               "status": "optional",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L V8",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Interior",
+              "value": "Leather and authentic wood",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.2L V8 or diesel",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
           "price": null
@@ -172,24 +304,68 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "DSSV dampers; 2-inch lift",
+              "value": "2-inch lift and Multimatic DSSV",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             },
             {
               "label": "Differentials",
               "value": "Front and rear electronic lockers",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "3.0L Duramax turbo-diesel",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.2L V8 available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
             }
           ],
-          "price": null
+          "price": 96798
         }
       ],
       "upgrade_notes": [
         {
-          "text": "LT adds larger screens; Trail Boss adds lifted off-road hardware; ZR2 brings DSSV dampers and electronic lockers.",
-          "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+          "text": "WT: Engine: TurboMax 2.7L turbo; 310 hp / 430 lb-ft; Bed: Durabed with 12 tie-downs. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "Custom: Engine: TurboMax 2.7L turbo; Remote start: Included; Trailering Package: Included. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "Custom Trail Boss: Engine: TurboMax 2.7L turbo; Suspension: 2-inch lift with Z71; Transfer case: Two-speed with skid plate. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "LT: Touchscreen: 13.4-inch; Driver display: 12.3-inch. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "RST: Touchscreen: 13.4-inch; Driver display: 12.3-inch; Exterior: Body-colour bumpers / grille. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "LT Trail Boss: Suspension: 2-inch lift / Z71; Touchscreen: 13.4-inch; Driver display: 12.3-inch. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "LTZ: Engine: 5.3L V8; Touchscreen: 13.4-inch; Driver display: 12.3-inch. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "High Country: Engine: 5.3L V8; Interior: Leather and authentic wood. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "ZR2: Engine: 3.0L Duramax turbo-diesel; Suspension: 2-inch lift and Multimatic DSSV; Differentials: Front and rear electronic lockers. Select engines and packages vary by cab and drivetrain.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
         }
       ],
       "faq": [
@@ -255,7 +431,7 @@
           "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "2026 Canadian Silverado 1500 highlights. Engine availability varies significantly by cab, axle and drivetrain; verify VIN and package contents. Manufacturer starting price may vary by configuration.",
       "listing_model_names": [
         "Silverado 1500"
       ]
@@ -283,9 +459,21 @@
               "value": "16.3-inch centre; 12.2-inch driver",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.2-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Safety",
+              "value": "10 newly standard safety features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             }
           ],
-          "price": null
+          "price": 56498
         },
         {
           "name": "Custom",
@@ -293,18 +481,36 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "20-inch",
+              "value": "20-inch Technical Grey",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Utility",
               "value": "120V cabin and bed outlets",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Tailgate",
+              "value": "EZ Lift and Lower",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Outlet",
+              "value": "120-volt interior and bed",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Driver seat",
+              "value": "Power",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             }
           ],
-          "price": null
+          "price": 61998
         },
         {
           "name": "Custom Trail Boss",
@@ -312,18 +518,36 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "2-inch lift; monotube shocks",
+              "value": "2-inch factory lift",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Tires",
               "value": "34-inch mud-terrain",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Tyres",
+              "value": "34-inch mud-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Recovery hooks",
+              "value": "Red",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             }
           ],
-          "price": null
+          "price": 70698
         },
         {
           "name": "Z71",
@@ -340,9 +564,33 @@
               "value": "Heated front seats and steering wheel",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Rear window",
+              "value": "Power sliding with defogger",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Lighting",
+              "value": "Ambient interior",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             }
           ],
-          "price": null
+          "price": 72898
         },
         {
           "name": "Trail Boss",
@@ -350,18 +598,30 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "2-inch lift",
+              "value": "2-inch factory lift",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Audio",
-              "value": "Eight-speaker Bose",
+              "value": "8-speaker Bose",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Tyres",
+              "value": "34-inch mud-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Front seats",
+              "value": "Bucket with MultiFlex console",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             }
           ],
-          "price": null
+          "price": 80198
         },
         {
           "name": "High Country",
@@ -371,7 +631,7 @@
               "label": "Engine",
               "value": "5.7L V8",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Engine upgrade",
@@ -381,18 +641,42 @@
             },
             {
               "label": "Super Cruise",
-              "value": "With trailering; three-year OnStar One plan",
+              "value": "Standard with trailering; eligible plan",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Sunroof",
               "value": "Panoramic",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Powertrain options",
+              "value": "6.6L V8 or 3.0L diesel",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Roof",
+              "value": "Panoramic sunroof",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Passenger screen",
+              "value": "11.5-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             }
           ],
-          "price": null
+          "price": 97898
         },
         {
           "name": "ZR2",
@@ -400,33 +684,74 @@
           "features": [
             {
               "label": "Engine",
-              "value": "3.0L diesel",
+              "value": "3.0L Duramax turbo-diesel",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Engine upgrade",
-              "value": "6.6L V8",
+              "value": "6.6L V8 available",
               "status": "optional",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Suspension",
-              "value": "DSSV and jounce dampers",
+              "value": "2-inch lift / DSSV / jounce dampers",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             },
             {
               "label": "Super Cruise",
-              "value": "With trailering; three-year OnStar One plan",
+              "value": "Standard with trailering; eligible plan",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Tyres",
+              "value": "35-inch mud-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+            },
+            {
+              "label": "Passenger screen",
+              "value": "11.5-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
             }
           ],
-          "price": null
+          "price": 102198
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "WT: Driver display: 12.2-inch; Safety: 10 newly standard safety features. The 2027 generation differs substantially from 2026.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+        },
+        {
+          "text": "Custom: Wheels: 20-inch Technical Grey; Tailgate: EZ Lift and Lower; Outlet: 120-volt interior and bed. The 2027 generation differs substantially from 2026.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+        },
+        {
+          "text": "Custom Trail Boss: Tyres: 34-inch mud-terrain; Suspension: 2-inch factory lift; Transfer case: Two-speed. The 2027 generation differs substantially from 2026.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+        },
+        {
+          "text": "Z71: Heated front seats: Included; Heated steering wheel: Included; Rear window: Power sliding with defogger. The 2027 generation differs substantially from 2026.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+        },
+        {
+          "text": "Trail Boss: Tyres: 34-inch mud-terrain; Suspension: 2-inch factory lift; Audio: 8-speaker Bose. The 2027 generation differs substantially from 2026.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+        },
+        {
+          "text": "High Country: Engine: 5.7L V8; Wheels: 22-inch; Roof: Panoramic sunroof. The 2027 generation differs substantially from 2026.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+        },
+        {
+          "text": "ZR2: Engine: 3.0L Duramax turbo-diesel; Suspension: 2-inch lift / DSSV / jounce dampers; Tyres: 35-inch mud-terrain. The 2027 generation differs substantially from 2026.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/trucks/2027-silverado-1500.html"
+        }
+      ],
       "faq": [
         {
           "question": "Can I use the 2026 trim comparison?",
@@ -482,7 +807,7 @@
           "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
         }
       ],
-      "coverage_note": "Announced next-generation 2027 Canadian specification; anticipated late-2026 availability. Manufacturer page still contains placeholders; omitted unresolved performance and pricing figures.",
+      "coverage_note": "Next-generation Canadian 2027 Silverado specifications, with availability and powertrains subject to production changes. Do not assume equipment from the outgoing 2026 generation.",
       "listing_model_names": [
         "Silverado 1500"
       ]
@@ -4034,9 +4359,27 @@
               "value": "6.6L Duramax",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8, 401 hp / 464 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Transmission",
+              "value": "10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Duramax diesel",
+              "value": "6.6L turbo-diesel option",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             }
           ],
-          "price": null
+          "price": 75394
         },
         {
           "name": "Custom",
@@ -4044,7 +4387,7 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "20-inch",
+              "value": "20-inch Grazen Metallic",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             },
@@ -4053,9 +4396,27 @@
               "value": "Cloth",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Cloth",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Mirrors",
+              "value": "Heated trailer mirrors",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             }
           ],
-          "price": null
+          "price": 76994
         },
         {
           "name": "LT",
@@ -4072,9 +4433,33 @@
               "value": "Available",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Tailgate",
+              "value": "Power-lock EZ Lift",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Keyless Open / Start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             }
           ],
-          "price": null
+          "price": 80294
         },
         {
           "name": "LTZ",
@@ -4088,12 +4473,30 @@
             },
             {
               "label": "Mirrors",
-              "value": "Power-folding and extending",
+              "value": "Power folding/extension towing",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Perforated leather-appointed",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Front seats",
+              "value": "10-way power",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Trailering",
+              "value": "In-vehicle trailering app and Hitch View",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             }
           ],
-          "price": null
+          "price": 89394
         },
         {
           "name": "ZR2",
@@ -4101,7 +4504,7 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "1.5-inch lift; DSSV dampers",
+              "value": "1.5-inch lift and Multimatic DSSV",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             },
@@ -4116,9 +4519,39 @@
               "value": "35-inch mud-terrain",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Rear locker",
+              "value": "Electronic differential",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Tyres",
+              "value": "35-inch Wrangler MT",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             }
           ],
-          "price": null
+          "price": 103594
         },
         {
           "name": "High Country",
@@ -4132,7 +4565,7 @@
             },
             {
               "label": "Cameras",
-              "value": "HD Surround Vision; bed view",
+              "value": "HD Surround Vision and Bed View",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             },
@@ -4141,12 +4574,61 @@
               "value": "Power up/down",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Exterior",
+              "value": "Chrome-bronze grille; 20-inch wheels",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Interior",
+              "value": "Premium leather and wood",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Outboard",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
             }
           ],
-          "price": null
+          "price": 102794
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "WT: Engine: 6.6L gas V8, 401 hp / 464 lb-ft; Transmission: 10-speed automatic. Confirm 2500 vs 3500 configuration.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        },
+        {
+          "text": "Custom: Engine: 6.6L gas V8; Wheels: 20-inch Grazen Metallic; Upholstery: Cloth; Mirrors: Heated trailer mirrors. Confirm 2500 vs 3500 configuration.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        },
+        {
+          "text": "LT: Touchscreen: 13.4-inch; Driver display: 12.3-inch; Tailgate: Power-lock EZ Lift; Keyless Open / Start: Included. Confirm 2500 vs 3500 configuration.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        },
+        {
+          "text": "LTZ: Upholstery: Perforated leather-appointed; Front seats: 10-way power; Mirrors: Power folding/extension towing; Trailering: In-vehicle trailering app and Hitch View. Confirm 2500 vs 3500 configuration.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        },
+        {
+          "text": "ZR2: Suspension: 1.5-inch lift and Multimatic DSSV; Rear locker: Electronic differential; Tyres: 35-inch Wrangler MT; Touchscreen: 13.4-inch. Confirm 2500 vs 3500 configuration.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        },
+        {
+          "text": "High Country: Exterior: Chrome-bronze grille; 20-inch wheels; Interior: Premium leather and wood; Heated front seats: Included; Heated second row: Outboard. Confirm 2500 vs 3500 configuration.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -4192,7 +4674,7 @@
           "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
         }
       ],
-      "coverage_note": "HD family includes configuration-dependent equipment. Custom and ZR2 availability is limited as shown; do not imply every trim is offered on every 2500/3500 cab.",
+      "coverage_note": "Canadian 2026 Silverado HD equipment references. Manufacturer prices reflect a Silverado 2500 HD configuration; 3500, engines and towing figures vary.",
       "listing_model_names": [
         "Silverado 2500HD",
         "Silverado 3500HD"
