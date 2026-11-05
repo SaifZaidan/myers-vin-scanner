@@ -189,15 +189,15 @@
             },
             {
               "label": "Front heated seats",
-              "value": "Heated driver and passenger",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
+              "value": "Available with Comfort and Convenience Package",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
             },
             {
               "label": "Heated steering wheel",
-              "value": "Heated",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
+              "value": "Available with Comfort and Convenience Package",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
             },
             {
               "label": "Panoramic moonroof",
@@ -255,9 +255,9 @@
             },
             {
               "label": "Hands-free power liftgate",
-              "value": "Equipment dependent",
+              "value": "Available with Comfort and Convenience Package",
               "status": "optional",
-              "source_url": "https://www.buick.ca/en/suvs/2026-envision-avenir"
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
             }
           ],
           "price": 51598
@@ -418,7 +418,7 @@
           "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
         },
         {
-          "text": "Heated seats and heated steering wheel on ST may depend on the Comfort and Convenience Package. Always confirm the individual stock number before promising equipment.",
+          "text": "Important: ST heated front seats and heated steering wheel are included in the available Comfort and Convenience Package—not standard on every ST. Confirm the installed package before offering those features.",
           "source_url": "https://www.buick.ca/en/suvs/envision-st"
         }
       ],
