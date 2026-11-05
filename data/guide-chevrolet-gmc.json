@@ -5809,6 +5809,18 @@
               "value": "ProGrade Trailering System",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Factory lift",
+              "value": "2-inch with wide-track off-road suspension",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation"
+            },
+            {
+              "label": "MultiStow Tailgate",
+              "value": "Available with equipment configuration",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation"
             }
           ],
           "price": 55343
@@ -9565,6 +9577,24 @@
               "value": "Removable roof panel on coupe",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Engine",
+              "value": "LS6 6.7L naturally aspirated V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Rear-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
             }
           ],
           "price": null
@@ -9614,6 +9644,24 @@
               "value": "Included",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Engine",
+              "value": "LS6 6.7L naturally aspirated V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Rear-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
             }
           ],
           "price": null
@@ -9675,6 +9723,24 @@
               "value": "Napa leather GT2 seats",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Engine",
+              "value": "LS6 6.7L naturally aspirated V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Rear-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
             }
           ],
           "price": null
@@ -9727,7 +9793,7 @@
           "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
         }
       ],
-      "coverage_note": "Canadian Corvette year and variant guide. Trim content differs between Stingray, Grand Sport, ZR1 and ZR1X; confirm equipment on exact variant and VIN.",
+      "coverage_note": "2027 Grand Sport/Grand Sport X announced Canadian manufacturer figures; exact production equipment, packs, pricing and trim features still subject to confirmation.",
       "listing_model_names": [
         "Corvette Grand Sport"
       ]
@@ -9779,6 +9845,36 @@
               "value": "Removable roof panel on coupe",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Engine",
+              "value": "LS6 6.7L naturally aspirated V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Electrified all-wheel drive (eAWD)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Combined output",
+              "value": "721 hp (manufacturer-estimated)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Front electric drive",
+              "value": "Electric front axle; 1.9 kWh battery",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
             }
           ],
           "price": null
@@ -9828,6 +9924,36 @@
               "value": "Included",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Engine",
+              "value": "LS6 6.7L naturally aspirated V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Electrified all-wheel drive (eAWD)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Combined output",
+              "value": "721 hp (manufacturer-estimated)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Front electric drive",
+              "value": "Electric front axle; 1.9 kWh battery",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
             }
           ],
           "price": null
@@ -9889,6 +10015,36 @@
               "value": "Napa leather GT2 seats",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Engine",
+              "value": "LS6 6.7L naturally aspirated V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Electrified all-wheel drive (eAWD)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Combined output",
+              "value": "721 hp (manufacturer-estimated)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
+            },
+            {
+              "label": "Front electric drive",
+              "value": "Electric front axle; 1.9 kWh battery",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-corvette-ye"
             }
           ],
           "price": null
@@ -9941,7 +10097,7 @@
           "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
         }
       ],
-      "coverage_note": "Canadian Corvette year and variant guide. Trim content differs between Stingray, Grand Sport, ZR1 and ZR1X; confirm equipment on exact variant and VIN.",
+      "coverage_note": "2027 Grand Sport/Grand Sport X announced Canadian manufacturer figures; exact production equipment, packs, pricing and trim features still subject to confirmation.",
       "listing_model_names": [
         "Corvette Grand Sport X"
       ]
