@@ -45,7 +45,7 @@ if(typeof document!=='undefined'){
  const overview=section('1. Trim overview'),cards=el('div',undefined,'trim-cards');for(const t of m.trims){const c=el('div',undefined,'trim-card');c.append(el('span',m.trims.indexOf(t)===0?'ESSENTIALS':m.trims.indexOf(t)===m.trims.length-1?'TOP TRIM':'STYLE & FEATURES','trim-kicker'),el('h4',t.name),stockBadge(GuideLogic.matches(inventory,m,t.name)),el('p',t.positioning||'Review the sourced features below.'),el('p',Number.isFinite(t.price)?`${cad(t.price)} manufacturer starting price; not a Myers asking price.`:'Manufacturer starting price not verified. See actual listing prices below.','guide-price'));const ul=el('ul');for(const f of (t.features||[]).filter(f=>f.status==='standard').slice(0,4))ul.append(el('li',f.label+(f.value&&f.value!=='Included'?': '+f.value:'')));c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview.append(el('p','Trim details are not yet verified for this model year.'));out.append(overview);
 
 
- const comparison=section('2. Side-by-side equipment comparison');
+ const comparison=section('2. Side-by-side feature comparison');
  comparison.append(el('p','✓ Standard · ◇ Optional / package-dependent · — Confirmed not offered. Only compare features for which there is a source-backed status for EVERY trim. A missing entry never means a feature is absent.','guide-legend'));
  const rawLabels=[...new Set(m.trims.flatMap(t=>(t.features||[]).map(f=>f.label)))];
  const known=f=>f&&['standard','optional','unavailable'].includes(f.status);
@@ -77,7 +77,7 @@ if(typeof document!=='undefined'){
    for(const group of body.querySelectorAll('.group-row')){let next=group.nextElementSibling,seen=false;while(next&&!next.classList.contains('group-row')){if(!next.hidden)seen=true;next=next.nextElementSibling;}group.hidden=!seen;}
    toggle.textContent=differenceOnly?'Show all verified features':'Show differences only';count.textContent=differenceOnly?visible+' fully verified differences':allKnown.length+' comparable features';
   }
-  toggle.addEventListener('click',()=>{differenceOnly=!differenceOnly;updateRows();});updateRows();
+  toggle.addEventListener('click',()=>{differenceOnly=!differenceOnly;updateRows();});
  }else comparison.append(el('p','The saved manufacturer references do not yet establish even one complete cross-trim feature row for this model year. The documented individual-trim specifications are displayed immediately below; no trim absence is assumed.','notice'));
  const summary=el('div',undefined,'model-quick-compare');
  summary.append(el('h4','Verified highlights by trim'));
