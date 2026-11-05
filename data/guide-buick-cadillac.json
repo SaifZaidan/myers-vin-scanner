@@ -467,6 +467,10 @@
         {
           "text": "First show the full comparison table, then physically demonstrate the Avenir ventilated seating and driver's massage. Confirm the VIN's installed package equipment before quoting.",
           "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+        },
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.buick.ca/en/suvs/envision"
         }
       ],
       "coverage_note": "Canadian 2026 model comparison compiled from Buick Canada and an authorized Canadian dealer. Some package equipment varies by build; confirm each exact Myers VIN. Listed MSRP is manufacturer starting price, not Myers asking price.",
@@ -673,8 +677,26 @@
           "source_url": "https://www.buick.ca/en/suvs/envista"
         }
       ],
-      "buyer_notes": [],
-      "sales_notes": [],
+      "buyer_notes": [
+        {
+          "text": "Preferred: Engine — 1.2L turbo; Display — 11-inch touchscreen; 8-inch driver display; Upholstery — Cloth / leatherette. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        },
+        {
+          "text": "Sport Touring: Engine — 1.2L turbo; Wheels — 18-inch black; Exterior — Black grille and trim. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        },
+        {
+          "text": "Avenir: Engine — 1.2L turbo; Seats — Heated, leather-appointed front seats; Steering wheel — Heated. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Drivetrain, transmission and Super Cruise status need further Canadian configuration verification.",
       "listing_model_names": [
         "Envista"
@@ -878,9 +900,26 @@
         {
           "text": "Check drivetrain and transmission on the specific Preferred configuration; do not assume the ST transmission applies.",
           "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        },
+        {
+          "text": "Preferred: Engine — 1.3L turbo; Upholstery — Cloth / leatherette; Wheels — 18-inch silver. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        },
+        {
+          "text": "Sport Touring: Powertrain — 1.3L turbo; 9-speed automatic; Upholstery — Leatherette with ST head restraints; Wheels — 18-inch black. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        },
+        {
+          "text": "Avenir: Powertrain — 1.3L turbo; 9-speed automatic; Upholstery — Leather-appointed front seats; Steering wheel — Heated. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Preferred transmission, trim-specific AWD and Super Cruise not verified.",
       "listing_model_names": [
         "Encore GX"
@@ -924,7 +963,7 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Package; 3-year trial",
+              "value": "Available with package; verify build",
               "status": "optional",
               "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
             },
@@ -939,9 +978,81 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.buick.ca/en/suvs/enclave"
+            },
+            {
+              "label": "Engine",
+              "value": "2.5L turbocharged four-cylinder",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Seating",
+              "value": "7 passengers / 3 rows",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Display",
+              "value": "30-inch ultrawide screen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Bose audio",
+              "value": "12 speakers",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch Medium Android finish",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Panoramic sunroof",
+              "value": "Trim-specific availability not established",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Massaging front seats",
+              "value": "Not established for this trim",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Adaptive damping",
+              "value": "Not established for this trim",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Heated second-row outboard seats",
+              "value": "Not established for this trim",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Available with Power Package",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
             }
           ],
-          "price": null
+          "price": 64793
         },
         {
           "name": "Sport Touring",
@@ -973,18 +1084,90 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Package; 3-year trial",
+              "value": "Available with package; verify build",
               "status": "optional",
-              "source_url": "https://www.buick.ca/en/suvs/enclave-st"
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
             },
             {
               "label": "Apple CarPlay / Android Auto",
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.buick.ca/en/suvs/enclave"
+            },
+            {
+              "label": "Engine",
+              "value": "2.5L turbocharged four-cylinder",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Seating",
+              "value": "7 passengers / 3 rows",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Display",
+              "value": "30-inch ultrawide screen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Bose audio",
+              "value": "12 speakers",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch High-Gloss Black",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Panoramic sunroof",
+              "value": "Trim-specific availability not established",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Massaging front seats",
+              "value": "Not established for this trim",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Adaptive damping",
+              "value": "Not established for this trim",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Heated second-row outboard seats",
+              "value": "Not established for this trim",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Not established for this trim",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
             }
           ],
-          "price": null
+          "price": 69793
         },
         {
           "name": "Avenir",
@@ -998,7 +1181,7 @@
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Included; 3-year eligible plan",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
             },
@@ -1043,14 +1226,94 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.buick.ca/en/suvs/enclave"
+            },
+            {
+              "label": "Engine",
+              "value": "2.5L turbocharged four-cylinder",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Seating",
+              "value": "7 passengers / 3 rows",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Display",
+              "value": "30-inch ultrawide screen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Bose audio",
+              "value": "16 speakers",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch Pearl Nickel",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+            },
+            {
+              "label": "Panoramic sunroof",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Massaging front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Adaptive damping",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Heated second-row outboard seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
             }
           ],
-          "price": null
+          "price": 80693
         }
       ],
       "upgrade_notes": [
         {
-          "text": "Avenir makes Super Cruise standard and adds adaptive damping and massaging front seats.",
+          "text": "Preferred: Includes the 30-inch display, 7 seats, heated front seats and Bose 12-speaker audio system. An optional Power Package adds selected convenience equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+        },
+        {
+          "text": "Sport Touring: Adds distinctive black exterior styling, black 20-inch wheels and perforated leatherette seating while maintaining the family-oriented cabin.",
+          "source_url": "https://www.buick.ca/en/suvs/2027-enclave"
+        },
+        {
+          "text": "Avenir: Moves to 22-inch wheels, massaging front seats, heated second-row seats, Bose 16-speaker audio, panoramic sunroof, Continuous Damping Control and standard Super Cruise (eligible plan and operating conditions apply).",
           "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
         }
       ],
@@ -1065,10 +1328,27 @@
         {
           "text": "Phone projection is not verified here. Google built-in alone does not establish CarPlay support.",
           "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+        },
+        {
+          "text": "Preferred: Powertrain — 2.5L turbo; 8-speed automatic; Screen — 30-inch; Audio — Bose, 12 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+        },
+        {
+          "text": "Sport Touring: Powertrain — 2.5L turbo; 8-speed automatic; Screen — 30-inch; Audio — Bose, 12 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave-st"
+        },
+        {
+          "text": "Avenir: Powertrain — 2.5L turbo; 8-speed automatic; Super Cruise — Included; 3-year eligible plan; Audio — Bose, 16 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
         }
       ],
-      "sales_notes": [],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase.",
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave"
+        }
+      ],
+      "coverage_note": "Canadian 2027 Enclave trim details sourced from Buick Canada. Factory options and packages must still be verified on each Myers stock number.",
       "listing_model_names": [
         "Enclave"
       ]
@@ -1241,9 +1521,26 @@
         {
           "text": "Driver Assist Package includes adaptive cruise, ventilated front seats and heated rear outboard seats.",
           "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+        },
+        {
+          "text": "Luxury: Engine — 2.0L turbo; 235 hp on premium fuel; Drive — Front-wheel drive; Audio — Bose, 8 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+        },
+        {
+          "text": "Premium Luxury: Drive — AWD; Audio — Bose, 14 speakers; Roof — UltraView sunroof. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+        },
+        {
+          "text": "Sport: Engine — 3.6L V6; 310 hp on regular fuel; Drive — Twin-clutch AWD; Suspension — Chassis Damping Control. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Wireless phone projection is described at model level; trim-specific confirmation and Super Cruise remain unverified.",
       "listing_model_names": [
         "XT5"
@@ -1394,8 +1691,26 @@
         }
       ],
       "faq": [],
-      "buyer_notes": [],
-      "sales_notes": [],
+      "buyer_notes": [
+        {
+          "text": "Luxury: Powertrain — 2.0L turbo; 8-speed automatic; RWD; Comfort — Heated seats and steering wheel; Screen — 8-inch. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+        },
+        {
+          "text": "Premium Luxury: Upholstery — Leather; Front adjustment — 12-way; driver memory; Adaptive cruise — Included Driver Assist Package. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+        },
+        {
+          "text": "Sport: Front adjustment — 18-way, sport bolsters; Exterior — Black grille; rear spoiler. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection and full package dependencies not verified.",
       "listing_model_names": [
         "CT4"
@@ -1519,9 +1834,22 @@
         {
           "text": "The Sport page lists ventilated seats as both standard and available. Verify the build sheet instead of promising them.",
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+        },
+        {
+          "text": "Premium Luxury: Engine — 2.0L turbo; 237 hp on premium fuel; Super Cruise — 3-year trial; Display — 33-inch. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+        },
+        {
+          "text": "Sport: Engine — 2.0L turbo; 237 hp on premium fuel; Super Cruise — 3-year trial; Wheels — 19-inch. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Seat-ventilation source conflict retained above; phone projection not verified.",
       "listing_model_names": [
         "CT5"
@@ -1618,8 +1946,22 @@
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
         }
       ],
-      "buyer_notes": [],
-      "sales_notes": [],
+      "buyer_notes": [
+        {
+          "text": "CT4-V: Engine — 2.7L turbo; 325 hp; 380 lb-ft; Transmission — 10-speed automatic. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+        },
+        {
+          "text": "CT4-V Blackwing: Engine — 3.6L twin-turbo V6; 472 hp; 445 lb-ft; Transmission — 6-speed manual. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Performance-family guide; complete package and phone-projection verification pending.",
       "listing_model_names": [
         "CT4-V"
@@ -1728,8 +2070,22 @@
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
         }
       ],
-      "buyer_notes": [],
-      "sales_notes": [],
+      "buyer_notes": [
+        {
+          "text": "CT5-V: Engine — 3.0L twin-turbo V6; 360 hp; 405 lb-ft; Transmission — 10-speed automatic; Suspension — Magnetic Ride Control. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+        },
+        {
+          "text": "CT5-V Blackwing: Engine — 6.2L supercharged V8; 668 hp; 659 lb-ft; Transmission — 6-speed manual; Suspension — Magnetic Ride Control. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Performance-family guide; complete package and phone-projection verification pending.",
       "listing_model_names": [
         "CT5-V"
@@ -1996,9 +2352,38 @@
         {
           "text": "2027 Canadian page explicitly lists wireless CarPlay and Android Auto. Do not apply a blanket EV assumption.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Luxury: Drive — Single-motor RWD; Super Cruise — 3-year OnStar One plan; Apple CarPlay / Android Auto — Wireless. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Sport: Drive — Single-motor RWD; Super Cruise — 3-year OnStar One plan; Apple CarPlay / Android Auto — Wireless. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Premium Luxury: Audio — AKG, 23 speakers; Front seats — Ventilation and lumbar massage; Liftgate — Hands-free. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Premium Sport: Audio — AKG, 23 speakers; Front seats — Ventilation and lumbar massage; Liftgate — Hands-free. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Signature Luxury: Wheels — 22-inch; Rear outboard seats — Heated; Climate — Three-zone. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Signature Sport: Wheels — 22-inch; Rear outboard seats — Heated; Climate — Three-zone. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Higher-tier inherited features and all package combinations require exact-build confirmation. V-Series is a separate guide.",
       "listing_model_names": [
         "LYRIQ"
@@ -2099,9 +2484,22 @@
         {
           "text": "Range headline is up to 459 km, Cadillac-estimated; actual conditions affect results.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+        },
+        {
+          "text": "LYRIQ-V: Power — 615 hp in Velocity Max; Cadillac estimate; Super Cruise — 3-year OnStar One plan; Chassis — Continuous Damping Control. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+        },
+        {
+          "text": "LYRIQ-V Premium: AC charging — 19.2 kW; Roof — Power SkyGlass; Seating — Napa leather. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Premium name/equipment comes from the 2027 LYRIQ trim comparison. Phone projection and full option matrix unverified.",
       "listing_model_names": [
         "LYRIQ-V"
@@ -2318,9 +2716,30 @@
         {
           "text": "Sport range wording differs from Luxury despite both listing RWD. Range is intentionally omitted pending clarification.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        },
+        {
+          "text": "Luxury: Drive — Single-motor RWD; Super Cruise — 3-year OnStar One plan; Audio — AKG, 19 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        },
+        {
+          "text": "Sport: Drive — Single-motor RWD; Super Cruise — 3-year OnStar One plan; Audio — AKG, 19 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        },
+        {
+          "text": "Premium Luxury: Drive — Dual-motor AWD; Head-up display — Included; Front seats — Ventilation and lumbar massage. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        },
+        {
+          "text": "Premium Sport: Drive — Dual-motor AWD; Head-up display — Included; Front seats — Ventilation and lumbar massage. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection not verified. V-Series is a separate guide; conflicting performance figures excluded.",
       "listing_model_names": [
         "OPTIQ"
@@ -2396,11 +2815,19 @@
         {
           "text": "Deep Ocean Design Edition is a limited-availability package, not assumed to be a separate regular trim.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+        },
+        {
+          "text": "OPTIQ-V: Drive — Dual-motor AWD; Super Cruise — 3-year OnStar One plan; Charging port — NACS. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
         }
       ],
       "sales_notes": [
         {
           "text": "Official OPTIQ comparison and V page disagree on performance numbers. Confirm current Canadian specifications before quoting power.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+        },
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
         }
       ],
@@ -2602,9 +3029,30 @@
         {
           "text": "Confirm seating layout before comparing trim prices: captain’s chairs alter capacity.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        },
+        {
+          "text": "Luxury: Drive — Dual-motor AWD; AC charging — 11.5 kW; NACS; Super Cruise — 3-year OnStar One plan. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        },
+        {
+          "text": "Sport: Exterior — Black / Obsidian Chrome accents; Wheels — 21-inch. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        },
+        {
+          "text": "Premium Luxury: Suspension — Air Ride with adaptive damping; Steering — Active rear steering; Seating — Six passengers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        },
+        {
+          "text": "Platinum: Brakes — Brembo front; Wheels — 22-inch; Roof colour — Black. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection and inherited equipment not fully verified.",
       "listing_model_names": [
         "VISTIQ"
@@ -2821,9 +3269,30 @@
         {
           "text": "Higher onboard AC charging requires a compatible electrical installation; verify suitability before choosing equipment.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        },
+        {
+          "text": "Luxury: AC charging — 11.5 kW; Super Cruise — 3-year trial; Audio — AKG, 21 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        },
+        {
+          "text": "Sport: AC charging — 11.5 kW; Super Cruise — 3-year trial; Audio — AKG, 21 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        },
+        {
+          "text": "Premium Luxury: AC charging — 19.2 kW; Audio — AKG, 38 speakers; Front seats — Massage; 16-way adjustment. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        },
+        {
+          "text": "Premium Sport: AC charging — 19.2 kW; Audio — AKG, 38 speakers; Front seats — Massage; 16-way adjustment. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection, charging connector and complete package dependencies not verified.",
       "listing_model_names": [
         "Escalade IQ"
@@ -3040,9 +3509,30 @@
         {
           "text": "Higher onboard AC charging requires a compatible electrical installation; verify suitability before choosing equipment.",
           "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        },
+        {
+          "text": "Luxury: AC charging — 11.5 kW; Super Cruise — 3-year trial; Audio — AKG, 21 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        },
+        {
+          "text": "Sport: AC charging — 11.5 kW; Super Cruise — 3-year trial; Audio — AKG, 21 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        },
+        {
+          "text": "Premium Luxury: AC charging — 19.2 kW; Audio — AKG, 38 speakers; Front seats — Massage; 16-way adjustment. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        },
+        {
+          "text": "Premium Sport: AC charging — 19.2 kW; Audio — AKG, 38 speakers; Front seats — Massage; 16-way adjustment. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection, charging connector and complete package dependencies not verified.",
       "listing_model_names": [
         "Escalade IQL"
@@ -3223,9 +3713,30 @@
         {
           "text": "ESV is the longer body, not a trim. Verify body length and vehicle-specific configuration separately.",
           "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+        },
+        {
+          "text": "Luxury: Engine — 6.2L V8; Super Cruise — 3-year OnStar One plan; Audio — AKG, 21 speakers. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+        },
+        {
+          "text": "Sport: Exterior — Gloss-black accents; Wheels — 22-inch. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+        },
+        {
+          "text": "Platinum Luxury: Audio — AKG, 38 speakers; Front seats — 16-way; massage; semi-aniline leather; Touring Package — Included. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+        },
+        {
+          "text": "Platinum Sport: Audio — AKG, 38 speakers; Front seats — 16-way; massage; Touring Package — Included. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+        }
+      ],
       "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Escalade-V has its own guide. Full ESV equipment, drivetrain differences and phone projection unverified.",
       "listing_model_names": [
         "Escalade",
@@ -3290,9 +3801,18 @@
         {
           "text": "Check the exact standard- or extended-body build, tires and options before quoting a vehicle.",
           "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+        },
+        {
+          "text": "V-Series: Engine — 6.2L supercharged V8; 682 hp; Wheels — 24-inch; Brakes — Brembo front. These are documented trim highlights; check the exact vehicle for all other equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
         }
       ],
-      "sales_notes": [],
+      "sales_notes": [
+        {
+          "text": "Never infer a missing package or feature from trim rank. Only a model-year specification or the exact VIN's installed-option list establishes its status.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+        }
+      ],
       "coverage_note": "Incomplete guide: model/year and selected performance highlights verified. Body variants, Super Cruise, phone projection and option matrix not confirmed.",
       "listing_model_names": [
         "Escalade-V"
