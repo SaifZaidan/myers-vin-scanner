@@ -45,3 +45,20 @@
 
 /* Information confidence is explicit, never an absence claim. */
 .coverage-note{font-size:12px;color:#5c6c78;background:#f4f7f9;border:1px solid #e2e9ed;padding:11px 13px;border-radius:9px;line-height:1.5}
+
+/* Consistent detailed presentation across every Canadian model guide. */
+.compare-controls{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin:0 0 14px}
+.compare-toggle{padding:10px 15px!important;font-size:13px!important}
+.compare-count{font-size:12px;color:#667b8a}
+.verified-trim-grid{display:grid;gap:12px}
+.verified-trim-panel{border:1px solid #dce6ec;border-radius:14px;background:#fff;overflow:hidden}
+.verified-trim-panel summary{cursor:pointer;font-weight:750;font-size:16px;padding:18px 22px;background:#f6f9fb;list-style-position:inside}
+.verified-trim-panel[open] summary{border-bottom:1px solid #e2eaf0;color:#133d50}
+.verified-feature-list{display:grid;grid-template-columns:minmax(135px,1fr) 2fr;padding:4px 20px 15px;margin:0}
+.verified-feature-list dt,.verified-feature-list dd{border-bottom:1px solid #edf0f2;padding:12px 5px;margin:0;font-size:13px;line-height:1.55}
+.verified-feature-list dt{font-weight:700;color:#274352}.verified-feature-list dd{color:#455b67}
+.verified-feature-list a{font-size:11px}
+.verified-status{display:inline-block;border-radius:6px;padding:2px 7px;font-weight:700;font-size:11px}
+.verified-status.standard{background:#e7f5ed;color:#196f4b}.verified-status.optional{background:#fff0da;color:#895f15}
+.trim-comparison tr[hidden],.trim-comparison .group-row[hidden]{display:none!important}
+@media(max-width:600px){.verified-feature-list{grid-template-columns:1fr;padding:5px 14px 12px}.verified-feature-list dt{border-bottom:0;padding-bottom:2px}.verified-feature-list dd{padding-top:1px}.verified-trim-panel summary{padding:15px}}
