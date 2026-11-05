@@ -51,19 +51,19 @@ c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview
 
 
  const comparison=section('2. Side-by-side feature comparison');
- comparison.append(el('p','✓ Standard · ◇ Optional / package-dependent · — Confirmed not offered. Only compare features for which there is a source-backed status for EVERY trim. A missing entry never means a feature is absent.','guide-legend'));
+ comparison.append(el('p','✓ Documented standard · ◇ Documented optional / package-dependent · — Specifically documented not offered. A cell marked Not documented is NOT a no; these rows show differing documented descriptions, not verified exclusivity.','guide-legend'));
  const rawLabels=[...new Set(m.trims.flatMap(t=>(t.features||[]).map(f=>f.label)))];
  const known=f=>f&&['standard','optional','unavailable'].includes(f.status);
  const allKnown=rawLabels.filter(label=>m.trims.every(t=>known((t.features||[]).find(f=>f.label===label))));
  const distinctLabels=rawLabels.filter(label=>{const entries=m.trims.map(t=>(t.features||[]).find(f=>f.label===label)).filter(known);if(!entries.length)return false;const complete=entries.length===m.trims.length;return !complete||new Set(entries.map(f=>f.status+'|'+f.value)).size>1;});
  distinctLabels.sort((a,b)=>{const count=l=>m.trims.filter(t=>known((t.features||[]).find(f=>f.label===l))).length;return count(b)-count(a)||a.localeCompare(b);});
  const incompleteCells=rawLabels.reduce((sum,label)=>sum+m.trims.filter(t=>!known((t.features||[]).find(f=>f.label===label))).length,0);
- const coverage=el('p',distinctLabels.length+' sourced differentiating feature rows · '+allKnown.length+' completely documented cross-trim features · '+incompleteCells+' missing source entries. A blank or not documented cell is NOT an absent feature.','coverage-note');comparison.append(coverage);
+ const coverage=el('p',distinctLabels.length+' trim-specific highlight rows · '+allKnown.length+' completely documented cross-trim features · '+incompleteCells+' missing source entries. A blank or not documented cell is NOT an absent feature.','coverage-note');comparison.append(coverage);
  function category(label){const l=label.toLowerCase();if(/engine|transmission|awd|drivetrain|suspension|powertrain|fuel|towing|differential|drive modes|torque|battery/.test(l))return 'Engine & driving';if(/seat|upholstery|steering wheel|memory|massage|climate|lumbar|interior|pedal/.test(l))return 'Seats & comfort';if(/wheel|grille|exterior|roof|liftgate|rail|tailgate|tyres/.test(l))return 'Exterior & convenience';if(/display|audio|bose|head.up|charging|carplay|android|google|camera|mirror|cruise|remote|noise|safety|touchscreen/.test(l))return 'Technology & safety';return 'Other equipment';}
  if(distinctLabels.length){
   const controls=el('div',undefined,'compare-controls'),toggle=el('button','Show complete rows only','secondary-button compare-toggle');toggle.type='button';
-  const count=el('span','Full verified comparison','compare-count');controls.append(toggle,count);comparison.append(controls);
-  const wrap=el('div',undefined,'guide-matrix');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Fully researched trim comparisons');
+  const count=el('span','Trim-specific equipment highlights','compare-count');controls.append(toggle,count);comparison.append(controls);
+  const wrap=el('div',undefined,'guide-matrix');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Documented trim features, incomplete where sources do not specify');
   const table=el('table',undefined,'trim-comparison'),thead=el('thead'),head=el('tr');head.append(el('th','Feature'));for(const t of m.trims)head.append(el('th',t.name));thead.append(head);table.append(thead);
   const body=el('tbody');
   for(const group of ['Engine & driving','Seats & comfort','Technology & safety','Exterior & convenience','Other equipment']){
@@ -83,7 +83,7 @@ c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview
   let completeOnly=false;
   function updateRows(){let visible=0;for(const row of body.querySelectorAll('tr:not(.group-row)')){const cells=[...row.querySelectorAll('td')];const values=cells.map(cell=>(cell.querySelector('.feature-mark')?.className||'')+'|'+(cell.querySelector('.feature-value')?.textContent||''));const complete=cells.every(cell=>!!cell.querySelector('.feature-mark'));row.hidden=completeOnly&&!complete;if(!row.hidden)visible++;}
    for(const group of body.querySelectorAll('.group-row')){let next=group.nextElementSibling,seen=false;while(next&&!next.classList.contains('group-row')){if(!next.hidden)seen=true;next=next.nextElementSibling;}group.hidden=!seen;}
-   toggle.textContent=completeOnly?'Show all documented differences':'Show complete rows only';count.textContent=completeOnly?visible+' fully documented rows':distinctLabels.length+' documented difference rows';
+   toggle.textContent=completeOnly?'Show all documented differences':'Show complete rows only';count.textContent=completeOnly?visible+' fully documented rows':distinctLabels.length+' highlight rows';
   }
   toggle.addEventListener('click',()=>{completeOnly=!completeOnly;updateRows();});
  }else comparison.append(el('p','The available sources do not establish trim-specific contrasts for this model. Review the individual equipment listings below and confirm the VIN.','notice'));
