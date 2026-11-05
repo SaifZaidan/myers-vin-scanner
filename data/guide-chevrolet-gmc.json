@@ -1,0 +1,4338 @@
+{
+  "models": [
+    {
+      "id": "chevrolet-silverado-1500-2026",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "WT",
+          "positioning": "Work essentials",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "TurboMax; 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "5.3L V8",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Adaptive cruise",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Custom",
+          "positioning": "Convenience",
+          "features": [
+            {
+              "label": "Driver seat",
+              "value": "10-way power",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Convenience",
+              "value": "Remote start and Trailering Package",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Custom Trail Boss",
+          "positioning": "Off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "2-inch lift; Z71 package",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Driveline",
+              "value": "Two-speed transfer case; locking rear differential",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Larger displays",
+          "features": [
+            {
+              "label": "Screens",
+              "value": "13.4-inch centre; 12.3-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Surround camera",
+              "value": "Safety Package required",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RST",
+          "positioning": "Body-colour styling",
+          "features": [
+            {
+              "label": "Exterior",
+              "value": "Body-colour bumpers and grille bar",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "5.3L V8, 6.2L V8 or 3.0L diesel",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT Trail Boss",
+          "positioning": "Off-road with upgraded cabin",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "2-inch lift; Z71 package",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Screens",
+              "value": "13.4-inch centre; 12.3-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LTZ",
+          "positioning": "Leather cabin",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Perforated leather-appointed front seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "High Country",
+          "positioning": "Luxury",
+          "features": [
+            {
+              "label": "Cabin",
+              "value": "Leather and real wood",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available with trailering; three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ZR2",
+          "positioning": "Advanced off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "DSSV dampers; 2-inch lift",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            },
+            {
+              "label": "Differentials",
+              "value": "Front and rear electronic lockers",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "LT adds larger screens; Trail Boss adds lifted off-road hardware; ZR2 brings DSSV dampers and electronic lockers.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Super Cruise standard on High Country?",
+          "answer": "No. The 2026 Canadian page lists it as available with trailering and a three-year trial.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+        }
+      ],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/previous-year-silverado-1500"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Silverado 1500"
+      ]
+    },
+    {
+      "id": "chevrolet-silverado-1500-2027",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "WT",
+          "positioning": "Work essentials",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "TurboMax; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Screens",
+              "value": "16.3-inch centre; 12.2-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Custom",
+          "positioning": "Convenience",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "20-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Utility",
+              "value": "120V cabin and bed outlets",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Custom Trail Boss",
+          "positioning": "Off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "2-inch lift; monotube shocks",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Tires",
+              "value": "34-inch mud-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Z71",
+          "positioning": "Comfort and capability",
+          "features": [
+            {
+              "label": "Off-road package",
+              "value": "Standard on 4x4",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Trail Boss",
+          "positioning": "Off-road cabin upgrade",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "2-inch lift",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Audio",
+              "value": "Eight-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "High Country",
+          "positioning": "Luxury",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "5.7L V8",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.6L V8 or 3.0L diesel",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "With trailering; three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Sunroof",
+              "value": "Panoramic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ZR2",
+          "positioning": "Advanced off-road",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.0L diesel",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.6L V8",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Suspension",
+              "value": "DSSV and jounce dampers",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "With trailering; three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [
+        {
+          "question": "Can I use the 2026 trim comparison?",
+          "answer": "No. The 2027 page lists seven trims, new powertrains and changed equipment. Keep model years separate.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        }
+      ],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-1500"
+        }
+      ],
+      "coverage_note": "Announced next-generation 2027 Canadian specification; anticipated late-2026 availability. Manufacturer page still contains placeholders; omitted unresolved performance and pricing figures.",
+      "listing_model_names": [
+        "Silverado 1500"
+      ]
+    },
+    {
+      "id": "gmc-sierra-1500-2026",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Pro",
+          "positioning": "Work essentials",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "TurboMax; eight-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Pro Graphite",
+          "positioning": "Factory appearance/capability edition",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "5.3L V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Suspension",
+              "value": "2-inch factory lift",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "SLE",
+          "positioning": "Comfort and technology",
+          "features": [
+            {
+              "label": "Screens",
+              "value": "13.4-inch centre; 12.3-inch driver",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Elevation",
+          "positioning": "Dark exterior",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "20-inch gloss-black",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Lighting",
+              "value": "LED fog lamps",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "SLT",
+          "positioning": "V8 and chrome",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "5.3L V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Seats",
+              "value": "10-way power front seats",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.0L diesel",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Suspension",
+              "value": "2-inch lift; Rancho shocks",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4X",
+          "positioning": "Advanced off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "DSSV dampers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Differentials",
+              "value": "Front and rear electronic lockers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Luxury",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "5.3L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Cabin",
+              "value": "Wood trim; perforated leather",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali Ultimate",
+          "positioning": "Flagship cabin",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Seats",
+              "value": "16-way front seats with massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        }
+      ],
+      "coverage_note": "Canadian overview verified. Pro Graphite is a named edition. Source flattens standard/optional groups; only unambiguous primary highlights are included. Confirm Super Cruise and engine options in the exact build.",
+      "listing_model_names": [
+        "Sierra 1500"
+      ]
+    },
+    {
+      "id": "gmc-sierra-1500-2027",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "year": 2027,
+      "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Pro",
+          "positioning": "Work essentials; late availability",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "TurboMax; 10-speed automatic; late availability",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Screens",
+              "value": "16.3-inch centre; 12.2-inch driver",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Adaptive cruise",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Elevation",
+          "positioning": "Comfort and utility",
+          "features": [
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Tailgate",
+              "value": "MultiPro",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Charging",
+              "value": "Dual wireless phone charging",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "5.7L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Suspension",
+              "value": "2-inch lift",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "With trailering; three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4X",
+          "positioning": "Advanced off-road",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.0L diesel",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Suspension",
+              "value": "DSSV plus jounce dampers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Differentials",
+              "value": "Front and rear electronic lockers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "With trailering; three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Luxury",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "5.7L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "With trailering; three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Head-up display",
+              "value": "15-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali Ultimate",
+          "positioning": "Flagship",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.6L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Seats",
+              "value": "14-way front seats with massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Audio",
+              "value": "16-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "With trailering; three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+        }
+      ],
+      "coverage_note": "Next-generation 2027 Canadian guide. Pro and TurboMax are marked late availability. Do not substitute 2026 equipment or trim names.",
+      "listing_model_names": [
+        "Sierra 1500"
+      ]
+    },
+    {
+      "id": "chevrolet-trax-2026",
+      "make": "Chevrolet",
+      "model": "Trax",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/suvs/trax",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1RS",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "18-inch two-tone",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Cabin",
+              "value": "Red accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Comfort and screens",
+          "features": [
+            {
+              "label": "Screens",
+              "value": "11-inch centre; eight-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Convenience",
+              "value": "Remote start; automatic climate control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "2RS",
+          "positioning": "Larger-wheel sport styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "19-inch two-tone",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ACTIV",
+          "positioning": "Distinctive styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "18-inch black",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            },
+            {
+              "label": "Exterior",
+              "value": "Titanium-colour chrome grille accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/trax"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Trax"
+      ]
+    },
+    {
+      "id": "chevrolet-trailblazer-2026",
+      "make": "Chevrolet",
+      "model": "Trailblazer",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LS",
+          "positioning": "Core equipment",
+          "features": [
+            {
+              "label": "Screens",
+              "value": "11-inch centre; eight-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Convenience",
+              "value": "Remote start; folding front passenger seat",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Cold-weather comfort",
+          "features": [
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Access",
+              "value": "Keyless Open",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ACTIV",
+          "positioning": "Off-road tuning",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.3L turbo",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Chassis",
+              "value": "Off-road suspension and skid plate",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.3L turbo",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Wheels",
+              "value": "19-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Hands-free powered",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/trailblazer"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Trailblazer"
+      ]
+    },
+    {
+      "id": "chevrolet-equinox-2027",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/suvs/equinox",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT",
+          "positioning": "Core comfort",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.5L turbo",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            },
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            },
+            {
+              "label": "Screen",
+              "value": "11.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            },
+            {
+              "label": "Surround camera",
+              "value": "HD Surround Vision",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "19-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            },
+            {
+              "label": "Wheel upgrade",
+              "value": "20-inch",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ACTIV",
+          "positioning": "Trail-oriented styling and tuning",
+          "features": [
+            {
+              "label": "Tires",
+              "value": "All-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            },
+            {
+              "label": "Suspension",
+              "value": "Distinct tuning",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            },
+            {
+              "label": "Seats",
+              "value": "Sueded microfibre surfaces",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/equinox"
+        }
+      ],
+      "coverage_note": "Three gasoline trims. The page also promotes Equinox EV, which is a separate model, not a fourth gasoline trim.",
+      "listing_model_names": [
+        "Equinox"
+      ]
+    },
+    {
+      "id": "chevrolet-traverse-2027",
+      "make": "Chevrolet",
+      "model": "Traverse",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/suvs/traverse",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT",
+          "positioning": "Family utility",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "328-hp 2.5L turbo; eight-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Driveline",
+              "value": "AWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Screen",
+              "value": "17.7-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Seating",
+              "value": "Seven passengers",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Seating upgrade",
+              "value": "Eight passengers",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Z71",
+          "positioning": "Off-road hardware",
+          "features": [
+            {
+              "label": "Driveline",
+              "value": "Twin-clutch AWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Chassis",
+              "value": "Off-road suspension; skid plate",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch with all-terrain tires",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport styling and technology",
+          "features": [
+            {
+              "label": "Super Cruise",
+              "value": "Three-year plan included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch black",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "High Country",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Cabin",
+              "value": "Real wood accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year plan included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/traverse"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Traverse"
+      ]
+    },
+    {
+      "id": "chevrolet-blazer-2026",
+      "make": "Chevrolet",
+      "model": "Blazer",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/suvs/blazer",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT",
+          "positioning": "Core equipment",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "228-hp 2.0L turbo; nine-speed automatic; AWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Apple CarPlay",
+              "value": "Compatible through 10.2-inch screen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Powered",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "True North",
+          "positioning": "Added convenience",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "2.0L turbo; nine-speed automatic; AWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Powered",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Sunroof",
+              "value": "Panoramic",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport and handling",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.6L V6",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Driveline",
+              "value": "Twin-clutch AWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Sunroof",
+              "value": "Panoramic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Wheel upgrade",
+              "value": "21-inch",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Blazer"
+      ]
+    },
+    {
+      "id": "chevrolet-tahoe-2026",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/suvs/tahoe",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LS",
+          "positioning": "Core equipment",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "5.3L V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Screens",
+              "value": "17.7-inch centre; 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Assistance",
+              "value": "Adaptive cruise; HD Surround Vision",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Leather and convenience",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Heated front buckets; leather appointments",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RST",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Cabin",
+              "value": "Red stitching",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Z71",
+          "positioning": "Off-road hardware",
+          "features": [
+            {
+              "label": "Driveline",
+              "value": "Two-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Protection",
+              "value": "Skid plate; recovery hooks",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Suspension",
+              "value": "Four-corner air suspension",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premier",
+          "positioning": "Added comfort",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Ventilated front; heated second-row buckets",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "High Country",
+          "positioning": "Luxury V8",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/tahoe"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Tahoe"
+      ]
+    },
+    {
+      "id": "chevrolet-suburban-2026",
+      "make": "Chevrolet",
+      "model": "Suburban",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/suvs/suburban",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LS",
+          "positioning": "Core equipment",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "5.3L V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Screens",
+              "value": "17.7-inch centre; 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Assistance",
+              "value": "Adaptive cruise; HD Surround Vision",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Leather and convenience",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Heated front buckets; leather appointments",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RST",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Cabin",
+              "value": "Red stitching",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Z71",
+          "positioning": "Off-road hardware",
+          "features": [
+            {
+              "label": "Driveline",
+              "value": "Two-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Protection",
+              "value": "Skid plate; recovery hooks",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Suspension",
+              "value": "Four-corner air suspension",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premier",
+          "positioning": "Added comfort",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Ventilated front; heated second-row buckets",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "High Country",
+          "positioning": "Luxury V8",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/suburban"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Suburban"
+      ]
+    },
+    {
+      "id": "chevrolet-colorado-2026",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "WT",
+          "positioning": "Work essentials",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax; 310 hp; 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            },
+            {
+              "label": "Apple CarPlay",
+              "value": "Wireless",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            },
+            {
+              "label": "Screen",
+              "value": "11.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Convenience",
+          "features": [
+            {
+              "label": "Tailgate",
+              "value": "EZ Lift with StowFlex storage",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            },
+            {
+              "label": "Convenience",
+              "value": "Remote start; keyless access",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            },
+            {
+              "label": "Phone charging",
+              "value": "Wireless",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Trail Boss",
+          "positioning": "Lifted off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "2-inch lift",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            },
+            {
+              "label": "Tires",
+              "value": "32-inch all-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Z71",
+          "positioning": "Off-road style",
+          "features": [
+            {
+              "label": "Lighting",
+              "value": "LED headlamps, taillamps and fog lamps",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            },
+            {
+              "label": "Tires",
+              "value": "32-inch all-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ZR2",
+          "positioning": "Advanced off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "3-inch lift; DSSV dampers",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            },
+            {
+              "label": "Tires",
+              "value": "33-inch mud-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "Trail Boss adds a 2-inch lift. ZR2 moves to a 3-inch lift and DSSV dampers; Z71 instead emphasizes lighting and cabin accents.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+        }
+      ],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/colorado"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Colorado"
+      ]
+    },
+    {
+      "id": "chevrolet-silverado-hd-2026",
+      "make": "Chevrolet",
+      "model": "Silverado HD",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "WT",
+          "positioning": "Work essentials",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "6.6L gas V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Diesel",
+              "value": "6.6L Duramax",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Custom",
+          "positioning": "2500 HD Double/Crew Cab",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "20-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Seats",
+              "value": "Cloth",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Larger displays",
+          "features": [
+            {
+              "label": "Screens",
+              "value": "13.4-inch centre; 12.3-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Trail Boss Package",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LTZ",
+          "positioning": "Leather and trailering",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "10-way power front; perforated leather",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Mirrors",
+              "value": "Power-folding and extending",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ZR2",
+          "positioning": "2500 HD Crew Cab off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "1.5-inch lift; DSSV dampers",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Differential",
+              "value": "Rear electronic locker",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Tires",
+              "value": "35-inch mud-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "High Country",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Cabin",
+              "value": "Leather; real wood",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Cameras",
+              "value": "HD Surround Vision; bed view",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            },
+            {
+              "label": "Tailgate",
+              "value": "Power up/down",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/trucks/silverado-hd"
+        }
+      ],
+      "coverage_note": "HD family includes configuration-dependent equipment. Custom and ZR2 availability is limited as shown; do not imply every trim is offered on every 2500/3500 cab.",
+      "listing_model_names": [
+        "Silverado 2500HD",
+        "Silverado 3500HD"
+      ]
+    },
+    {
+      "id": "chevrolet-equinox-ev-2027",
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT 1",
+          "positioning": "Core electric comfort",
+          "features": [
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            },
+            {
+              "label": "Screen",
+              "value": "17.7-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 513 km estimated, FWD; conditions affect range",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT 2",
+          "positioning": "Convenience upgrade",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Evotex",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            },
+            {
+              "label": "Liftgate",
+              "value": "AutoSense hands-free",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            },
+            {
+              "label": "Phone charging",
+              "value": "Wireless",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "21-inch black",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            },
+            {
+              "label": "Exterior",
+              "value": "Distinct front/rear fascias; black accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "LT 2 adds Evotex, wireless charging and hands-free liftgate. RS adds styling and 21-inch wheels.",
+          "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+        }
+      ],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Equinox EV"
+      ]
+    },
+    {
+      "id": "chevrolet-blazer-ev-2026",
+      "make": "Chevrolet",
+      "model": "Blazer EV",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT",
+          "positioning": "Core EV",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "19-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 502 km estimated with FWD; conditions affect range",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "21-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Lighting",
+              "value": "Animated front light bar and emblem",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "SS",
+          "positioning": "Performance",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year trial included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 486 km estimated; conditions affect range",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Blazer EV"
+      ]
+    },
+    {
+      "id": "chevrolet-silverado-ev-2026",
+      "make": "Chevrolet",
+      "model": "Silverado EV",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Work Truck",
+          "positioning": "Work-focused EV",
+          "features": [
+            {
+              "label": "Battery choices",
+              "value": "Standard, Extended and Max",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 460 / 682 / 793 km respectively; estimates vary with conditions",
+              "status": "unknown",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LT",
+          "positioning": "Retail electric truck",
+          "features": [
+            {
+              "label": "Battery choices",
+              "value": "Standard, Extended and Max",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 455 / 660 / 769 km respectively; estimates vary with conditions",
+              "status": "unknown",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Trail Boss",
+          "positioning": "Off-road EV",
+          "features": [
+            {
+              "label": "Battery choices",
+              "value": "Extended and Max",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 660 / 769 km respectively; estimates vary with conditions",
+              "status": "unknown",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+        }
+      ],
+      "coverage_note": "Trim and battery catalog verified. Range is configuration-specific, not a guaranteed driving distance. Equipment/package matrix incomplete.",
+      "listing_model_names": [
+        "Silverado EV"
+      ]
+    },
+    {
+      "id": "chevrolet-bolt-2027",
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT",
+          "positioning": "Core electric model",
+          "features": [
+            {
+              "label": "Power",
+              "value": "210 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Charging port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Screens",
+              "value": "11.3-inch centre; 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Seats",
+              "value": "Evotex",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Appearance and cabin upgrade",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "17-inch black",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Seats",
+              "value": "Black Evotex; red stitching",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Cabin",
+              "value": "Multicolour ambient lighting",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Bolt"
+      ]
+    },
+    {
+      "id": "gmc-canyon-2026",
+      "make": "GMC",
+      "model": "Canyon",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/trucks/canyon",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Elevation",
+          "positioning": "Core capability",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "310-hp TurboMax",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Apple CarPlay",
+              "value": "Wireless",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Screens",
+              "value": "11.3-inch centre; 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road hardware",
+          "features": [
+            {
+              "label": "Driveline",
+              "value": "4WD; locking rear differential; two-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Tailgate",
+              "value": "MultiStow storage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4X",
+          "positioning": "Advanced off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "DSSV dampers; 3-inch lift",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Differentials",
+              "value": "Front and rear electronic lockers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Cabin",
+              "value": "Leather; open-pore wood",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Cameras",
+              "value": "HD Surround Vision",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Head-up display",
+              "value": "6.3-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Canyon"
+      ]
+    },
+    {
+      "id": "gmc-sierra-hd-2026",
+      "make": "GMC",
+      "model": "Sierra HD",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Pro",
+          "positioning": "Work essentials",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.6L gas V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Transmission",
+              "value": "10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Apple CarPlay",
+              "value": "Wireless",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "SLE",
+          "positioning": "Display upgrade",
+          "features": [
+            {
+              "label": "Screens",
+              "value": "13.4-inch centre; 12.3-inch driver",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "SLT",
+          "positioning": "Comfort",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Heated 10-way power front",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "Rancho shocks and skid plates",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Cameras",
+              "value": "HD Surround Vision",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4X",
+          "positioning": "Advanced off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "1.5-inch lift; DSSV dampers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Differential",
+              "value": "Rear electronic locker",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Luxury",
+          "features": [
+            {
+              "label": "Cabin",
+              "value": "Wood and perforated leather",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Seats",
+              "value": "12-way heated/ventilated front",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali Ultimate",
+          "positioning": "Flagship",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.6L Duramax diesel",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Seats",
+              "value": "16-way front with massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            },
+            {
+              "label": "Audio",
+              "value": "12-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-hd"
+        }
+      ],
+      "coverage_note": "2500/3500 family overview only. Cab, axle and series restrictions require exact-build verification; no maximum tow claim is assigned to a generic trim.",
+      "listing_model_names": [
+        "Sierra 2500HD",
+        "Sierra 3500HD"
+      ]
+    },
+    {
+      "id": "gmc-terrain-2027",
+      "make": "GMC",
+      "model": "Terrain",
+      "year": 2027,
+      "source_url": "https://www.gmccanada.ca/en/suvs/terrain",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Elevation",
+          "positioning": "Core comfort",
+          "features": [
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            },
+            {
+              "label": "Screens",
+              "value": "15-inch centre; 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road hardware",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "Raised; off-road tuned",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            },
+            {
+              "label": "Protection",
+              "value": "Front skid plate; steel shield",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            },
+            {
+              "label": "Wheels",
+              "value": "17-inch; all-terrain tires",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Premium comfort",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Ventilated front; heated rear outboard",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            },
+            {
+              "label": "Cameras",
+              "value": "HD Surround Vision; Rear Camera Mirror",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            },
+            {
+              "label": "Wheels",
+              "value": "19-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [
+        {
+          "question": "AT4 or Denali?",
+          "answer": "AT4 prioritizes suspension, protection and all-terrain tires. Denali prioritizes seat comfort and parking cameras.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+        }
+      ],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/terrain"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Terrain"
+      ]
+    },
+    {
+      "id": "gmc-acadia-2027",
+      "make": "GMC",
+      "model": "Acadia",
+      "year": 2027,
+      "source_url": "https://www.gmccanada.ca/en/suvs/acadia",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Elevation",
+          "positioning": "Core family SUV",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "328-hp 2.5L turbo",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Audio",
+              "value": "12-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Screen",
+              "value": "15-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road tuning",
+          "features": [
+            {
+              "label": "Driveline",
+              "value": "Active Torque Control AWD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Suspension",
+              "value": "Raised; off-road tuned",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch; all-terrain tires",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Premium convenience",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Leather-appointed first/second rows",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Folding seats",
+              "value": "Powered third row; one-touch second row",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Eight-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali Ultimate",
+          "positioning": "Flagship comfort",
+          "features": [
+            {
+              "label": "Super Cruise",
+              "value": "Three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated, ventilated and massaging front",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Audio",
+              "value": "16-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            },
+            {
+              "label": "Sunroof",
+              "value": "Panoramic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/acadia"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Acadia"
+      ]
+    },
+    {
+      "id": "gmc-yukon-yukon-xl-2026",
+      "make": "GMC",
+      "model": "Yukon / Yukon XL",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/suvs/yukon",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Elevation",
+          "positioning": "Core comfort",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "5.3L V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Cameras",
+              "value": "HD Surround Vision",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Protection",
+              "value": "Skid plate; recovery hooks",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated and ventilated front",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4 Ultimate",
+          "positioning": "Off-road luxury",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Suspension",
+              "value": "Air Ride",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Luxury",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Head-up display",
+              "value": "15-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Console",
+              "value": "Power-sliding",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali Ultimate",
+          "positioning": "Flagship",
+          "features": [
+            {
+              "label": "Super Cruise",
+              "value": "Three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Suspension",
+              "value": "Air Ride",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Seats",
+              "value": "16-way front with massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            },
+            {
+              "label": "Audio",
+              "value": "18-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/suvs/yukon"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Yukon",
+        "Yukon XL"
+      ]
+    },
+    {
+      "id": "gmc-sierra-ev-2026",
+      "make": "GMC",
+      "model": "Sierra EV",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Elevation",
+          "positioning": "Core electric truck",
+          "features": [
+            {
+              "label": "Driveline",
+              "value": "Dual-motor e4WD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Screen",
+              "value": "16.8-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Comfort",
+              "value": "Heated front seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "AT4",
+          "positioning": "Off-road electric truck",
+          "features": [
+            {
+              "label": "Ground clearance",
+              "value": "Two-inch increase",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Steering",
+              "value": "Four-wheel steer; CrabWalk",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Denali",
+          "positioning": "Premium electric truck",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "Air Ride",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Steering",
+              "value": "Four-wheel steer; CrabWalk",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Three-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Export power",
+              "value": "Energy Transfer Pro; 10.2 kW",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+        }
+      ],
+      "coverage_note": "Trim highlights verified; battery-dependent range and equipment need exact-build verification. Manufacturer page contains conflicting legacy range headings, so no range claim is copied.",
+      "listing_model_names": [
+        "Sierra EV"
+      ]
+    },
+    {
+      "id": "chevrolet-trax-2027",
+      "make": "Chevrolet",
+      "model": "Trax",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT",
+          "positioning": "Core technology",
+          "features": [
+            {
+              "label": "Screens",
+              "value": "11.3-inch centre; 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Lighting",
+              "value": "LED headlamps and taillamps",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "19-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Heated, flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "ACTIV",
+          "positioning": "Distinctive trim",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "18-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Cabin",
+              "value": "Orange accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+        }
+      ],
+      "coverage_note": "Upcoming model, anticipated spring 2027. Preview specifications may change; do not represent as in-stock inventory.",
+      "listing_model_names": [
+        "Trax"
+      ]
+    },
+    {
+      "id": "chevrolet-trailblazer-2027",
+      "make": "Chevrolet",
+      "model": "Trailblazer",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LT",
+          "positioning": "Core technology",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.3L turbo",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Screens",
+              "value": "11.3-inch centre; 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Seat",
+              "value": "Fold-flat front passenger",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "RS",
+          "positioning": "Sport styling",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "19-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Heated, flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Z71",
+          "positioning": "Off-road-oriented equipment",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "17-inch; sport-terrain tires",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Protection",
+              "value": "Front steel skid plate",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+        }
+      ],
+      "coverage_note": "Upcoming-model preview. Production specifications and availability require confirmation.",
+      "listing_model_names": [
+        "Trailblazer"
+      ]
+    },
+    {
+      "id": "chevrolet-corvette-stingray-2027",
+      "make": "Chevrolet",
+      "model": "Corvette Stingray",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/performance/corvette",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1LT",
+          "positioning": "Core sports car",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Seats",
+              "value": "Eight-way GT1; Mulan leather",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Phone charging",
+              "value": "Wireless",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "2LT",
+          "positioning": "Comfort and technology",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3LT",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Napa leather GT2",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Cabin",
+              "value": "Leather-wrapped; sueded upper trim",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+        }
+      ],
+      "coverage_note": "Verified 2027 Canadian trim highlights. Coupe/convertible and performance-package choices remain separate.",
+      "listing_model_names": [
+        "Corvette Stingray"
+      ]
+    },
+    {
+      "id": "chevrolet-corvette-e-ray-2026",
+      "make": "Chevrolet",
+      "model": "Corvette E-Ray",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1LZ",
+          "positioning": "Hybrid AWD performance",
+          "features": [
+            {
+              "label": "Brakes",
+              "value": "Carbon ceramic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Selective Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "2LZ",
+          "positioning": "Comfort and recording",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Recorder",
+              "value": "Performance Data and Video Recorder",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3LZ",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Napa leather GT2",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Cabin",
+              "value": "Leather-wrapped; sueded upper trim",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Corvette E-Ray"
+      ]
+    },
+    {
+      "id": "chevrolet-corvette-z06-2027",
+      "make": "Chevrolet",
+      "model": "Corvette Z06",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1LZ",
+          "positioning": "Core track-oriented model",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Eight-way GT1; Mulan leather",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "2LZ",
+          "positioning": "Comfort and technology",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Recorder",
+              "value": "Performance Data and Video Recorder",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3LZ",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Napa leather GT2",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Cabin",
+              "value": "Leather-wrapped; sueded upper trim",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Corvette Z06"
+      ]
+    },
+    {
+      "id": "chevrolet-corvette-zr1-2027",
+      "make": "Chevrolet",
+      "model": "Corvette ZR1",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1LZ",
+          "positioning": "Core performance",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Exterior",
+              "value": "Carbon-fibre side intakes and ground effects",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3LZ",
+          "positioning": "Premium comfort",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated/ventilated Napa leather; GT2 or Competition Sport specification",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Cabin",
+              "value": "Sueded upper trim",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Corvette ZR1"
+      ]
+    },
+    {
+      "id": "chevrolet-corvette-zr1x-2027",
+      "make": "Chevrolet",
+      "model": "Corvette ZR1X",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1LZ",
+          "positioning": "Core performance",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Exterior",
+              "value": "Carbon-fibre side intakes and ground effects",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3LZ",
+          "positioning": "Premium comfort",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated/ventilated Napa leather; GT2 or Competition Sport specification",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Cabin",
+              "value": "Sueded upper trim",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "listing_model_names": [
+        "Corvette ZR1X"
+      ]
+    },
+    {
+      "id": "chevrolet-corvette-grand-sport-2027",
+      "make": "Chevrolet",
+      "model": "Corvette Grand Sport",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1LT",
+          "positioning": "Core sports car",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Seats",
+              "value": "Eight-way GT1; Mulan leather",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "2LT",
+          "positioning": "Comfort and technology",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Recorder",
+              "value": "Performance Data and Video Recorder",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3LT",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Napa leather GT2",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Cabin",
+              "value": "Leather-wrapped; sueded upper trim",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        }
+      ],
+      "coverage_note": "Upcoming 2027 model, anticipated late 2026. Shared trim preview; production equipment and allocation need confirmation.",
+      "listing_model_names": [
+        "Corvette Grand Sport"
+      ]
+    },
+    {
+      "id": "chevrolet-corvette-grand-sport-x-2027",
+      "make": "Chevrolet",
+      "model": "Corvette Grand Sport X",
+      "year": 2027,
+      "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "1LT",
+          "positioning": "Core sports car",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Seats",
+              "value": "Eight-way GT1; Mulan leather",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "2LT",
+          "positioning": "Comfort and technology",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Recorder",
+              "value": "Performance Data and Video Recorder",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3LT",
+          "positioning": "Premium cabin",
+          "features": [
+            {
+              "label": "Seats",
+              "value": "Napa leather GT2",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Cabin",
+              "value": "Leather-wrapped; sueded upper trim",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        }
+      ],
+      "coverage_note": "Upcoming 2027 model, anticipated late 2026. Shared trim preview; production equipment and allocation need confirmation.",
+      "listing_model_names": [
+        "Corvette Grand Sport X"
+      ]
+    },
+    {
+      "id": "gmc-hummer-ev-suv-2026",
+      "make": "GMC",
+      "model": "HUMMER EV SUV",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "2X",
+          "positioning": "Dual-motor",
+          "features": [
+            {
+              "label": "Motors",
+              "value": "Two",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Steering",
+              "value": "Four-wheel steer",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Screen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3X",
+          "positioning": "Triple-motor",
+          "features": [
+            {
+              "label": "Motors",
+              "value": "Three",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Steering",
+              "value": "Four-wheel steer",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Roof",
+              "value": "Removable transparent Sky Panels",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+        }
+      ],
+      "coverage_note": "Canadian trim structure verified. Manufacturer headings and trim details disagree on some range/assistance claims; these are omitted pending exact-build verification.",
+      "listing_model_names": [
+        "HUMMER EV SUV"
+      ]
+    },
+    {
+      "id": "gmc-hummer-ev-pickup-2026",
+      "make": "GMC",
+      "model": "HUMMER EV Pickup",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "2X",
+          "positioning": "Dual-motor",
+          "features": [
+            {
+              "label": "Motors",
+              "value": "Two",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+            },
+            {
+              "label": "Steering",
+              "value": "Four-wheel steer",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+            },
+            {
+              "label": "Screen",
+              "value": "13.4-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "3X",
+          "positioning": "Triple-motor",
+          "features": [
+            {
+              "label": "Motors",
+              "value": "Three",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+            },
+            {
+              "label": "Steering",
+              "value": "Four-wheel steer",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+            },
+            {
+              "label": "Roof",
+              "value": "Removable transparent Sky Panels",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm equipment and packages on the exact Canadian vehicle before purchase.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+        },
+        {
+          "text": "An omitted feature is unverified, not unavailable. Check Apple CarPlay, engine choices and assistance packages on the selected VIN.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+        }
+      ],
+      "coverage_note": "Canadian trim structure verified. Manufacturer headings and trim details disagree on some range/assistance claims; these are omitted pending exact-build verification.",
+      "listing_model_names": [
+        "HUMMER EV Pickup"
+      ]
+    },
+    {
+      "id": "gmc-savana-cargo-2026",
+      "make": "GMC",
+      "model": "Savana Cargo",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/commercial/savana-cargo",
+      "checked_at": "2026-11-05",
+      "trims": [],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Standard 4.3L V6; optional 6.6L V8. Choose series, wheelbase and payload configuration before equipment.",
+          "source_url": "https://www.gmccanada.ca/en/commercial/savana-cargo"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/commercial/savana-cargo"
+        }
+      ],
+      "coverage_note": "Model verified; commercial grade, wheelbase and trim matrix incomplete. Consult Canadian configurator for the exact van.",
+      "listing_model_names": [
+        "Savana Cargo"
+      ]
+    },
+    {
+      "id": "gmc-savana-passenger-2026",
+      "make": "GMC",
+      "model": "Savana Passenger",
+      "year": 2026,
+      "source_url": "https://www.gmccanada.ca/en/commercial/savana-passenger",
+      "checked_at": "2026-11-05",
+      "trims": [],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Standard 4.3L V6; optional 6.6L V8. Choose series, wheelbase and payload configuration before equipment.",
+          "source_url": "https://www.gmccanada.ca/en/commercial/savana-passenger"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.gmccanada.ca/en/commercial/savana-passenger"
+        }
+      ],
+      "coverage_note": "Model verified; commercial grade, wheelbase and trim matrix incomplete. Consult Canadian configurator for the exact van.",
+      "listing_model_names": [
+        "Savana Passenger"
+      ]
+    },
+    {
+      "id": "chevrolet-express-cargo-2026",
+      "make": "Chevrolet",
+      "model": "Express Cargo",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/commercial/express.html",
+      "checked_at": "2026-11-05",
+      "trims": [],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "2500/3500 families offer a standard 4.3L V6 or optional 6.6L V8, each with an eight-speed automatic.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/commercial/express.html"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/commercial/express.html"
+        }
+      ],
+      "coverage_note": "Model verified; commercial trim matrix incomplete. Series and wheelbase are configurations, not interchangeable trim upgrades.",
+      "listing_model_names": [
+        "Express Cargo"
+      ]
+    },
+    {
+      "id": "chevrolet-express-passenger-2026",
+      "make": "Chevrolet",
+      "model": "Express Passenger",
+      "year": 2026,
+      "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/commercial/express.html",
+      "checked_at": "2026-11-05",
+      "trims": [],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "2500/3500 families offer a standard 4.3L V6 or optional 6.6L V8, each with an eight-speed automatic.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/commercial/express.html"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Use the model year shown; do not carry equipment claims across years.",
+          "source_url": "https://www.chevrolet.ca/content/chevrolet/na/ca/en/index/commercial/express.html"
+        }
+      ],
+      "coverage_note": "Model verified; commercial trim matrix incomplete. Series and wheelbase are configurations, not interchangeable trim upgrades.",
+      "listing_model_names": [
+        "Express Passenger"
+      ]
+    }
+  ]
+}

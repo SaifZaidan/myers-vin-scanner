@@ -67,3 +67,11 @@ Filters support inclusive minimum/maximum advertised CAD prices, vehicle type, N
 Changing a preference clears stale matches until the form is submitted again. Reset clears preferences/results but leaves comparison selections intact. No matches does not prove the dealership has no suitable vehicle: incomplete saved facts are deliberately excluded. Result cards retain per-listing observation timestamps and the existing inventory-freshness disclosure; this is not real-time availability.
 
 Run `node --test tests/frontend.test.cjs` for dependency-free DOM-contract and matching regression tests (including real compressed data, repeated navigation, details/back, resets, comparison and failure states). These tests do not replace visual browser/device QA.
+
+## Canadian model / trim guides
+
+`trims.html` is the dedicated guide view, reachable from the existing navigation. It loads independently sourced model-year guides from `data/guide-buick-cadillac.json` and `data/guide-chevrolet-gmc.json`. A model can appear without a Myers listing. Each guide states its coverage limits and source date; manufacturer starting prices are separate from exact listing prices. Standard, optional, unavailable and unknown are distinct states. Facts from guide data never modify VIN equipment or inventory records.
+
+Myers badges match exact make, model and model year. Trim matching removes only an explicit AWD/4WD/FWD/RWD prefix, then permits an exact trim or an explicit ` - ` / ` | ` suffix; uncertain aliases do not become matches. Stale/failed/late snapshots display recheck language, never current-stock claims. Individual listings retain observation timestamps. Model guides remain usable if inventory cannot load. Guide routes support bookmarks, reload and browser Back/Forward. Saved-vehicle links open the existing lookup using an encoded stock query.
+
+Run `node --test tests/*.test.cjs` for existing UI regression and guide data/matching checks. Run `node --check trims.js` as well as `app.js`. Guide source coverage is not a promise of all historical model years; each published year is explicit.

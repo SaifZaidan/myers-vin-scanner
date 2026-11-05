@@ -1,0 +1,2982 @@
+{
+  "models": [
+    {
+      "id": "buick-envision-2026",
+      "make": "Buick",
+      "model": "Envision",
+      "year": 2026,
+      "source_url": "https://www.buick.ca/en/suvs/envision",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Preferred",
+          "positioning": "Core comfort and technology",
+          "features": [
+            {
+              "label": "Engine / transmission",
+              "value": "2.0L turbo / 9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Display",
+              "value": "30-inch diagonal",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Cabin noise",
+              "value": "Active noise cancellation",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "AWD",
+              "value": "All-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/trims/compare"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/summary/payment"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport Touring",
+          "positioning": "Sport styling and seating",
+          "features": [
+            {
+              "label": "Engine / transmission",
+              "value": "2.0L turbo / 9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front upholstery",
+              "value": "Leather-appointed with synthetic-suede inserts",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Memory",
+              "value": "Driver seat and mirrors",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Leather-wrapped, flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Pedals",
+              "value": "Alloy",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "AWD",
+              "value": "All-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/trims/compare"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Avenir",
+          "positioning": "Comfort-focused flagship",
+          "features": [
+            {
+              "label": "Engine / transmission",
+              "value": "2.0L turbo / 9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; quilted leather-appointed",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Roof",
+              "value": "Panoramic moonroof",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Hands-free power",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front adjustment",
+              "value": "8-way power; 4-way power lumbar",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "AWD",
+              "value": "All-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/trims/compare"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose, 9 speakers",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+            },
+            {
+              "label": "Suspension",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "ST changes seating and style, not the listed engine. Avenir adds ventilation, moonroof and hands-free liftgate.",
+          "source_url": "https://www.buick.ca/en/suvs/envision"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Avenir get a bigger engine?",
+          "answer": "No. The Canadian trim list gives all three the same 2.0L turbo and 9-speed automatic.",
+          "source_url": "https://www.buick.ca/en/suvs/envision"
+        }
+      ],
+      "buyer_notes": [
+        {
+          "text": "Google built-in requires subscriptions for full functionality.",
+          "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Demonstrate seat ventilation and liftgate operation, then compare the exact option sheets.",
+          "source_url": "https://www.buick.ca/en/suvs/envision"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Super Cruise and higher-trim phone projection were not independently confirmed in this pass; do not infer availability.",
+      "listing_model_names": [
+        "Envision"
+      ]
+    },
+    {
+      "id": "buick-envista-2026",
+      "make": "Buick",
+      "model": "Envista",
+      "year": 2026,
+      "source_url": "https://www.buick.ca/en/suvs/envista",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Preferred",
+          "positioning": "Essential equipment",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.2L turbo",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Display",
+              "value": "11-inch touchscreen; 8-inch driver display",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Cloth / leatherette",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Wheels",
+              "value": "17-inch silver",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport Touring",
+          "positioning": "Dark exterior styling",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.2L turbo",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch black",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Exterior",
+              "value": "Black grille and trim",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Studio Series package",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Avenir",
+          "positioning": "Upgraded seating and convenience",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.2L turbo",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Seats",
+              "value": "Heated, leather-appointed front seats",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Wheels",
+              "value": "19-inch Pearl Nickel",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Power",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "Avenir prioritizes seating and liftgate convenience; ST prioritizes appearance.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is ST a larger-engine upgrade?",
+          "answer": "No. All three listed trims use the 1.2L turbo.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        }
+      ],
+      "buyer_notes": [],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Drivetrain, transmission and Super Cruise status need further Canadian configuration verification.",
+      "listing_model_names": [
+        "Envista"
+      ]
+    },
+    {
+      "id": "buick-encore-gx-2026",
+      "make": "Buick",
+      "model": "Encore GX",
+      "year": 2026,
+      "source_url": "https://www.buick.ca/en/suvs/encore-gx",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Preferred",
+          "positioning": "Core small-SUV equipment",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "1.3L turbo",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Cloth / leatherette",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch silver",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Driver assistance",
+              "value": "Buick Driver Confidence",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport Touring",
+          "positioning": "Sport appearance",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "1.3L turbo; 9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Leatherette with ST head restraints",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch black",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Studio Series package",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Avenir",
+          "positioning": "Premium materials and flexibility",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "1.3L turbo; 9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Leather-appointed front seats",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Steering wheel",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Passenger seatback",
+              "value": "Flat-folding",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Wheels",
+              "value": "19-inch Pearl Nickel",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Check drivetrain and transmission on the specific Preferred configuration; do not assume the ST transmission applies.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Preferred transmission, trim-specific AWD and Super Cruise not verified.",
+      "listing_model_names": [
+        "Encore GX"
+      ]
+    },
+    {
+      "id": "buick-enclave-2027",
+      "make": "Buick",
+      "model": "Enclave",
+      "year": 2027,
+      "source_url": "https://www.buick.ca/en/suvs/enclave",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Preferred",
+          "positioning": "Well-equipped three-row starting point",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "2.5L turbo; 8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Screen",
+              "value": "30-inch",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose, 12 speakers",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Front seats / wheel",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Package; 3-year trial",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Package equipment",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport Touring",
+          "positioning": "Sport design with enhanced cabin lighting",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "2.5L turbo; 8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-st"
+            },
+            {
+              "label": "Screen",
+              "value": "30-inch",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-st"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose, 12 speakers",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-st"
+            },
+            {
+              "label": "Ambient lighting",
+              "value": "126 colours",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-st"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Package; 3-year trial",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-st"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Avenir",
+          "positioning": "Ride and comfort upgrade",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "2.5L turbo; 8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose, 16 speakers",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Front seats",
+              "value": "Massage",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Second-row outboard seats",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Suspension",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Roof",
+              "value": "Panoramic sunroof",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.buick.ca/en/suvs/enclave"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "Avenir makes Super Cruise standard and adds adaptive damping and massaging front seats.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Super Cruise standard on every trim?",
+          "answer": "No. Preferred and ST list it in an available package; Avenir lists it as standard.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave-avenir"
+        }
+      ],
+      "buyer_notes": [
+        {
+          "text": "Phone projection is not verified here. Google built-in alone does not establish CarPlay support.",
+          "source_url": "https://www.buick.ca/en/suvs/enclave-preferred"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase.",
+      "listing_model_names": [
+        "Enclave"
+      ]
+    },
+    {
+      "id": "cadillac-xt5-2026",
+      "make": "Cadillac",
+      "model": "XT5",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Entry configuration",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.0L turbo; 235 hp on premium fuel",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Drive",
+              "value": "Front-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose, 8 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Power",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "positioning": "Technology and interior upgrade",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose, 14 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Roof",
+              "value": "UltraView sunroof",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Vision",
+              "value": "Head-up display; surround-view camera",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "V6 engine",
+              "value": "3.6L; 310 hp",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Driver Assist Package",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Chassis and powertrain upgrade",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.6L V6; 310 hp on regular fuel",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Drive",
+              "value": "Twin-clutch AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Suspension",
+              "value": "Chassis Damping Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Brakes",
+              "value": "Brembo front calipers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Driver Assist Package",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [
+        {
+          "question": "Does Premium Luxury include the V6?",
+          "answer": "No. Its V6 is optional; Sport lists the V6 as standard.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+        }
+      ],
+      "buyer_notes": [
+        {
+          "text": "Driver Assist Package includes adaptive cruise, ventilated front seats and heated rear outboard seats.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Wireless phone projection is described at model level; trim-specific confirmation and Super Cruise remain unverified.",
+      "listing_model_names": [
+        "XT5"
+      ]
+    },
+    {
+      "id": "cadillac-ct4-2026",
+      "make": "Cadillac",
+      "model": "CT4",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Entry rear-drive sedan",
+          "features": [
+            {
+              "label": "Powertrain",
+              "value": "2.0L turbo; 8-speed automatic; RWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Comfort",
+              "value": "Heated seats and steering wheel",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Screen",
+              "value": "8-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Inteluxe",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "positioning": "Comfort and driver assistance",
+          "features": [
+            {
+              "label": "Upholstery",
+              "value": "Leather",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Front adjustment",
+              "value": "12-way; driver memory",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Adaptive cruise",
+              "value": "Included Driver Assist Package",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Powertrain upgrade",
+              "value": "2.7L turbo; 10-speed automatic",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "AWD",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available package",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Sport seats and appearance",
+          "features": [
+            {
+              "label": "Front adjustment",
+              "value": "18-way, sport bolsters",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Exterior",
+              "value": "Black grille; rear spoiler",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "AWD",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available package",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "The optional 2.7L is listed for Premium Luxury; do not infer it from Sport badging.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4"
+        }
+      ],
+      "faq": [],
+      "buyer_notes": [],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection and full package dependencies not verified.",
+      "listing_model_names": [
+        "CT4"
+      ]
+    },
+    {
+      "id": "cadillac-ct5-2026",
+      "make": "Cadillac",
+      "model": "CT5",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Premium Luxury",
+          "positioning": "Comfort-focused sedan",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.0L turbo; 237 hp on premium fuel",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Display",
+              "value": "33-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "V6 upgrade",
+              "value": "3.0L twin-turbo; 335 hp",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "AWD",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Surround-view camera",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Dark styling and parking technology",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.0L turbo; 237 hp on premium fuel",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Wheels",
+              "value": "19-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Surround-view camera",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Parking assistance",
+              "value": "Enhanced Automatic Parking Assist",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "AWD",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [
+        {
+          "text": "Sport adds surround-view and automated parking highlights; Premium Luxury offers the listed V6 option.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+        }
+      ],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "The Sport page lists ventilated seats as both standard and available. Verify the build sheet instead of promising them.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Seat-ventilation source conflict retained above; phone projection not verified.",
+      "listing_model_names": [
+        "CT5"
+      ]
+    },
+    {
+      "id": "cadillac-ct4-v-series-2026",
+      "make": "Cadillac",
+      "model": "CT4 V-Series",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "CT4-V",
+          "positioning": "Turbo four-cylinder performance",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L turbo; 325 hp; 380 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Transmission",
+              "value": "10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available on CT4-V only",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "CT4-V Blackwing",
+          "positioning": "V6 with manual option",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.6L twin-turbo V6; 472 hp; 445 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Transmission",
+              "value": "6-speed manual",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Automatic transmission",
+              "value": "10-speed",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Not offered",
+              "status": "unavailable",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Carbon-fibre exterior",
+              "value": "Available packages",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [
+        {
+          "question": "Can a Blackwing have Super Cruise?",
+          "answer": "This Canadian CT4 source explicitly limits Super Cruise to CT4-V.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+        }
+      ],
+      "buyer_notes": [],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Performance-family guide; complete package and phone-projection verification pending.",
+      "listing_model_names": [
+        "CT4-V"
+      ]
+    },
+    {
+      "id": "cadillac-ct5-v-series-2026",
+      "make": "Cadillac",
+      "model": "CT5 V-Series",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "CT5-V",
+          "positioning": "Twin-turbo performance sedan",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.0L twin-turbo V6; 360 hp; 405 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Transmission",
+              "value": "10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "AWD",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "CT5-V Blackwing",
+          "positioning": "Supercharged V8 flagship",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L supercharged V8; 668 hp; 659 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Transmission",
+              "value": "6-speed manual",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "With optional 10-speed automatic",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Carbon-ceramic brakes",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [
+        {
+          "question": "Does Blackwing require an automatic?",
+          "answer": "No. Manual is standard; automatic is optional and brings the listed Super Cruise capability.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+        }
+      ],
+      "buyer_notes": [],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Performance-family guide; complete package and phone-projection verification pending.",
+      "listing_model_names": [
+        "CT5-V"
+      ]
+    },
+    {
+      "id": "cadillac-lyriq-2027",
+      "make": "Cadillac",
+      "model": "LYRIQ",
+      "year": 2027,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Choose equipment tier and exterior style separately",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Single-motor RWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor option",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Choose equipment tier and exterior style separately",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Single-motor RWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor option",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Wireless",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "positioning": "Choose equipment tier and exterior style separately",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "AKG, 23 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Ventilation and lumbar massage",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Hands-free",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Sport",
+          "positioning": "Choose equipment tier and exterior style separately",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "AKG, 23 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Ventilation and lumbar massage",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Liftgate",
+              "value": "Hands-free",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Signature Luxury",
+          "positioning": "Choose equipment tier and exterior style separately",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Rear outboard seats",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Climate",
+              "value": "Three-zone",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Leather seating",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Signature Sport",
+          "positioning": "Choose equipment tier and exterior style separately",
+          "features": [
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Rear outboard seats",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Climate",
+              "value": "Three-zone",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Leather seating",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "2027 Canadian page explicitly lists wireless CarPlay and Android Auto. Do not apply a blanket EV assumption.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Higher-tier inherited features and all package combinations require exact-build confirmation. V-Series is a separate guide.",
+      "listing_model_names": [
+        "LYRIQ"
+      ]
+    },
+    {
+      "id": "cadillac-lyriq-v-2027",
+      "make": "Cadillac",
+      "model": "LYRIQ-V",
+      "year": 2027,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "LYRIQ-V",
+          "positioning": "Performance electric SUV",
+          "features": [
+            {
+              "label": "Power",
+              "value": "615 hp in Velocity Max; Cadillac estimate",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            },
+            {
+              "label": "Chassis",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            },
+            {
+              "label": "Brakes",
+              "value": "Brembo front",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            },
+            {
+              "label": "Charging port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "LYRIQ-V Premium",
+          "positioning": "Charging and interior upgrade",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "19.2 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Roof",
+              "value": "Power SkyGlass",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Seating",
+              "value": "Napa leather",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Range headline is up to 459 km, Cadillac-estimated; actual conditions affect results.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Premium name/equipment comes from the 2027 LYRIQ trim comparison. Phone projection and full option matrix unverified.",
+      "listing_model_names": [
+        "LYRIQ-V"
+      ]
+    },
+    {
+      "id": "cadillac-optiq-2027",
+      "make": "Cadillac",
+      "model": "OPTIQ",
+      "year": 2027,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/optiq",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Compare drive configuration before appearance",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Single-motor RWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor option",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 19 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Compare drive configuration before appearance",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Single-motor RWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor option",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 19 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "positioning": "Compare drive configuration before appearance",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Dual-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Ventilation and lumbar massage",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Rear outboard seats",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Sport",
+          "positioning": "Compare drive configuration before appearance",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Dual-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Ventilation and lumbar massage",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Rear outboard seats",
+              "value": "Heated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Sport range wording differs from Luxury despite both listing RWD. Range is intentionally omitted pending clarification.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection not verified. V-Series is a separate guide; conflicting performance figures excluded.",
+      "listing_model_names": [
+        "OPTIQ"
+      ]
+    },
+    {
+      "id": "cadillac-optiq-v-2027",
+      "make": "Cadillac",
+      "model": "OPTIQ-V",
+      "year": 2027,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "OPTIQ-V",
+          "positioning": "Electric performance model",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Dual-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Charging port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Chassis",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Brakes",
+              "value": "Six-piston Brembo front",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Carbon-fibre exterior",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Santorini Blue accents",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Deep Ocean Design Edition is a limited-availability package, not assumed to be a separate regular trim.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+        }
+      ],
+      "sales_notes": [
+        {
+          "text": "Official OPTIQ comparison and V page disagree on performance numbers. Confirm current Canadian specifications before quoting power.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+        }
+      ],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Incomplete: conflicting horsepower/torque excluded; phone projection and full options unverified.",
+      "listing_model_names": [
+        "OPTIQ-V"
+      ]
+    },
+    {
+      "id": "cadillac-vistiq-2027",
+      "make": "Cadillac",
+      "model": "VISTIQ",
+      "year": 2027,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Three-row electric starting point",
+          "features": [
+            {
+              "label": "Drive",
+              "value": "Dual-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "AC charging",
+              "value": "11.5 kW; NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated, ventilated, massaging",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Dark exterior treatment",
+          "features": [
+            {
+              "label": "Exterior",
+              "value": "Black / Obsidian Chrome accents",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Wheels",
+              "value": "21-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Captain’s chairs",
+              "value": "Six-passenger layout",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "AC charging upgrade",
+              "value": "19.2 kW",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "positioning": "Ride and manoeuvrability upgrade",
+          "features": [
+            {
+              "label": "Suspension",
+              "value": "Air Ride with adaptive damping",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Steering",
+              "value": "Active rear steering",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Seating",
+              "value": "Six passengers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "AC charging",
+              "value": "19.2 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Display",
+              "value": "Augmented-reality head-up display",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Platinum",
+          "positioning": "Premium equipment with sport details",
+          "features": [
+            {
+              "label": "Brakes",
+              "value": "Brembo front",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Roof colour",
+              "value": "Black",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Equipment",
+              "value": "Includes Sport and Premium Luxury standard features",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Confirm seating layout before comparing trim prices: captain’s chairs alter capacity.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/vistiq"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection and inherited equipment not fully verified.",
+      "listing_model_names": [
+        "VISTIQ"
+      ]
+    },
+    {
+      "id": "cadillac-escalade-iq-2026",
+      "make": "Cadillac",
+      "model": "Escalade IQ",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 21 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Chassis",
+              "value": "Air suspension; Magnetic Ride Control; rear steering",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 21 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Chassis",
+              "value": "Air suspension; Magnetic Ride Control; rear steering",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "19.2 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 38 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Massage; 16-way adjustment",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Wheels",
+              "value": "24-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Executive second row",
+              "value": "Available package",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Night Vision",
+              "value": "Limited availability",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Sport",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "19.2 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 38 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Massage; 16-way adjustment",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Wheels",
+              "value": "24-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Executive second row",
+              "value": "Available package",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Night Vision",
+              "value": "Limited availability",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Higher onboard AC charging requires a compatible electrical installation; verify suitability before choosing equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection, charging connector and complete package dependencies not verified.",
+      "listing_model_names": [
+        "Escalade IQ"
+      ]
+    },
+    {
+      "id": "cadillac-escalade-iql-2026",
+      "make": "Cadillac",
+      "model": "Escalade IQL",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 21 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Chassis",
+              "value": "Air suspension; Magnetic Ride Control; rear steering",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "11.5 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 21 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Chassis",
+              "value": "Air suspension; Magnetic Ride Control; rear steering",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "19.2 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 38 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Front seats",
+              "value": "Massage; 16-way adjustment",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Wheels",
+              "value": "24-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Executive second row",
+              "value": "Available package",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Night Vision",
+              "value": "Limited availability",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Premium Sport",
+          "positioning": "Premium adds comfort and charging; Sport changes appearance",
+          "features": [
+            {
+              "label": "AC charging",
+              "value": "19.2 kW",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 38 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Front seats",
+              "value": "Massage; 16-way adjustment",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Wheels",
+              "value": "24-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Executive second row",
+              "value": "Available package",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Night Vision",
+              "value": "Limited availability",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Higher onboard AC charging requires a compatible electrical installation; verify suitability before choosing equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection, charging connector and complete package dependencies not verified.",
+      "listing_model_names": [
+        "Escalade IQL"
+      ]
+    },
+    {
+      "id": "cadillac-escalade-escalade-esv-2027",
+      "make": "Cadillac",
+      "model": "Escalade / Escalade ESV",
+      "year": 2027,
+      "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "Luxury",
+          "positioning": "Core luxury configuration",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Audio",
+              "value": "AKG, 21 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Touring Package",
+              "value": "Air suspension; powered doors",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "positioning": "Dark exterior styling",
+          "features": [
+            {
+              "label": "Exterior",
+              "value": "Gloss-black accents",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Touring Package",
+              "value": "Air suspension; powered doors",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Platinum Luxury",
+          "positioning": "Premium comfort equipment",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "AKG, 38 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way; massage; semi-aniline leather",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Touring Package",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Executive second row",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            }
+          ],
+          "price": null
+        },
+        {
+          "name": "Platinum Sport",
+          "positioning": "Premium comfort and dark styling",
+          "features": [
+            {
+              "label": "Audio",
+              "value": "AKG, 38 speakers",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way; massage",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Touring Package",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Executive second row",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "ESV is the longer body, not a trim. Verify body length and vehicle-specific configuration separately.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Escalade-V has its own guide. Full ESV equipment, drivetrain differences and phone projection unverified.",
+      "listing_model_names": [
+        "Escalade",
+        "Escalade ESV"
+      ]
+    },
+    {
+      "id": "cadillac-escalade-v-2027",
+      "make": "Cadillac",
+      "model": "Escalade-V",
+      "year": 2027,
+      "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series",
+      "checked_at": "2026-11-05",
+      "trims": [
+        {
+          "name": "V-Series",
+          "positioning": "Supercharged performance SUV",
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L supercharged V8; 682 hp",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+            },
+            {
+              "label": "Wheels",
+              "value": "24-inch",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+            },
+            {
+              "label": "Brakes",
+              "value": "Brembo front",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+            },
+            {
+              "label": "Driver modes",
+              "value": "Includes V-Mode",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+            },
+            {
+              "label": "Apple CarPlay / Android Auto",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Trim-specific availability not verified in this guide",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+            }
+          ],
+          "price": null
+        }
+      ],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Check the exact standard- or extended-body build, tires and options before quoting a vehicle.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Incomplete guide: model/year and selected performance highlights verified. Body variants, Super Cruise, phone projection and option matrix not confirmed.",
+      "listing_model_names": [
+        "Escalade-V"
+      ]
+    },
+    {
+      "id": "cadillac-celestiq-2026",
+      "make": "Cadillac",
+      "model": "CELESTIQ",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/celestiq",
+      "checked_at": "2026-11-05",
+      "trims": [],
+      "upgrade_notes": [],
+      "faq": [],
+      "buyer_notes": [
+        {
+          "text": "Hand-built and custom-commissioned, by inquiry only with extremely limited availability.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/celestiq"
+        }
+      ],
+      "sales_notes": [],
+      "coverage_note": "Catalogue entry only. No conventional trim ladder is verified; do not fabricate one. Bespoke specifications and availability require direct confirmation.",
+      "listing_model_names": [
+        "CELESTIQ"
+      ]
+    }
+  ]
+}

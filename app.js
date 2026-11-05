@@ -601,6 +601,8 @@ render();
     const data=JSON.parse(text);
     if(!data || !Array.isArray(data.vehicles) || data.vehicles.some(v=>!v || typeof v!=='object')) throw new Error('The inventory file has an unexpected format.');
     inventoryLoading=false;inventory=data;updateHealth(data);initializeComparison();initializePreferences();render();
+    const requestedStock=new URL('https://local.invalid/'+(window.location.search || '')).searchParams.get('stock');
+    if(requestedStock){$('query').value=requestedStock;render(requestedStock);}
   } catch(error) {
     inventoryLoading=false;
     $('health-dot').className='dot error';$('health-title').textContent='Inventory could not be loaded';$('health-detail').textContent='No data is being represented as current.';
