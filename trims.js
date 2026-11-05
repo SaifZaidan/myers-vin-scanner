@@ -54,8 +54,34 @@ if(typeof document!=='undefined'){
  row.append(td);
  }body.append(row);
  }}
+
+ // Sales-floor view: highlights changes only when every selected trim has explicit evidence.
+ const controls=el('div',undefined,'compare-controls');
+ const toggle=el('button','Show confirmed differences only','secondary-button compare-toggle');toggle.type='button';
+ let differenceOnly=false;
+ function updateRows(){let visible=0;for(const row of body.querySelectorAll('tr:not(.group-row)')){const cells=[...row.querySelectorAll('td')];const marks=cells.map(cell=>cell.querySelector('.feature-mark')?.className||'');const values=cells.map(cell=>cell.querySelector('.feature-value')?.textContent||'');
+ const complete=marks.every(v=>!v.includes('unknown'));
+ const different=complete&&(new Set(marks.map((v,i)=>v+'|'+values[i]))).size>1;
+ row.hidden=differenceOnly&&!different;if(!row.hidden)visible++;
+ }
+ for(const group of body.querySelectorAll('.group-row')){let next=group.nextElementSibling,seen=false;while(next&&!next.classList.contains('group-row')){if(!next.hidden)seen=true;next=next.nextElementSibling;}group.hidden=!seen;}
+ toggle.textContent=differenceOnly?'Show all sourced features':'Show confirmed differences only';
+ const msg=$('comparison-row-count');if(msg)msg.textContent=differenceOnly?visible+' confirmed difference rows':'Full sourced equipment table';
+ }
+ toggle.addEventListener('click',()=>{differenceOnly=!differenceOnly;updateRows();});
+ const count=el('span','Full sourced equipment table','compare-count');count.id='comparison-row-count';controls.append(toggle,count);comparison.append(controls);
+
  table.append(body);wrap.append(table);comparison.append(wrap);
  if(!labels.length)comparison.append(el('p','Detailed feature research is not yet available for this year.'));out.append(comparison);
+
+ const highlights=section('Trim-by-trim equipment details');
+ highlights.append(el('p','The items below are specifically documented for each trim. An omitted item is not necessarily unavailable. Open the source for confirmation before quoting a package.','guide-legend'));
+ const details=el('div',undefined,'verified-trim-grid');
+ for(const t of m.trims){const panel=el('details',undefined,'verified-trim-panel');const summary=el('summary',t.name+' · '+(t.features||[]).filter(f=>f.status==='standard'||f.status==='optional').length+' researched items');panel.append(summary);
+ const items=(t.features||[]).filter(f=>f.status==='standard'||f.status==='optional');if(!items.length)panel.append(el('p','Detailed trim equipment has not been independently verified.'));
+ else{const dl=el('dl',undefined,'verified-feature-list');for(const f of items){const dt=el('dt',f.label),dd=el('dd');dd.append(el('span',f.status==='standard'?'Included':'Optional','verified-status '+f.status),document.createTextNode(' '+(f.value||'')));if(f.source_url)dd.append(document.createTextNode(' · '),link('Source',f.source_url));dl.append(dt,dd);}panel.append(dl);}details.append(panel);}
+ highlights.append(details);out.append(highlights);
+
 
  for(const [title,key,empty] of [['3. What changes between trims','upgrade_notes','Upgrade explanations are not yet verified. Compare the sourced rows above; trim order alone does not establish an upgrade.'],['5. Which trim suits your customer?','buyer_notes','Start with the customer’s required equipment, then check exact vehicle options.'],['6. Sales-floor recap','sales_notes','Confirm year, trim, installed packages and current availability before quoting equipment.']]){const s=section(title);if(m[key]?.length){const notes=el('div',undefined,key==='upgrade_notes'?'upgrade-grid':'notes-grid');for(const n of m[key]){const card=el('div',undefined,'note-card');card.append(sourcedText(n));notes.append(card);}s.append(notes);}else s.append(el('p',empty));out.append(s);}
  const faq=section('4. Common customer questions'),dl=el('dl',undefined,'guide-faq');for(const q of m.faq||[]){dl.append(el('dt',q.question||q.q||''));const dd=el('dd',q.answer||q.a||'Not confirmed');if(q.source_url)dd.append(document.createTextNode(' '),link('Source ↗',q.source_url));dl.append(dd);}if(!(m.faq||[]).length){dl.append(el('dt','Does the trim guide confirm the equipment on a vehicle?'),el('dd','No. Check the exact VIN/stock listing and installed options. Optional equipment and production changes can differ.'));}faq.append(dl);out.insertBefore(faq,[...out.children].find(x=>x.querySelector('h3')?.textContent.startsWith('5.')));
