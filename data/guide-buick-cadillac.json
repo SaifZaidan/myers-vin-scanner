@@ -2296,30 +2296,54 @@
           "features": [
             {
               "label": "Engine",
-              "value": "2.7L turbo; 325 hp; 380 lb-ft",
+              "value": "2.7L turbo-4, 325 hp / 380 lb-ft",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
             },
             {
               "label": "Transmission",
               "value": "10-speed automatic",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
             },
             {
               "label": "Super Cruise",
-              "value": "Available on CT4-V only",
+              "value": "Available on CT4-V",
               "status": "optional",
-              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
             },
             {
               "label": "Apple CarPlay / Android Auto",
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Ride Control on RWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "Brakes",
+              "value": "Brembo performance fronts",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "AWD",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
             }
           ],
-          "price": null
+          "price": 61498
         },
         {
           "name": "CT4-V Blackwing",
@@ -2327,15 +2351,15 @@
           "features": [
             {
               "label": "Engine",
-              "value": "3.6L twin-turbo V6; 472 hp; 445 lb-ft",
+              "value": "3.6L twin-turbo V6, 472 hp / 445 lb-ft",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
             },
             {
               "label": "Transmission",
               "value": "6-speed manual",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
             },
             {
               "label": "Automatic transmission",
@@ -2360,12 +2384,57 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
+            },
+            {
+              "label": "Transmission option",
+              "value": "10-speed automatic",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "Differential",
+              "value": "Electronic limited-slip",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "Brakes",
+              "value": "Brembo performance fronts and rears",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "Audio",
+              "value": "15-speaker AKG",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+            },
+            {
+              "label": "Data Recorder",
+              "value": "Available Performance Data Recorder",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
             }
           ],
-          "price": null
+          "price": 76498
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "CT4-V: 325-hp 2.7L turbo-four, 10-speed automatic, available AWD and available Super Cruise.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+        },
+        {
+          "text": "CT4-V Blackwing: 472-hp twin-turbo V6, standard manual gearbox, electronic limited-slip differential, Brembo performance brakes and track-focused hardware.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing"
+        }
+      ],
       "faq": [
         {
           "question": "Can a Blackwing have Super Cruise?",
@@ -2389,7 +2458,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct4-v-blackwing/features"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Performance-family guide; complete package and phone-projection verification pending.",
+      "coverage_note": "Expanded from the relevant Canadian Cadillac performance-model manufacturer specifications. Performance figures are manufacturer estimates where stated; confirm production build, packages and availability.",
       "listing_model_names": [
         "CT4-V"
       ]
@@ -2408,7 +2477,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "3.0L twin-turbo V6; 360 hp; 405 lb-ft",
+              "value": "3.0L twin-turbo V6, 360 hp / 405 lb-ft",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
             },
@@ -2451,7 +2520,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.2L supercharged V8; 668 hp; 659 lb-ft",
+              "value": "Hand-built 6.2L supercharged V8, 668 hp / 659 lb-ft",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
             },
@@ -2469,7 +2538,7 @@
             },
             {
               "label": "Super Cruise",
-              "value": "With optional 10-speed automatic",
+              "value": "Available with automatic transmission / eligible plan",
               "status": "optional",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
             },
@@ -2484,12 +2553,57 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Transmission option",
+              "value": "10-speed automatic",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Brakes",
+              "value": "Brembo front and rear",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Magnetic Ride Control",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Launch Control",
+              "value": "With line lock",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Display",
+              "value": "33-inch advanced LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+            },
+            {
+              "label": "Audio",
+              "value": "16-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "CT5-V: 360-hp twin-turbo V6 with 10-speed automatic. AWD is available.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+        },
+        {
+          "text": "CT5-V Blackwing: 668-hp supercharged V8 with standard six-speed manual, Brembo brakes, Magnetic Ride Control and track-focused launch control.",
+          "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
+        }
+      ],
       "faq": [
         {
           "question": "Does Blackwing require an automatic?",
@@ -2513,7 +2627,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/sedans/ct5-v-blackwing"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Performance-family guide; complete package and phone-projection verification pending.",
+      "coverage_note": "Expanded from the relevant Canadian Cadillac performance-model manufacturer specifications. Performance figures are manufacturer estimates where stated; confirm production build, packages and availability.",
       "listing_model_names": [
         "CT5-V"
       ]
@@ -3257,9 +3371,9 @@
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Included with eligible three-year plan",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
             {
               "label": "Chassis",
@@ -3284,9 +3398,57 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+            },
+            {
+              "label": "Powertrain",
+              "value": "Dual motor AWD, up to 615 hp in Velocity Max",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Acceleration",
+              "value": "Cadillac-estimated 0–96 km/h in 3.3 seconds",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Suspension",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Driver modes",
+              "value": "V-Mode / Launch Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Brake system",
+              "value": "Brembo performance front brakes",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Display",
+              "value": "33-inch Horizon",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AC charging",
+              "value": "11.5 kW onboard",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Roof",
+              "value": "SkyGlass with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 95498
         },
         {
           "name": "LYRIQ-V Premium",
@@ -3294,7 +3456,7 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "19.2 kW",
+              "value": "19.2 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -3306,7 +3468,7 @@
             },
             {
               "label": "Seating",
-              "value": "Napa leather",
+              "value": "Napa leather / open-pore wood",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -3318,15 +3480,60 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
-              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
+              "value": "Included with eligible three-year plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Powertrain",
+              "value": "Dual motor AWD, up to 615 hp in Velocity Max",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Acceleration",
+              "value": "Cadillac-estimated 0–96 km/h in 3.3 seconds",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Suspension",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Driver modes",
+              "value": "V-Mode / Launch Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Brake system",
+              "value": "Brembo performance front brakes",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Display",
+              "value": "33-inch Horizon",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 101932
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LYRIQ-V: 615-hp performance dual-motor AWD, Brembo fronts, Continuous Damping Control and V-Mode.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "LYRIQ-V Premium: Adds 19.2-kW AC charging, power SkyGlass roof and upgraded Napa leather seating.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -3348,7 +3555,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq/v-series"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Premium name/equipment comes from the 2027 LYRIQ trim comparison. Phone projection and full option matrix unverified.",
+      "coverage_note": "Expanded from the relevant Canadian Cadillac performance-model manufacturer specifications. Performance figures are manufacturer estimates where stated; confirm production build, packages and availability.",
       "listing_model_names": [
         "LYRIQ-V"
       ]
@@ -3804,9 +4011,9 @@
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Standard with eligible three-year plan",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             },
             {
               "label": "Charging port",
@@ -3822,9 +4029,9 @@
             },
             {
               "label": "Brakes",
-              "value": "Six-piston Brembo front",
+              "value": "Brembo performance front brakes",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             },
             {
               "label": "Carbon-fibre exterior",
@@ -3843,9 +4050,57 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
+            },
+            {
+              "label": "Powertrain",
+              "value": "Dual motor AWD, 650 hp in Velocity Max",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Torque",
+              "value": "519 lb-ft (Cadillac-estimated)",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Continuous Damping Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Wheels",
+              "value": "21-inch V-Series reverse-rim",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Steering",
+              "value": "Performance wheel / V-Mode",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Launch Control",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "Front seats",
+              "value": "12-way power passenger; V-Series signature seats",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
+            },
+            {
+              "label": "AC charging",
+              "value": "19.2 kW available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/optiq"
             }
           ],
-          "price": null
+          "price": 82998
         }
       ],
       "upgrade_notes": [],
@@ -3870,7 +4125,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/electric/optiq/v-series"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Incomplete: conflicting horsepower/torque excluded; phone projection and full options unverified.",
+      "coverage_note": "Expanded from the relevant Canadian Cadillac performance-model manufacturer specifications. Performance figures are manufacturer estimates where stated; confirm production build, packages and availability.",
       "listing_model_names": [
         "OPTIQ-V"
       ]
@@ -5628,21 +5883,21 @@
           "features": [
             {
               "label": "Engine",
-              "value": "6.2L supercharged V8; 682 hp",
+              "value": "Hand-built supercharged 6.2L V8, 682 hp",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
             },
             {
               "label": "Wheels",
-              "value": "24-inch",
+              "value": "24-inch performance",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
             },
             {
               "label": "Brakes",
-              "value": "Brembo front",
+              "value": "Brembo six-piston fronts",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
             },
             {
               "label": "Driver modes",
@@ -5658,12 +5913,42 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
+              "value": "Standard with eligible three-year plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "AWD, single-speed transfer case",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
+            },
+            {
+              "label": "Exhaust",
+              "value": "Active valves; quad tips",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch Horizon",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
+            },
+            {
+              "label": "Audio",
+              "value": "38-speaker AKG available",
+              "status": "optional",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
+            },
+            {
+              "label": "V-Mode",
+              "value": "Performance drive settings",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/2027-escalade/v-series"
             }
           ],
-          "price": null
+          "price": 238540
         }
       ],
       "upgrade_notes": [],
@@ -5684,7 +5969,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/suvs/escalade/v-series"
         }
       ],
-      "coverage_note": "Incomplete guide: model/year and selected performance highlights verified. Body variants, Super Cruise, phone projection and option matrix not confirmed.",
+      "coverage_note": "Expanded from the relevant Canadian Cadillac performance-model manufacturer specifications. Performance figures are manufacturer estimates where stated; confirm production build, packages and availability.",
       "listing_model_names": [
         "Escalade-V"
       ]
