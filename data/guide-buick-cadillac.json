@@ -1367,9 +1367,9 @@
           "features": [
             {
               "label": "Engine",
-              "value": "2.0L turbo; 235 hp on premium fuel",
+              "value": "2.0L turbo 4-cylinder, 235 hp",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             },
             {
               "label": "Drive",
@@ -1400,6 +1400,30 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Front-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Premium audio",
+              "value": "8-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Power liftgate",
+              "value": "Programmable",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch Silver finish",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             }
           ],
           "price": null
@@ -1434,9 +1458,9 @@
             },
             {
               "label": "V6 engine",
-              "value": "3.6L; 310 hp",
+              "value": "3.6L V6 available",
               "status": "optional",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             },
             {
               "label": "Driver Assist Package",
@@ -1455,6 +1479,60 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Engine",
+              "value": "2.0L turbo 4-cylinder, 235 hp",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "All-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Premium audio",
+              "value": "14-speaker Bose Performance",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Sunroof",
+              "value": "UltraView power",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Hands-free liftgate",
+              "value": "Cadillac logo projection",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Wireless charging",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch polished Android finish",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             }
           ],
           "price": null
@@ -1465,9 +1543,9 @@
           "features": [
             {
               "label": "Engine",
-              "value": "3.6L V6; 310 hp on regular fuel",
+              "value": "3.6L V6, 310 hp",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             },
             {
               "label": "Drive",
@@ -1479,13 +1557,13 @@
               "label": "Suspension",
               "value": "Chassis Damping Control",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             },
             {
               "label": "Brakes",
-              "value": "Brembo front calipers",
+              "value": "Brembo performance fronts",
               "status": "standard",
-              "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             },
             {
               "label": "Driver Assist Package",
@@ -1504,12 +1582,79 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Twin-clutch Sport AWD",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Premium audio",
+              "value": "14-speaker Bose Performance",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Sunroof",
+              "value": "UltraView power",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Hands-free liftgate",
+              "value": "Cadillac logo projection",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Wireless charging",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Climate",
+              "value": "Tri-zone",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch Pearl Nickel",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Luxury: 2.0L turbo, FWD, 18-inch wheels, Bose 8-speaker audio and standard everyday safety equipment.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+        },
+        {
+          "text": "Premium Luxury: AWD, 14-speaker Bose, leather seating, UltraView sunroof, Head-Up Display, HD Surround Vision and hands-free liftgate. A V6 is available.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+        },
+        {
+          "text": "Sport: Standard 3.6L V6, twin-clutch Sport AWD, electronic damping and Brembo front brakes.",
+          "source_url": "https://www.cadillaccanada.ca/en/suvs/xt5"
+        }
+      ],
       "faq": [
         {
           "question": "Does Premium Luxury include the V6?",
@@ -1541,7 +1686,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/suvs/2026-xt5"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Wireless phone projection is described at model level; trim-specific confirmation and Super Cruise remain unverified.",
+      "coverage_note": "Expanded Canadian 2026 XT5 manufacturer trim specification. Some engines, options and packages may depend on production build.",
       "listing_model_names": [
         "XT5"
       ]
@@ -2111,13 +2256,13 @@
             },
             {
               "label": "AWD",
-              "value": "Dual-motor option",
+              "value": "Dual-motor AWD available",
               "status": "optional",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Standard; eligible 3-year OnStar One plan",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -2132,9 +2277,57 @@
               "value": "11.5 kW",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Horizon Display, 9K resolution",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Glass roof with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Included; full functionality may require plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat ventilation",
+              "value": "Not specified in base-trim highlight",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch alloy",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Galvano Chrome detailing",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 74798
         },
         {
           "name": "Sport",
@@ -2148,13 +2341,13 @@
             },
             {
               "label": "AWD",
-              "value": "Dual-motor option",
+              "value": "Dual-motor AWD available",
               "status": "optional",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year OnStar One plan",
+              "value": "Standard; eligible 3-year OnStar One plan",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -2169,9 +2362,57 @@
               "value": "11.5 kW",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Horizon Display, 9K resolution",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Glass roof with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Included; full functionality may require plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat ventilation",
+              "value": "Not specified in base-trim highlight",
+              "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch alloy",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Obsidian Chrome and sport grille",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 74798
         },
         {
           "name": "Premium Luxury",
@@ -2209,12 +2450,90 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Horizon Display, 9K resolution",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Glass roof with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Included; full functionality may require plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat ventilation",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat lumbar massage",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Premium audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Hands-free power liftgate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch alloy",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Galvano Chrome detailing",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor AWD available",
+              "status": "optional",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 83398
         },
         {
           "name": "Premium Sport",
@@ -2252,12 +2571,90 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Horizon Display, 9K resolution",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Glass roof with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Included; full functionality may require plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat ventilation",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat lumbar massage",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Premium audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Hands-free power liftgate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch alloy",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Obsidian Chrome and sport grille",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor AWD available",
+              "status": "optional",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 83398
         },
         {
           "name": "Signature Luxury",
@@ -2265,7 +2662,7 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "22-inch",
+              "value": "22-inch premium wheels",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -2277,7 +2674,7 @@
             },
             {
               "label": "Climate",
-              "value": "Three-zone",
+              "value": "Tri-zone",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -2295,12 +2692,90 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Horizon Display, 9K resolution",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Glass roof with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Included; full functionality may require plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat ventilation",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat lumbar massage",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Premium audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Hands-free power liftgate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Heated rear outboard seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Galvano Chrome detailing",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor AWD available",
+              "status": "optional",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 89398
         },
         {
           "name": "Signature Sport",
@@ -2308,7 +2783,7 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "22-inch",
+              "value": "22-inch premium wheels",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -2320,7 +2795,7 @@
             },
             {
               "label": "Climate",
-              "value": "Three-zone",
+              "value": "Tri-zone",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             },
@@ -2338,15 +2813,106 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year OnStar One plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "33-inch display",
+              "value": "Horizon Display, 9K resolution",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "SkyGlass roof",
+              "value": "Glass roof with power shade",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Included; full functionality may require plan",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Wireless compatibility",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Charge port",
+              "value": "NACS",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat ventilation",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Front seat lumbar massage",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Premium audio",
+              "value": "23-speaker AKG Studio",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Hands-free power liftgate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Heated rear outboard seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "Exterior",
+              "value": "Obsidian Chrome and sport grille",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+            },
+            {
+              "label": "AWD",
+              "value": "Dual-motor AWD available",
+              "status": "optional",
               "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
             }
           ],
-          "price": null
+          "price": 89398
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Luxury vs Sport: Both start with single-motor RWD, 33-inch screen, Super Cruise and a SkyGlass roof. Sport changes the grille and exterior finishes.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Premium Luxury / Premium Sport add 23-speaker AKG audio, ventilated and massaging front seats, Rear Camera Mirror and hands-free liftgate.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        },
+        {
+          "text": "Signature Luxury / Signature Sport add 22-inch wheels, heated rear outboard seats and tri-zone climate control.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -2384,7 +2950,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/electric/lyriq"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Higher-tier inherited features and all package combinations require exact-build confirmation. V-Series is a separate guide.",
+      "coverage_note": "Canadian 2027 LYRIQ trim-level highlights. Optional AWD and charging-module configurations affect range and charging performance; confirm the exact VIN.",
       "listing_model_names": [
         "LYRIQ"
       ]
@@ -3072,13 +3638,13 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "11.5 kW",
+              "value": "11.5 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year trial",
+              "value": "Standard; eligible 3-year trial",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
@@ -3105,9 +3671,57 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "AKG audio",
+              "value": "21-speaker",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Styling",
+              "value": "Galvano bright trim",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             }
           ],
-          "price": null
+          "price": 160998
         },
         {
           "name": "Sport",
@@ -3115,13 +3729,13 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "11.5 kW",
+              "value": "11.5 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year trial",
+              "value": "Standard; eligible 3-year trial",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
@@ -3148,9 +3762,57 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "AKG audio",
+              "value": "21-speaker",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Styling",
+              "value": "Obsidian Chrome accents",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             }
           ],
-          "price": null
+          "price": 160998
         },
         {
           "name": "Premium Luxury",
@@ -3158,7 +3820,7 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "19.2 kW",
+              "value": "19.2 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
@@ -3170,7 +3832,7 @@
             },
             {
               "label": "Front seats",
-              "value": "Massage; 16-way adjustment",
+              "value": "Heated and ventilated",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
@@ -3200,12 +3862,66 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "AKG audio",
+              "value": "38-speaker Studio Reference",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Front massage",
+              "value": "Included with power bolsters",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Power doors",
+              "value": "Power open and close",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Styling",
+              "value": "Galvano bright trim",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             }
           ],
-          "price": null
+          "price": 181098
         },
         {
           "name": "Premium Sport",
@@ -3213,7 +3929,7 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "19.2 kW",
+              "value": "19.2 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
@@ -3225,7 +3941,7 @@
             },
             {
               "label": "Front seats",
-              "value": "Massage; 16-way adjustment",
+              "value": "Heated and ventilated",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             },
@@ -3255,15 +3971,78 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "AKG audio",
+              "value": "38-speaker Studio Reference",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Front massage",
+              "value": "Included with power bolsters",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Power doors",
+              "value": "Power open and close",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+            },
+            {
+              "label": "Styling",
+              "value": "Obsidian Chrome accents",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
             }
           ],
-          "price": null
+          "price": 181098
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Luxury / Sport: Core electric luxury with the 55-inch display, four-wheel steering, Air Ride, Super Cruise, 21-speaker AKG, 11.5 kW AC charging and 22-inch wheels.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        },
+        {
+          "text": "Premium Luxury / Premium Sport: Move to 38-speaker AKG, front-seat massage, power doors, 19.2 kW AC charging and 24-inch wheels. Executive second-row seating is optional.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -3293,7 +4072,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iq"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection, charging connector and complete package dependencies not verified.",
+      "coverage_note": "Manufacturer 2026 Escalade electric SUV specification. Range, towing, charging speeds and optional seating are configuration-dependent; verify the exact IQ/IQL model and VIN.",
       "listing_model_names": [
         "Escalade IQ"
       ]
@@ -3312,13 +4091,13 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "11.5 kW",
+              "value": "11.5 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year trial",
+              "value": "Standard; eligible 3-year trial",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
@@ -3344,6 +4123,54 @@
               "label": "Apple CarPlay / Android Auto",
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "AKG audio",
+              "value": "21-speaker",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Styling",
+              "value": "Galvano bright trim",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             }
           ],
@@ -3355,13 +4182,13 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "11.5 kW",
+              "value": "11.5 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
             {
               "label": "Super Cruise",
-              "value": "3-year trial",
+              "value": "Standard; eligible 3-year trial",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
@@ -3388,6 +4215,54 @@
               "value": "Trim-specific availability not verified in this guide",
               "status": "unknown",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "AKG audio",
+              "value": "21-speaker",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Styling",
+              "value": "Obsidian Chrome accents",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             }
           ],
           "price": null
@@ -3398,7 +4273,7 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "19.2 kW",
+              "value": "19.2 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
@@ -3410,7 +4285,7 @@
             },
             {
               "label": "Front seats",
-              "value": "Massage; 16-way adjustment",
+              "value": "Heated and ventilated",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
@@ -3440,8 +4315,62 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "AKG audio",
+              "value": "38-speaker Studio Reference",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Front massage",
+              "value": "Included with power bolsters",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Power doors",
+              "value": "Power open and close",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Styling",
+              "value": "Galvano bright trim",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             }
           ],
@@ -3453,7 +4382,7 @@
           "features": [
             {
               "label": "AC charging",
-              "value": "19.2 kW",
+              "value": "19.2 kW onboard",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
@@ -3465,7 +4394,7 @@
             },
             {
               "label": "Front seats",
-              "value": "Massage; 16-way adjustment",
+              "value": "Heated and ventilated",
               "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             },
@@ -3495,15 +4424,78 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "value": "Standard; eligible 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Display",
+              "value": "55-inch pillar-to-pillar LED",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Adaptive suspension",
+              "value": "Air Ride and Magnetic Ride Control",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "Up to 350 kW compatible station",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Heated second row",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "AKG audio",
+              "value": "38-speaker Studio Reference",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Front massage",
+              "value": "Included with power bolsters",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Power doors",
+              "value": "Power open and close",
+              "status": "standard",
+              "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+            },
+            {
+              "label": "Styling",
+              "value": "Obsidian Chrome accents",
+              "status": "standard",
               "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Luxury / Sport: Core electric luxury with the 55-inch display, four-wheel steering, Air Ride, Super Cruise, 21-speaker AKG, 11.5 kW AC charging and 22-inch wheels.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        },
+        {
+          "text": "Premium Luxury / Premium Sport: Move to 38-speaker AKG, front-seat massage, power doors, 19.2 kW AC charging and 24-inch wheels. Executive second-row seating is optional.",
+          "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -3533,7 +4525,7 @@
           "source_url": "https://www.cadillaccanada.ca/en/electric/escalade-iql"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Phone projection, charging connector and complete package dependencies not verified.",
+      "coverage_note": "Manufacturer 2026 Escalade electric SUV specification. Range, towing, charging speeds and optional seating are configuration-dependent; verify the exact IQ/IQL model and VIN.",
       "listing_model_names": [
         "Escalade IQL"
       ]
