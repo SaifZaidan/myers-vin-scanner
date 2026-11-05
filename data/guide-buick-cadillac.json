@@ -13,211 +13,391 @@
           "positioning": "Core comfort and technology",
           "features": [
             {
-              "label": "Engine / transmission",
-              "value": "2.0L turbo / 9-speed automatic",
+              "label": "Engine",
+              "value": "2.0L turbo 4-cylinder",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
-              "label": "Front seats",
-              "value": "Heated",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Steering wheel",
-              "value": "Heated",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Display",
-              "value": "30-inch diagonal",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Cabin noise",
-              "value": "Active noise cancellation",
+              "label": "Transmission",
+              "value": "9-speed automatic",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
               "label": "AWD",
-              "value": "All-wheel drive",
+              "value": "Intelligent AWD with active twin clutch",
               "status": "standard",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/trims/compare"
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
             },
             {
-              "label": "Apple CarPlay / Android Auto",
-              "value": "Wireless compatibility",
+              "label": "30-inch display",
+              "value": "Ultrawide curved screen",
               "status": "standard",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/summary/payment"
+              "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
-              "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "label": "Google built-in",
+              "value": "Full functionality may require a subscription",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Active noise cancellation",
+              "value": "QuietTuning",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Advanced safety features",
+              "value": "Standard suite",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front heated seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Panoramic moonroof",
+              "value": "Available with equipment package",
+              "status": "optional",
+              "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch machined, Technical Grey",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front upholstery",
+              "value": "Perforated leatherette",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Sport appearance",
+              "value": "Not ST styling",
+              "status": "unavailable",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             }
           ],
-          "price": null
+          "price": 49398
         },
         {
           "name": "Sport Touring",
           "positioning": "Sport styling and seating",
           "features": [
             {
-              "label": "Engine / transmission",
-              "value": "2.0L turbo / 9-speed automatic",
+              "label": "Engine",
+              "value": "2.0L turbo 4-cylinder",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
-              "label": "Front upholstery",
-              "value": "Leather-appointed with synthetic-suede inserts",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Memory",
-              "value": "Driver seat and mirrors",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Steering wheel",
-              "value": "Leather-wrapped, flat-bottom",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Pedals",
-              "value": "Alloy",
+              "label": "Transmission",
+              "value": "9-speed automatic",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
               "label": "AWD",
-              "value": "All-wheel drive",
+              "value": "Intelligent AWD with active twin clutch",
               "status": "standard",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/trims/compare"
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
             },
             {
-              "label": "Apple CarPlay / Android Auto",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "label": "30-inch display",
+              "value": "Ultrawide curved screen",
+              "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
-              "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
+              "label": "Google built-in",
+              "value": "Full functionality may require a subscription",
+              "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Active noise cancellation",
+              "value": "QuietTuning",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Advanced safety features",
+              "value": "Standard suite",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front heated seats",
+              "value": "Comfort and Convenience Package",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Comfort and Convenience Package",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
+            },
+            {
+              "label": "Panoramic moonroof",
+              "value": "Available with equipment package",
+              "status": "optional",
+              "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch Carbon Flash Metallic",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
+            },
+            {
+              "label": "Front upholstery",
+              "value": "Leather-appointed with synthetic suede inserts",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
+            },
+            {
+              "label": "Sport appearance",
+              "value": "Black mesh grille, accents, flat-bottom wheel and alloy pedals",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
+            },
+            {
+              "label": "Driver-seat memory",
+              "value": "Seat and mirrors",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-st"
             }
           ],
-          "price": null
+          "price": 51598
         },
         {
           "name": "Avenir",
           "positioning": "Comfort-focused flagship",
           "features": [
             {
-              "label": "Engine / transmission",
-              "value": "2.0L turbo / 9-speed automatic",
+              "label": "Engine",
+              "value": "2.0L turbo 4-cylinder",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
-              "label": "Front seats",
-              "value": "Heated and ventilated; quilted leather-appointed",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Roof",
-              "value": "Panoramic moonroof",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Liftgate",
-              "value": "Hands-free power",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
-            },
-            {
-              "label": "Front adjustment",
-              "value": "8-way power; 4-way power lumbar",
+              "label": "Transmission",
+              "value": "9-speed automatic",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision"
             },
             {
               "label": "AWD",
-              "value": "All-wheel drive",
-              "status": "standard",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envision/2026/envision/trims/compare"
-            },
-            {
-              "label": "Audio",
-              "value": "Bose, 9 speakers",
+              "value": "Intelligent AWD with active twin clutch",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
             },
             {
-              "label": "Head-up display",
+              "label": "30-inch display",
+              "value": "Ultrawide curved screen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Full functionality may require a subscription",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Active noise cancellation",
+              "value": "QuietTuning",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Advanced safety features",
+              "value": "Standard suite",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Front heated seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch Pearl Nickel finish",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+            },
+            {
+              "label": "Front upholstery",
+              "value": "Quilted perforated leather-appointed",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+            },
+            {
+              "label": "Ventilated front seats",
               "value": "Included",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
             },
             {
-              "label": "Suspension",
-              "value": "Continuous Damping Control",
+              "label": "Heated rear outboard seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+            },
+            {
+              "label": "Driver massage",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+            },
+            {
+              "label": "Power passenger seat",
+              "value": "8-way power with 4-way lumbar",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
             },
             {
-              "label": "Apple CarPlay / Android Auto",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
+              "label": "Continuous Damping Control",
+              "value": "Electronically adaptive suspension",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
             },
             {
-              "label": "Super Cruise",
-              "value": "Trim-specific availability not verified in this guide",
-              "status": "unknown",
-              "source_url": "https://www.buick.ca/en/suvs/envision"
+              "label": "Panoramic moonroof",
+              "value": "Standard",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "With washer",
+              "status": "standard",
+              "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+            },
+            {
+              "label": "110V outlet",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+            },
+            {
+              "label": "Hands-free power liftgate",
+              "value": "With LED logo projection",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+            },
+            {
+              "label": "Driver-seat memory",
+              "value": "Seat and mirrors",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
             }
           ],
-          "price": null
+          "price": 57498
         }
       ],
       "upgrade_notes": [
         {
-          "text": "ST changes seating and style, not the listed engine. Avenir adds ventilation, moonroof and hands-free liftgate.",
-          "source_url": "https://www.buick.ca/en/suvs/envision"
+          "text": "Preferred → Sport Touring: Same 2.0L turbo engine and AWD. ST switches to 20-inch black wheels, a black mesh grille, leather-appointed/suede-insert seats, a flat-bottom wheel and sport pedals.",
+          "source_url": "https://www.buick.ca/en/suvs/envision-st"
+        },
+        {
+          "text": "Sport Touring → Avenir: Adds ventilated front seats, heated rear seats, driver massage, power passenger seat, panoramic moonroof and Continuous Damping Control. Avenir is the comfort-focused upgrade.",
+          "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+        },
+        {
+          "text": "Heated seats and heated steering wheel on ST may depend on the Comfort and Convenience Package. Always confirm the individual stock number before promising equipment.",
+          "source_url": "https://www.buick.ca/en/suvs/envision-st"
         }
       ],
       "faq": [
         {
-          "question": "Does Avenir get a bigger engine?",
-          "answer": "No. The Canadian trim list gives all three the same 2.0L turbo and 9-speed automatic.",
+          "question": "Does ST get a stronger engine?",
+          "answer": "No. Preferred, Sport Touring and Avenir use a 2.0L turbo four-cylinder and 9-speed automatic.",
           "source_url": "https://www.buick.ca/en/suvs/envision"
+        },
+        {
+          "question": "Which Envision has ventilated seats?",
+          "answer": "Avenir lists ventilated front seats as standard.",
+          "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
+        },
+        {
+          "question": "Which has massaging seats?",
+          "answer": "Avenir includes a driver massage seat.",
+          "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+        },
+        {
+          "question": "Can I get a panoramic roof on ST?",
+          "answer": "It is available, depending on the equipment package; confirm the exact vehicle.",
+          "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
+        },
+        {
+          "question": "Do all Envisions have all-wheel drive?",
+          "answer": "The Canadian 2026 Envision comes with Intelligent AWD.",
+          "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
         }
       ],
       "buyer_notes": [
         {
-          "text": "Google built-in requires subscriptions for full functionality.",
+          "text": "Preferred: Choose it for the shared engine, AWD, 30-inch screen and strong everyday comfort at the lowest manufacturer starting price.",
+          "source_url": "https://www.buick.ca/en/suvs/envision"
+        },
+        {
+          "text": "Sport Touring: Choose it for the bigger dark wheels, black accents and sport-inspired seat materials, not for a different engine.",
+          "source_url": "https://www.buick.ca/en/suvs/envision-st"
+        },
+        {
+          "text": "Avenir: Choose it for cooled seating, passenger comfort, massage function, panoramic roof and adaptive ride quality.",
           "source_url": "https://www.buick.ca/en/suvs/envision-avenir"
         }
       ],
       "sales_notes": [
         {
-          "text": "Demonstrate seat ventilation and liftgate operation, then compare the exact option sheets.",
-          "source_url": "https://www.buick.ca/en/suvs/envision"
+          "text": "First show the full comparison table, then physically demonstrate the Avenir ventilated seating and driver's massage. Confirm the VIN's installed package equipment before quoting.",
+          "source_url": "https://www.visionchevroletbuickgmc.ca/en/news/view/preferred-sport-touring-or-avenir-how-to-choose-a-2026-buick-envision/173609"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Super Cruise and higher-trim phone projection were not independently confirmed in this pass; do not infer availability.",
+      "coverage_note": "Canadian 2026 model comparison compiled from Buick Canada and an authorized Canadian dealer. Some package equipment varies by build; confirm each exact Myers VIN. Listed MSRP is manufacturer starting price, not Myers asking price.",
       "listing_model_names": [
         "Envision"
       ]
