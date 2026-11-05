@@ -8060,6 +8060,36 @@
               "value": "Wireless",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Engine",
+              "value": "6.7L V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Front seats",
+              "value": "8-way GT1 or Competition Sport, based on model",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Roof",
+              "value": "Removable roof panel on coupe",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
             }
           ],
           "price": null
@@ -8070,7 +8100,7 @@
           "features": [
             {
               "label": "Audio",
-              "value": "14-speaker Bose",
+              "value": "14-speaker Bose Performance",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette"
             },
@@ -8082,6 +8112,36 @@
             },
             {
               "label": "Head-up display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Engine",
+              "value": "6.7L V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Head-Up Display",
               "value": "Included",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette"
@@ -8104,12 +8164,73 @@
               "value": "Leather-wrapped; sueded upper trim",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Engine",
+              "value": "6.7L V8; 535 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose Performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Interior",
+              "value": "Custom leather trim with suede microfibre accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+            },
+            {
+              "label": "Premium seating",
+              "value": "Napa leather GT2 seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "1LT: Body styles: Coupe / convertible available (configuration-dependent); Front seats: 8-way GT1 or Competition Sport, based on model; Rear Camera Mirror: Included; Roof: Removable roof panel on coupe. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+        },
+        {
+          "text": "2LT: Body styles: Coupe / convertible available (configuration-dependent); Front seats: Heated and ventilated; power lumbar and bolsters; Performance Data Recorder: Included; Head-Up Display: Included. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+        },
+        {
+          "text": "3LT: Performance Data Recorder: Included; Head-Up Display: Included; Interior: Custom leather trim with suede microfibre accents; Premium seating: Napa leather GT2 seats. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -8143,7 +8264,7 @@
           "source_url": "https://www.chevrolet.ca/en/performance/corvette"
         }
       ],
-      "coverage_note": "Verified 2027 Canadian trim highlights. Coupe/convertible and performance-package choices remain separate.",
+      "coverage_note": "Canadian Corvette year and variant guide. Trim content differs between Stingray, Grand Sport, ZR1 and ZR1X; confirm equipment on exact variant and VIN.",
       "listing_model_names": [
         "Corvette Stingray"
       ]
@@ -8405,6 +8526,30 @@
               "value": "Carbon-fibre side intakes and ground effects",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Front seats",
+              "value": "8-way GT1 or Competition Sport, based on model",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Roof",
+              "value": "Removable roof panel on coupe",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
             }
           ],
           "price": null
@@ -8415,7 +8560,7 @@
           "features": [
             {
               "label": "Audio",
-              "value": "14-speaker Bose",
+              "value": "14-speaker Bose Performance",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
             },
@@ -8430,12 +8575,57 @@
               "value": "Sueded upper trim",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Interior",
+              "value": "Custom leather trim with suede microfibre accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+            },
+            {
+              "label": "Premium seating",
+              "value": "Napa leather GT2 seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "1LZ: Body styles: Coupe / convertible available (configuration-dependent); Front seats: 8-way GT1 or Competition Sport, based on model; Rear Camera Mirror: Included; Roof: Removable roof panel on coupe. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+        },
+        {
+          "text": "3LZ: Performance Data Recorder: Included; Head-Up Display: Included; Interior: Custom leather trim with suede microfibre accents; Premium seating: Napa leather GT2 seats. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -8465,7 +8655,7 @@
           "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Canadian Corvette year and variant guide. Trim content differs between Stingray, Grand Sport, ZR1 and ZR1X; confirm equipment on exact variant and VIN.",
       "listing_model_names": [
         "Corvette ZR1"
       ]
@@ -8493,6 +8683,30 @@
               "value": "Carbon-fibre side intakes and ground effects",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Front seats",
+              "value": "8-way GT1 or Competition Sport, based on model",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Roof",
+              "value": "Removable roof panel on coupe",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
             }
           ],
           "price": null
@@ -8503,7 +8717,7 @@
           "features": [
             {
               "label": "Audio",
-              "value": "14-speaker Bose",
+              "value": "14-speaker Bose Performance",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
             },
@@ -8518,12 +8732,57 @@
               "value": "Sueded upper trim",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Interior",
+              "value": "Custom leather trim with suede microfibre accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+            },
+            {
+              "label": "Premium seating",
+              "value": "Napa leather GT2 seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "1LZ: Body styles: Coupe / convertible available (configuration-dependent); Front seats: 8-way GT1 or Competition Sport, based on model; Rear Camera Mirror: Included; Roof: Removable roof panel on coupe. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+        },
+        {
+          "text": "3LZ: Performance Data Recorder: Included; Head-Up Display: Included; Interior: Custom leather trim with suede microfibre accents; Premium seating: Napa leather GT2 seats. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -8553,7 +8812,7 @@
           "source_url": "https://www.chevrolet.ca/en/performance/corvette-zr1x"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Canadian Corvette year and variant guide. Trim content differs between Stingray, Grand Sport, ZR1 and ZR1X; confirm equipment on exact variant and VIN.",
       "listing_model_names": [
         "Corvette ZR1X"
       ]
@@ -8574,13 +8833,37 @@
               "label": "Audio",
               "value": "10-speaker Bose",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             },
             {
               "label": "Seats",
               "value": "Eight-way GT1; Mulan leather",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Front seats",
+              "value": "8-way GT1 or Competition Sport, based on model",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Roof",
+              "value": "Removable roof panel on coupe",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             }
           ],
           "price": null
@@ -8591,9 +8874,9 @@
           "features": [
             {
               "label": "Audio",
-              "value": "14-speaker Bose",
+              "value": "14-speaker Bose Performance",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             },
             {
               "label": "Seats",
@@ -8606,6 +8889,30 @@
               "value": "Performance Data and Video Recorder",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             }
           ],
           "price": null
@@ -8625,12 +8932,67 @@
               "value": "Leather-wrapped; sueded upper trim",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose Performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Interior",
+              "value": "Custom leather trim with suede microfibre accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+            },
+            {
+              "label": "Premium seating",
+              "value": "Napa leather GT2 seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "1LT: Body styles: Coupe / convertible available (configuration-dependent); Front seats: 8-way GT1 or Competition Sport, based on model; Rear Camera Mirror: Included; Roof: Removable roof panel on coupe. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+        },
+        {
+          "text": "2LT: Body styles: Coupe / convertible available (configuration-dependent); Front seats: Heated and ventilated; power lumbar and bolsters; Performance Data Recorder: Included; Head-Up Display: Included. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+        },
+        {
+          "text": "3LT: Performance Data Recorder: Included; Head-Up Display: Included; Interior: Custom leather trim with suede microfibre accents; Premium seating: Napa leather GT2 seats. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/performance/2027-corvette-grand-sport"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -8664,7 +9026,7 @@
           "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
         }
       ],
-      "coverage_note": "Upcoming 2027 model, anticipated late 2026. Shared trim preview; production equipment and allocation need confirmation.",
+      "coverage_note": "Canadian Corvette year and variant guide. Trim content differs between Stingray, Grand Sport, ZR1 and ZR1X; confirm equipment on exact variant and VIN.",
       "listing_model_names": [
         "Corvette Grand Sport"
       ]
@@ -8692,6 +9054,30 @@
               "value": "Eight-way GT1; Mulan leather",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Front seats",
+              "value": "8-way GT1 or Competition Sport, based on model",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Rear Camera Mirror",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Roof",
+              "value": "Removable roof panel on coupe",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
             }
           ],
           "price": null
@@ -8702,7 +9088,7 @@
           "features": [
             {
               "label": "Audio",
-              "value": "14-speaker Bose",
+              "value": "14-speaker Bose Performance",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
             },
@@ -8715,6 +9101,30 @@
             {
               "label": "Recorder",
               "value": "Performance Data and Video Recorder",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
             }
@@ -8736,12 +9146,67 @@
               "value": "Leather-wrapped; sueded upper trim",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Body styles",
+              "value": "Coupe / convertible available (configuration-dependent)",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose Performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated; power lumbar and bolsters",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Interior",
+              "value": "Custom leather trim with suede microfibre accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+            },
+            {
+              "label": "Premium seating",
+              "value": "Napa leather GT2 seats",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "1LT: Body styles: Coupe / convertible available (configuration-dependent); Front seats: 8-way GT1 or Competition Sport, based on model; Rear Camera Mirror: Included; Roof: Removable roof panel on coupe. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        },
+        {
+          "text": "2LT: Body styles: Coupe / convertible available (configuration-dependent); Front seats: Heated and ventilated; power lumbar and bolsters; Performance Data Recorder: Included; Head-Up Display: Included. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        },
+        {
+          "text": "3LT: Performance Data Recorder: Included; Head-Up Display: Included; Interior: Custom leather trim with suede microfibre accents; Premium seating: Napa leather GT2 seats. Check exact variant and ordered equipment.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -8775,7 +9240,7 @@
           "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/corvette-grand-sport"
         }
       ],
-      "coverage_note": "Upcoming 2027 model, anticipated late 2026. Shared trim preview; production equipment and allocation need confirmation.",
+      "coverage_note": "Canadian Corvette year and variant guide. Trim content differs between Stingray, Grand Sport, ZR1 and ZR1X; confirm equipment on exact variant and VIN.",
       "listing_model_names": [
         "Corvette Grand Sport X"
       ]
