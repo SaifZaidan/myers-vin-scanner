@@ -16,3 +16,20 @@ test('inventory failure never removes usable model guides or invents stock',asyn
 test('guide failure leaves explicit error rather than empty successful catalogue',async()=>{const {nodes:n}=await guideBoot({guideError:true});assert.match(n['guide-status'].textContent,/Could not load/);assert.equal(n['model-catalog'].children.length,0);});
 test('every supplied model guide renders without missing text or exceptions',async()=>{const {nodes:n,window:w}=await guideBoot();const all=['guide-buick-cadillac.json','guide-chevrolet-gmc.json'].flatMap(f=>JSON.parse(fs.readFileSync('data/'+f)).models);for(const m of all){w.location.hash='#'+m.id;w.listeners.hashchange();assert.equal(n['guide-output'].hidden,false,m.id);assert.ok(n['guide-output'].textContent.includes(m.model),m.id);assert.ok(!n['guide-output'].textContent.includes('[object Object]'),m.id);}});
 test('explicit drivetrain prefixes match without weakening trim boundaries',()=>{for(const v of ['AWD RS','FWD RS','4WD RS - Sunroof'])assert.equal(L.trimMatches(v,'RS'),true);assert.equal(L.trimMatches('AWD AT4X','AT4'),false);assert.equal(L.trimMatches('AWD Denali Ultimate','Denali'),false);});
+
+
+test('guide facts are not customer-verified without auditable exact evidence',()=>{
+ for(const file of ['guide-buick-cadillac.json','guide-chevrolet-gmc.json']){
+  const data=JSON.parse(fs.readFileSync('data/'+file,'utf8'));
+  for(const m of data.models)for(const t of m.trims)for(const f of t.features){
+   assert.equal(L.auditedFact(f),false,m.id+' '+t.name+' '+f.label+' should not be certified by a generic URL');
+  }
+ }
+ assert.equal(L.auditedFact({status:'standard',verification:{status:'audited',model_year:2026,trim:'ST',evidence_excerpt:'Factory option code ABC',evidence_url:'https://example.com'}}),false);
+});
+test('customer page clearly separates factory audit from research-only claims',()=>{
+ const source=fs.readFileSync('trims.js','utf8');
+ assert.match(source,/Unverified claim/);
+ assert.match(source,/exact Myers listing/);
+ assert.match(source,/factory build sheet/);
+});
