@@ -4224,9 +4224,45 @@
             },
             {
               "label": "Range",
-              "value": "Up to 513 km estimated, FWD; conditions affect range",
+              "value": "Up to 513 km estimated with FWD",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Infotainment",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Seats",
+              "value": "5 passengers",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Safety technology",
+              "value": "Over 20 standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
             }
           ],
           "price": null
@@ -4237,21 +4273,69 @@
           "features": [
             {
               "label": "Seats",
-              "value": "Evotex",
+              "value": "5 passengers",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
             },
             {
               "label": "Liftgate",
-              "value": "AutoSense hands-free",
+              "value": "AutoSense hands-free programmable",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
             },
             {
               "label": "Phone charging",
               "value": "Wireless",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 513 km FWD / up to 494 km AWD, depending on configuration",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Infotainment",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Safety technology",
+              "value": "Over 20 standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Evotex",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Roof rails",
+              "value": "Bright",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
             }
           ],
           "price": null
@@ -4264,19 +4348,61 @@
               "label": "Wheels",
               "value": "21-inch black",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
             },
             {
               "label": "Exterior",
-              "value": "Distinct front/rear fascias; black accents",
+              "value": "Black trim / RS fascia",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
             },
             {
               "label": "Steering wheel",
               "value": "Flat-bottom",
               "status": "standard",
-              "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 513 km FWD / up to 494 km AWD, depending on configuration",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Infotainment",
+              "value": "17.7-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Seats",
+              "value": "5 passengers",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+            },
+            {
+              "label": "Safety technology",
+              "value": "Over 20 standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
             }
           ],
           "price": null
@@ -4284,8 +4410,16 @@
       ],
       "upgrade_notes": [
         {
-          "text": "LT 2 adds Evotex, wireless charging and hands-free liftgate. RS adds styling and 21-inch wheels.",
-          "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
+          "text": "LT 1: Range: Up to 513 km estimated with FWD. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+        },
+        {
+          "text": "LT 2: Phone charging: Wireless; Liftgate: AutoSense hands-free programmable; Upholstery: Evotex; Roof rails: Bright. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
+        },
+        {
+          "text": "RS: Exterior: Black trim / RS fascia; Steering wheel: Flat-bottom; Wheels: 21-inch black. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/2027-equinox-ev"
         }
       ],
       "faq": [],
@@ -4321,7 +4455,7 @@
           "source_url": "https://www.chevrolet.ca/en/electric/equinox-ev"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Expanded using Canadian manufacturer model-year highlights. EV range estimates depend on battery pack, wheels and drivetrain; verify the specific VIN. Optional packages and service subscriptions vary.",
       "listing_model_names": [
         "Equinox EV"
       ]
@@ -4346,13 +4480,25 @@
             },
             {
               "label": "Driver display",
-              "value": "11-inch",
+              "value": "11-inch digital",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
             },
             {
               "label": "Range",
-              "value": "Up to 502 km estimated with FWD; conditions affect range",
+              "value": "Up to 502 km with FWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Safety technology",
+              "value": "Chevrolet Safety Assist",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated, with Comfort and Convenience Package",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
             }
@@ -4374,6 +4520,36 @@
               "value": "Animated front light bar and emblem",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Safety technology",
+              "value": "Chevrolet Safety Assist",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to 502 km with FWD",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Exterior",
+              "value": "Black grille panel, LED light bar, illuminated badge",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "RS convenience package",
+              "value": "Heated rear seats / Head-Up Display available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
             }
           ],
           "price": null
@@ -4390,13 +4566,31 @@
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year trial included",
+              "value": "Standard; eligible 3-year trial",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
             },
             {
               "label": "Range",
-              "value": "Up to 486 km estimated; conditions affect range",
+              "value": "Up to 486 km estimated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Safety technology",
+              "value": "Chevrolet Safety Assist",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+            },
+            {
+              "label": "Performance",
+              "value": "0–96 km/h in 3.4 seconds (GM-estimated, WOW mode)",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
             }
@@ -4404,7 +4598,20 @@
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LT: Range: Up to 502 km with FWD; Wheels: 19-inch; Front seats: Heated, with Comfort and Convenience Package. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+        },
+        {
+          "text": "RS: Range: Up to 502 km with FWD; Wheels: 21-inch; Exterior: Black grille panel, LED light bar, illuminated badge. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+        },
+        {
+          "text": "SS: Range: Up to 486 km estimated; Performance: 0–96 km/h in 3.4 seconds (GM-estimated, WOW mode); Wheels: 22-inch; Super Cruise: Standard; eligible 3-year trial. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -4438,7 +4645,7 @@
           "source_url": "https://www.chevrolet.ca/en/electric/blazer-ev"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Expanded using Canadian manufacturer model-year highlights. EV range estimates depend on battery pack, wheels and drivetrain; verify the specific VIN. Optional packages and service subscriptions vary.",
       "listing_model_names": [
         "Blazer EV"
       ]
@@ -4463,8 +4670,38 @@
             },
             {
               "label": "Range",
-              "value": "Up to 460 / 682 / 793 km respectively; estimates vary with conditions",
-              "status": "unknown",
+              "value": "Up to 793 km with Max battery; configuration dependent",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "17.7-inch centre",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Bed",
+              "value": "5-foot-11-inch cargo bed",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Towing",
+              "value": "Up to 12,500 lb with appropriate equipment",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Off-board power",
+              "value": "Up to 10.2 kW with optional accessory",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
             }
           ],
@@ -4482,8 +4719,44 @@
             },
             {
               "label": "Range",
-              "value": "Up to 455 / 660 / 769 km respectively; estimates vary with conditions",
-              "status": "unknown",
+              "value": "Up to 769 km with Max battery",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "17.7-inch centre",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Bed",
+              "value": "5-foot-11-inch cargo bed",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Exterior lighting",
+              "value": "Illuminated bowtie and upgraded LED",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch gloss-black",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Multi-Flex Midgate",
+              "value": "Available",
+              "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
             }
           ],
@@ -4501,15 +4774,70 @@
             },
             {
               "label": "Range",
-              "value": "Up to 660 / 769 km respectively; estimates vary with conditions",
-              "status": "unknown",
+              "value": "Up to 769 km with Max battery",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "17.7-inch centre",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Bed",
+              "value": "5-foot-11-inch cargo bed",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Factory lift",
+              "value": "2 inches",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Wheels & tyres",
+              "value": "18-inch with 35-inch all-terrain",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Steering",
+              "value": "Four-wheel steer with Sidewinder",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+            },
+            {
+              "label": "Interior",
+              "value": "Black / Artemis with red stitching",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Work Truck: Range: Up to 793 km with Max battery; configuration dependent; Towing: Up to 12,500 lb with appropriate equipment. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+        },
+        {
+          "text": "LT: Range: Up to 769 km with Max battery; Exterior lighting: Illuminated bowtie and upgraded LED; Wheels: 18-inch gloss-black. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+        },
+        {
+          "text": "Trail Boss: Range: Up to 769 km with Max battery; Factory lift: 2 inches; Wheels & tyres: 18-inch with 35-inch all-terrain; Steering: Four-wheel steer with Sidewinder. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -4543,7 +4871,7 @@
           "source_url": "https://www.chevrolet.ca/en/electric/silverado-ev"
         }
       ],
-      "coverage_note": "Trim and battery catalog verified. Range is configuration-specific, not a guaranteed driving distance. Equipment/package matrix incomplete.",
+      "coverage_note": "Expanded using Canadian manufacturer model-year highlights. EV range estimates depend on battery pack, wheels and drivetrain; verify the specific VIN. Optional packages and service subscriptions vary.",
       "listing_model_names": [
         "Silverado EV"
       ]
@@ -4583,6 +4911,60 @@
               "value": "Evotex",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Horsepower",
+              "value": "210 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Battery range",
+              "value": "Up to an estimated 422 km",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Charge port",
+              "value": "Native NACS",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "GM-estimated 10–80% in as little as 25 minutes on 150+ kW charger",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11.3-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Compatible; full functionality may require subscription",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available; verify exact vehicle",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Styling",
+              "value": "Standard exterior finish",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
             }
           ],
           "price": null
@@ -4608,12 +4990,87 @@
               "value": "Multicolour ambient lighting",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Horsepower",
+              "value": "210 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Battery range",
+              "value": "Up to an estimated 422 km",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Charge port",
+              "value": "Native NACS",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "DC fast charging",
+              "value": "GM-estimated 10–80% in as little as 25 minutes on 150+ kW charger",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11.3-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Google built-in",
+              "value": "Compatible; full functionality may require subscription",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available; verify exact vehicle",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Exterior",
+              "value": "RS grille, emblems and black roof rails",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Upholstery",
+              "value": "Black Evotex with red stitching",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+            },
+            {
+              "label": "Ambient lighting",
+              "value": "Multicolour",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LT: Styling: Standard exterior finish. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+        },
+        {
+          "text": "RS: Wheels: 17-inch black; Exterior: RS grille, emblems and black roof rails; Upholstery: Black Evotex with red stitching; Ambient lighting: Multicolour. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -4643,7 +5100,7 @@
           "source_url": "https://www.chevrolet.ca/en/electric/bolt-ev"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Expanded using Canadian manufacturer model-year highlights. EV range estimates depend on battery pack, wheels and drivetrain; verify the specific VIN. Optional packages and service subscriptions vary.",
       "listing_model_names": [
         "Bolt"
       ]
@@ -6155,6 +6612,54 @@
               "value": "Heated front seats and steering wheel",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Dual motor e4WD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Front cargo",
+              "value": "Power eTrunk",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Tailgate",
+              "value": "MultiPro six-function",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to an estimated 660 km with available pack",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated driver and front passenger",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Midgate",
+              "value": "Available MultiPro Midgate",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
             }
           ],
           "price": null
@@ -6171,13 +6676,61 @@
             },
             {
               "label": "Steering",
-              "value": "Four-wheel steer; CrabWalk",
+              "value": "Four-wheel Steer with CrabWalk",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
             },
             {
               "label": "Super Cruise",
-              "value": "Three-year OnStar One plan",
+              "value": "Standard; eligible 3-year plan",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Dual motor e4WD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Front cargo",
+              "value": "Power eTrunk",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Tailgate",
+              "value": "MultiPro six-function",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Range",
+              "value": "Up to a GM-estimated 769 km with optional Max battery",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Suspension",
+              "value": "2-inch additional ground clearance",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Terrain Mode",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Recovery hooks",
+              "value": "Front red",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
             }
@@ -6211,12 +6764,73 @@
               "value": "Energy Transfer Pro; 10.2 kW",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Dual motor e4WD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "16.8-inch GMC premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Front cargo",
+              "value": "Power eTrunk",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Tailgate",
+              "value": "MultiPro six-function",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Interior",
+              "value": "Premium Denali materials",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Air Ride suspension",
+              "value": "Reserve Package equipment",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Panoramic roof",
+              "value": "Available package",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+            },
+            {
+              "label": "Midgate",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Elevation: Range: Up to an estimated 660 km with available pack; Front seats: Heated driver and front passenger; Wheels: 18-inch. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+        },
+        {
+          "text": "AT4: Range: Up to a GM-estimated 769 km with optional Max battery; Super Cruise: Standard; eligible 3-year plan; Suspension: 2-inch additional ground clearance; Steering: Four-wheel Steer with CrabWalk. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+        },
+        {
+          "text": "Denali: Interior: Premium Denali materials. Charging, range and equipment depend on exact configuration.",
+          "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -6250,7 +6864,7 @@
           "source_url": "https://www.gmccanada.ca/en/electric/sierra-ev"
         }
       ],
-      "coverage_note": "Trim highlights verified; battery-dependent range and equipment need exact-build verification. Manufacturer page contains conflicting legacy range headings, so no range claim is copied.",
+      "coverage_note": "Expanded using Canadian manufacturer model-year highlights. EV range estimates depend on battery pack, wheels and drivetrain; verify the specific VIN. Optional packages and service subscriptions vary.",
       "listing_model_names": [
         "Sierra EV"
       ]
