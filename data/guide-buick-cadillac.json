@@ -530,7 +530,55 @@
               "label": "Transmission",
               "value": "6-speed automatic",
               "status": "standard",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envista/2026/envista/trims/features/474163"
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Front-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Buick Driver Confidence",
+              "value": "Forward collision alert, AEB and lane keeping",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Convenience I Package",
+              "value": "Available heated seats, heated wheel, power driver seat",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Convenience II Package",
+              "value": "Available power liftgate, wireless charging, rain-sensing wipers",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Advanced Safety Package",
+              "value": "Available adaptive cruise and blind-spot safety",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
             }
           ],
           "price": 32893
@@ -579,7 +627,7 @@
               "label": "Transmission",
               "value": "6-speed automatic",
               "status": "standard",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envista/2026/envista/trims/features/474163"
+              "source_url": "https://www.buick.ca/en/suvs/envista"
             },
             {
               "label": "Display",
@@ -589,8 +637,62 @@
             },
             {
               "label": "Upholstery",
-              "value": "ST embroidered seating",
+              "value": "Leatherette with blue-accented stitching",
               "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Front-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Buick Driver Confidence",
+              "value": "Forward collision alert, AEB and lane keeping",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Sport styling",
+              "value": "18-inch black wheels, black grille, flat-bottom steering wheel",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Convenience I Package",
+              "value": "Available heated seats, heated wheel, power driver seat",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Convenience II Package",
+              "value": "Available power liftgate, wireless charging, rain-sensing wipers",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Advanced Safety Package",
+              "value": "Available adaptive cruise and blind-spot safety",
+              "status": "optional",
               "source_url": "https://www.buick.ca/en/suvs/envista"
             }
           ],
@@ -646,7 +748,7 @@
               "label": "Transmission",
               "value": "6-speed automatic",
               "status": "standard",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/envista/2026/envista/trims/features/474163"
+              "source_url": "https://www.buick.ca/en/suvs/envista"
             },
             {
               "label": "Display",
@@ -659,6 +761,54 @@
               "value": "Perforated leather-appointed",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "Front-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Buick Driver Confidence",
+              "value": "Forward collision alert, AEB and lane keeping",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
+            },
+            {
+              "label": "Power liftgate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/envista"
             }
           ],
           "price": 37693
@@ -666,7 +816,15 @@
       ],
       "upgrade_notes": [
         {
-          "text": "Avenir prioritizes seating and liftgate convenience; ST prioritizes appearance.",
+          "text": "Preferred: Front-wheel drive and 1.2L turbo, 11-inch touchscreen, wireless phone projection, and standard Buick Driver Confidence.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        },
+        {
+          "text": "Sport Touring: Sportier 18-inch black wheels, black exterior accents and flat-bottom steering wheel. Same engine and FWD.",
+          "source_url": "https://www.buick.ca/en/suvs/envista"
+        },
+        {
+          "text": "Avenir: 19-inch wheels, perforated leather-appointed seating, heated front seats and steering wheel, power liftgate; comfort-focused trim.",
           "source_url": "https://www.buick.ca/en/suvs/envista"
         }
       ],
@@ -697,7 +855,7 @@
           "source_url": "https://www.buick.ca/en/suvs/envista"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Drivetrain, transmission and Super Cruise status need further Canadian configuration verification.",
+      "coverage_note": "2026 Canadian Buick Envista trim highlights. Preferred and Sport Touring option packages are conditional; do not promise heated seating unless factory-installed.",
       "listing_model_names": [
         "Envista"
       ]
@@ -716,7 +874,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "1.3L turbo",
+              "value": "1.3L turbo 3-cylinder",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
@@ -752,13 +910,43 @@
             },
             {
               "label": "AWD",
-              "value": "Available configuration",
+              "value": "Available for additional cost",
               "status": "optional",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/encore-gx/2026/encore-gx/trims/compare"
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
             {
               "label": "Display",
               "value": "11-inch infotainment screen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch digital",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             }
@@ -777,7 +965,7 @@
             },
             {
               "label": "Upholstery",
-              "value": "Leatherette with ST head restraints",
+              "value": "Leatherette / ST head restraints",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
@@ -807,19 +995,61 @@
             },
             {
               "label": "Engine",
-              "value": "1.3L turbo",
+              "value": "1.3L turbo 3-cylinder",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
             {
               "label": "AWD",
-              "value": "Available configuration",
-              "status": "optional",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/encore-gx/2026/encore-gx/trims/compare"
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
             {
               "label": "Display",
               "value": "11-inch infotainment screen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch digital",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Sport exterior",
+              "value": "Black grille, accents, 18-inch black wheels",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Roof rails",
+              "value": "Included",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             }
@@ -838,7 +1068,7 @@
             },
             {
               "label": "Upholstery",
-              "value": "Leather-appointed front seats",
+              "value": "Leather-appointed",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
@@ -874,27 +1104,106 @@
             },
             {
               "label": "Engine",
-              "value": "1.3L turbo",
+              "value": "1.3L turbo 3-cylinder",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
             {
               "label": "AWD",
-              "value": "Available configuration",
-              "status": "optional",
-              "source_url": "https://www.buick.ca/byo-vc/client/en/CA/buick/encore-gx/2026/encore-gx/trims/compare"
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             },
             {
               "label": "Display",
               "value": "11-inch infotainment screen",
               "status": "standard",
               "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Driver display",
+              "value": "8-inch digital",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Power passenger seat",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Driver memory",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Dual-zone climate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "120V outlet",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Garage door opener",
+              "value": "Integrated",
+              "status": "standard",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+            },
+            {
+              "label": "Advanced Technology Package",
+              "value": "Available surround cameras/adaptive cruise, verify equipment",
+              "status": "optional",
+              "source_url": "https://www.buick.ca/en/suvs/encore-gx"
             }
           ],
           "price": 41492
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Preferred: AWD is available rather than standard, but you still get the 11-inch screen, remote start and heated seats.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        },
+        {
+          "text": "Sport Touring: Standard AWD, sport grille, 18-inch black wheels, ST seats and roof rails.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        },
+        {
+          "text": "Avenir: Leather seating, 19-inch wheels, memory and power passenger seat, dual-zone climate and 120V outlet.",
+          "source_url": "https://www.buick.ca/en/suvs/encore-gx"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -920,7 +1229,7 @@
           "source_url": "https://www.buick.ca/en/suvs/encore-gx"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights, not a complete equipment or package matrix. Prices omitted; verify the exact vehicle and order guide before purchase. Preferred transmission, trim-specific AWD and Super Cruise not verified.",
+      "coverage_note": "2026 Canadian Encore GX equipment cross-checked with Canadian third-party vehicle guides and Buick factory highlights. Option package installations depend on exact stock.",
       "listing_model_names": [
         "Encore GX"
       ]
