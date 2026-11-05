@@ -504,9 +504,33 @@
               "value": "TurboMax; eight-speed automatic",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax; 8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Cargo bed",
+              "value": "12 cargo tie-downs",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Power outlet",
+              "value": "12V front",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "5.3L V8 with 10-speed automatic",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 53498
         },
         {
           "name": "Pro Graphite",
@@ -523,9 +547,33 @@
               "value": "2-inch factory lift",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Factory lift",
+              "value": "2 inches with off-road suspension",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Trailer equipment",
+              "value": "Trailering Package",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 63698
         },
         {
           "name": "SLE",
@@ -542,9 +590,51 @@
               "value": "Heated front seats and steering wheel",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Display",
+              "value": "13.4-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch digital display",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Heated driver and front outboard passenger",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Driver seat",
+              "value": "10-way power with lumbar",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Auto-locking rear differential",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax turbo-diesel",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 65698
         },
         {
           "name": "Elevation",
@@ -552,7 +642,7 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "20-inch gloss-black",
+              "value": "20-inch gloss black",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             },
@@ -561,9 +651,63 @@
               "value": "LED fog lamps",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Display",
+              "value": "13.4-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch digital display",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included (SLE standard equipment)",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included (SLE standard equipment)",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Exterior",
+              "value": "Body-colour exterior / gloss black grille",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "LED fog lamps",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Leather-appointed seating",
+              "value": "Available equipment",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Wireless centre console charging",
+              "value": "Available with front bucket seats",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Power sunroof",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 68398
         },
         {
           "name": "SLT",
@@ -580,9 +724,45 @@
               "value": "10-way power front seats",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine",
+              "value": "5.3L V8; 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch digital display",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Front seats",
+              "value": "10-way power with lumbar",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Exterior",
+              "value": "Chrome grille, door handles and bumpers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.2L V8 or 3.0L turbo-diesel",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Trailering",
+              "value": "ProGrade Trailering System",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 76398
         },
         {
           "name": "AT4",
@@ -590,18 +770,48 @@
           "features": [
             {
               "label": "Engine",
-              "value": "3.0L diesel",
+              "value": "3.0L Duramax turbo-diesel; 10-speed automatic",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             },
             {
               "label": "Suspension",
-              "value": "2-inch lift; Rancho shocks",
+              "value": "2-inch factory lift; Rancho shocks",
               "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed Autotrac and skid plates",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated perforated leather",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Interior",
+              "value": "Jet Black with Kalahari accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.2L V8",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "15-inch available",
+              "status": "optional",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 90298
         },
         {
           "name": "AT4X",
@@ -609,7 +819,7 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "DSSV dampers",
+              "value": "Multimatic DSSV dampers",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             },
@@ -618,9 +828,39 @@
               "value": "Front and rear electronic lockers",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Differential locks",
+              "value": "Front and rear electronic lockers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way heated, ventilated with massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Off-road protection",
+              "value": "AEV front bumper with winch capability",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.2L V8",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "AEV Edition",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 106732
         },
         {
           "name": "Denali",
@@ -628,7 +868,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "5.3L V8",
+              "value": "5.3L V8; 10-speed automatic",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             },
@@ -637,9 +877,39 @@
               "value": "Wood trim; perforated leather",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Front seats",
+              "value": "12-way power with lumbar",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Interior",
+              "value": "Forge perforated leather and authentic wood",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Exterior",
+              "value": "Signature chrome Denali grille and assist steps",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available; eligible service plan required",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Engine upgrade",
+              "value": "6.2L V8 or 3.0L turbo-diesel",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 94498
         },
         {
           "name": "Denali Ultimate",
@@ -656,12 +926,63 @@
               "value": "16-way front seats with massage",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Included; 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way heated, ventilated and massaging",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Audio",
+              "value": "12-speaker Bose Premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch machined with chrome accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+            },
+            {
+              "label": "Diesel engine",
+              "value": "3.0L Duramax available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
             }
           ],
-          "price": null
+          "price": 116212
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Pro / Pro Graphite: Pro is work-focused with TurboMax; Pro Graphite switches to a standard 5.3L V8 and adds a 2-inch lift, trailering equipment and remote start.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        },
+        {
+          "text": "SLE → Elevation: Elevation retains SLE's large displays and heated front seats while adding black 20-inch wheels, black grille accents and LED fog lamps.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        },
+        {
+          "text": "SLT / Denali: SLT emphasizes V8 power and chrome trim; Denali adds signature materials, upgraded seating and available Super Cruise.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        },
+        {
+          "text": "AT4 → AT4X: AT4 has an off-road lift and two-speed transfer case; AT4X adds front and rear differential lockers, Multimatic DSSV dampers and front-seat massage.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        },
+        {
+          "text": "Denali Ultimate: Premium flagship featuring standard Super Cruise, a 6.2L V8, 22-inch wheels, 12-speaker Bose and heated, ventilated massaging seats.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -719,7 +1040,7 @@
           "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500"
         }
       ],
-      "coverage_note": "Canadian overview verified. Pro Graphite is a named edition. Source flattens standard/optional groups; only unambiguous primary highlights are included. Confirm Super Cruise and engine options in the exact build.",
+      "coverage_note": "Expanded from GMC Canada's 2026 model-specific trim highlights. Available options, different cab/drivetrain configurations and exact vehicle builds can alter equipment. Prices are starting Canadian manufacturer figures, not Myers prices.",
       "listing_model_names": [
         "Sierra 1500"
       ]
@@ -753,9 +1074,15 @@
               "value": "Included",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Safety suite",
+              "value": "Intersection AEB, front pedestrian/bicyclist braking, side bicyclist alert and more",
+              "status": "standard",
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
             }
           ],
-          "price": null
+          "price": 53899
         },
         {
           "name": "Elevation",
@@ -778,9 +1105,21 @@
               "value": "Dual wireless phone charging",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Safety suite",
+              "value": "Intersection AEB, front pedestrian/bicyclist braking, side bicyclist alert and more",
+              "status": "standard",
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available equipment; confirm build",
+              "status": "optional",
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
             }
           ],
-          "price": null
+          "price": 67199
         },
         {
           "name": "AT4",
@@ -800,12 +1139,18 @@
             },
             {
               "label": "Super Cruise",
-              "value": "With trailering; three-year OnStar One plan",
+              "value": "Standard; eligible OnStar plan after 3-year trial",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
+            },
+            {
+              "label": "Safety suite",
+              "value": "Intersection AEB, front pedestrian/bicyclist braking, side bicyclist alert and more",
+              "status": "standard",
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
             }
           ],
-          "price": null
+          "price": 89399
         },
         {
           "name": "AT4X",
@@ -831,12 +1176,18 @@
             },
             {
               "label": "Super Cruise",
-              "value": "With trailering; three-year OnStar One plan",
+              "value": "Standard; eligible OnStar plan after 3-year trial",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
+            },
+            {
+              "label": "Safety suite",
+              "value": "Intersection AEB, front pedestrian/bicyclist braking, side bicyclist alert and more",
+              "status": "standard",
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
             }
           ],
-          "price": null
+          "price": 109599
         },
         {
           "name": "Denali",
@@ -850,18 +1201,24 @@
             },
             {
               "label": "Super Cruise",
-              "value": "With trailering; three-year OnStar One plan",
+              "value": "Standard; eligible OnStar plan after 3-year trial",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
             },
             {
               "label": "Head-up display",
               "value": "15-inch",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+            },
+            {
+              "label": "Safety suite",
+              "value": "Intersection AEB, front pedestrian/bicyclist braking, side bicyclist alert and more",
+              "status": "standard",
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
             }
           ],
-          "price": null
+          "price": 96599
         },
         {
           "name": "Denali Ultimate",
@@ -887,15 +1244,30 @@
             },
             {
               "label": "Super Cruise",
-              "value": "With trailering; three-year OnStar One plan",
+              "value": "Standard; eligible OnStar plan after 3-year trial",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
+            },
+            {
+              "label": "Safety suite",
+              "value": "Intersection AEB, front pedestrian/bicyclist braking, side bicyclist alert and more",
+              "status": "standard",
+              "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
             }
           ],
-          "price": null
+          "price": 115599
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "The redesigned 2027 Sierra is different from the 2026 model. Do not transfer 2026 engines, features or trim availability to it.",
+          "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
+        },
+        {
+          "text": "2027 Super Cruise is standard on AT4, AT4X, Denali and Denali Ultimate and available on Elevation. Eligible service plan and operating conditions apply.",
+          "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2026/sep/0922_2027-gmc-sierra-1500-full-specifications.html"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -941,7 +1313,7 @@
           "source_url": "https://www.gmccanada.ca/en/trucks/2027-sierra-1500"
         }
       ],
-      "coverage_note": "Next-generation 2027 Canadian guide. Pro and TurboMax are marked late availability. Do not substitute 2026 equipment or trim names.",
+      "coverage_note": "2027 Canadian manufacturer launch specifications: new-generation truck, not a carry-over of 2026. Starting MSRP shown excludes additional freight, fees and options. Verify final production configuration and Myers availability.",
       "listing_model_names": [
         "Sierra 1500"
       ]
@@ -3118,9 +3490,9 @@
           "features": [
             {
               "label": "Engine",
-              "value": "310-hp TurboMax",
+              "value": "2.7L TurboMax; 310 hp / 430 lb-ft",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
             },
             {
               "label": "Apple CarPlay",
@@ -3133,9 +3505,45 @@
               "value": "11.3-inch centre; 11-inch driver",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Display",
+              "value": "11.3-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Wheels",
+              "value": "18-inch gloss-black with all-terrain tyres",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Wireless Apple CarPlay / Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Trailering",
+              "value": "ProGrade Trailering System",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
             }
           ],
-          "price": null
+          "price": 55343
         },
         {
           "name": "AT4",
@@ -3151,10 +3559,46 @@
               "label": "Tailgate",
               "value": "MultiStow storage",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax; 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "4WD",
+              "value": "Automatic locking rear differential",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed Autotrac with shield",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Hill Descent Control",
+              "value": "Advanced",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "AT4 Premium Package",
+              "value": "Perforated leather-appointed seating",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
             }
           ],
-          "price": null
+          "price": 59343
         },
         {
           "name": "AT4X",
@@ -3162,18 +3606,60 @@
           "features": [
             {
               "label": "Suspension",
-              "value": "DSSV dampers; 3-inch lift",
+              "value": "Multimatic DSSV dampers",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
             },
             {
               "label": "Differentials",
               "value": "Front and rear electronic lockers",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax; 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Differential locks",
+              "value": "Front and rear electronic lockers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Drive modes",
+              "value": "Baja with launch control",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Camera views",
+              "value": "Up to 10 available including underbody",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Interior",
+              "value": "Obsidian Rush with Ceramic White accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
             }
           ],
-          "price": null
+          "price": 72343
         },
         {
           "name": "Denali",
@@ -3196,12 +3682,77 @@
               "value": "6.3-inch",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
+            },
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax; 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Seats",
+              "value": "Perforated leather-appointed",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Interior",
+              "value": "Open-pore wood and Jet Black / Teak accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "6.3-inch multicolour",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Audio",
+              "value": "Bose premium",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "HD Surround Vision",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch diamond-cut",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
             }
           ],
-          "price": null
+          "price": 66943
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "Elevation: Essential technology including 11.3-inch infotainment, 11-inch driver display, wireless smartphone projection and ProGrade trailering.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+        },
+        {
+          "text": "AT4: Adds hill-descent control, four-wheel-drive hardware, two-speed transfer case and MultiStow tailgate storage.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+        },
+        {
+          "text": "AT4X: More serious off-road equipment with DSSV suspension, electronic lockers, Baja mode, protective hardware and available underbody cameras.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+        },
+        {
+          "text": "Denali: Luxury-focused cabin with leather-appointed seating, open-pore wood, Bose sound, Head-Up Display and HD Surround Vision.",
+          "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -3239,7 +3790,7 @@
           "source_url": "https://www.gmccanada.ca/en/trucks/canyon"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Expanded from GMC Canada's 2026 Canyon Canadian trim descriptions. Prices reflect a 4WD configuration shown by the Canadian configurator; Myers actual asking prices and exact package content vary.",
       "listing_model_names": [
         "Canyon"
       ]
