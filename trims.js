@@ -29,7 +29,7 @@ if(typeof document!=='undefined'){
  function textItem(item){return typeof item==='string'?item:item.text||item.answer||item.description||item.value||'';}
  function sourcedText(item){const p=el('p',textItem(item));if(item?.source_url){p.append(document.createTextNode(' '),link('Source ↗',item.source_url));}return p;}
  function renderGuide(m){const out=$('guide-output');out.replaceChildren();const heading=el('div',undefined,'guide-heading');heading.id='guide-title';heading.tabIndex=-1;heading.append(el('p',`${m.year} · CANADIAN MODEL GUIDE`,'eyebrow'),el('h2',`${m.make} ${m.model}`));const back=el('button','← All models','secondary-button');back.type='button';back.addEventListener('click',()=>{$('guide-make').value='';$('guide-year').value='';$('guide-model').value='';refreshSelectors();window.location.hash='';out.hidden=true;renderCatalog();$('guide-make').focus();});heading.append(back);out.append(heading);
- const provenance=el('p',`Guide checked ${m.checked_at||'date unavailable'}. `,'guide-source');provenance.append(link('Manufacturer source ↗',m.source_url));out.append(provenance,el('p',m.coverage_note||'Only explicitly sourced facts are shown. Unconfirmed is not absent.','notice'));
+ const provenance=el('p',`Guide data last edited ${m.checked_at||'date unavailable'}; this is not an independent factory audit. `,'guide-source');provenance.append(link('Manufacturer source ↗',m.source_url));out.append(provenance,el('p',m.coverage_note||'Only explicitly sourced facts are shown. Unconfirmed is not absent.','notice'));
 
  if(!m.trims.length){
   const special=section('Model overview — no comparable factory trims');
@@ -42,7 +42,12 @@ if(typeof document!=='undefined'){
   out.append(special,stockSection);return;
  }
 
- const overview=section('1. Trim overview'),cards=el('div',undefined,'trim-cards');for(const t of m.trims){const c=el('div',undefined,'trim-card');c.append(el('span',m.trims.indexOf(t)===0?'ESSENTIALS':m.trims.indexOf(t)===m.trims.length-1?'TOP TRIM':'STYLE & FEATURES','trim-kicker'),el('h4',t.name),stockBadge(GuideLogic.matches(inventory,m,t.name)),el('p',t.positioning||'Review the sourced features below.'),el('p',Number.isFinite(t.price)?`${cad(t.price)} manufacturer starting price; not a Myers asking price.`:'Manufacturer starting price not verified. See actual listing prices below.','guide-price'));const ul=el('ul');for(const f of (t.features||[]).filter(f=>f.status==='standard').slice(0,4))ul.append(el('li',f.label+(f.value&&f.value!=='Included'?': '+f.value:'')));c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview.append(el('p','Trim details are not yet verified for this model year.'));out.append(overview);
+ const overview=section('1. What makes each trim different?'),cards=el('div',undefined,'trim-cards');for(const t of m.trims){const c=el('div',undefined,'trim-card');c.append(el('span',m.trims.indexOf(t)===0?'ESSENTIALS':m.trims.indexOf(t)===m.trims.length-1?'TOP TRIM':'STYLE & FEATURES','trim-kicker'),el('h4',t.name),stockBadge(GuideLogic.matches(inventory,m,t.name)),el('p',t.positioning||'Review the sourced features below.'),el('p',Number.isFinite(t.price)?`${cad(t.price)} manufacturer starting price; not a Myers asking price.`:'Manufacturer starting price not verified. See actual listing prices below.','guide-price'));const ul=el('ul');
+ const special=(t.features||[]).filter(f=>['standard','optional'].includes(f.status)&&m.trims.some(other=>other!==t&&!other.features.some(x=>x.label===f.label&&x.value===f.value&&x.status===f.status)));
+ const common=(t.features||[]).filter(f=>f.status==='standard'&&!special.includes(f));
+ for(const f of [...special,...common].slice(0,5))ul.append(el('li',f.label+(f.value&&!/^(included|standard)$/i.test(f.value)?': '+f.value:'')+(f.status==='optional'?' (optional)':'')));
+ if(!special.length)c.append(el('p','No independently established differentiating equipment yet. Check the official comparison.','trim-warning'));
+c.append(ul);cards.append(c);}overview.append(cards);if(!m.trims.length)overview.append(el('p','Trim details are not yet verified for this model year.'));out.append(overview);
 
 
  const comparison=section('2. Side-by-side feature comparison');
@@ -80,21 +85,21 @@ if(typeof document!=='undefined'){
   toggle.addEventListener('click',()=>{differenceOnly=!differenceOnly;updateRows();});
  }else comparison.append(el('p','The saved manufacturer references do not yet establish even one complete cross-trim feature row for this model year. The documented individual-trim specifications are displayed immediately below; no trim absence is assumed.','notice'));
  const summary=el('div',undefined,'model-quick-compare');
- summary.append(el('h4','Verified highlights by trim'));
+ summary.append(el('h4','Documented trim highlights — not a complete equipment list'));
  const mini=el('div',undefined,'guide-matrix');mini.tabIndex=0;mini.setAttribute('role','region');mini.setAttribute('aria-label','Sourced highlights for every trim');
  const miniTable=el('table',undefined,'trim-snapshot'),mh=el('thead'),mhr=el('tr');
  for(const h of ['Trim','Powertrain / drive','Cabin & comfort','Technology & safety','Style & capability'])mhr.append(el('th',h));mh.append(mhr);miniTable.append(mh);
  const mb=el('tbody');
  const bucket=l=>{const c=category(l);return c==='Engine & driving'?0:c==='Seats & comfort'?1:c==='Technology & safety'?2:3;};
  for(const t of m.trims){const tr=el('tr');tr.append(el('th',t.name));const buckets=[[],[],[],[]];for(const f of t.features||[]){if(!known(f)||f.status==='unavailable')continue;const k=bucket(f.label);buckets[k].push(f);}
- for(const facts of buckets){const td=el('td');if(!facts.length)td.append(el('span','Check VIN / order guide','snapshot-empty'));else{const ul=el('ul',undefined,'snapshot-points');for(const f of facts.slice(0,3)){const li=el('li');li.append(el('strong',f.label+': '),document.createTextNode(f.value||statusNames[f.status]));if(f.status==='optional')li.append(el('span',' (optional)','snapshot-optional'));ul.append(li);}td.append(ul);}tr.append(td);}mb.append(tr);}
+ for(const facts of buckets){const td=el('td');if(!facts.length)td.append(el('span','Check VIN / order guide','snapshot-empty'));else{const ul=el('ul',undefined,'snapshot-points');const standout=facts.filter(f=>m.trims.some(other=>other!==t&&!other.features.some(x=>x.label===f.label&&x.value===f.value&&x.status===f.status)));const others=facts.filter(f=>!standout.includes(f));for(const f of [...standout,...others].slice(0,4)){const li=el('li');li.append(el('strong',f.label+': '),document.createTextNode(f.value||statusNames[f.status]));if(f.status==='optional')li.append(el('span',' (optional)','snapshot-optional'));ul.append(li);}td.append(ul);}tr.append(td);}mb.append(tr);}
  miniTable.append(mb);mini.append(miniTable);summary.append(mini);comparison.append(summary);
  out.append(comparison);
 
- const highlights=section('Trim-by-trim equipment details');
+ const highlights=section('Trim-by-trim sourced equipment details');
  highlights.append(el('p','The items below are specifically documented for each trim. An omitted item is not necessarily unavailable. Open the source for confirmation before quoting a package.','guide-legend'));
  const details=el('div',undefined,'verified-trim-grid');
- for(const t of m.trims){const panel=el('details',undefined,'verified-trim-panel');const summary=el('summary',t.name+' · '+(t.features||[]).filter(f=>f.status==='standard'||f.status==='optional').length+' researched items');panel.append(summary);
+ for(const t of m.trims){const panel=el('details',undefined,'verified-trim-panel');const summary=el('summary',t.name+' · '+(t.features||[]).filter(f=>f.status==='standard'||f.status==='optional').length+' sourced highlights');panel.append(summary);
  const items=(t.features||[]).filter(f=>f.status==='standard'||f.status==='optional');if(!items.length)panel.append(el('p','Detailed trim equipment has not been independently verified.'));
  else{const dl=el('dl',undefined,'verified-feature-list');for(const f of items){const dt=el('dt',f.label),dd=el('dd');dd.append(el('span',f.status==='standard'?'Included':'Optional','verified-status '+f.status),document.createTextNode(' '+(f.value||'')));if(f.source_url)dd.append(document.createTextNode(' · '),link('Source',f.source_url));dl.append(dt,dd);}panel.append(dl);}details.append(panel);}
  highlights.append(details);out.append(highlights);
