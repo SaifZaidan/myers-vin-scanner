@@ -2821,9 +2821,45 @@
               "value": "Powered",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Engine",
+              "value": "2.0L turbo 4-cylinder; 228 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Transmission",
+              "value": "9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "AWD",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Infotainment",
+              "value": "10.2-inch HD touchscreen with Apple CarPlay and Android Auto",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Keyless Open and Start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
             }
           ],
-          "price": null
+          "price": 47443
         },
         {
           "name": "True North",
@@ -2846,9 +2882,63 @@
               "value": "Panoramic",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Engine",
+              "value": "2.0L turbo 4-cylinder; 228 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Transmission",
+              "value": "9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "AWD",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Infotainment",
+              "value": "10.2-inch HD touchscreen with Apple CarPlay and Android Auto",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Keyless Open and Start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Power liftgate",
+              "value": "Programmable",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Roof rails",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Panoramic sunroof",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
             }
           ],
-          "price": null
+          "price": 51343
         },
         {
           "name": "RS",
@@ -2856,8 +2946,8 @@
           "features": [
             {
               "label": "Engine",
-              "value": "3.6L V6",
-              "status": "optional",
+              "value": "2.0L turbo 4-cylinder; 228 hp",
+              "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
             },
             {
@@ -2874,7 +2964,7 @@
             },
             {
               "label": "Wheels",
-              "value": "20-inch",
+              "value": "20-inch alloy",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
             },
@@ -2883,12 +2973,79 @@
               "value": "21-inch",
               "status": "optional",
               "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Transmission",
+              "value": "9-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "AWD",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Infotainment",
+              "value": "10.2-inch HD touchscreen with Apple CarPlay and Android Auto",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Keyless Open and Start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Twin-clutch AWD",
+              "value": "Advanced system",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "3.6L V6",
+              "value": "Available 308-hp engine",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "RS design",
+              "value": "Black exterior grille, badging and dual exhaust",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+            },
+            {
+              "label": "Panoramic roof",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
             }
           ],
-          "price": null
+          "price": 56643
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LT: AWD: Included; Infotainment: 10.2-inch HD touchscreen with Apple CarPlay and Android Auto; Heated front seats: Included; Keyless Open and Start: Included. Exact installed packages must be checked.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+        },
+        {
+          "text": "True North: Heated front seats: Included; Keyless Open and Start: Included; Power liftgate: Programmable; Roof rails: Included. Exact installed packages must be checked.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+        },
+        {
+          "text": "RS: Keyless Open and Start: Included; Twin-clutch AWD: Advanced system; RS design: Black exterior grille, badging and dual exhaust; Panoramic roof: Included. Exact installed packages must be checked.",
+          "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -2922,7 +3079,7 @@
           "source_url": "https://www.chevrolet.ca/en/suvs/blazer"
         }
       ],
-      "coverage_note": "Verified Canadian trim highlights; not a full equipment or package matrix.",
+      "coverage_note": "Canadian 2026 Blazer official manufacturer trims, standard engine and available V6; actual vehicle build and pricing must be confirmed.",
       "listing_model_names": [
         "Blazer"
       ]
@@ -7838,6 +7995,36 @@
               "value": "LED headlamps and taillamps",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11.3-inch colour touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Safety",
+              "value": "20+ standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Headlamps",
+              "value": "LED",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Interior",
+              "value": "Heated steering wheel and upgraded seating convenience",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
             }
           ],
           "price": null
@@ -7848,13 +8035,43 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "19-inch",
+              "value": "19-inch Carbon Flash",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
             },
             {
               "label": "Steering wheel",
-              "value": "Heated, flat-bottom",
+              "value": "Heated flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11.3-inch colour touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Safety",
+              "value": "20+ standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Headlamps",
+              "value": "LED",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Styling",
+              "value": "RS red cabin accents",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
             }
@@ -7867,7 +8084,7 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "18-inch",
+              "value": "18-inch dark finish",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
             },
@@ -7876,12 +8093,61 @@
               "value": "Orange accents",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Infotainment",
+              "value": "11.3-inch colour touchscreen",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Safety",
+              "value": "20+ standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Headlamps",
+              "value": "LED",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Interior",
+              "value": "Orange accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+            },
+            {
+              "label": "Exterior",
+              "value": "Unique ACTIV styling",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LT: Interior: Heated steering wheel and upgraded seating convenience. Exact Canadian equipment may depend on production and package.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+        },
+        {
+          "text": "RS: Wheels: 19-inch Carbon Flash; Steering wheel: Heated flat-bottom; Styling: RS red cabin accents. Exact Canadian equipment may depend on production and package.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+        },
+        {
+          "text": "ACTIV: Wheels: 18-inch dark finish; Interior: Orange accents; Exterior: Unique ACTIV styling. Exact Canadian equipment may depend on production and package.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -7915,7 +8181,7 @@
           "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trax"
         }
       ],
-      "coverage_note": "Upcoming model, anticipated spring 2027. Preview specifications may change; do not represent as in-stock inventory.",
+      "coverage_note": "Upcoming 2027 Canadian manufacturer details, availability expected spring 2027; factory options and final retail specifications may change.",
       "listing_model_names": [
         "Trax"
       ]
@@ -7934,7 +8200,7 @@
           "features": [
             {
               "label": "Engine",
-              "value": "1.3L turbo",
+              "value": "1.3L turbo 3-cylinder; 155 hp / 174 lb-ft",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
             },
@@ -7949,6 +8215,36 @@
               "value": "Fold-flat front passenger",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Safety",
+              "value": "20+ standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Passenger seat",
+              "value": "Fold-flat front passenger seat",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Drivetrain",
+              "value": "AWD available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
             }
           ],
           "price": null
@@ -7959,13 +8255,49 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "19-inch",
+              "value": "19-inch Carbon Flash",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
             },
             {
               "label": "Steering wheel",
-              "value": "Heated, flat-bottom",
+              "value": "Heated flat-bottom",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Engine",
+              "value": "1.3L turbo 3-cylinder; 155 hp / 174 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Safety",
+              "value": "20+ standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "AWD",
+              "value": "Standard",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Sport styling",
+              "value": "Red cabin accents",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
             }
@@ -7978,7 +8310,7 @@
           "features": [
             {
               "label": "Wheels",
-              "value": "17-inch; sport-terrain tires",
+              "value": "17-inch with off-road tyres",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
             },
@@ -7987,12 +8319,67 @@
               "value": "Front steel skid plate",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Engine",
+              "value": "1.3L turbo 3-cylinder; 155 hp / 174 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11.3-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Safety",
+              "value": "20+ standard driver-assistance features",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Skid plate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "AWD",
+              "value": "Standard",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+            },
+            {
+              "label": "Off-road styling",
+              "value": "Z71 with orange cabin accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "LT: Passenger seat: Fold-flat front passenger seat; Drivetrain: AWD available. Exact Canadian equipment may depend on production and package.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+        },
+        {
+          "text": "RS: Wheels: 19-inch Carbon Flash; Steering wheel: Heated flat-bottom; AWD: Standard; Sport styling: Red cabin accents. Exact Canadian equipment may depend on production and package.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+        },
+        {
+          "text": "Z71: Wheels: 17-inch with off-road tyres; Skid plate: Included; AWD: Standard; Off-road styling: Z71 with orange cabin accents. Exact Canadian equipment may depend on production and package.",
+          "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -8026,7 +8413,7 @@
           "source_url": "https://www.chevrolet.ca/en/upcoming-vehicles/2027-trailblazer"
         }
       ],
-      "coverage_note": "Upcoming-model preview. Production specifications and availability require confirmation.",
+      "coverage_note": "Upcoming 2027 Canadian manufacturer details, availability expected spring 2027; factory options and final retail specifications may change.",
       "listing_model_names": [
         "Trailblazer"
       ]
@@ -8283,7 +8670,7 @@
           "features": [
             {
               "label": "Brakes",
-              "value": "Carbon ceramic",
+              "value": "Carbon-ceramic performance",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
             },
@@ -8298,9 +8685,39 @@
               "value": "Included",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Engine",
+              "value": "6.2L V8 plus front electric drive motor; 655 hp combined",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Drive",
+              "value": "Electrified all-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Audio",
+              "value": "10-speaker Bose",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Seats",
+              "value": "8-way power GT1",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
             }
           ],
-          "price": null
+          "price": 162092
         },
         {
           "name": "2LZ",
@@ -8308,7 +8725,7 @@
           "features": [
             {
               "label": "Audio",
-              "value": "14-speaker Bose",
+              "value": "14-speaker Bose Performance",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
             },
@@ -8323,9 +8740,57 @@
               "value": "Performance Data and Video Recorder",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Engine",
+              "value": "6.2L V8 plus front electric drive motor; 655 hp combined",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Drive",
+              "value": "Electrified all-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Brakes",
+              "value": "Carbon-ceramic performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Selective Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
             }
           ],
-          "price": null
+          "price": 171092
         },
         {
           "name": "3LZ",
@@ -8342,12 +8807,91 @@
               "value": "Leather-wrapped; sueded upper trim",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Engine",
+              "value": "6.2L V8 plus front electric drive motor; 655 hp combined",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Drive",
+              "value": "Electrified all-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Brakes",
+              "value": "Carbon-ceramic performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Selective Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose Performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "GT2 seating",
+              "value": "Napa leather",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+            },
+            {
+              "label": "Interior",
+              "value": "Custom leather trim and suede-microfibre details",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
             }
           ],
-          "price": null
+          "price": 180092
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "1LZ: Core E-Ray electrified all-wheel drive with 655-hp combined power, carbon-ceramic brakes and 10-speaker Bose.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+        },
+        {
+          "text": "2LZ: Adds upgraded 14-speaker Bose, heated and ventilated front seats, Head-Up Display and Performance Data Recorder.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+        },
+        {
+          "text": "3LZ: Builds on 2LZ with premium Napa leather GT2 seats and expanded leather-trim interior.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-eray"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -8400,7 +8944,7 @@
           "features": [
             {
               "label": "Seats",
-              "value": "Eight-way GT1; Mulan leather",
+              "value": "8-way power GT1",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
             },
@@ -8415,6 +8959,36 @@
               "value": "Included",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Engine",
+              "value": "5.5L naturally aspirated flat-plane V8, 670 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Selective Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Brakes",
+              "value": "Six-piston front / four-piston rear performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Drive",
+              "value": "Rear-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
             }
           ],
           "price": null
@@ -8425,7 +8999,7 @@
           "features": [
             {
               "label": "Audio",
-              "value": "14-speaker Bose",
+              "value": "14-speaker Bose Performance",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
             },
@@ -8438,6 +9012,54 @@
             {
               "label": "Recorder",
               "value": "Performance Data and Video Recorder",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Engine",
+              "value": "5.5L naturally aspirated flat-plane V8, 670 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Selective Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Brakes",
+              "value": "Six-piston front / four-piston rear performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Drive",
+              "value": "Rear-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
             }
@@ -8459,12 +9081,91 @@
               "value": "Leather-wrapped; sueded upper trim",
               "status": "standard",
               "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Engine",
+              "value": "5.5L naturally aspirated flat-plane V8, 670 hp",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed dual-clutch",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Suspension",
+              "value": "Magnetic Selective Ride Control",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Brakes",
+              "value": "Six-piston front / four-piston rear performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Drive",
+              "value": "Rear-wheel drive",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Audio",
+              "value": "14-speaker Bose Performance",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Performance Data Recorder",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "GT2 seats",
+              "value": "Napa leather",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+            },
+            {
+              "label": "Interior",
+              "value": "Custom leather / suede microfibre",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "1LZ: Transmission: 8-speed dual-clutch; Suspension: Magnetic Selective Ride Control; Brakes: Six-piston front / four-piston rear performance; Drive: Rear-wheel drive. Z06 uses its distinct flat-plane V8, not the Stingray powertrain.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+        },
+        {
+          "text": "2LZ: Drive: Rear-wheel drive; Front seats: Heated and ventilated; Head-Up Display: Included; Performance Data Recorder: Included. Z06 uses its distinct flat-plane V8, not the Stingray powertrain.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+        },
+        {
+          "text": "3LZ: Head-Up Display: Included; Performance Data Recorder: Included; GT2 seats: Napa leather; Interior: Custom leather / suede microfibre. Z06 uses its distinct flat-plane V8, not the Stingray powertrain.",
+          "source_url": "https://www.chevrolet.ca/en/performance/corvette-z06"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -9274,6 +9975,48 @@
               "value": "13.4-inch",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Electric motors",
+              "value": "Dual-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Peak horsepower",
+              "value": "Up to 570 hp (SUV); check Pickup variant",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "CrabWalk capability",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Roof",
+              "value": "Infinity Roof with removable Sky Panels",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Hands-free driving; eligible plan / 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Watts to Freedom",
+              "value": "High-performance launch mode",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Extreme Off-Road Package",
+              "value": "Available; changes range and hardware",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
             }
           ],
           "price": null
@@ -9296,15 +10039,60 @@
             },
             {
               "label": "Roof",
-              "value": "Removable transparent Sky Panels",
+              "value": "Infinity Roof with removable Sky Panels",
               "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Electric motors",
+              "value": "Tri-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Peak horsepower",
+              "value": "Up to 830 hp (SUV); check Pickup variant",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "CrabWalk capability",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Hands-free driving; eligible plan / 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Watts to Freedom",
+              "value": "High-performance launch mode",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+            },
+            {
+              "label": "Extreme Off-Road Package",
+              "value": "Available; changes range and hardware",
+              "status": "optional",
               "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
             }
           ],
           "price": null
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "2X: Dual-motor e4WD and core Hummer EV features, including CrabWalk, Infinity Roof and available off-road upgrades.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+        },
+        {
+          "text": "3X: Adds third electric motor for higher performance and a distinct range profile depending on equipment.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -9334,7 +10122,7 @@
           "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-suv"
         }
       ],
-      "coverage_note": "Canadian trim structure verified. Manufacturer headings and trim details disagree on some range/assistance claims; these are omitted pending exact-build verification.",
+      "coverage_note": "Canadian 2026 HUMMER EV. Output, range and pack availability differ between SUV and Pickup and the Extreme Off-Road package. Exact variant/window sticker governs.",
       "listing_model_names": [
         "HUMMER EV SUV"
       ]
@@ -9368,9 +10156,57 @@
               "value": "13.4-inch",
               "status": "standard",
               "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+            },
+            {
+              "label": "Electric motors",
+              "value": "Dual-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Peak horsepower",
+              "value": "Up to 570 hp (SUV); check Pickup variant",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "CrabWalk capability",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Roof",
+              "value": "Infinity Roof with removable Sky Panels",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Hands-free driving; eligible plan / 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Watts to Freedom",
+              "value": "High-performance launch mode",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Extreme Off-Road Package",
+              "value": "Available; changes range and hardware",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "MultiPro Tailgate",
+              "value": "Available cargo solutions",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
             }
           ],
-          "price": null
+          "price": 134842
         },
         {
           "name": "3X",
@@ -9390,15 +10226,66 @@
             },
             {
               "label": "Roof",
-              "value": "Removable transparent Sky Panels",
+              "value": "Infinity Roof with removable Sky Panels",
               "status": "standard",
-              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Electric motors",
+              "value": "Tri-motor AWD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Peak horsepower",
+              "value": "Up to 830 hp (SUV); check Pickup variant",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Four-wheel steering",
+              "value": "CrabWalk capability",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Hands-free driving; eligible plan / 3-year trial",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Watts to Freedom",
+              "value": "High-performance launch mode",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "Extreme Off-Road Package",
+              "value": "Available; changes range and hardware",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+            },
+            {
+              "label": "MultiPro Tailgate",
+              "value": "Available cargo solutions",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
             }
           ],
-          "price": null
+          "price": 147842
         }
       ],
-      "upgrade_notes": [],
+      "upgrade_notes": [
+        {
+          "text": "2X: Dual-motor e4WD and core Hummer EV features, including CrabWalk, Infinity Roof and available off-road upgrades.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+        },
+        {
+          "text": "3X: Adds third electric motor for higher performance and a distinct range profile depending on equipment.",
+          "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup"
+        }
+      ],
       "faq": [],
       "buyer_notes": [
         {
@@ -9428,7 +10315,7 @@
           "source_url": "https://www.gmccanada.ca/en/electric/hummer-ev-pickup-truck"
         }
       ],
-      "coverage_note": "Canadian trim structure verified. Manufacturer headings and trim details disagree on some range/assistance claims; these are omitted pending exact-build verification.",
+      "coverage_note": "Canadian 2026 HUMMER EV. Output, range and pack availability differ between SUV and Pickup and the Extreme Off-Road package. Exact variant/window sticker governs.",
       "listing_model_names": [
         "HUMMER EV Pickup"
       ]
