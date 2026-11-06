@@ -25,10 +25,13 @@ Existing static hosting can publish repository root unchanged. `data/inventory.j
 
 ## Daily refresh
 
-Daily refresh is intended to be managed by an external task scheduled for **06:00 America/Toronto**, which runs the exporter, validates the snapshot, publishes only `data/inventory.json.gz`, and checks the existing static deployment. The timezone follows daylight saving automatically. This repository does not independently schedule refreshes or require a new hosting service. Until that external task is created and verified, automatic refresh is not enabled. Scheduling and hosting can be delayed;06:00 is the target start, not an exact publication guarantee.
+A repository-owned GitHub Actions workflow at `.github/workflows/daily-inventory.yml` is now configured to run daily at **06:00 America/Toronto**. Two UTC cron entries handle Eastern Standard and Eastern Daylight time; a Toronto-local-hour gate skips the unneeded trigger. A manual workflow dispatch is also supported. GitHub-hosted cron jobs may start late under platform load; 06:00 is the scheduled trigger, not an exact publication guarantee.
 
-The included GitHub workflow only runs safety tests; it cannot publish or refresh inventory. No duplicate recurring job is installed.
-The interface calculates staleness locally one hour after the next expected06:00 refresh even if an outage prevents writing failure metadata. No refresh has been deployed or scheduled merely by having these local files.
+The workflow runs `python scripts/refresh.py` against the public official Myers Cadillac Chevrolet Buick GMC site for **1200 Baseline Road only**, runs `python scripts/validate_snapshot.py`, and commits only `data/inventory.json.gz` back to `main`. The existing Render static site is configured for automatic deployment from that branch.
+
+If some official URLs cannot be read, the collector preserves last-known records and updates failure/staleness metadata. Validation still runs, and any safe partial snapshot is published with an explicit incomplete coverage warning; the job then reports a failure. Neither a successful job nor a listing presence guarantees real-time dealership availability. Check individual source listing and the factory build sheet before promising features.
+
+The separate `.github/workflows/tests.yml` runs safety checks only. It does not refresh inventory. The scheduled refresh workflow is independent of Team Tasks and is restricted to repository `SaifZaidan/myers-vin-scanner`.
 
 ## Fixture
 
