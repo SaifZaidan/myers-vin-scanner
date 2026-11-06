@@ -1,0 +1,1095 @@
+{
+  "generated_at": "2026-11-06",
+  "source": "Official Canadian manufacturer trim descriptions",
+  "scope": "Manufacturer model/trim reference, not VIN equipment certification",
+  "models": [
+    {
+      "id": "gmc-sierra-1500-2026",
+      "date": "2026-11-06",
+      "note": "2026 Canadian GMC factory trim highlights. Some equipment depends on cab, 2WD/4WD, engine and packages; manufacturer guide does not certify an individual Myers truck.",
+      "trims": [
+        {
+          "name": "Pro",
+          "price": 53498,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax, 8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Cargo tie-downs",
+              "value": "12 bed tie-downs",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front outlet",
+              "value": "12V outlet",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "5.3L V8 engine",
+              "value": "Available with 10-speed automatic",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "10-way power driver seat",
+              "value": "Available with power lumbar",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "Pro Graphite",
+          "price": 63698,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "5.3L V8, 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/pro-graphite",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Factory lift",
+              "value": "2-inch off-road suspension lift",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/pro-graphite",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Trailering Package",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/pro-graphite",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Remote start",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/pro-graphite",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Convenience Package",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/pro-graphite",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Cargo tie-downs",
+              "value": "12 bed tie-downs",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/pro-graphite",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front outlet",
+              "value": "12V outlet",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/pro-graphite",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "10-way power driver seat",
+              "value": "Available with lumbar",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "SLE",
+          "price": 65698,
+          "features": [
+            {
+              "label": "Centre screen",
+              "value": "13.4-inch touchscreen",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch digital Driver Information Centre",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Heated driver and front-outboard passenger",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Power driver seat",
+              "value": "10-way with lumbar",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Rear differential",
+              "value": "Auto-locking",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "3.0L Duramax diesel",
+              "value": "Available with 10-speed automatic",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Spray-on bedliner",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "Elevation",
+          "price": 68398,
+          "features": [
+            {
+              "label": "SLE standard features",
+              "value": "Inherited from SLE by manufacturer",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Centre screen",
+              "value": "13.4-inch touchscreen; inherited from SLE",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Driver display",
+              "value": "12.3-inch; inherited from SLE",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Heated front seats",
+              "value": "Inherited from SLE",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Heated steering wheel",
+              "value": "Inherited from SLE",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Exterior",
+              "value": "Monochromatic, gloss-black grille mesh",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "LED fog lights",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch gloss-black aluminum",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Leather front seats",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wireless centre-console charging",
+              "value": "Available with front bucket seats",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Power sunroof",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "SLT",
+          "price": 76398,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "5.3L V8 with 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front seats",
+              "value": "10-way power seats with lumbar",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Exterior trim",
+              "value": "Chrome grille, handles and bumpers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "6.2L V8 engine",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "3.0L Duramax diesel",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "ProGrade Trailering",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Chrome assist steps",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/sle-slt",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "AT4",
+          "price": 90298,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "3.0L Duramax diesel, 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Factory lift",
+              "value": "2-inch factory lift with Rancho monotube shocks",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed Autotrac",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Skid plates",
+              "value": "Underbody protection",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front seats",
+              "value": "Heated and ventilated leather seating",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Interior",
+              "value": "Jet Black with Kalahari accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "15-inch Head-Up Display",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "6.2L V8 engine",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "AT4X",
+          "price": 106732,
+          "features": [
+            {
+              "label": "Differential locks",
+              "value": "Electronic front and rear lockers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Suspension",
+              "value": "Multimatic DSSV dampers",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front bumper",
+              "value": "AEV stamped-steel bumper with winch capability",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way power, heated/ventilated, massage",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "AEV Edition",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "6.2L V8 engine",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "Denali",
+          "price": 94498,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "5.3L V8, 10-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front seats",
+              "value": "12-way power with lumbar",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Interior",
+              "value": "Forge perforated leather, open-pore wood and patterned aluminum",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Exterior",
+              "value": "Chrome grille header and wheel-to-wheel assist steps",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "MultiPro Tailgate",
+              "value": "Six-function tailgate",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Available; eligible service plan needed",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "6.2L V8 or 3.0L diesel",
+              "value": "Available engine choices",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "CarbonPro bed",
+              "value": "Available composite bed",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "Denali Ultimate",
+          "price": 116212,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "6.2L V8",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Super Cruise",
+              "value": "Included with 3-year trial; eligible roads/conditions",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Front seats",
+              "value": "16-way heated, ventilated and massaging",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Audio",
+              "value": "12-speaker Bose Premium Series",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels",
+              "value": "22-inch machined aluminum with chrome accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Interior",
+              "value": "Alpine Umber full-grain leather",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "MultiPro Tailgate",
+              "value": "Six-function tailgate",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "3.0L Duramax diesel",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/sierra-1500/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chevrolet-colorado-2026",
+      "date": "2026-11-06",
+      "note": "2026 Chevrolet Canada trim descriptions. Every trim uses the 2.7L TurboMax engine; wheel sizes, lifts and equipment are documented by trim. Equipment and towing still depend on configuration.",
+      "trims": [
+        {
+          "name": "WT",
+          "price": 42998,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11.3-inch; wireless CarPlay/Android Auto and Google compatibility",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels",
+              "value": "17-inch Ultra Silver with all-season tyres",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Safety",
+              "value": "Chevrolet Safety Assist",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "LT",
+          "price": 51298,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Transmission",
+              "value": "8-speed automatic",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels",
+              "value": "17-inch Argent Metallic with all-season tyres",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Tailgate",
+              "value": "EZ Lift and Lower with built-in StowFlex storage",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Remote start",
+              "value": "Included with Keyless Open & Start",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wireless phone charging",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "Trail Boss",
+          "price": 52298,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Factory lift",
+              "value": "2-inch factory-installed lift",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels/tyres",
+              "value": "18-inch wheels, 32-inch all-terrain tyres",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Drive modes",
+              "value": "Four selectable modes, off-road performance display",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed automatic with shield",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "20-inch wheels",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "Z71",
+          "price": 57298,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels/tyres",
+              "value": "18-inch wheels, 32-inch all-terrain tyres",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Interior",
+              "value": "Jet Black with Adrenaline Red accents",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Drive modes",
+              "value": "Four selectable modes, off-road display",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "LED lights",
+              "value": "LED headlamps, taillamps and fog lamps",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "20-inch wheels",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "ZR2",
+          "price": 64298,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Factory lift",
+              "value": "3-inch lift with performance suspension",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels/tyres",
+              "value": "17-inch wheels, 33-inch mud-terrain tyres",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Dampers",
+              "value": "Multimatic DSSV",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Drive modes",
+              "value": "Five selectable modes, including Baja",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Displays",
+              "value": "11.3-inch centre and 11-inch driver",
+              "status": "standard",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "ZR2 Bison package",
+              "value": "AEV upgrades including 35-inch tyres and underbody protection",
+              "status": "optional",
+              "source_url": "https://www.chevrolet.ca/en/trucks/colorado",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gmc-canyon-2026",
+      "date": "2026-11-06",
+      "note": "2026 GMC Canada individual trim pages. All Canyons have the TurboMax 310-hp engine and factory lift; AT4X raises the lift to 3 inches. Towing maximums depend on configuration.",
+      "trims": [
+        {
+          "name": "Elevation",
+          "price": 55298,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Factory lift",
+              "value": "2-inch with wide-track off-road suspension",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11.3-inch centre",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels/tyres",
+              "value": "18-inch gloss-black alloy and all-terrain tyres",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Rear camera",
+              "value": "HD Rear Vision with Hitch View",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Trailering",
+              "value": "ProGrade Trailering System",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wireless CarPlay/Android Auto",
+              "value": "Compatible",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "MultiStow Tailgate",
+              "value": "Available",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/elevation",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "AT4",
+          "price": null,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Factory lift",
+              "value": "2-inch wide-track",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11.3-inch centre",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Hill Descent Control",
+              "value": "Advanced system",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Drivetrain",
+              "value": "4WD with auto-locking rear differential",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Transfer case",
+              "value": "Two-speed Autotrac and shield",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Drive modes",
+              "value": "Normal, Terrain, Tow/Haul and Off-Road",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "MultiStow Tailgate",
+              "value": "Included",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Leather front seats",
+              "value": "Available AT4 Premium Package",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "AT4X",
+          "price": null,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Factory lift",
+              "value": "3-inch standard; 4.5-inch with AEV package",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Dampers",
+              "value": "Multimatic DSSV",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Differential locks",
+              "value": "Front and rear electronic locking",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Drive mode",
+              "value": "Baja with launch control",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Interior",
+              "value": "Obsidian Rush with Ceramic White accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Bose audio",
+              "value": "Premium Audio System",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Rock protection",
+              "value": "Transfer case shield and rocker protectors",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Underbody cameras",
+              "value": "Available (up to 10 camera views depending on equipment)",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/2026-canyon",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "AEV Edition",
+              "value": "Available; 35-inch tyres, skid plates, 4.5-inch lift",
+              "status": "optional",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/at4",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        },
+        {
+          "name": "Denali",
+          "price": null,
+          "features": [
+            {
+              "label": "Engine",
+              "value": "2.7L TurboMax I4, 310 hp / 430 lb-ft",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Wheels",
+              "value": "20-inch diamond-cut aluminum",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Interior",
+              "value": "Leather-appointed seating, open-pore wood and Jet Black/Teak accents",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Head-Up Display",
+              "value": "6.3-inch colour HUD",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Bose audio",
+              "value": "Premium Audio System",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Cameras",
+              "value": "HD Surround Vision",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Touchscreen",
+              "value": "11.3-inch centre",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            },
+            {
+              "label": "Driver display",
+              "value": "11-inch digital",
+              "status": "standard",
+              "source_url": "https://www.gmccanada.ca/en/trucks/canyon/denali",
+              "evidence_note": "Manufacturer model-year trim description; verify exact vehicle build before quoting."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
