@@ -1,0 +1,73 @@
+name: Refresh Myers Baseline inventory
+
+on:
+  schedule:
+    # Two UTC slots handle Ottawa daylight saving time; the local-time gate selects 06:00.
+    - cron: '0 10 * * *'
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: myers-baseline-inventory-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out Myers vehicle database only
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run only in Ottawa's six o'clock hour, or on manual dispatch
+        id: gate
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$(TZ=America/Toronto date +%H)" = "06" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Not 06:00 America/Toronto. Skipping duplicate UTC trigger."
+          fi
+      - name: Refresh from official Myers Baseline public listings
+        if: steps.gate.outputs.run == 'true'
+        id: collector
+        shell: bash
+        run: |
+          set +e
+          python scripts/refresh.py
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          echo "Collector exit code: $result"
+          exit 0
+      - name: Validate and repack the snapshot, including partial-run warnings
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/validate_snapshot.py
+      - name: Publish compressed inventory to existing static site branch
+        if: steps.gate.outputs.run == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/inventory.json.gz
+          if git diff --cached --quiet; then
+            echo "No snapshot changes to publish"
+          else
+            git commit -m "Refresh Myers Baseline inventory $(TZ=America/Toronto date +%Y-%m-%d)"
+            git push origin HEAD:main
+          fi
+      - name: Report source access / incomplete inventory
+        if: steps.gate.outputs.run == 'true' && steps.collector.outputs.exit_code != '0'
+        run: |
+          echo "::error::Myers source was incomplete or unavailable. The last-good records were retained and the snapshot was marked stale. See collector logs."
+          exit 1
