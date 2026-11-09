@@ -78,3 +78,10 @@ Run `node --test tests/frontend.test.cjs` for dependency-free DOM-contract and m
 Myers badges match exact make, model and model year. Trim matching removes only an explicit AWD/4WD/FWD/RWD prefix, then permits an exact trim or an explicit ` - ` / ` | ` suffix; uncertain aliases do not become matches. Stale/failed/late snapshots display recheck language, never current-stock claims. Individual listings retain observation timestamps. Model guides remain usable if inventory cannot load. Guide routes support bookmarks, reload and browser Back/Forward. Saved-vehicle links open the existing lookup using an encoded stock query.
 
 Run `node --test tests/*.test.cjs` for existing UI regression and guide data/matching checks. Run `node --check trims.js` as well as `app.js`. Guide source coverage is not a promise of all historical model years; each published year is explicit.
+
+
+## Canadian battery-electric range
+
+`data/ev-range-ca.json` contains full-charge Canadian ratings from Natural Resources Canada and estimates from Canadian manufacturer pages. The browser matches each listing by model year, model, drivetrain and trim, and checks the listed onboard charger or other equipment where the rating depends on it. If the charger cannot be confirmed, the vehicle detail shows the applicable ratings by charger size. Unknown or mismatched configurations are labeled unconfirmed. These figures describe the vehicle when new. Weather, driving and battery condition affect real-world range.
+
+The reference is independent of the daily Myers inventory snapshot. New listings automatically use existing exact matches, and previously unseen configurations require a sourced reference entry.

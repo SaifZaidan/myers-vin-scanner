@@ -8,6 +8,7 @@ const featureLabels = {
   sunroof: 'Sunroof', awd: 'AWD / 4WD', wireless_charging: 'Wireless charging'
 };
 let inventory = null;
+let canadianEvRatings = [];
 const comparison = {a:null, b:null};
 let inventoryLoading = true;
 const preferenceFieldIds = ['pref-type','pref-condition','pref-seats','pref-colour','pref-price-min','pref-price-max','pref-make','pref-model'];
@@ -45,6 +46,68 @@ function appendSourceLinks(parent, sources) {
       link.href=url.href;link.target='_blank';link.rel='noopener noreferrer';parent.append(link);
     } catch { /* Ignore malformed source URLs. */ }
   }
+}
+function isBatteryElectric(vehicle) {
+  return /^(?:ELECTRIC|BATTERY ELECTRIC|BEV)$/.test(normalize(vehicle.specs?.['Fuel Type'] || vehicle.source_facts?.fuel));
+}
+function evRating(vehicle) {
+  if(vehicle.market !== 'CA' || !isBatteryElectric(vehicle)) return null;
+  const specs=vehicle.specs || {};
+  const drive={
+    'ALL WHEEL DRIVE':'AWD', 'FRONT WHEEL DRIVE':'FWD', 'REAR WHEEL DRIVE':'RWD',
+    AWD:'AWD', FWD:'FWD', RWD:'RWD', '4X4':'4WD', '4WD':'4WD', 'FOUR WHEEL DRIVE':'4WD'
+  }[normalize(specs['Drive Train']).replaceAll('-',' ')];
+  const trim=normalize(vehicle.trim).replace(/^(?:AWD|FWD|RWD|4WD|4X4)\s+/, '')
+    .split(/\s+-\s+|\s+\|\s+|\s+W\//)[0].trim();
+  const equipment=[...(Array.isArray(specs.Mechanical) ? specs.Mechanical : []),
+    ...(Array.isArray(specs.Exterior) ? specs.Exterior : [])];
+  const chargerSizes=new Set(equipment.flatMap(line=>{
+    const match=/^Charging module,\s*(\d+(?:\.\d+)?) kW\b/i.exec(line);
+    return match ? [Number(match[1])] : [];
+  }));
+  const charger=chargerSizes.size===1 ? [...chargerSizes][0] : null;
+  const ratings=canadianEvRatings.filter(r=>{
+    if(String(r.year)!==String(vehicle.year) || normalize(r.make)!==normalize(vehicle.make) ||
+       normalize(r.model)!==normalize(vehicle.model) || r.drive!==drive) return false;
+    if(r.trims && !r.trims.some(name=>trim===normalize(name) ||
+      (normalize(name)==='OPTIQ-V' && trim.startsWith('OPTIQ-V ')))) return false;
+    if(r.equipment && !r.equipment.every(prefix=>equipment.some(line=>
+      normalize(line).split(' (')[0]===normalize(prefix)))) return false;
+    return Number.isInteger(r.km) && r.km>0;
+  });
+  const matches=ratings.filter(r=>r.charger===undefined || r.charger===charger);
+  if(matches.length===1) return {rating:matches[0]};
+  if(charger===null && ratings.length && ratings.every(r=>r.charger!==undefined)) return {options:ratings};
+  return null;
+}
+function evRangeText(vehicle, result=evRating(vehicle)) {
+  if(!isBatteryElectric(vehicle)) return '—';
+  const rating=result?.rating;
+  if(rating) return `${rating.source==='manufacturer' ? 'Up to ' : ''}${rating.km} km`;
+  if(result?.options) return 'Check onboard charger';
+  return 'Not confirmed';
+}
+function rangeFact(vehicle, showSource=false) {
+  const result=evRating(vehicle);
+  const pair=node('div','ev-range-fact');
+  const detail=node('dd','',evRangeText(vehicle,result));
+  pair.append(node('dt','','Canadian EV range on a full charge'),detail);
+  if(!showSource) return pair;
+  const rating=result?.rating;
+  if(rating) {
+    detail.append(node('span','evidence-provenance',rating.configuration));
+    appendSourceLinks(detail,[{url:rating.url,title:rating.source==='nrcan' ? 'Natural Resources Canada rating ↗' : 'Canadian manufacturer estimate ↗'}]);
+    if(rating.alternate) appendSourceLinks(detail,[{url:rating.alternate.url,title:rating.alternate.label}]);
+    detail.append(node('span','evidence-provenance','Published when new. Actual range varies with weather, driving and battery condition.'));
+  } else if(result?.options) {
+    for(const option of result.options) {
+      detail.append(node('span','evidence-provenance',`${option.km} km · ${option.configuration}`));
+    }
+    appendSourceLinks(detail,[{url:result.options[0].url,title:'Natural Resources Canada ratings ↗'}]);
+  } else {
+    detail.append(node('span','evidence-provenance','A matching Canadian rating has not been verified for this configuration.'));
+  }
+  return pair;
 }
 function priceText(vehicle) {
   return typeof vehicle.price==='number' ? new Intl.NumberFormat('en-CA',{style:'currency',currency:'CAD',maximumFractionDigits:0}).format(vehicle.price) : vehicle.price ? readable(vehicle.price) : 'Not confirmed';
@@ -126,7 +189,11 @@ function renderComparison() {
   const body=node('tbody');let shown=0;
   const labels={...featureLabels};
   for(const v of [a,b]) for(const [key,f] of Object.entries(v.features || {})) labels[key]=f.label || labels[key] || key.replaceAll('_',' ');
-  const rows=[['New / Used',conditionText(a),conditionText(b)],['Demo designation',isDemo(a) ? 'Demo' : 'Not confirmed',isDemo(b) ? 'Demo' : 'Not confirmed'],['Odometer',odometerText(a),odometerText(b)],['Seating capacity',seatingText(a,'capacity'),seatingText(b,'capacity')],['Seating layout',seatingText(a,'layout'),seatingText(b,'layout')],['Second-row seats',seatingText(a,'second_row'),seatingText(b,'second_row')],['Advertised price (CAD)',priceText(a),priceText(b)],['Listed trim',a.trim || 'Not confirmed',b.trim || 'Not confirmed'],['Official exterior paint',paintText(a),paintText(b)],['Exact engine',engineText(a),engineText(b)],['Horsepower',horsepowerText(a),horsepowerText(b)],...Object.entries(labels).map(([key,label])=>[label,featureText(a,key),featureText(b,key)])];
+  const rows=[['New / Used',conditionText(a),conditionText(b)],['Demo designation',isDemo(a) ? 'Demo' : 'Not confirmed',isDemo(b) ? 'Demo' : 'Not confirmed'],['Odometer',odometerText(a),odometerText(b)],['Seating capacity',seatingText(a,'capacity'),seatingText(b,'capacity')],['Seating layout',seatingText(a,'layout'),seatingText(b,'layout')],['Second-row seats',seatingText(a,'second_row'),seatingText(b,'second_row')],['Advertised price (CAD)',priceText(a),priceText(b)],['Listed trim',a.trim || 'Not confirmed',b.trim || 'Not confirmed'],['Official exterior paint',paintText(a),paintText(b)],['Exact engine',engineText(a),engineText(b)],['Horsepower',horsepowerText(a),horsepowerText(b)]];
+  if(isBatteryElectric(a) || isBatteryElectric(b)) {
+    rows.push(['Canadian EV range',evRangeText(a),evRangeText(b)]);
+  }
+  rows.push(...Object.entries(labels).map(([key,label])=>[label,featureText(a,key),featureText(b,key)]));
   for(const [label,av,bv] of rows) {
     // Provenance differences alone are not equipment differences.
     const equal=av===bv || (['Listed','Package verified'].includes(av) && ['Listed','Package verified'].includes(bv));
@@ -190,6 +257,7 @@ function vehicleCard(vehicle) {
   for(const [label,value] of [['Advertised price',priceText(vehicle)],['Official exterior paint',paintText(vehicle)],['Exact engine',engineText(vehicle)],['Horsepower',horsepowerText(vehicle)]]) {
     const pair=node('div');pair.append(node('dt','',label),node('dd','',value));facts.append(pair);
   }
+  if(isBatteryElectric(vehicle)) facts.append(rangeFact(vehicle,true));
   if(conditionText(vehicle) === 'Used' || isDemo(vehicle)) {
     const mileage = node('div','odometer-fact');
     mileage.append(node('dt','','Odometer'),node('dd','',odometerText(vehicle)));facts.append(mileage);
@@ -465,6 +533,7 @@ function compactVehicleCard(vehicle) {
   for(const [label,value] of [['Seating',seatingText(vehicle,'capacity')],['Exterior paint',paintText(vehicle)]]) {
     const pair=node('div');pair.append(node('dt','',label),node('dd','',value));facts.append(pair);
   }
+  if(isBatteryElectric(vehicle)) facts.append(rangeFact(vehicle));
   card.append(facts);
   if(preferenceFilters.features.length) card.append(node('p','match-proof',`✓ All ${preferenceFilters.features.length} required ${preferenceFilters.features.length===1?'feature':'features'} confirmed · see details for evidence`));
   card.append(node('p','match-observed',`Listing observed ${date(vehicle.observed_at)}`));
@@ -587,6 +656,8 @@ $('reset').addEventListener('click',()=>{$('query').value='';render();$('query')
 render();
 (async()=>{
   try {
+    const ratingsRequest=fetch('./data/ev-range-ca.json')
+      .then(response=>response.ok ? response.json() : null).catch(()=>null);
     const response=await fetch('./data/inventory.json.gz',{cache:'no-store'});
     if(!response.ok) throw new Error(`Saved inventory request failed (${response.status}).`);
     const bytes=new Uint8Array(await response.arrayBuffer());
@@ -600,6 +671,8 @@ render();
     }
     const data=JSON.parse(text);
     if(!data || !Array.isArray(data.vehicles) || data.vehicles.some(v=>!v || typeof v!=='object')) throw new Error('The inventory file has an unexpected format.');
+    const rangeData=await ratingsRequest;
+    if(rangeData?.market==='CA' && Array.isArray(rangeData.ratings)) canadianEvRatings=rangeData.ratings;
     inventoryLoading=false;inventory=data;updateHealth(data);initializeComparison();initializePreferences();render();
     const requestedStock=new URL('https://local.invalid/'+(window.location.search || '')).searchParams.get('stock');
     if(requestedStock){$('query').value=requestedStock;render(requestedStock);}

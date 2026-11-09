@@ -9,6 +9,7 @@ const path=require('node:path');
 const root=path.join(__dirname,'..');
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const script=fs.readFileSync(path.join(root,'app.js'),'utf8');
+const evRatings=JSON.parse(fs.readFileSync(path.join(root,'data/ev-range-ca.json'),'utf8'));
 class Element {
   constructor(tag='div'){this.tagName=tag;this.children=[];this.listeners={};this.hidden=false;this.disabled=false;this.value='';this.checked=false;this._text='';}
   set textContent(value){this._text=String(value);this.children=[];}
@@ -28,7 +29,7 @@ async function boot(data={vehicles:[vehicle(1),vehicle(2)]},options={}) {
   const document={getElementById:id=>{assert.ok(nodes[id],`Known element ${id}`);return nodes[id];},createElement:tag=>new Element(tag)};
   const bytes=options.bytes || (options.plain ? Buffer.from(JSON.stringify(data)) : zlib.gzipSync(JSON.stringify(data)));
   const window={listeners:{},location:{_hash:options.hash || '',get hash(){return this._hash;},set hash(value){this._hash=value.startsWith('#')?value:'#'+value;}},addEventListener(type,fn){this.listeners[type]=fn;}};
-  const ctx=vm.createContext({document,window,URL,Intl,Date,Response,Blob,TextDecoder,Uint8Array,DecompressionStream:options.noDecompression ? undefined:DecompressionStream,fetch:async()=>{if(options.pending)return new Promise(()=>{});if(options.error)throw new Error('Network unavailable');return {ok:true,arrayBuffer:async()=>bytes};}});
+  const ctx=vm.createContext({document,window,URL,Intl,Date,Response,Blob,TextDecoder,Uint8Array,DecompressionStream:options.noDecompression ? undefined:DecompressionStream,fetch:async url=>{if(options.pending)return new Promise(()=>{});if(options.error)throw new Error('Network unavailable');if(url.endsWith('ev-range-ca.json'))return {ok:!options.noRatings,json:async()=>evRatings};return {ok:true,arrayBuffer:async()=>bytes};}});
   vm.runInContext(script,ctx);
   for(let i=0;!options.pending && i<100;i++){if(nodes['health-title'].textContent)break;await new Promise(r=>setTimeout(r,5));}
   return {nodes,window,run:code=>vm.runInContext(code,ctx)};
@@ -278,4 +279,29 @@ test('real snapshot preference results equal source-backed exact filters and pre
   run('preferenceFeatureInputs.sunroof.checked=true');findPreferences(n,{type:'suv','price-max':80000,seats:7,colour:'Black'});
   assert.equal(run('preferenceMatches.length'),expected.length);assert.equal(preferenceCards(n).length,Math.min(12,expected.length));
   assert.ok(expected.length>0,'Fixture has real exact matches');assert.match(preferenceCards(n)[0].textContent,/Listing observed/);
+});
+
+
+test('Canadian EV range matches year, trim, drive and installed charger',async()=>{
+ const lyriq={market:'CA',year:'2027',make:'Cadillac',model:'Lyriq',trim:'Signature Sport'};
+ const spec=charger=>({'Fuel Type':'Electric','Drive Train':'All Wheel Drive',Mechanical:charger ? [`Charging module, ${charger} kW AC`] : []});
+ const {nodes:n}=await boot({vehicles:[
+  vehicle(1,{...lyriq,specs:spec(11.5)}),
+  vehicle(2,{...lyriq,specs:spec(19.2)}),
+  vehicle(3,{...lyriq,specs:spec()}),
+  vehicle(4,{...lyriq,year:'2024',specs:spec(11.5)}),
+  vehicle(5,{...lyriq,market:'US',specs:spec(11.5)}),
+  vehicle(6,{...lyriq,specs:{...spec(), 'Fuel Type':'Gas/Electric Hybrid'}})
+ ]});
+ search(n,'S1');assert.match(n.results.textContent,/513 km/);assert.match(n.results.textContent,/Natural Resources Canada rating/);
+ search(n,'S2');assert.match(n.results.textContent,/488 km/);assert.doesNotMatch(n.results.textContent,/513 km/);
+ search(n,'S3');assert.match(n.results.textContent,/Check onboard charger/);assert.match(n.results.textContent,/513 km/);assert.match(n.results.textContent,/488 km/);
+ for(const id of ['S4','S5']){search(n,id);assert.match(n.results.textContent,/matching Canadian rating has not been verified/);assert.doesNotMatch(n.results.textContent,/513 km/);}
+ search(n,'S6');assert.doesNotMatch(n.results.textContent,/Canadian EV range/);
+});
+
+test('EV lookup survives a missing Canadian rating file',async()=>{
+ const v=vehicle(1,{market:'CA',year:'2027',make:'Chevrolet',model:'Bolt',trim:'RS',specs:{'Fuel Type':'Electric','Drive Train':'Front Wheel Drive'}});
+ const {nodes:n}=await boot({vehicles:[v]},{noRatings:true});
+ search(n);assert.match(n.results.textContent,/matching Canadian rating has not been verified/);
 });
