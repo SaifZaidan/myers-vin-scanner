@@ -6304,6 +6304,177 @@
       "listing_model_names": [
         "CELESTIQ"
       ]
+    },
+    {
+      "id": "cadillac-lyriq-2026",
+      "make": "Cadillac",
+      "model": "LYRIQ",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/en/electric/2026-lyriq",
+      "checked_at": "2026-11-09",
+      "listing_model_names": [
+        "LYRIQ"
+      ],
+      "trims": [
+        {
+          "name": "Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Premium Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Signature Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Signature Sport",
+          "features": [],
+          "price": null
+        }
+      ],
+      "coverage_note": "Selected Canadian factory details for the 2026 model year. Confirm installed equipment by VIN."
+    },
+    {
+      "id": "cadillac-optiq-2026",
+      "make": "Cadillac",
+      "model": "OPTIQ",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/byo-vc/client/en/CA/cadillac-ff/optiq/2026/optiq/trims/features/473476",
+      "checked_at": "2026-11-09",
+      "listing_model_names": [
+        "OPTIQ"
+      ],
+      "trims": [
+        {
+          "name": "Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Premium Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Premium Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "V-Series",
+          "features": [],
+          "price": null
+        }
+      ],
+      "coverage_note": "Selected Canadian factory details for the 2026 model year. Confirm installed equipment by VIN."
+    },
+    {
+      "id": "cadillac-escalade-2026",
+      "make": "Cadillac",
+      "model": "Escalade",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/byo-vc/client/en/CA/cadillac/escalade/2026/escalade/",
+      "checked_at": "2026-11-09",
+      "listing_model_names": [
+        "Escalade"
+      ],
+      "trims": [
+        {
+          "name": "Escalade",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Platinum Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Platinum Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "V-Series",
+          "features": [],
+          "price": null
+        }
+      ],
+      "coverage_note": "Selected Canadian factory details for the 2026 model year. Confirm installed equipment by VIN."
+    },
+    {
+      "id": "cadillac-escalade-esv-2026",
+      "make": "Cadillac",
+      "model": "Escalade ESV",
+      "year": 2026,
+      "source_url": "https://www.cadillaccanada.ca/byo-vc/client/en/CA/cadillac/escalade-esv/2026/escalade-esv/trims/features/478808",
+      "checked_at": "2026-11-09",
+      "listing_model_names": [
+        "Escalade ESV"
+      ],
+      "trims": [
+        {
+          "name": "Escalade ESV",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Platinum Luxury",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "Platinum Sport",
+          "features": [],
+          "price": null
+        },
+        {
+          "name": "V-Series",
+          "features": [],
+          "price": null
+        }
+      ],
+      "coverage_note": "Selected Canadian factory details for the 2026 model year. Confirm installed equipment by VIN."
     }
   ]
 }

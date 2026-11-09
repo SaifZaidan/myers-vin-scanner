@@ -97,6 +97,22 @@ class Tests(unittest.TestCase):
    path=Path(directory)/'inventory.json'
    self.assertTrue(refresh(path,Aliases()));out=json.loads(path.read_text())
    self.assertEqual(len(out['vehicles']),1);self.assertFalse(out['stale'])
+ def test_partial_refresh_keeps_current_url_after_listing_slug_changes(self):
+  new_url=URL.replace('/silverado-1500/','/silverado-1500-crew-cab/')
+  missing_url=URL.replace('/71424620/','/99999999/')
+  class Partial:
+   def discover(self): return [new_url,missing_url]
+   def get(self,url):
+    if url==missing_url: raise RuntimeError('HTTP Error 403')
+    return 'var vmsData = '+json.dumps({'vehicle':FIXTURE})+';'
+  with tempfile.TemporaryDirectory() as directory:
+   path=Path(directory)/'inventory.json'
+   old=normalize(FIXTURE,URL,'2026-10-27T22:00:00+00:00')
+   write_compressed(path,{'vehicles':[old],'last_success':None})
+   self.assertFalse(refresh(path,Partial()))
+   snapshot=read_snapshot(path)
+   self.assertEqual([v['source_url'] for v in snapshot['vehicles']],[new_url])
+   self.assertEqual(snapshot['refresh_stats']['quarantined'],0)
  def test_ad_prefixed_listing_id(self):
   v=normalize(dict(FIXTURE,ad_id='ad71424620'),URL.replace('/71424620/','/ad71424620/'),'2026-01-01')
   self.assertEqual(v['vin'],FIXTURE['vin'])

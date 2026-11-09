@@ -49,6 +49,9 @@ def safe_url(url):
     if p.scheme not in ('http','https') or p.hostname not in MYERS_HOSTS or (p.username is not None or p.password is not None) or p.port not in (None,443,80):
         raise ValueError('Non-Myers source URL rejected')
     return 'https://' + p.netloc + p.path + (('?' + p.query) if p.query else '')
+def listing_id(url):
+    return urlparse(url).path.rstrip('/').rsplit('/',1)[-1]
+
 def extract_vehicle(page):
     m=re.search(r'\bvar\s+vmsData\s*=\s*', page)
     if not m: raise ValueError('Missing vehicle JSON; source format changed')
@@ -109,8 +112,8 @@ def normalize(v,url,observed):
     company=v.get('company_data',{})
     if DEALER_ADDRESSES.get(str(company.get('company_id'))) != clean(company.get('company_address')).lower() or clean(company.get('company_city')).lower() != 'ottawa':
         raise ValueError('Listing dealership is not Myers Baseline Ottawa')
-    listing_id=re.search(r'/((?:ad)?[0-9]+)/?$',urlparse(url).path)
-    if not listing_id or str(v.get('ad_id',''))!=listing_id.group(1): raise ValueError('Listing identity does not match requested source URL')
+    ad_id=listing_id(url)
+    if not re.fullmatch(r'(?:ad)?[0-9]+',ad_id) or str(v.get('ad_id',''))!=ad_id: raise ValueError('Listing identity does not match requested source URL')
     vin=clean(v.get('vin')).upper();stock=clean(v.get('stock_number')).upper()
     if not re.fullmatch('[A-HJ-NPR-Z0-9]{17}',vin) or not stock: raise ValueError('Missing valid VIN or stock number')
     if v.get('date_sold'): raise ValueError('Sitemap contains a sold listing; refresh needs review')
@@ -256,8 +259,10 @@ def refresh(path,source=None):
         if not vehicles: raise ValueError('No listing could be verified')
         # Incomplete run cannot establish that an older vehicle has disappeared.
         if failed:
-            seen={urlparse(v['source_url']).path.rstrip('/') for v in vehicles}
-            vehicles.extend(v for v in old['vehicles'] if urlparse(v['source_url']).path.rstrip('/') not in seen)
+            # A listing can change its model slug while preserving all three identifiers.
+            seen={(listing_id(v['source_url']),v['vin'],v['stock']) for v in vehicles}
+            vehicles.extend(v for v in old['vehicles']
+                            if (listing_id(v['source_url']),v['vin'],v['stock']) not in seen)
         # URL query aliases may refer to exactly the same ad. Dedupe only identical facts.
         deduped=[]
         signatures=set()

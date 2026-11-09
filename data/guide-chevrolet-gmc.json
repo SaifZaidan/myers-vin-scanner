@@ -4834,7 +4834,9 @@
       "coverage_note": "Canadian 2026 Silverado HD equipment references. Manufacturer prices reflect a Silverado 2500 HD configuration; 3500, engines and towing figures vary.",
       "listing_model_names": [
         "Silverado 2500HD",
-        "Silverado 3500HD"
+        "Silverado 3500HD",
+        "Silverado 2500",
+        "Silverado 3500"
       ]
     },
     {
@@ -6515,7 +6517,8 @@
       "coverage_note": "Expanded Canadian 2026 manufacturer model highlights. Exact towing depends on 2500/3500, axle, cab, drivetrain and trailer equipment; Yukon/Yukon XL details and option packages can vary by VIN.",
       "listing_model_names": [
         "Sierra 2500HD",
-        "Sierra 3500HD"
+        "Sierra 3500HD",
+        "Sierra 2500HD Crew Cab"
       ]
     },
     {
