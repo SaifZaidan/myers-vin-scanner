@@ -79,3 +79,5 @@
 .snapshot-optional{font-weight:700;color:#8b6319}
 .snapshot-empty{font-size:11px;color:#728494;font-style:italic}
 @media(max-width:750px){.trim-snapshot td{min-width:165px}.model-quick-compare{margin-top:18px}}
+
+.feature-mark.highlight{color:#324c60;background:#e9eff4}

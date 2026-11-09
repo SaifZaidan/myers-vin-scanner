@@ -29,7 +29,7 @@ function date(value) {
   return new Intl.DateTimeFormat('en-CA', {timeZone:'America/Toronto', month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(new Date(value));
 }
 function safeSource(value) {
-  try { const url = new URL(value); return url.protocol === 'https:' && ['www.myerscadillacgm.ca', 'myerscadillacgm.ca'].includes(url.hostname) ? url.href : null; } catch { return null; }
+  try { const url = new URL(value); return url.protocol === 'https:' && ['www.myerscadillacgm.ca', 'myerscadillacgm.ca', 'www.myerscadillac.ca', 'myerscadillac.ca'].includes(url.hostname) ? url.href : null; } catch { return null; }
 }
 function readable(value) {
   if (Array.isArray(value)) return value.map(readable).join(' · ');

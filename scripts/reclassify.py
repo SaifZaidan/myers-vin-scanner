@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Reapply audited feature/rule logic to saved source evidence without changing observation dates."""
 import sys
-from refresh import features,atomic_write
+from refresh import listing_features,atomic_write
 from snapshot import read_snapshot,write_compressed
 from package_enrichment import enrich,inventory_audit
 from vehicle_facts import attach_facts
@@ -12,9 +12,10 @@ def reclassify(path='data/inventory.json'):
     changes=[]
     for vehicle in data['vehicles']:
         old=vehicle['features'];lines=[]
-        for value in vehicle['specs'].values(): lines.extend(value if isinstance(value,list) else [str(value)])
+        for value in vehicle['specs'].values():
+            if isinstance(value,list): lines.extend(value)
         lines+=vehicle['packages']
-        vehicle['features']=features(lines,vehicle['packages']);vehicle['market']='CA'
+        vehicle['features']=listing_features(lines,vehicle['packages'],vehicle['specs'].get('Drive Train',''));vehicle['market']='CA'
         enrich(attach_facts(vehicle))
         for key,feature in vehicle['features'].items():
             if old[key]['status']!=feature['status']: changes.append((vehicle['stock'],key,old[key]['status'],feature['status']))

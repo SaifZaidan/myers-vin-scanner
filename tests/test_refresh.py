@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from scripts.refresh import features,normalize,next_refresh,refresh,extract_vehicle,safe_url,Source,explicit_upgrades
+from scripts.refresh import BASE,CADILLAC_BASE,features,listing_features,normalize,next_refresh,refresh,extract_vehicle,safe_url,Source,explicit_upgrades
 from scripts.snapshot import read_snapshot,write_compressed
 from scripts.package_enrichment import enrich
 from scripts.vehicle_facts import source_facts,attach_facts
@@ -22,6 +22,25 @@ class Tests(unittest.TestCase):
   f=features(['Optional heated front seats','Remote start available','Rear heated seats'])
   self.assertEqual(f['heated_front_seats']['status'],'not_confirmed')
   self.assertEqual(f['remote_start']['status'],'not_confirmed')
+ def test_second_row_heating_and_explicit_two_wheel_drive(self):
+  for row in ('Seats, heated second row outboard seats','Seats, heated second row, outboard positions','Second-Row Heated Seats'):
+   check=features([row])
+   self.assertEqual(check['heated_rear_seats']['status'],'present')
+   self.assertEqual(check['heated_front_seats']['status'],'not_confirmed')
+  self.assertEqual(features(['Optional second-row heated seats'])['heated_rear_seats']['status'],'not_confirmed')
+  self.assertEqual(listing_features([],[],'Rear Wheel Drive')['awd']['status'],'absent')
+  self.assertEqual(listing_features([],[],'All Wheel Drive')['awd']['status'],'present')
+  self.assertEqual(listing_features([],[],'')['awd']['status'],'not_confirmed')
+ def test_dedicated_cadillac_listing_and_cross_site_alias(self):
+  primary=BASE+'/vehicles/2026/cadillac/ct5/ottawa/on/71424620/'
+  cadillac=primary.replace(BASE,CADILLAC_BASE)
+  raw=dict(FIXTURE,make='Cadillac',model='CT5',company_data={'company_id':'3036','company_address':'1200 Baseline Rd','company_city':'Ottawa'})
+  self.assertEqual(normalize(raw,cadillac,'now')['source_url'],cadillac)
+  with self.assertRaises(ValueError):
+   normalize(dict(raw,company_data={**raw['company_data'],'company_address':'1 Baseline Rd'}),cadillac,'now')
+  source=Source.__new__(Source)
+  source.discover_host=lambda base: {primary,URL} if base==BASE else {cadillac,URL.replace(BASE,CADILLAC_BASE)}
+  self.assertEqual(set(source.discover()),{cadillac,URL})
  def test_negative_and_conflict(self):
   self.assertEqual(features(['Without heated front seats'])['heated_front_seats']['status'],'absent')
   self.assertEqual(features(['Heated front seats','Without heated front seats'])['heated_front_seats']['status'],'not_confirmed')
@@ -87,7 +106,7 @@ class Tests(unittest.TestCase):
   prefixed=URL.replace('/71424620/','/ad71424620/')
   listing='<urlset>'+''.join('<url><loc>'+u+'</loc></url>' for u in [URL,prefixed,'https://www.myerscadillacgm.ca/vehicles/'])+'</urlset>'
   source.get=lambda url: index if url.endswith('sitemap_index.xml') else listing
-  self.assertEqual(set(source.discover()),{URL,prefixed})
+  self.assertEqual(set(source.discover_host('https://www.myerscadillacgm.ca')),{URL,prefixed})
  def test_compressed_snapshot_deterministic_restore(self):
   with tempfile.TemporaryDirectory() as directory:
    path=Path(directory)/'inventory.json';data={'vehicles':[],'test':'é'}

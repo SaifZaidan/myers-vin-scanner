@@ -33,3 +33,12 @@ test('customer page clearly separates factory audit from research-only claims',(
  assert.match(source,/exact Myers listing/);
  assert.match(source,/factory build sheet/);
 });
+
+test('Canadian factory details show available CT5 AWD with manufacturer evidence',async()=>{
+ const {nodes:n}=await guideBoot({hash:'#cadillac-ct5-2026'});
+ const output=n['guide-output'];
+ assert.match(output.textContent,/All-wheel drive option/);
+ assert.match(output.textContent,/AWD \(optional\)/);
+ assert.match(output.textContent,/Source/);
+ assert.match(output.textContent,/factory build sheet/);
+});

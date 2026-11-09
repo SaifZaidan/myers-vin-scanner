@@ -18,11 +18,14 @@ except ImportError:
     from package_enrichment import enrich,inventory_audit
     from vehicle_facts import source_facts,attach_facts
 BASE = 'https://www.myerscadillacgm.ca'
+CADILLAC_BASE = 'https://www.myerscadillac.ca'
+MYERS_HOSTS = {urlparse(base).hostname for base in (BASE, CADILLAC_BASE)}
+DEALER_ADDRESSES = {'3040': '1200 baseline road', '3036': '1200 baseline rd'}
 TZ = ZoneInfo('America/Toronto')
 UA = 'MyersBaselineInventory/1.0'
 FEATURES = {
  'heated_front_seats': ('Heated front seats', r'heated (?:front )?seats|(?:driver and )?front(?: passenger)? heated seats|heated (?:driver|front passenger)[^.;]*seats?|seats?,[^.;]*heated[^.;]*(?:front|driver)|seats?,[^.;]*front[^.;]*heated'),
- 'heated_rear_seats': ('Heated rear seats', r'heated rear (?:outboard )?seats|rear heated seats|seats?,[^.;]*(?:rear|second.row)[^.;]*heated'),
+ 'heated_rear_seats': ('Heated rear seats', r'heated[, ]+(?:rear|second[- ]row)[, ]+(?:outboard )?(?:seats?|positions|cushions?)|(?:rear|second[- ]row) heated seats|seats?,[^.;]*(?:rear|second.row)[^.;]*heated'),
  'ventilated_seats': ('Ventilated seats', r'(?:ventilated|cooled) (?:front )?seats|ventilated (?:driver|front)[^.;]*seats?|seats?,[^.;]*ventilated'),
  'heated_steering_wheel': ('Heated steering wheel', r'heated steering wheel|steering wheel,? heated'),
  'apple_carplay': ('Apple CarPlay', r'apple carplay'),
@@ -43,7 +46,7 @@ def next_refresh(t):
 def clean(value): return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]*>', ' ', str(value or '')))).strip()
 def safe_url(url):
     p=urlparse(url)
-    if p.scheme not in ('http','https') or p.hostname != 'www.myerscadillacgm.ca' or p.username or p.port not in (None,443,80):
+    if p.scheme not in ('http','https') or p.hostname not in MYERS_HOSTS or (p.username is not None or p.password is not None) or p.port not in (None,443,80):
         raise ValueError('Non-Myers source URL rejected')
     return 'https://' + p.netloc + p.path + (('?' + p.query) if p.query else '')
 def extract_vehicle(page):
@@ -94,9 +97,17 @@ def features(lines, packages=()):
         output[key]={'label':label,'status':status,'evidence':evidence}
     return output
 
+def listing_features(lines,packages,drivetrain):
+    if drivetrain:
+        lines=[*lines,'Drivetrain: '+drivetrain]
+    result=features(lines,packages)
+    if re.fullmatch(r'(?:front|rear)[ -]wheel drive|fwd|rwd|2wd|4x2',drivetrain,re.I):
+        result['awd']={'label':FEATURES['awd'][0],'status':'absent','evidence':['Listed drivetrain: '+drivetrain]}
+    return result
+
 def normalize(v,url,observed):
     company=v.get('company_data',{})
-    if str(company.get('company_id'))!='3040' or clean(company.get('company_address')).lower()!='1200 baseline road' or clean(company.get('company_city')).lower()!='ottawa':
+    if DEALER_ADDRESSES.get(str(company.get('company_id'))) != clean(company.get('company_address')).lower() or clean(company.get('company_city')).lower() != 'ottawa':
         raise ValueError('Listing dealership is not Myers Baseline Ottawa')
     listing_id=re.search(r'/((?:ad)?[0-9]+)/?$',urlparse(url).path)
     if not listing_id or str(v.get('ad_id',''))!=listing_id.group(1): raise ValueError('Listing identity does not match requested source URL')
@@ -123,25 +134,33 @@ def normalize(v,url,observed):
     lines+=upgrades
     options=[clean(x) for x in v.get('extra_options',[]) if clean(x)]
     lines+=options
-    if v.get('drive_train'): lines.append('Drivetrain: '+clean(v['drive_train']))
     packages+=list(dict.fromkeys(options+upgrades))
     if clean(v.get('package_description')): packages.append(clean(v['package_description']))
     # Generic marketing description is neither parsed nor retained; the original listing remains linked.
     result={k:clean(v.get(k)) for k in ['year','make','model','trim']}
     result.update(market="CA",vin=vin,stock=stock,title=' '.join(result.values()),source_url=safe_url(url),observed_at=observed,
                   price=v.get('final_price') or v.get('sale_price') or None,specs=specs,packages=packages,
-                  features=features(lines,packages),trim_note='Trim is copied from this listing, not inferred from VIN. Equipment is never inferred from trim.')
+                  features=listing_features(lines,packages,clean(v.get('drive_train'))),trim_note='Trim is copied from this listing, not inferred from VIN. Equipment is never inferred from trim.')
     result["source_facts"]=source_facts(v)
     return enrich(attach_facts(result))
 
 class OfficialRedirect(HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         safe_url(newurl)
+        if urlparse(req.full_url).hostname != urlparse(newurl).hostname:
+            raise ValueError('Cross-host redirect rejected')
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 class Source:
     def __init__(self):
-        self.robots=RobotFileParser();self.robots.parse(self.raw(BASE+'/robots.txt').splitlines())
+        self.robots={}
+    def robots_for(self,url):
+        host=urlparse(url).hostname
+        if host not in self.robots:
+            robots=RobotFileParser()
+            robots.parse(self.raw('https://'+host+'/robots.txt').splitlines())
+            self.robots[host]=robots
+        return self.robots[host]
     def raw(self,url):
         url=safe_url(url)
         with build_opener(OfficialRedirect()).open(Request(url,headers={'User-Agent':UA}),timeout=45) as response:
@@ -150,7 +169,7 @@ class Source:
             if len(raw)>5_000_000: raise ValueError('Source response too large')
             return raw.decode('utf-8')
     def get(self,url):
-        if not self.robots.can_fetch(UA,url): raise ValueError('Source robots policy disallows '+url)
+        if not self.robots_for(safe_url(url)).can_fetch(UA,url): raise ValueError('Source robots policy disallows '+url)
         for attempt in range(3):
             try: return self.raw(url)
             except HTTPError as error:
@@ -160,13 +179,30 @@ class Source:
                 if attempt==2: raise
                 time.sleep(2**attempt)
     def discover(self):
-        root=ET.fromstring(self.get(BASE+'/sitemap_index.xml'))
-        maps=[e.text for e in root.iter() if e.tag.endswith('loc') and re.search(r'/(?:new|used)-vehicle-\d+-sitemap\.xml$',e.text or '')]
+        urls=set()
+        self.discovery_failures=[]
+        for base in (BASE,CADILLAC_BASE):
+            try:
+                found=self.discover_host(base)
+                if base == CADILLAC_BASE:
+                    found={url for url in found if urlparse(url).path.split('/')[3]=='cadillac'}
+                # The same AutoSync ad can be linked from both Myers sites.
+                paths={urlparse(url).path.rstrip('/') for url in found}
+                urls={url for url in urls if urlparse(url).path.rstrip('/') not in paths}
+                urls.update(found)
+            except Exception as error:
+                self.discovery_failures.append({'source_url':base+'/sitemap_index.xml','reason':str(error)})
+        if not urls:
+            raise ValueError('No listings discovered from either Myers sitemap')
+        return sorted(urls)
+    def discover_host(self,base):
+        root=ET.fromstring(self.get(base+'/sitemap_index.xml'))
+        maps=[e.text for e in root.iter() if e.tag.endswith('loc') and urlparse(e.text or '').hostname==urlparse(base).hostname and re.search(r'/(?:new|used)-vehicle-\d+-sitemap\.xml$',e.text or '')]
         if not maps: raise ValueError('No inventory sitemaps found')
         urls=set()
         for sitemap in maps:
             for item in ET.fromstring(self.get(sitemap)).iter():
-                if item.tag.endswith('loc') and re.search(r'/vehicles/\d{4}/.+/(?:ad)?\d+/(?:\?.*)?$', item.text or ''): urls.add(safe_url(item.text))
+                if item.tag.endswith('loc') and urlparse(item.text or '').hostname==urlparse(base).hostname and re.search(r'/vehicles/\d{4}/.+/(?:ad)?\d+/(?:\?.*)?$', item.text or ''): urls.add(safe_url(item.text))
         if not urls: raise ValueError('No listings discovered; retaining previous data')
         return sorted(urls)
 
@@ -183,7 +219,8 @@ def refresh(path,source=None):
     meta=dict(old,last_attempt=iso(start),timezone='America/Toronto',schedule='06:00',next_refresh=next_refresh(start),source_url=BASE+'/vehicles/')
     try:
         source=source or Source();urls=source.discover();observed=iso(start)
-        failed=[]
+        failed=list(getattr(source,'discovery_failures',[]))
+        discovery_failed=len(failed)
         config=Path(__file__).with_name('source_access_exclusions.json')
         blocked_ids=set(json.loads(config.read_text()).get('listing_ids',[])) if config.exists() else set()
         blocked_urls={f['source_url'] for f in old.get('failures',[]) if '403' in f.get('reason','') or '401' in f.get('reason','')}
@@ -219,8 +256,8 @@ def refresh(path,source=None):
         if not vehicles: raise ValueError('No listing could be verified')
         # Incomplete run cannot establish that an older vehicle has disappeared.
         if failed:
-            seen={v['source_url'] for v in vehicles}
-            vehicles.extend(v for v in old['vehicles'] if v['source_url'] not in seen)
+            seen={urlparse(v['source_url']).path.rstrip('/') for v in vehicles}
+            vehicles.extend(v for v in old['vehicles'] if urlparse(v['source_url']).path.rstrip('/') not in seen)
         # URL query aliases may refer to exactly the same ad. Dedupe only identical facts.
         deduped=[]
         signatures=set()
@@ -236,7 +273,7 @@ def refresh(path,source=None):
             for url in sorted(ambiguous_urls): failed.append({'source_url':url,'reason':'Duplicate VIN or stock; ambiguous listings quarantined'})
             vehicles=[v for v in vehicles if v['source_url'] not in ambiguous_urls]
         if not failed and old['vehicles'] and len(vehicles)<len(old['vehicles'])*.6: raise ValueError('Inventory unexpectedly shrank over 40%; manual source review required')
-        meta.update(vehicles=sorted(vehicles,key=lambda v:(v['make'],v['model'],v['stock'])),last_success=(old.get('last_success') if failed else iso(now())),last_partial_success=(iso(now()) if failed else None),error=(f'{len(failed)} listings could not be refreshed; coverage is incomplete.' if failed else None),stale=bool(failed),refresh_stats={'discovered':len(urls),'verified':len(urls)-len(failed),'failed':len(failed),'quarantined':len(ambiguous),'retained':sum(1 for v in vehicles if v.get('observed_at')!=observed)},failures=failed,coverage='Coverage is based on official new and used vehicle sitemaps; see verification counts. Sitemap changes may lag live dealer inventory.')
+        meta.update(vehicles=sorted(vehicles,key=lambda v:(v['make'],v['model'],v['stock'])),last_success=(old.get('last_success') if failed else iso(now())),last_partial_success=(iso(now()) if failed else None),error=(f'{len(failed)} source checks failed; coverage is incomplete.' if failed else None),stale=bool(failed),refresh_stats={'discovered':len(urls),'verified':len(urls)-len(failed)+discovery_failed,'failed':len(failed),'quarantined':len(ambiguous),'retained':sum(1 for v in vehicles if v.get('observed_at')!=observed)},failures=failed,coverage='Coverage is based on official new and used vehicle sitemaps; see verification counts. Sitemap changes may lag live dealer inventory.')
         meta["audit_summary"]=inventory_audit(meta["vehicles"])
         atomic_write(path,meta);write_compressed(path,meta)
         checkpoint.unlink(missing_ok=True)
